@@ -1,0 +1,81 @@
+# 赛博朋克 / Cyberpunk
+
+> 风格 · `id: cyberpunk`
+
+"High tech, low life" 的视觉语言：近黑的深底上，霓虹青与品红发光描边切割 界面，等宽字体与终端符号贯穿，扫描线 故障位移 毛刺纹理营造信息系统过载 的压抑未来感。光是从黑暗里切出来的，界面像一台被劫持的显示器。
+
+**别名:** 赛博朋克 · 赛博风格 · 霓虹故障风 · 黑底荧光紫青 · 数字废土风 · 黑客终端风 · Cyberpunk UI · Neon Glitch
+
+**分类:** Style / Visual Language
+
+## 适用场景
+
+- 游戏 科幻项目 黑客主题社区，风格即世界观
+- 音乐 夜店 电竞品牌，需要强烈的亚文化信号
+- 深色为主的产品，可低成本叠加霓虹点缀
+
+## 不适用场景
+
+- 无障碍要求高的正文阅读，荧光色对比闪烁伤眼
+- 企业级正式场景，亚文化气质会削弱信任
+- 浅色底为主的现有体系，硬切赛博朋克成本高
+
+## 常见形式
+
+- **霓虹都市** (Neon City) — 青品红双色霓虹，攻壳机动队式夜景
+- **终端黑客** (Terminal Hacker) — 单色荧光绿或琥珀，CRT 磷光屏
+- **故障艺术** (Glitch Art) — RGB 错位位移与撕裂条纹为主角
+
+## 开发规格
+
+- **typography:** 等宽字体 + 霓虹发光标题
+- **color:** 深夜蓝黑 #0B0F1A × 青色 #00E5FF
+- **border:** 1px 霓虹青色边框，小圆角
+- **shadow:** 青色霓虹光晕 box-shadow
+- **spacing:** 终端式紧凑排布
+
+## 实现要点
+
+**CSS:** `box-shadow: 0 0 8px #0ff` `text-shadow` `clip-path` `@keyframes glitch` `repeating-linear-gradient`
+
+深底用 #0a0a12～#12101f；霓虹色必须同时给发光（box-shadow/text-shadow 0 0 8px 同色）与实体描边，只有光晕会糊。面板用 clip-path 切角（单角或 对角切 8～12px）代替圆角。扫描线用 repeating-linear-gradient 叠加层， opacity 控制在 0.06 以下。故障动画是文本双层 RGB 错位，播放频率低、 时长短，并尊重 prefers-reduced-motion。
+
+## 交给 Agent 的任务 Prompt
+
+```text
+在当前项目中用赛博朋克风格（Cyberpunk）实现一个终端式输入与面板区块。
+
+先检查现有主题体系，深色霓虹主题以独立 class 作用域隔离，不污染默认主题。
+要求：
+- 近黑深底 + 霓虹青/品红描边与发光，切角面板用 clip-path
+- 等宽字体与终端符号（> _）贯穿
+- 扫描线叠层 opacity ≤ 0.06，故障动画低频短促且尊重 prefers-reduced-motion
+- 关键正文对比度达标，霓虹只做点缀不做正文色
+- 不新增任何依赖
+完成后运行项目现有检查，并列出修改的文件。
+```
+
+### 其余层级 Prompt
+
+**Basic:** 用赛博朋克风格（Cyberpunk）设计界面：近黑深底、霓虹青与品红发光描边、 切角面板、等宽终端字体，辅以扫描线与故障效果。
+
+**Design:** 赛博朋克设计规范：底色 #0d0b14；主霓虹青 #00E5FF、辅品红 #FF2E88，发光 半径 8px 内；面板用 clip-path 切角代替圆角，1px 霓虹描边 + 同色微光； 文字用等宽字体（JetBrains Mono/系统 mono），标题可双层 RGB 错位；扫描线 叠层 opacity 0.05；交互元素 hover 时描边加亮；深浅模式仅做深色（浅色 底违背风格本体）。
+
+**Implementation:** 用 CSS 实现赛博朋克面板：.cyber-panel { background: #12101f; color: #d8f6ff; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px)); border: 1px solid rgba(0,229,255, 0.7); box-shadow: 0 0 10px rgba(0,229,255,0.25); } 扫描线伪元素 repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px)。故障动画时长乘 var(--demo-speed, 1)。
+
+## 相关概念
+
+- [y2k](/styles/y2k) — 相似概念
+- [retro-futurism](/styles/retro-futurism) — 相似概念
+- [neobrutalism](/styles/neobrutalism) — 相似概念
+- [input](/styles/input) — 影响组件
+- [card](/styles/card) — 影响组件
+
+## Sources
+
+- [Wikipedia — Cyberpunk derivatives](https://en.wikipedia.org/wiki/Cyberpunk_derivatives)
+- [MDN — CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations)
+
+---
+
+JSON: `/api/concept/styles/cyberpunk.json` · 站点: /styles/cyberpunk

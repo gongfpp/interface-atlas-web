@@ -1,0 +1,1 @@
+import"./i18n.cSD4dpMy.js";function e(e,t){try{window.umami?.track(e,t)}catch{}}function t(e,t){}export{e as n,t};

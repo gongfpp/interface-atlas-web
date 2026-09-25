@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gongfpp.github.io/interface-atlas-web/sitemap-index.xml
