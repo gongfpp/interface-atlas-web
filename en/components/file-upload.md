@@ -52,9 +52,9 @@ Run existing checks and list changed files and validation results.
 
 ## Related
 
-- [input](/components/input) — Similar
-- [progress-bar](/components/progress-bar) — Similar
-- [alert](/components/alert) — Similar
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Similar
+- [alert](/interface-atlas-web/en/components/alert) — Similar
 
 ## Sources
 
@@ -62,4 +62,4 @@ Run existing checks and list changed files and validation results.
 
 ---
 
-JSON: `/api/concept/components/file-upload.json` · Site: /en/components/file-upload
+JSON: `/interface-atlas-web/api/concept/components/file-upload.json` · Site: /interface-atlas-web/en/components/file-upload

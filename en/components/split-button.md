@@ -75,14 +75,14 @@ Run the existing project checks when done and list the modified files.
 
 ## Related
 
-- [button](/components/button) — Similar
-- [dropdown](/components/dropdown) — Used with
-- [menu](/components/menu) — Used with
+- [button](/interface-atlas-web/en/components/button) — Similar
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Used with
+- [menu](/interface-atlas-web/en/components/menu) — Used with
 
 ## Confusable
 
-- [dropdown](/components/dropdown) — A dropdown opens a menu from the whole face; split-button runs an action on the main face
-- [button](/components/button) — A plain button has one action; split-button folds sibling variants into an attached menu
+- [dropdown](/interface-atlas-web/en/components/dropdown) — A dropdown opens a menu from the whole face; split-button runs an action on the main face
+- [button](/interface-atlas-web/en/components/button) — A plain button has one action; split-button folds sibling variants into an attached menu
 
 ## Sources
 
@@ -92,4 +92,4 @@ Run the existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/split-button.json` · Site: /en/components/split-button
+JSON: `/interface-atlas-web/api/concept/components/split-button.json` · Site: /interface-atlas-web/en/components/split-button

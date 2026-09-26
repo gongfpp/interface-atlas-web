@@ -59,11 +59,11 @@
 
 ## 相关概念
 
-- [skeleton-loading](/patterns/skeleton-loading) — 相似概念
-- [onboarding-tour](/patterns/onboarding-tour) — 相似概念
-- [button](/patterns/button) — 搭配使用
-- [search-filtering](/patterns/search-filtering) — 相似概念
-- [card](/patterns/card) — 搭配使用
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 相似概念
+- [onboarding-tour](/interface-atlas-web/patterns/onboarding-tour) — 相似概念
+- [button](/interface-atlas-web/components/button) — 搭配使用
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 相似概念
+- [card](/interface-atlas-web/components/card) — 搭配使用
 
 ## Sources
 
@@ -72,4 +72,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/empty-state.json` · 站点: /patterns/empty-state
+JSON: `/interface-atlas-web/api/concept/patterns/empty-state.json` · 站点: /interface-atlas-web/patterns/empty-state

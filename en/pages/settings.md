@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [sidebar](/pages/sidebar) — Contains
-- [switch](/pages/switch) — Contains
-- [input](/pages/input) — Contains
-- [tabs](/pages/tabs) — Contains
-- [toast](/pages/toast) — Contains
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Contains
+- [switch](/interface-atlas-web/en/components/switch) — Contains
+- [input](/interface-atlas-web/en/components/input) — Contains
+- [tabs](/interface-atlas-web/en/components/tabs) — Contains
+- [toast](/interface-atlas-web/en/components/toast) — Contains
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/settings.json` · Site: /en/pages/settings
+JSON: `/interface-atlas-web/api/concept/pages/settings.json` · Site: /interface-atlas-web/en/pages/settings

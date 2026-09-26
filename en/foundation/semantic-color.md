@@ -70,9 +70,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [color-palette](/foundation/color-palette) — Used with
-- [contrast-ratio](/foundation/contrast-ratio) — Used with
-- [elevation](/foundation/elevation) — Used with
+- [color-palette](/interface-atlas-web/en/foundation/color-palette) — Used with
+- [contrast-ratio](/interface-atlas-web/en/foundation/contrast-ratio) — Used with
+- [elevation](/interface-atlas-web/en/foundation/elevation) — Used with
 
 ## Sources
 
@@ -82,4 +82,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/semantic-color.json` · Site: /en/foundation/semantic-color
+JSON: `/interface-atlas-web/api/concept/foundation/semantic-color.json` · Site: /interface-atlas-web/en/foundation/semantic-color

@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [press-feedback](/motion/press-feedback) — Similar
-- [button](/motion/button) — Applies to
-- [magnetic-button](/motion/magnetic-button) — Similar
-- [hover-lift](/motion/hover-lift) — Similar
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Similar
+- [button](/interface-atlas-web/en/components/button) — Applies to
+- [magnetic-button](/interface-atlas-web/en/motion/magnetic-button) — Similar
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Similar
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/ripple.json` · Site: /en/motion/ripple
+JSON: `/interface-atlas-web/api/concept/motion/ripple.json` · Site: /interface-atlas-web/en/motion/ripple

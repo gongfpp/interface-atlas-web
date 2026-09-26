@@ -74,13 +74,13 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [toast](/a11y/toast) — Used with
-- [alert](/a11y/alert) — Used with
-- [form-validation](/a11y/form-validation) — Used with
+- [toast](/interface-atlas-web/en/components/toast) — Used with
+- [alert](/interface-atlas-web/en/components/alert) — Used with
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
 
 ## Confusable
 
-- [modal](/a11y/modal) — modal seizes focus to force reading; aria-live voices updates without taking focus away.
+- [modal](/interface-atlas-web/en/components/modal) — modal seizes focus to force reading; aria-live voices updates without taking focus away.
 
 ## Sources
 
@@ -89,4 +89,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/a11y/aria-live.json` · Site: /en/a11y/aria-live
+JSON: `/interface-atlas-web/api/concept/a11y/aria-live.json` · Site: /interface-atlas-web/en/a11y/aria-live

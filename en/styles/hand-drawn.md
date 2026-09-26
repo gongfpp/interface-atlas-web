@@ -66,12 +66,12 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [organic](/styles/organic) — Similar
-- [neobrutalism](/styles/neobrutalism) — Similar
-- [minimalism](/styles/minimalism) — Alternative
-- [empty-state](/styles/empty-state) — Used with
-- [button](/styles/button) — Affects
-- [card](/styles/card) — Affects
+- [organic](/interface-atlas-web/en/styles/organic) — Similar
+- [neobrutalism](/interface-atlas-web/en/styles/neobrutalism) — Similar
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Alternative
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Used with
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [card](/interface-atlas-web/en/components/card) — Affects
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/hand-drawn.json` · Site: /en/styles/hand-drawn
+JSON: `/interface-atlas-web/api/concept/styles/hand-drawn.json` · Site: /interface-atlas-web/en/styles/hand-drawn

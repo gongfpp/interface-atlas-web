@@ -70,14 +70,14 @@ Run the existing project checks when done and list the modified files.
 
 ## Related
 
-- [select](/components/select) — Alternative
-- [combobox](/components/combobox) — Alternative
-- [tag-input](/components/tag-input) — Similar
+- [select](/interface-atlas-web/en/components/select) — Alternative
+- [combobox](/interface-atlas-web/en/components/combobox) — Alternative
+- [tag-input](/interface-atlas-web/en/components/tag-input) — Similar
 
 ## Confusable
 
-- [select](/components/select) — Select commits one value; multi-select accumulates many and echoes them as chips
-- [combobox](/components/combobox) — Combobox searches and commits one value; multi-select manages a set
+- [select](/interface-atlas-web/en/components/select) — Select commits one value; multi-select accumulates many and echoes them as chips
+- [combobox](/interface-atlas-web/en/components/combobox) — Combobox searches and commits one value; multi-select manages a set
 
 ## Sources
 
@@ -87,4 +87,4 @@ Run the existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/multi-select.json` · Site: /en/components/multi-select
+JSON: `/interface-atlas-web/api/concept/components/multi-select.json` · Site: /interface-atlas-web/en/components/multi-select

@@ -73,13 +73,13 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [avatar](/a11y/avatar) — Used with
-- [card](/a11y/card) — Used with
-- [empty-state](/a11y/empty-state) — Used with
+- [avatar](/interface-atlas-web/en/components/avatar) — Used with
+- [card](/interface-atlas-web/en/components/card) — Used with
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Used with
 
 ## Confusable
 
-- [tooltip](/a11y/tooltip) — tooltip is hover-only supplementary text; alt text is the image's required accessible stand-in.
+- [tooltip](/interface-atlas-web/en/components/tooltip) — tooltip is hover-only supplementary text; alt text is the image's required accessible stand-in.
 
 ## Sources
 
@@ -88,4 +88,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/a11y/alt-text.json` · Site: /en/a11y/alt-text
+JSON: `/interface-atlas-web/api/concept/a11y/alt-text.json` · Site: /interface-atlas-web/en/a11y/alt-text

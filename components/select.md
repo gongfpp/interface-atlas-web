@@ -72,11 +72,11 @@
 
 ## 相关概念
 
-- [dropdown](/components/dropdown) — 相似概念
-- [menu](/components/menu) — 相似概念
-- [radio](/components/radio) — 相似概念
-- [form-validation](/components/form-validation) — 搭配使用
-- [command-palette](/components/command-palette) — 相似概念
+- [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
+- [menu](/interface-atlas-web/components/menu) — 相似概念
+- [radio](/interface-atlas-web/components/radio) — 相似概念
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
+- [command-palette](/interface-atlas-web/components/command-palette) — 相似概念
 
 ## 可搭配的风格
 
@@ -89,4 +89,4 @@
 
 ---
 
-JSON: `/api/concept/components/select.json` · 站点: /components/select
+JSON: `/interface-atlas-web/api/concept/components/select.json` · 站点: /interface-atlas-web/components/select

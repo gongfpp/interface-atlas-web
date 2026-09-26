@@ -75,14 +75,14 @@
 
 ## 相关概念
 
-- [button](/components/button) — 相似概念
-- [dropdown](/components/dropdown) — 搭配使用
-- [menu](/components/menu) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 相似概念
+- [dropdown](/interface-atlas-web/components/dropdown) — 搭配使用
+- [menu](/interface-atlas-web/components/menu) — 搭配使用
 
 ## 容易混淆
 
-- [dropdown](/components/dropdown) — dropdown 整键打开菜单；split-button 主区执行动作、只有箭头开菜单
-- [button](/components/button) — 普通 button 只有一个动作；split-button 把同组变体收进附属菜单
+- [dropdown](/interface-atlas-web/components/dropdown) — dropdown 整键打开菜单；split-button 主区执行动作、只有箭头开菜单
+- [button](/interface-atlas-web/components/button) — 普通 button 只有一个动作；split-button 把同组变体收进附属菜单
 
 ## Sources
 
@@ -92,4 +92,4 @@
 
 ---
 
-JSON: `/api/concept/components/split-button.json` · 站点: /components/split-button
+JSON: `/interface-atlas-web/api/concept/components/split-button.json` · 站点: /interface-atlas-web/components/split-button

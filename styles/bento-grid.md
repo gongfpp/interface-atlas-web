@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [card](/styles/card) — 影响组件
-- [minimalism](/styles/minimalism) — 相似概念
-- [glassmorphism](/styles/glassmorphism) — 相似概念
-- [dashboard](/styles/dashboard) — 搭配使用
-- [aurora](/styles/aurora) — 相似概念
+- [card](/interface-atlas-web/components/card) — 影响组件
+- [minimalism](/interface-atlas-web/styles/minimalism) — 相似概念
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 相似概念
+- [dashboard](/interface-atlas-web/pages/dashboard) — 搭配使用
+- [aurora](/interface-atlas-web/styles/aurora) — 相似概念
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/bento-grid.json` · 站点: /styles/bento-grid
+JSON: `/interface-atlas-web/api/concept/styles/bento-grid.json` · 站点: /interface-atlas-web/styles/bento-grid

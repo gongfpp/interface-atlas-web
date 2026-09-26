@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [editorial](/motion/editorial) — Used with
-- [landing-page](/motion/landing-page) — Used with
-- [scroll-reveal](/motion/scroll-reveal) — Similar
-- [text-reveal](/motion/text-reveal) — Similar
+- [editorial](/interface-atlas-web/en/styles/editorial) — Used with
+- [landing-page](/interface-atlas-web/en/pages/landing-page) — Used with
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Similar
+- [text-reveal](/interface-atlas-web/en/motion/text-reveal) — Similar
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/marquee.json` · Site: /en/motion/marquee
+JSON: `/interface-atlas-web/api/concept/motion/marquee.json` · Site: /interface-atlas-web/en/motion/marquee

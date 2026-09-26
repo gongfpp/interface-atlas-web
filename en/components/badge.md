@@ -63,9 +63,9 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [avatar](/components/avatar) — Similar
-- [button](/components/button) — Similar
-- [card](/components/card) — Similar
+- [avatar](/interface-atlas-web/en/components/avatar) — Similar
+- [button](/interface-atlas-web/en/components/button) — Similar
+- [card](/interface-atlas-web/en/components/card) — Similar
 
 ## Sources
 
@@ -74,4 +74,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/badge.json` · Site: /en/components/badge
+JSON: `/interface-atlas-web/api/concept/components/badge.json` · Site: /interface-atlas-web/en/components/badge

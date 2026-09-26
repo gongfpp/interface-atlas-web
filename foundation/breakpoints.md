@@ -71,10 +71,10 @@
 
 ## 相关概念
 
-- [type-scale](/foundation/type-scale) — 相似概念
-- [touch-target](/foundation/touch-target) — 相似概念
-- [navbar](/foundation/navbar) — 搭配使用
-- [sidebar](/foundation/sidebar) — 搭配使用
+- [type-scale](/interface-atlas-web/foundation/type-scale) — 相似概念
+- [touch-target](/interface-atlas-web/foundation/touch-target) — 相似概念
+- [navbar](/interface-atlas-web/components/navbar) — 搭配使用
+- [sidebar](/interface-atlas-web/components/sidebar) — 搭配使用
 
 ## Sources
 
@@ -84,4 +84,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/breakpoints.json` · 站点: /foundation/breakpoints
+JSON: `/interface-atlas-web/api/concept/foundation/breakpoints.json` · 站点: /interface-atlas-web/foundation/breakpoints

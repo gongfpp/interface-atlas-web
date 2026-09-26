@@ -67,11 +67,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [command-palette](/pages/command-palette) — Contains
-- [filter-panel](/pages/filter-panel) — Contains
-- [search-filtering](/pages/search-filtering) — Uses pattern
-- [pagination](/pages/pagination) — Contains
-- [empty-state](/pages/empty-state) — Uses pattern
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Contains
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Contains
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Uses pattern
+- [pagination](/interface-atlas-web/en/components/pagination) — Contains
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Uses pattern
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/search.json` · Site: /en/pages/search
+JSON: `/interface-atlas-web/api/concept/pages/search.json` · Site: /interface-atlas-web/en/pages/search

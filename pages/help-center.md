@@ -67,11 +67,11 @@
 
 ## 相关概念
 
-- [accordion](/pages/accordion) — 包含组件
-- [card](/pages/card) — 包含组件
-- [search-filtering](/pages/search-filtering) — 使用模式
-- [progressive-disclosure](/pages/progressive-disclosure) — 使用模式
-- [empty-state](/pages/empty-state) — 使用模式
+- [accordion](/interface-atlas-web/components/accordion) — 包含组件
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 使用模式
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 使用模式
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 使用模式
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/pages/help-center.json` · 站点: /pages/help-center
+JSON: `/interface-atlas-web/api/concept/pages/help-center.json` · 站点: /interface-atlas-web/pages/help-center

@@ -73,9 +73,9 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [button](/components/button) — Alternative
-- [press-feedback](/components/press-feedback) — Used with
-- [ripple](/components/ripple) — Used with
+- [button](/interface-atlas-web/en/components/button) — Alternative
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Used with
+- [ripple](/interface-atlas-web/en/motion/ripple) — Used with
 
 ## Sources
 
@@ -84,4 +84,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/fab.json` · Site: /en/components/fab
+JSON: `/interface-atlas-web/api/concept/components/fab.json` · Site: /interface-atlas-web/en/components/fab

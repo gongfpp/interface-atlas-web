@@ -65,11 +65,11 @@
 
 ## 相关概念
 
-- [y2k](/styles/y2k) — 相似概念
-- [retro-futurism](/styles/retro-futurism) — 相似概念
-- [neobrutalism](/styles/neobrutalism) — 相似概念
-- [input](/styles/input) — 影响组件
-- [card](/styles/card) — 影响组件
+- [y2k](/interface-atlas-web/styles/y2k) — 相似概念
+- [retro-futurism](/interface-atlas-web/styles/retro-futurism) — 相似概念
+- [neobrutalism](/interface-atlas-web/styles/neobrutalism) — 相似概念
+- [input](/interface-atlas-web/components/input) — 影响组件
+- [card](/interface-atlas-web/components/card) — 影响组件
 
 ## Sources
 
@@ -78,4 +78,4 @@
 
 ---
 
-JSON: `/api/concept/styles/cyberpunk.json` · 站点: /styles/cyberpunk
+JSON: `/interface-atlas-web/api/concept/styles/cyberpunk.json` · 站点: /interface-atlas-web/styles/cyberpunk

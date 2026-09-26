@@ -72,10 +72,10 @@
 
 ## 相关概念
 
-- [dashboard](/foundation/dashboard) — 搭配使用
-- [landing-page](/foundation/landing-page) — 搭配使用
-- [card](/foundation/card) — 搭配使用
-- [bento-grid](/foundation/bento-grid) — 搭配使用
+- [dashboard](/interface-atlas-web/pages/dashboard) — 搭配使用
+- [landing-page](/interface-atlas-web/pages/landing-page) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 搭配使用
+- [bento-grid](/interface-atlas-web/styles/bento-grid) — 搭配使用
 
 ## Sources
 
@@ -86,4 +86,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/grid-system.json` · 站点: /foundation/grid-system
+JSON: `/interface-atlas-web/api/concept/foundation/grid-system.json` · 站点: /interface-atlas-web/foundation/grid-system

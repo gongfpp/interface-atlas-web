@@ -67,11 +67,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [navbar](/pages/navbar) — Contains
-- [card](/pages/card) — Contains
-- [scroll-reveal](/pages/scroll-reveal) — Used with
-- [text-reveal](/pages/text-reveal) — Used with
-- [hover-lift](/pages/hover-lift) — Used with
+- [navbar](/interface-atlas-web/en/components/navbar) — Contains
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Used with
+- [text-reveal](/interface-atlas-web/en/motion/text-reveal) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/landing-page.json` · Site: /en/pages/landing-page
+JSON: `/interface-atlas-web/api/concept/pages/landing-page.json` · Site: /interface-atlas-web/en/pages/landing-page

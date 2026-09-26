@@ -68,10 +68,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [navbar](/components/navbar) — Alternative
-- [drawer](/components/drawer) — Similar
-- [command-palette](/components/command-palette) — Similar
-- [breadcrumb](/components/breadcrumb) — Similar
+- [navbar](/interface-atlas-web/en/components/navbar) — Alternative
+- [drawer](/interface-atlas-web/en/components/drawer) — Similar
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Similar
+- [breadcrumb](/interface-atlas-web/en/components/breadcrumb) — Similar
 
 ## Applicable styles
 
@@ -84,4 +84,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/sidebar.json` · Site: /en/components/sidebar
+JSON: `/interface-atlas-web/api/concept/components/sidebar.json` · Site: /interface-atlas-web/en/components/sidebar

@@ -76,17 +76,17 @@ Tabs 在同级内容面板间切换（内容同级并列）；Segmented Control 
 
 ## 相关概念
 
-- [accordion](/components/accordion) — 相似概念
-- [breadcrumb](/components/breadcrumb) — 相似概念
-- [pagination](/components/pagination) — 相似概念
-- [dropdown](/components/dropdown) — 相似概念
-- [sidebar](/components/sidebar) — 相似概念
+- [accordion](/interface-atlas-web/components/accordion) — 相似概念
+- [breadcrumb](/interface-atlas-web/components/breadcrumb) — 相似概念
+- [pagination](/interface-atlas-web/components/pagination) — 相似概念
+- [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
+- [sidebar](/interface-atlas-web/components/sidebar) — 相似概念
 
 ## 容易混淆
 
-- [segmented-control](/components/segmented-control) — Segmented Control 更紧凑、用于模式/筛选，Tabs 用于内容分区。
-- [breadcrumb](/components/breadcrumb) — Breadcrumb 表达层级路径，Tabs 表达同级切换。
-- [sidebar](/components/sidebar) — Sidebar 是常驻导航面，Tabs 是内容区内的切换条。
+- [segmented-control](/interface-atlas-web/components/segmented-control) — Segmented Control 更紧凑、用于模式/筛选，Tabs 用于内容分区。
+- [breadcrumb](/interface-atlas-web/components/breadcrumb) — Breadcrumb 表达层级路径，Tabs 表达同级切换。
+- [sidebar](/interface-atlas-web/components/sidebar) — Sidebar 是常驻导航面，Tabs 是内容区内的切换条。
 
 ## 可搭配的风格
 
@@ -99,4 +99,4 @@ Tabs 在同级内容面板间切换（内容同级并列）；Segmented Control 
 
 ---
 
-JSON: `/api/concept/components/tabs.json` · 站点: /components/tabs
+JSON: `/interface-atlas-web/api/concept/components/tabs.json` · 站点: /interface-atlas-web/components/tabs

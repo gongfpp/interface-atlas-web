@@ -83,17 +83,17 @@ Modal 居中打断当前任务、要求处理；Drawer 从侧边滑出保留上�
 
 ## 相关概念
 
-- [drawer](/components/drawer) — 替代方案
-- [popover](/components/popover) — 替代方案
-- [toast](/components/toast) — 相似概念
-- [alert](/components/alert) — 相似概念
+- [drawer](/interface-atlas-web/components/drawer) — 替代方案
+- [popover](/interface-atlas-web/components/popover) — 替代方案
+- [toast](/interface-atlas-web/components/toast) — 相似概念
+- [alert](/interface-atlas-web/components/alert) — 相似概念
 
 ## 容易混淆
 
-- [drawer](/components/drawer) — Drawer 从边缘滑出、空间更大，Modal 居中且更强调打断。
-- [popover](/components/popover) — Popover 非模态、锚定触发器，Modal 遮罩整页并阻断操作。
-- [alert](/components/alert) — Alert 是页内消息条，不打断；Modal 是必须处理的浮层。
-- [lightbox](/components/lightbox) — Lightbox 专管图片/视频放大，Modal 承载通用任务。
+- [drawer](/interface-atlas-web/components/drawer) — Drawer 从边缘滑出、空间更大，Modal 居中且更强调打断。
+- [popover](/interface-atlas-web/components/popover) — Popover 非模态、锚定触发器，Modal 遮罩整页并阻断操作。
+- [alert](/interface-atlas-web/components/alert) — Alert 是页内消息条，不打断；Modal 是必须处理的浮层。
+- [lightbox](/interface-atlas-web/components/lightbox) — Lightbox 专管图片/视频放大，Modal 承载通用任务。
 
 ## Sources
 
@@ -102,4 +102,4 @@ Modal 居中打断当前任务、要求处理；Drawer 从侧边滑出保留上�
 
 ---
 
-JSON: `/api/concept/components/modal.json` · 站点: /components/modal
+JSON: `/interface-atlas-web/api/concept/components/modal.json` · 站点: /interface-atlas-web/components/modal

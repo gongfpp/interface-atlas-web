@@ -57,11 +57,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [toast](/patterns/toast) — Used with
-- [optimistic-ui](/patterns/optimistic-ui) — Similar
-- [modal](/patterns/modal) — Used with
-- [empty-state](/patterns/empty-state) — Similar
-- [progressive-disclosure](/patterns/progressive-disclosure) — Similar
+- [toast](/interface-atlas-web/en/components/toast) — Used with
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Used with
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Similar
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Similar
 
 ## Applicable styles
 
@@ -74,4 +74,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/undo-action.json` · Site: /en/patterns/undo-action
+JSON: `/interface-atlas-web/api/concept/patterns/undo-action.json` · Site: /interface-atlas-web/en/patterns/undo-action

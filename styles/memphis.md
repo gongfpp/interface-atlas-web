@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [bauhaus](/styles/bauhaus) — 相似概念
-- [neobrutalism](/styles/neobrutalism) — 相似概念
-- [y2k](/styles/y2k) — 相似概念
-- [button](/styles/button) — 影响组件
-- [card](/styles/card) — 影响组件
+- [bauhaus](/interface-atlas-web/styles/bauhaus) — 相似概念
+- [neobrutalism](/interface-atlas-web/styles/neobrutalism) — 相似概念
+- [y2k](/interface-atlas-web/styles/y2k) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [card](/interface-atlas-web/components/card) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/memphis.json` · 站点: /styles/memphis
+JSON: `/interface-atlas-web/api/concept/styles/memphis.json` · 站点: /interface-atlas-web/styles/memphis

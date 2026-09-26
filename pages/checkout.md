@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [input](/pages/input) — 包含组件
-- [form-validation](/pages/form-validation) — 使用模式
-- [progress-bar](/pages/progress-bar) — 包含组件
-- [toast](/pages/toast) — 包含组件
-- [button](/pages/button) — 包含组件
+- [input](/interface-atlas-web/components/input) — 包含组件
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 使用模式
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 包含组件
+- [toast](/interface-atlas-web/components/toast) — 包含组件
+- [button](/interface-atlas-web/components/button) — 包含组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/checkout.json` · 站点: /pages/checkout
+JSON: `/interface-atlas-web/api/concept/pages/checkout.json` · 站点: /interface-atlas-web/pages/checkout

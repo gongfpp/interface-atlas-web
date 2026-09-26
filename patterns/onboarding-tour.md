@@ -57,11 +57,11 @@
 
 ## 相关概念
 
-- [tooltip](/patterns/tooltip) — 搭配使用
-- [popover](/patterns/popover) — 搭配使用
-- [modal](/patterns/modal) — 搭配使用
-- [progressive-disclosure](/patterns/progressive-disclosure) — 相似概念
-- [empty-state](/patterns/empty-state) — 相似概念
+- [tooltip](/interface-atlas-web/components/tooltip) — 搭配使用
+- [popover](/interface-atlas-web/components/popover) — 搭配使用
+- [modal](/interface-atlas-web/components/modal) — 搭配使用
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 相似概念
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 相似概念
 
 ## 可搭配的风格
 
@@ -74,4 +74,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/onboarding-tour.json` · 站点: /patterns/onboarding-tour
+JSON: `/interface-atlas-web/api/concept/patterns/onboarding-tour.json` · 站点: /interface-atlas-web/patterns/onboarding-tour

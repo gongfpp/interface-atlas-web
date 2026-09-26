@@ -71,10 +71,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [card](/components/card) — Alternative
-- [pagination](/components/pagination) — Similar
-- [filter-panel](/components/filter-panel) — Similar
-- [master-detail](/components/master-detail) — Used with
+- [card](/interface-atlas-web/en/components/card) — Alternative
+- [pagination](/interface-atlas-web/en/components/pagination) — Similar
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Similar
+- [master-detail](/interface-atlas-web/en/patterns/master-detail) — Used with
 
 ## Sources
 
@@ -83,4 +83,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/table.json` · Site: /en/components/table
+JSON: `/interface-atlas-web/api/concept/components/table.json` · Site: /interface-atlas-web/en/components/table

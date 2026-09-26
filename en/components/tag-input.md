@@ -68,10 +68,10 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [input](/components/input) — Similar
-- [combobox](/components/combobox) — Similar
-- [badge](/components/badge) — Used with
-- [multi-select](/components/multi-select) — Used with
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [combobox](/interface-atlas-web/en/components/combobox) — Similar
+- [badge](/interface-atlas-web/en/components/badge) — Used with
+- [multi-select](/interface-atlas-web/en/components/multi-select) — Used with
 
 ## Sources
 
@@ -81,4 +81,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/tag-input.json` · Site: /en/components/tag-input
+JSON: `/interface-atlas-web/api/concept/components/tag-input.json` · Site: /interface-atlas-web/en/components/tag-input

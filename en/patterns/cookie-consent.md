@@ -61,9 +61,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [alert](/patterns/alert) — Alternative
-- [toast](/patterns/toast) — Similar
-- [form-validation](/patterns/form-validation) — Used with
+- [alert](/interface-atlas-web/en/components/alert) — Alternative
+- [toast](/interface-atlas-web/en/components/toast) — Similar
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
 
 ## Sources
 
@@ -73,4 +73,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/cookie-consent.json` · Site: /en/patterns/cookie-consent
+JSON: `/interface-atlas-web/api/concept/patterns/cookie-consent.json` · Site: /interface-atlas-web/en/patterns/cookie-consent

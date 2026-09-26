@@ -52,9 +52,9 @@ Run existing checks and list changed files and validation results.
 
 ## Related
 
-- [accordion](/components/accordion) — Similar
-- [card](/components/card) — Similar
-- [badge](/components/badge) — Similar
+- [accordion](/interface-atlas-web/en/components/accordion) — Similar
+- [card](/interface-atlas-web/en/components/card) — Similar
+- [badge](/interface-atlas-web/en/components/badge) — Similar
 
 ## Sources
 
@@ -62,4 +62,4 @@ Run existing checks and list changed files and validation results.
 
 ---
 
-JSON: `/api/concept/components/timeline.json` · Site: /en/components/timeline
+JSON: `/interface-atlas-web/api/concept/components/timeline.json` · Site: /interface-atlas-web/en/components/timeline

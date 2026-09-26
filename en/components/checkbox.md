@@ -71,10 +71,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [radio](/components/radio) — Similar
-- [switch](/components/switch) — Similar
-- [filter-panel](/components/filter-panel) — Similar
-- [form-validation](/components/form-validation) — Used with
+- [radio](/interface-atlas-web/en/components/radio) — Similar
+- [switch](/interface-atlas-web/en/components/switch) — Similar
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Similar
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
 
 ## Applicable styles
 
@@ -87,4 +87,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/checkbox.json` · Site: /en/components/checkbox
+JSON: `/interface-atlas-web/api/concept/components/checkbox.json` · Site: /interface-atlas-web/en/components/checkbox

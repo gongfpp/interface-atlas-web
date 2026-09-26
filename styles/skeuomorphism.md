@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [glassmorphism](/styles/glassmorphism) — 相似概念
-- [flat-design](/styles/flat-design) — 相似概念
-- [retro-futurism](/styles/retro-futurism) — 相似概念
-- [button](/styles/button) — 影响组件
-- [switch](/styles/switch) — 影响组件
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 相似概念
+- [flat-design](/interface-atlas-web/styles/flat-design) — 相似概念
+- [retro-futurism](/interface-atlas-web/styles/retro-futurism) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [switch](/interface-atlas-web/components/switch) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/skeuomorphism.json` · 站点: /styles/skeuomorphism
+JSON: `/interface-atlas-web/api/concept/styles/skeuomorphism.json` · 站点: /interface-atlas-web/styles/skeuomorphism

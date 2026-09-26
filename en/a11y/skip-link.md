@@ -73,13 +73,13 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [keyboard-navigation](/a11y/keyboard-navigation) — Used with
-- [navbar](/a11y/navbar) — Used with
-- [focus-ring](/a11y/focus-ring) — Used with
+- [keyboard-navigation](/interface-atlas-web/en/a11y/keyboard-navigation) — Used with
+- [navbar](/interface-atlas-web/en/components/navbar) — Used with
+- [focus-ring](/interface-atlas-web/en/a11y/focus-ring) — Used with
 
 ## Confusable
 
-- [navbar](/a11y/navbar) — navbar is the long nav being skipped, not the skipping mechanism — making "skip nav" its first item defeats the point.
+- [navbar](/interface-atlas-web/en/components/navbar) — navbar is the long nav being skipped, not the skipping mechanism — making "skip nav" its first item defeats the point.
 
 ## Sources
 
@@ -88,4 +88,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/a11y/skip-link.json` · Site: /en/a11y/skip-link
+JSON: `/interface-atlas-web/api/concept/a11y/skip-link.json` · Site: /interface-atlas-web/en/a11y/skip-link

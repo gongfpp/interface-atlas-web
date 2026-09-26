@@ -75,14 +75,14 @@
 
 ## 相关概念
 
-- [accordion](/components/accordion) — 替代方案
-- [sidebar](/components/sidebar) — 搭配使用
-- [menu](/components/menu) — 相似概念
+- [accordion](/interface-atlas-web/components/accordion) — 替代方案
+- [sidebar](/interface-atlas-web/components/sidebar) — 搭配使用
+- [menu](/interface-atlas-web/components/menu) — 相似概念
 
 ## 容易混淆
 
-- [accordion](/components/accordion) — accordion 是并列分区的开合，tree-view 表达任意深度的父子层级
-- [menu](/components/menu) — menu 用于命令与导航动作，tree-view 用于浏览并选择层级数据
+- [accordion](/interface-atlas-web/components/accordion) — accordion 是并列分区的开合，tree-view 表达任意深度的父子层级
+- [menu](/interface-atlas-web/components/menu) — menu 用于命令与导航动作，tree-view 用于浏览并选择层级数据
 
 ## Sources
 
@@ -92,4 +92,4 @@
 
 ---
 
-JSON: `/api/concept/components/tree-view.json` · 站点: /components/tree-view
+JSON: `/interface-atlas-web/api/concept/components/tree-view.json` · 站点: /interface-atlas-web/components/tree-view

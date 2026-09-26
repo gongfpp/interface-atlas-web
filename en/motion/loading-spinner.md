@@ -64,9 +64,9 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [skeleton-loading](/motion/skeleton-loading) — Alternative
-- [progress-bar](/motion/progress-bar) — Alternative
-- [button](/motion/button) — Applies to
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Alternative
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Alternative
+- [button](/interface-atlas-web/en/components/button) — Applies to
 
 ## Sources
 
@@ -74,4 +74,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/loading-spinner.json` · Site: /en/motion/loading-spinner
+JSON: `/interface-atlas-web/api/concept/motion/loading-spinner.json` · Site: /interface-atlas-web/en/motion/loading-spinner

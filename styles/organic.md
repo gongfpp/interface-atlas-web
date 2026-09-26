@@ -56,10 +56,10 @@
 
 ## 相关概念
 
-- [minimalism](/styles/minimalism) — 相似概念
-- [editorial](/styles/editorial) — 相似概念
-- [claymorphism](/styles/claymorphism) — 相似概念
-- [button](/styles/button) — 影响组件
+- [minimalism](/interface-atlas-web/styles/minimalism) — 相似概念
+- [editorial](/interface-atlas-web/styles/editorial) — 相似概念
+- [claymorphism](/interface-atlas-web/styles/claymorphism) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
 
 ## Sources
 
@@ -67,4 +67,4 @@
 
 ---
 
-JSON: `/api/concept/styles/organic.json` · 站点: /styles/organic
+JSON: `/interface-atlas-web/api/concept/styles/organic.json` · 站点: /interface-atlas-web/styles/organic

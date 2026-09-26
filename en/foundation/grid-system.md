@@ -72,10 +72,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [dashboard](/foundation/dashboard) — Used with
-- [landing-page](/foundation/landing-page) — Used with
-- [card](/foundation/card) — Used with
-- [bento-grid](/foundation/bento-grid) — Used with
+- [dashboard](/interface-atlas-web/en/pages/dashboard) — Used with
+- [landing-page](/interface-atlas-web/en/pages/landing-page) — Used with
+- [card](/interface-atlas-web/en/components/card) — Used with
+- [bento-grid](/interface-atlas-web/en/styles/bento-grid) — Used with
 
 ## Sources
 
@@ -86,4 +86,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/grid-system.json` · Site: /en/foundation/grid-system
+JSON: `/interface-atlas-web/api/concept/foundation/grid-system.json` · Site: /interface-atlas-web/en/foundation/grid-system

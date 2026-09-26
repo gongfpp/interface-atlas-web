@@ -84,17 +84,17 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [drawer](/components/drawer) — Alternative
-- [popover](/components/popover) — Alternative
-- [toast](/components/toast) — Similar
-- [alert](/components/alert) — Similar
+- [drawer](/interface-atlas-web/en/components/drawer) — Alternative
+- [popover](/interface-atlas-web/en/components/popover) — Alternative
+- [toast](/interface-atlas-web/en/components/toast) — Similar
+- [alert](/interface-atlas-web/en/components/alert) — Similar
 
 ## Confusable
 
-- [drawer](/components/drawer) — A drawer slides from an edge with more room; a modal is centered and more interrupting.
-- [popover](/components/popover) — A popover is non-modal and anchored; a modal dims the page and blocks.
-- [alert](/components/alert) — Alert is in-page messaging; a modal is a blocking overlay.
-- [lightbox](/components/lightbox) — Lightbox is media zoom; a modal hosts general tasks.
+- [drawer](/interface-atlas-web/en/components/drawer) — A drawer slides from an edge with more room; a modal is centered and more interrupting.
+- [popover](/interface-atlas-web/en/components/popover) — A popover is non-modal and anchored; a modal dims the page and blocks.
+- [alert](/interface-atlas-web/en/components/alert) — Alert is in-page messaging; a modal is a blocking overlay.
+- [lightbox](/interface-atlas-web/en/components/lightbox) — Lightbox is media zoom; a modal hosts general tasks.
 
 ## Sources
 
@@ -103,4 +103,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/modal.json` · Site: /en/components/modal
+JSON: `/interface-atlas-web/api/concept/components/modal.json` · Site: /interface-atlas-web/en/components/modal

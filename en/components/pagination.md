@@ -69,11 +69,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [infinite-scroll](/components/infinite-scroll) — Alternative
-- [pull-to-refresh](/components/pull-to-refresh) — Alternative
-- [table](/components/table) — Similar
-- [tabs](/components/tabs) — Similar
-- [search-filtering](/components/search-filtering) — Used with
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Alternative
+- [pull-to-refresh](/interface-atlas-web/en/patterns/pull-to-refresh) — Alternative
+- [table](/interface-atlas-web/en/components/table) — Similar
+- [tabs](/interface-atlas-web/en/components/tabs) — Similar
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Used with
 
 ## Applicable styles
 
@@ -86,4 +86,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/pagination.json` · Site: /en/components/pagination
+JSON: `/interface-atlas-web/api/concept/components/pagination.json` · Site: /interface-atlas-web/en/components/pagination

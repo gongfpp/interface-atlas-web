@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [swiss-style](/styles/swiss-style) — 相似概念
-- [minimalism](/styles/minimalism) — 相似概念
-- [documentation](/styles/documentation) — 搭配使用
-- [card](/styles/card) — 影响组件
-- [navbar](/styles/navbar) — 影响组件
+- [swiss-style](/interface-atlas-web/styles/swiss-style) — 相似概念
+- [minimalism](/interface-atlas-web/styles/minimalism) — 相似概念
+- [documentation](/interface-atlas-web/pages/documentation) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 影响组件
+- [navbar](/interface-atlas-web/components/navbar) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/editorial.json` · 站点: /styles/editorial
+JSON: `/interface-atlas-web/api/concept/styles/editorial.json` · 站点: /interface-atlas-web/styles/editorial

@@ -57,11 +57,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [kanban-board](/patterns/kanban-board) — Similar
-- [inline-editing](/patterns/inline-editing) — Similar
-- [optimistic-ui](/patterns/optimistic-ui) — Similar
-- [button](/patterns/button) — Used with
-- [accordion](/patterns/accordion) — Used with
+- [kanban-board](/interface-atlas-web/en/patterns/kanban-board) — Similar
+- [inline-editing](/interface-atlas-web/en/patterns/inline-editing) — Similar
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Similar
+- [button](/interface-atlas-web/en/components/button) — Used with
+- [accordion](/interface-atlas-web/en/components/accordion) — Used with
 
 ## Applicable styles
 
@@ -74,4 +74,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/drag-and-drop-sorting.json` · Site: /en/patterns/drag-and-drop-sorting
+JSON: `/interface-atlas-web/api/concept/patterns/drag-and-drop-sorting.json` · Site: /interface-atlas-web/en/patterns/drag-and-drop-sorting

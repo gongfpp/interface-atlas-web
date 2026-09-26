@@ -74,16 +74,16 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [dropdown](/components/dropdown) — Similar
-- [navbar](/components/navbar) — Alternative
-- [command-palette](/components/command-palette) — Similar
-- [popover](/components/popover) — Similar
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
+- [navbar](/interface-atlas-web/en/components/navbar) — Alternative
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Similar
+- [popover](/interface-atlas-web/en/components/popover) — Similar
 
 ## Confusable
 
-- [dropdown](/components/dropdown) — Dropdown is the full button+menu control; Menu is only the popup command list.
-- [navbar](/components/navbar) — Navbar jumps to destinations; Menu runs immediate commands.
-- [select](/components/select) — Select picks a value for a form; Menu triggers an action.
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Dropdown is the full button+menu control; Menu is only the popup command list.
+- [navbar](/interface-atlas-web/en/components/navbar) — Navbar jumps to destinations; Menu runs immediate commands.
+- [select](/interface-atlas-web/en/components/select) — Select picks a value for a form; Menu triggers an action.
 
 ## Sources
 
@@ -92,4 +92,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/menu.json` · Site: /en/components/menu
+JSON: `/interface-atlas-web/api/concept/components/menu.json` · Site: /interface-atlas-web/en/components/menu

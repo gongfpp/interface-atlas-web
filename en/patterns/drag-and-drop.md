@@ -63,9 +63,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [drag-and-drop-sorting](/patterns/drag-and-drop-sorting) — Similar
-- [inline-editing](/patterns/inline-editing) — Used with
-- [kanban-board](/patterns/kanban-board) — Used with
+- [drag-and-drop-sorting](/interface-atlas-web/en/patterns/drag-and-drop-sorting) — Similar
+- [inline-editing](/interface-atlas-web/en/patterns/inline-editing) — Used with
+- [kanban-board](/interface-atlas-web/en/patterns/kanban-board) — Used with
 
 ## Sources
 
@@ -75,4 +75,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/drag-and-drop.json` · Site: /en/patterns/drag-and-drop
+JSON: `/interface-atlas-web/api/concept/patterns/drag-and-drop.json` · Site: /interface-atlas-web/en/patterns/drag-and-drop

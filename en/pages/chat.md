@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [input](/pages/input) — Contains
-- [avatar](/pages/avatar) — Contains
-- [badge](/pages/badge) — Contains
-- [infinite-scroll](/pages/infinite-scroll) — Uses pattern
-- [optimistic-ui](/pages/optimistic-ui) — Uses pattern
+- [input](/interface-atlas-web/en/components/input) — Contains
+- [avatar](/interface-atlas-web/en/components/avatar) — Contains
+- [badge](/interface-atlas-web/en/components/badge) — Contains
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Uses pattern
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Uses pattern
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/chat.json` · Site: /en/pages/chat
+JSON: `/interface-atlas-web/api/concept/pages/chat.json` · Site: /interface-atlas-web/en/pages/chat

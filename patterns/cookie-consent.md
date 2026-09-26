@@ -61,9 +61,9 @@
 
 ## 相关概念
 
-- [alert](/patterns/alert) — 替代方案
-- [toast](/patterns/toast) — 相似概念
-- [form-validation](/patterns/form-validation) — 搭配使用
+- [alert](/interface-atlas-web/components/alert) — 替代方案
+- [toast](/interface-atlas-web/components/toast) — 相似概念
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
 
 ## Sources
 
@@ -73,4 +73,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/cookie-consent.json` · 站点: /patterns/cookie-consent
+JSON: `/interface-atlas-web/api/concept/patterns/cookie-consent.json` · 站点: /interface-atlas-web/patterns/cookie-consent

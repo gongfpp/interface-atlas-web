@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [date-picker](/pages/date-picker) — 包含组件
-- [segmented-control](/pages/segmented-control) — 包含组件
-- [timeline](/pages/timeline) — 包含组件
-- [drag-and-drop](/pages/drag-and-drop) — 使用模式
-- [empty-state](/pages/empty-state) — 使用模式
+- [date-picker](/interface-atlas-web/components/date-picker) — 包含组件
+- [segmented-control](/interface-atlas-web/components/segmented-control) — 包含组件
+- [timeline](/interface-atlas-web/components/timeline) — 包含组件
+- [drag-and-drop](/interface-atlas-web/patterns/drag-and-drop) — 使用模式
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 使用模式
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/calendar.json` · 站点: /pages/calendar
+JSON: `/interface-atlas-web/api/concept/pages/calendar.json` · 站点: /interface-atlas-web/pages/calendar

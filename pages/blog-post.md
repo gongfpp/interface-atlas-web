@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [avatar](/pages/avatar) — 包含组件
-- [breadcrumb](/pages/breadcrumb) — 包含组件
-- [progressive-disclosure](/pages/progressive-disclosure) — 使用模式
-- [scroll-reveal](/pages/scroll-reveal) — 搭配使用
-- [blog-index](/pages/blog-index) — 相似概念
+- [avatar](/interface-atlas-web/components/avatar) — 包含组件
+- [breadcrumb](/interface-atlas-web/components/breadcrumb) — 包含组件
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 使用模式
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 搭配使用
+- [blog-index](/interface-atlas-web/pages/blog-index) — 相似概念
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/blog-post.json` · 站点: /pages/blog-post
+JSON: `/interface-atlas-web/api/concept/pages/blog-post.json` · 站点: /interface-atlas-web/pages/blog-post

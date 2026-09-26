@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [press-feedback](/motion/press-feedback) — Similar
-- [magnetic-button](/motion/magnetic-button) — Similar
-- [confetti](/motion/confetti) — Similar
-- [card](/motion/card) — Applies to
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Similar
+- [magnetic-button](/interface-atlas-web/en/motion/magnetic-button) — Similar
+- [confetti](/interface-atlas-web/en/motion/confetti) — Similar
+- [card](/interface-atlas-web/en/components/card) — Applies to
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/elastic-bounce.json` · Site: /en/motion/elastic-bounce
+JSON: `/interface-atlas-web/api/concept/motion/elastic-bounce.json` · Site: /interface-atlas-web/en/motion/elastic-bounce

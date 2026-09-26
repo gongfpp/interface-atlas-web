@@ -70,10 +70,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [input](/components/input) — Similar
-- [form-validation](/components/form-validation) — Used with
-- [inline-editing](/components/inline-editing) — Used with
-- [toast](/components/toast) — Similar
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
+- [inline-editing](/interface-atlas-web/en/patterns/inline-editing) — Used with
+- [toast](/interface-atlas-web/en/components/toast) — Similar
 
 ## Applicable styles
 
@@ -86,4 +86,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/textarea.json` · Site: /en/components/textarea
+JSON: `/interface-atlas-web/api/concept/components/textarea.json` · Site: /interface-atlas-web/en/components/textarea

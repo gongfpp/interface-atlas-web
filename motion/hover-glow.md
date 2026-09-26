@@ -63,10 +63,10 @@
 
 ## 相关概念
 
-- [hover-lift](/motion/hover-lift) — 替代方案
-- [press-feedback](/motion/press-feedback) — 相似概念
-- [button](/motion/button) — 应用于
-- [glassmorphism](/motion/glassmorphism) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 替代方案
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 相似概念
+- [button](/interface-atlas-web/components/button) — 应用于
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 搭配使用
 
 ## Sources
 
@@ -74,4 +74,4 @@
 
 ---
 
-JSON: `/api/concept/motion/hover-glow.json` · 站点: /motion/hover-glow
+JSON: `/interface-atlas-web/api/concept/motion/hover-glow.json` · 站点: /interface-atlas-web/motion/hover-glow

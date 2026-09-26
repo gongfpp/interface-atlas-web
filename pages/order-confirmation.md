@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [timeline](/pages/timeline) — 包含组件
-- [card](/pages/card) — 包含组件
-- [button](/pages/button) — 包含组件
-- [confetti](/pages/confetti) — 搭配使用
-- [checkout](/pages/checkout) — 相似概念
+- [timeline](/interface-atlas-web/components/timeline) — 包含组件
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [button](/interface-atlas-web/components/button) — 包含组件
+- [confetti](/interface-atlas-web/motion/confetti) — 搭配使用
+- [checkout](/interface-atlas-web/pages/checkout) — 相似概念
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/pages/order-confirmation.json` · 站点: /pages/order-confirmation
+JSON: `/interface-atlas-web/api/concept/pages/order-confirmation.json` · 站点: /interface-atlas-web/pages/order-confirmation

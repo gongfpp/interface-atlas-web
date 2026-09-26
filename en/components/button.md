@@ -79,11 +79,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [press-feedback](/components/press-feedback) — Alternative
-- [ripple](/components/ripple) — Used with
-- [magnetic-button](/components/magnetic-button) — Used with
-- [hover-lift](/components/hover-lift) — Used with
-- [loading-spinner](/components/loading-spinner) — Used with
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Alternative
+- [ripple](/interface-atlas-web/en/motion/ripple) — Used with
+- [magnetic-button](/interface-atlas-web/en/motion/magnetic-button) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
+- [loading-spinner](/interface-atlas-web/en/motion/loading-spinner) — Used with
 
 ## Applicable styles
 
@@ -96,4 +96,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/button.json` · Site: /en/components/button
+JSON: `/interface-atlas-web/api/concept/components/button.json` · Site: /interface-atlas-web/en/components/button

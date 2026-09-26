@@ -70,10 +70,10 @@
 
 ## 相关概念
 
-- [modal](/components/modal) — 替代方案
-- [sidebar](/components/sidebar) — 相似概念
-- [popover](/components/popover) — 替代方案
-- [drawer-slide](/components/drawer-slide) — 搭配使用
+- [modal](/interface-atlas-web/components/modal) — 替代方案
+- [sidebar](/interface-atlas-web/components/sidebar) — 相似概念
+- [popover](/interface-atlas-web/components/popover) — 替代方案
+- [drawer-slide](/interface-atlas-web/motion/drawer-slide) — 搭配使用
 
 ## Sources
 
@@ -82,4 +82,4 @@
 
 ---
 
-JSON: `/api/concept/components/drawer.json` · 站点: /components/drawer
+JSON: `/interface-atlas-web/api/concept/components/drawer.json` · 站点: /interface-atlas-web/components/drawer

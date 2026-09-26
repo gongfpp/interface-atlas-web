@@ -84,14 +84,14 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [toast](/components/toast) — Alternative
-- [form-validation](/components/form-validation) — Alternative
-- [modal](/components/modal) — Similar
+- [toast](/interface-atlas-web/en/components/toast) — Alternative
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Alternative
+- [modal](/interface-atlas-web/en/components/modal) — Similar
 
 ## Confusable
 
-- [toast](/components/toast) — A toast auto-dismisses; an alert stays until the condition clears.
-- [modal](/components/modal) — A modal blocks and demands action; an alert only informs.
+- [toast](/interface-atlas-web/en/components/toast) — A toast auto-dismisses; an alert stays until the condition clears.
+- [modal](/interface-atlas-web/en/components/modal) — A modal blocks and demands action; an alert only informs.
 
 ## Sources
 
@@ -100,4 +100,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/alert.json` · Site: /en/components/alert
+JSON: `/interface-atlas-web/api/concept/components/alert.json` · Site: /interface-atlas-web/en/components/alert

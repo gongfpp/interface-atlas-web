@@ -75,14 +75,14 @@
 
 ## 相关概念
 
-- [input](/components/input) — 相似概念
-- [slider](/components/slider) — 搭配使用
-- [switch](/components/switch) — 搭配使用
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [slider](/interface-atlas-web/components/slider) — 搭配使用
+- [switch](/interface-atlas-web/components/switch) — 搭配使用
 
 ## 容易混淆
 
-- [slider](/components/slider) — slider 调节单一数值维度，color-picker 在颜色空间中定位一点
-- [input](/components/input) — input 接受任意文本，color-picker 保证输出合法颜色值
+- [slider](/interface-atlas-web/components/slider) — slider 调节单一数值维度，color-picker 在颜色空间中定位一点
+- [input](/interface-atlas-web/components/input) — input 接受任意文本，color-picker 保证输出合法颜色值
 
 ## Sources
 
@@ -92,4 +92,4 @@
 
 ---
 
-JSON: `/api/concept/components/color-picker.json` · 站点: /components/color-picker
+JSON: `/interface-atlas-web/api/concept/components/color-picker.json` · 站点: /interface-atlas-web/components/color-picker

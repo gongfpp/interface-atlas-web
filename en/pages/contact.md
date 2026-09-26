@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [input](/pages/input) — Contains
-- [textarea](/pages/textarea) — Contains
-- [button](/pages/button) — Contains
-- [form-validation](/pages/form-validation) — Uses pattern
-- [about](/pages/about) — Similar
+- [input](/interface-atlas-web/en/components/input) — Contains
+- [textarea](/interface-atlas-web/en/components/textarea) — Contains
+- [button](/interface-atlas-web/en/components/button) — Contains
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Uses pattern
+- [about](/interface-atlas-web/en/pages/about) — Similar
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/contact.json` · Site: /en/pages/contact
+JSON: `/interface-atlas-web/api/concept/pages/contact.json` · Site: /interface-atlas-web/en/pages/contact

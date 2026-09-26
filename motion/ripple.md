@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [press-feedback](/motion/press-feedback) — 相似概念
-- [button](/motion/button) — 应用于
-- [magnetic-button](/motion/magnetic-button) — 相似概念
-- [hover-lift](/motion/hover-lift) — 相似概念
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 相似概念
+- [button](/interface-atlas-web/components/button) — 应用于
+- [magnetic-button](/interface-atlas-web/motion/magnetic-button) — 相似概念
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 相似概念
 
 ## Sources
 
@@ -68,4 +68,4 @@
 
 ---
 
-JSON: `/api/concept/motion/ripple.json` · 站点: /motion/ripple
+JSON: `/interface-atlas-web/api/concept/motion/ripple.json` · 站点: /interface-atlas-web/motion/ripple

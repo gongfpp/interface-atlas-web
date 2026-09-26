@@ -72,9 +72,9 @@ position: fixed（或 absolute 于滚动容器外）锚定角落，圆形用 bor
 
 ## 相关概念
 
-- [button](/components/button) — 替代方案
-- [press-feedback](/components/press-feedback) — 搭配使用
-- [ripple](/components/ripple) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 替代方案
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 搭配使用
+- [ripple](/interface-atlas-web/motion/ripple) — 搭配使用
 
 ## Sources
 
@@ -83,4 +83,4 @@ position: fixed（或 absolute 于滚动容器外）锚定角落，圆形用 bor
 
 ---
 
-JSON: `/api/concept/components/fab.json` · 站点: /components/fab
+JSON: `/interface-atlas-web/api/concept/components/fab.json` · 站点: /interface-atlas-web/components/fab

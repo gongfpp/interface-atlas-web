@@ -56,10 +56,10 @@
 
 ## 相关概念
 
-- [toast](/motion/toast) — 应用于
-- [alert](/motion/alert) — 应用于
-- [undo-action](/motion/undo-action) — 搭配使用
-- [optimistic-ui](/motion/optimistic-ui) — 搭配使用
+- [toast](/interface-atlas-web/components/toast) — 应用于
+- [alert](/interface-atlas-web/components/alert) — 应用于
+- [undo-action](/interface-atlas-web/patterns/undo-action) — 搭配使用
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 搭配使用
 
 ## Sources
 
@@ -67,4 +67,4 @@
 
 ---
 
-JSON: `/api/concept/motion/toast-slide-in.json` · 站点: /motion/toast-slide-in
+JSON: `/interface-atlas-web/api/concept/motion/toast-slide-in.json` · 站点: /interface-atlas-web/motion/toast-slide-in

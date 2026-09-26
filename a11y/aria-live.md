@@ -74,13 +74,13 @@ aria-live 是不打断焦点的后台播报，modal 是抢走焦点的强制阅�
 
 ## 相关概念
 
-- [toast](/a11y/toast) — 搭配使用
-- [alert](/a11y/alert) — 搭配使用
-- [form-validation](/a11y/form-validation) — 搭配使用
+- [toast](/interface-atlas-web/components/toast) — 搭配使用
+- [alert](/interface-atlas-web/components/alert) — 搭配使用
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
 
 ## 容易混淆
 
-- [modal](/a11y/modal) — modal 抢占焦点强制阅读，aria-live 在不夺走焦点的前提下朗读更新。
+- [modal](/interface-atlas-web/components/modal) — modal 抢占焦点强制阅读，aria-live 在不夺走焦点的前提下朗读更新。
 
 ## Sources
 
@@ -89,4 +89,4 @@ aria-live 是不打断焦点的后台播报，modal 是抢走焦点的强制阅�
 
 ---
 
-JSON: `/api/concept/a11y/aria-live.json` · 站点: /a11y/aria-live
+JSON: `/interface-atlas-web/api/concept/a11y/aria-live.json` · 站点: /interface-atlas-web/a11y/aria-live

@@ -56,10 +56,10 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 ## Related
 
-- [skeuomorphism](/styles/skeuomorphism) — Similar
-- [claymorphism](/styles/claymorphism) — Similar
-- [minimalism](/styles/minimalism) — Similar
-- [button](/styles/button) — Affects
+- [skeuomorphism](/interface-atlas-web/en/styles/skeuomorphism) — Similar
+- [claymorphism](/interface-atlas-web/en/styles/claymorphism) — Similar
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
 
 ## Sources
 
@@ -67,4 +67,4 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 ---
 
-JSON: `/api/concept/styles/neumorphism.json` · Site: /en/styles/neumorphism
+JSON: `/interface-atlas-web/api/concept/styles/neumorphism.json` · Site: /interface-atlas-web/en/styles/neumorphism

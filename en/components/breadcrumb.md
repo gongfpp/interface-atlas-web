@@ -63,11 +63,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [navbar](/components/navbar) — Similar
-- [sidebar](/components/sidebar) — Similar
-- [tabs](/components/tabs) — Similar
-- [pagination](/components/pagination) — Similar
-- [menu](/components/menu) — Similar
+- [navbar](/interface-atlas-web/en/components/navbar) — Similar
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Similar
+- [tabs](/interface-atlas-web/en/components/tabs) — Similar
+- [pagination](/interface-atlas-web/en/components/pagination) — Similar
+- [menu](/interface-atlas-web/en/components/menu) — Similar
 
 ## Applicable styles
 
@@ -80,4 +80,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/breadcrumb.json` · Site: /en/components/breadcrumb
+JSON: `/interface-atlas-web/api/concept/components/breadcrumb.json` · Site: /interface-atlas-web/en/components/breadcrumb

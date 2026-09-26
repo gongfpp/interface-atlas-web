@@ -56,10 +56,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [dashboard](/motion/dashboard) — Used with
-- [scroll-reveal](/motion/scroll-reveal) — Similar
-- [progress-bar](/motion/progress-bar) — Applies to
-- [text-reveal](/motion/text-reveal) — Similar
+- [dashboard](/interface-atlas-web/en/pages/dashboard) — Used with
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Similar
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Applies to
+- [text-reveal](/interface-atlas-web/en/motion/text-reveal) — Similar
 
 ## Sources
 
@@ -67,4 +67,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/number-counter.json` · Site: /en/motion/number-counter
+JSON: `/interface-atlas-web/api/concept/motion/number-counter.json` · Site: /interface-atlas-web/en/motion/number-counter

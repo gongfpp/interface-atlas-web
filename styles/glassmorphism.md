@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [skeuomorphism](/styles/skeuomorphism) — 相似概念
-- [aurora](/styles/aurora) — 相似概念
-- [minimalism](/styles/minimalism) — 相似概念
-- [card](/styles/card) — 影响组件
-- [modal](/styles/modal) — 影响组件
+- [skeuomorphism](/interface-atlas-web/styles/skeuomorphism) — 相似概念
+- [aurora](/interface-atlas-web/styles/aurora) — 相似概念
+- [minimalism](/interface-atlas-web/styles/minimalism) — 相似概念
+- [card](/interface-atlas-web/components/card) — 影响组件
+- [modal](/interface-atlas-web/components/modal) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/glassmorphism.json` · 站点: /styles/glassmorphism
+JSON: `/interface-atlas-web/api/concept/styles/glassmorphism.json` · 站点: /interface-atlas-web/styles/glassmorphism

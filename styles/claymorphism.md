@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [glassmorphism](/styles/glassmorphism) — 相似概念
-- [neobrutalism](/styles/neobrutalism) — 相似概念
-- [button](/styles/button) — 影响组件
-- [card](/styles/card) — 影响组件
-- [badge](/styles/badge) — 影响组件
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 相似概念
+- [neobrutalism](/interface-atlas-web/styles/neobrutalism) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [card](/interface-atlas-web/components/card) — 影响组件
+- [badge](/interface-atlas-web/components/badge) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/claymorphism.json` · 站点: /styles/claymorphism
+JSON: `/interface-atlas-web/api/concept/styles/claymorphism.json` · 站点: /interface-atlas-web/styles/claymorphism

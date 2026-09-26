@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [form-validation](/patterns/form-validation) — 搭配使用
-- [stepper](/patterns/stepper) — 搭配使用
-- [progressive-disclosure](/patterns/progressive-disclosure) — 相似概念
-- [onboarding-tour](/patterns/onboarding-tour) — 相似概念
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
+- [stepper](/interface-atlas-web/components/stepper) — 搭配使用
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 相似概念
+- [onboarding-tour](/interface-atlas-web/patterns/onboarding-tour) — 相似概念
 
 ## Sources
 
@@ -70,4 +70,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/wizard.json` · 站点: /patterns/wizard
+JSON: `/interface-atlas-web/api/concept/patterns/wizard.json` · 站点: /interface-atlas-web/patterns/wizard

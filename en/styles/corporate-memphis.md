@@ -66,16 +66,16 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [flat-design](/styles/flat-design) — Similar
-- [memphis](/styles/memphis) — Alternative
-- [organic](/styles/organic) — Alternative
-- [empty-state](/styles/empty-state) — Used with
-- [onboarding-tour](/styles/onboarding-tour) — Used with
-- [card](/styles/card) — Affects
+- [flat-design](/interface-atlas-web/en/styles/flat-design) — Similar
+- [memphis](/interface-atlas-web/en/styles/memphis) — Alternative
+- [organic](/interface-atlas-web/en/styles/organic) — Alternative
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Used with
+- [onboarding-tour](/interface-atlas-web/en/patterns/onboarding-tour) — Used with
+- [card](/interface-atlas-web/en/components/card) — Affects
 
 ## Confusable
 
-- [memphis](/styles/memphis) — Corporate Memphis is post-2017 flat figure illustration; Memphis is the 1980s Milano dots-and-squiggles movement.
+- [memphis](/interface-atlas-web/en/styles/memphis) — Corporate Memphis is post-2017 flat figure illustration; Memphis is the 1980s Milano dots-and-squiggles movement.
 
 ## Sources
 
@@ -84,4 +84,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/corporate-memphis.json` · Site: /en/styles/corporate-memphis
+JSON: `/interface-atlas-web/api/concept/styles/corporate-memphis.json` · Site: /interface-atlas-web/en/styles/corporate-memphis

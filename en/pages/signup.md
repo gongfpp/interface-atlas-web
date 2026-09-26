@@ -72,10 +72,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [input](/pages/input) — Contains
-- [button](/pages/button) — Contains
-- [form-validation](/pages/form-validation) — Uses pattern
-- [login](/pages/login) — Alternative
+- [input](/interface-atlas-web/en/components/input) — Contains
+- [button](/interface-atlas-web/en/components/button) — Contains
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Uses pattern
+- [login](/interface-atlas-web/en/pages/login) — Alternative
 
 ## Sources
 
@@ -84,4 +84,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/signup.json` · Site: /en/pages/signup
+JSON: `/interface-atlas-web/api/concept/pages/signup.json` · Site: /interface-atlas-web/en/pages/signup

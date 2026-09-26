@@ -56,15 +56,15 @@ Stepper 一名两义：既指数值加减输入框（Input Stepper / Number Inpu
 
 ## 相关概念
 
-- [progress-bar](/components/progress-bar) — 相似概念
-- [input](/components/input) — 相似概念
-- [button](/components/button) — 相似概念
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 相似概念
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [button](/interface-atlas-web/components/button) — 相似概念
 
 ## 容易混淆
 
-- [wizard](/components/wizard) — Wizard 是分步表单流程本身；Stepper（进度义）只是它的指示器。
-- [slider](/components/slider) — Slider 在连续区间取值，Input Stepper 按固定步长加减。
-- [pagination](/components/pagination) — Pagination 切换数据页，Stepper 推进任务步骤。
+- [wizard](/interface-atlas-web/patterns/wizard) — Wizard 是分步表单流程本身；Stepper（进度义）只是它的指示器。
+- [slider](/interface-atlas-web/components/slider) — Slider 在连续区间取值，Input Stepper 按固定步长加减。
+- [pagination](/interface-atlas-web/components/pagination) — Pagination 切换数据页，Stepper 推进任务步骤。
 
 ## Sources
 
@@ -72,4 +72,4 @@ Stepper 一名两义：既指数值加减输入框（Input Stepper / Number Inpu
 
 ---
 
-JSON: `/api/concept/components/stepper.json` · 站点: /components/stepper
+JSON: `/interface-atlas-web/api/concept/components/stepper.json` · 站点: /interface-atlas-web/components/stepper

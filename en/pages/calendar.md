@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [date-picker](/pages/date-picker) — Contains
-- [segmented-control](/pages/segmented-control) — Contains
-- [timeline](/pages/timeline) — Contains
-- [drag-and-drop](/pages/drag-and-drop) — Uses pattern
-- [empty-state](/pages/empty-state) — Uses pattern
+- [date-picker](/interface-atlas-web/en/components/date-picker) — Contains
+- [segmented-control](/interface-atlas-web/en/components/segmented-control) — Contains
+- [timeline](/interface-atlas-web/en/components/timeline) — Contains
+- [drag-and-drop](/interface-atlas-web/en/patterns/drag-and-drop) — Uses pattern
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Uses pattern
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/calendar.json` · Site: /en/pages/calendar
+JSON: `/interface-atlas-web/api/concept/pages/calendar.json` · Site: /interface-atlas-web/en/pages/calendar

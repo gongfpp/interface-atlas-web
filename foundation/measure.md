@@ -76,9 +76,9 @@
 
 ## 相关概念
 
-- [line-height](/foundation/line-height) — 搭配使用
-- [type-scale](/foundation/type-scale) — 搭配使用
-- [editorial](/foundation/editorial) — 搭配使用
+- [line-height](/interface-atlas-web/foundation/line-height) — 搭配使用
+- [type-scale](/interface-atlas-web/foundation/type-scale) — 搭配使用
+- [editorial](/interface-atlas-web/styles/editorial) — 搭配使用
 
 ## Sources
 
@@ -88,4 +88,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/measure.json` · 站点: /foundation/measure
+JSON: `/interface-atlas-web/api/concept/foundation/measure.json` · 站点: /interface-atlas-web/foundation/measure

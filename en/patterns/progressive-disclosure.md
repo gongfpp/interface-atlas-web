@@ -59,11 +59,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [accordion](/patterns/accordion) — Used with
-- [form-validation](/patterns/form-validation) — Similar
-- [onboarding-tour](/patterns/onboarding-tour) — Similar
-- [drawer](/patterns/drawer) — Used with
-- [tooltip](/patterns/tooltip) — Used with
+- [accordion](/interface-atlas-web/en/components/accordion) — Used with
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Similar
+- [onboarding-tour](/interface-atlas-web/en/patterns/onboarding-tour) — Similar
+- [drawer](/interface-atlas-web/en/components/drawer) — Used with
+- [tooltip](/interface-atlas-web/en/components/tooltip) — Used with
 
 ## Sources
 
@@ -72,4 +72,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/progressive-disclosure.json` · Site: /en/patterns/progressive-disclosure
+JSON: `/interface-atlas-web/api/concept/patterns/progressive-disclosure.json` · Site: /interface-atlas-web/en/patterns/progressive-disclosure

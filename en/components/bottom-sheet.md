@@ -77,14 +77,14 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [drawer](/components/drawer) — Alternative
-- [modal](/components/modal) — Alternative
-- [pull-to-refresh](/components/pull-to-refresh) — Used with
+- [drawer](/interface-atlas-web/en/components/drawer) — Alternative
+- [modal](/interface-atlas-web/en/components/modal) — Alternative
+- [pull-to-refresh](/interface-atlas-web/en/patterns/pull-to-refresh) — Used with
 
 ## Confusable
 
-- [drawer](/components/drawer) — A drawer slides from a side edge; a bottom sheet only rises from the bottom.
-- [modal](/components/modal) — A modal sits centered and demands a decision; a bottom sheet hugs the bottom and swipes away.
+- [drawer](/interface-atlas-web/en/components/drawer) — A drawer slides from a side edge; a bottom sheet only rises from the bottom.
+- [modal](/interface-atlas-web/en/components/modal) — A modal sits centered and demands a decision; a bottom sheet hugs the bottom and swipes away.
 
 ## Sources
 
@@ -94,4 +94,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/bottom-sheet.json` · Site: /en/components/bottom-sheet
+JSON: `/interface-atlas-web/api/concept/components/bottom-sheet.json` · Site: /interface-atlas-web/en/components/bottom-sheet

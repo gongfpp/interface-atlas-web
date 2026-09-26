@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [sidebar](/pages/sidebar) — Contains
-- [breadcrumb](/pages/breadcrumb) — Contains
-- [command-palette](/pages/command-palette) — Contains
-- [tabs](/pages/tabs) — Contains
-- [alert](/pages/alert) — Contains
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Contains
+- [breadcrumb](/interface-atlas-web/en/components/breadcrumb) — Contains
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Contains
+- [tabs](/interface-atlas-web/en/components/tabs) — Contains
+- [alert](/interface-atlas-web/en/components/alert) — Contains
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/documentation.json` · Site: /en/pages/documentation
+JSON: `/interface-atlas-web/api/concept/pages/documentation.json` · Site: /interface-atlas-web/en/pages/documentation

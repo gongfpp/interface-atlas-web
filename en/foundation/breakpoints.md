@@ -71,10 +71,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [type-scale](/foundation/type-scale) — Similar
-- [touch-target](/foundation/touch-target) — Similar
-- [navbar](/foundation/navbar) — Used with
-- [sidebar](/foundation/sidebar) — Used with
+- [type-scale](/interface-atlas-web/en/foundation/type-scale) — Similar
+- [touch-target](/interface-atlas-web/en/foundation/touch-target) — Similar
+- [navbar](/interface-atlas-web/en/components/navbar) — Used with
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Used with
 
 ## Sources
 
@@ -84,4 +84,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/breakpoints.json` · Site: /en/foundation/breakpoints
+JSON: `/interface-atlas-web/api/concept/foundation/breakpoints.json` · Site: /interface-atlas-web/en/foundation/breakpoints

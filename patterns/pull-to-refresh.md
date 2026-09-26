@@ -64,11 +64,11 @@
 
 ## 相关概念
 
-- [infinite-scroll](/patterns/infinite-scroll) — 替代方案
-- [pagination](/patterns/pagination) — 替代方案
-- [loading-spinner](/patterns/loading-spinner) — 搭配使用
-- [skeleton-loading](/patterns/skeleton-loading) — 相似概念
-- [toast](/patterns/toast) — 搭配使用
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 替代方案
+- [pagination](/interface-atlas-web/components/pagination) — 替代方案
+- [loading-spinner](/interface-atlas-web/motion/loading-spinner) — 搭配使用
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 相似概念
+- [toast](/interface-atlas-web/components/toast) — 搭配使用
 
 ## Sources
 
@@ -77,4 +77,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/pull-to-refresh.json` · 站点: /patterns/pull-to-refresh
+JSON: `/interface-atlas-web/api/concept/patterns/pull-to-refresh.json` · 站点: /interface-atlas-web/patterns/pull-to-refresh

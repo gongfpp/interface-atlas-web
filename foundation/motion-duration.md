@@ -72,10 +72,10 @@
 
 ## 相关概念
 
-- [reduced-motion](/foundation/reduced-motion) — 搭配使用
-- [hover-lift](/foundation/hover-lift) — 搭配使用
-- [page-transition](/foundation/page-transition) — 搭配使用
-- [press-feedback](/foundation/press-feedback) — 搭配使用
+- [reduced-motion](/interface-atlas-web/a11y/reduced-motion) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
+- [page-transition](/interface-atlas-web/motion/page-transition) — 搭配使用
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 搭配使用
 
 ## Sources
 
@@ -86,4 +86,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/motion-duration.json` · 站点: /foundation/motion-duration
+JSON: `/interface-atlas-web/api/concept/foundation/motion-duration.json` · 站点: /interface-atlas-web/foundation/motion-duration

@@ -82,17 +82,17 @@ Dropdown 是「触发按钮 + 弹出菜单」的组合；Select 是表单取值�
 
 ## 相关概念
 
-- [menu](/components/menu) — 相似概念
-- [popover](/components/popover) — 相似概念
-- [command-palette](/components/command-palette) — 替代方案
-- [select](/components/select) — 相似概念
-- [modal](/components/modal) — 相似概念
+- [menu](/interface-atlas-web/components/menu) — 相似概念
+- [popover](/interface-atlas-web/components/popover) — 相似概念
+- [command-palette](/interface-atlas-web/components/command-palette) — 替代方案
+- [select](/interface-atlas-web/components/select) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 相似概念
 
 ## 容易混淆
 
-- [menu](/components/menu) — Menu 只是弹出列表，Dropdown 含触发按钮与关闭逻辑。
-- [select](/components/select) — Select 用于表单取值，Dropdown 用于执行命令。
-- [popover](/components/popover) — Popover 内容任意、可交互，Dropdown 列表为命令项。
+- [menu](/interface-atlas-web/components/menu) — Menu 只是弹出列表，Dropdown 含触发按钮与关闭逻辑。
+- [select](/interface-atlas-web/components/select) — Select 用于表单取值，Dropdown 用于执行命令。
+- [popover](/interface-atlas-web/components/popover) — Popover 内容任意、可交互，Dropdown 列表为命令项。
 
 ## 可搭配的风格
 
@@ -105,4 +105,4 @@ Dropdown 是「触发按钮 + 弹出菜单」的组合；Select 是表单取值�
 
 ---
 
-JSON: `/api/concept/components/dropdown.json` · 站点: /components/dropdown
+JSON: `/interface-atlas-web/api/concept/components/dropdown.json` · 站点: /interface-atlas-web/components/dropdown

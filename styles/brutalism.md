@@ -67,16 +67,16 @@
 
 ## 相关概念
 
-- [neobrutalism](/styles/neobrutalism) — 相似概念
-- [minimalism](/styles/minimalism) — 替代方案
-- [swiss-style](/styles/swiss-style) — 相似概念
-- [button](/styles/button) — 影响组件
-- [card](/styles/card) — 影响组件
-- [navbar](/styles/navbar) — 影响组件
+- [neobrutalism](/interface-atlas-web/styles/neobrutalism) — 相似概念
+- [minimalism](/interface-atlas-web/styles/minimalism) — 替代方案
+- [swiss-style](/interface-atlas-web/styles/swiss-style) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [card](/interface-atlas-web/components/card) — 影响组件
+- [navbar](/interface-atlas-web/components/navbar) — 影响组件
 
 ## 容易混淆
 
-- [neobrutalism](/styles/neobrutalism) — 粗野主义是原始未修饰的网页，黑白为主；新粗野主义是糖果贴纸加粗黑边与硬阴影，色彩喧闹。
+- [neobrutalism](/interface-atlas-web/styles/neobrutalism) — 粗野主义是原始未修饰的网页，黑白为主；新粗野主义是糖果贴纸加粗黑边与硬阴影，色彩喧闹。
 
 ## Sources
 
@@ -85,4 +85,4 @@
 
 ---
 
-JSON: `/api/concept/styles/brutalism.json` · 站点: /styles/brutalism
+JSON: `/interface-atlas-web/api/concept/styles/brutalism.json` · 站点: /interface-atlas-web/styles/brutalism

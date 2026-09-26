@@ -72,10 +72,10 @@
 
 ## 相关概念
 
-- [input](/pages/input) — 包含组件
-- [button](/pages/button) — 包含组件
-- [form-validation](/pages/form-validation) — 使用模式
-- [login](/pages/login) — 替代方案
+- [input](/interface-atlas-web/components/input) — 包含组件
+- [button](/interface-atlas-web/components/button) — 包含组件
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 使用模式
+- [login](/interface-atlas-web/pages/login) — 替代方案
 
 ## Sources
 
@@ -84,4 +84,4 @@
 
 ---
 
-JSON: `/api/concept/pages/signup.json` · 站点: /pages/signup
+JSON: `/interface-atlas-web/api/concept/pages/signup.json` · 站点: /interface-atlas-web/pages/signup

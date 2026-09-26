@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [timeline](/pages/timeline) — Contains
-- [card](/pages/card) — Contains
-- [button](/pages/button) — Contains
-- [confetti](/pages/confetti) — Used with
-- [checkout](/pages/checkout) — Similar
+- [timeline](/interface-atlas-web/en/components/timeline) — Contains
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [button](/interface-atlas-web/en/components/button) — Contains
+- [confetti](/interface-atlas-web/en/motion/confetti) — Used with
+- [checkout](/interface-atlas-web/en/pages/checkout) — Similar
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/order-confirmation.json` · Site: /en/pages/order-confirmation
+JSON: `/interface-atlas-web/api/concept/pages/order-confirmation.json` · Site: /interface-atlas-web/en/pages/order-confirmation

@@ -57,10 +57,10 @@ IntersectionObserver 观察目标元素，进入视口（threshold 0.15～0.25�
 
 ## 相关概念
 
-- [lazy-loading](/motion/lazy-loading) — 搭配使用
-- [infinite-scroll](/motion/infinite-scroll) — 搭配使用
-- [text-reveal](/motion/text-reveal) — 相似概念
-- [stagger-reveal](/motion/stagger-reveal) — 相似概念
+- [lazy-loading](/interface-atlas-web/patterns/lazy-loading) — 搭配使用
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 搭配使用
+- [text-reveal](/interface-atlas-web/motion/text-reveal) — 相似概念
+- [stagger-reveal](/interface-atlas-web/motion/stagger-reveal) — 相似概念
 
 ## Sources
 
@@ -68,4 +68,4 @@ IntersectionObserver 观察目标元素，进入视口（threshold 0.15～0.25�
 
 ---
 
-JSON: `/api/concept/motion/scroll-reveal.json` · 站点: /motion/scroll-reveal
+JSON: `/interface-atlas-web/api/concept/motion/scroll-reveal.json` · 站点: /interface-atlas-web/motion/scroll-reveal

@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [skeuomorphism](/styles/skeuomorphism) — Similar
-- [aurora](/styles/aurora) — Similar
-- [minimalism](/styles/minimalism) — Similar
-- [card](/styles/card) — Affects
-- [modal](/styles/modal) — Affects
+- [skeuomorphism](/interface-atlas-web/en/styles/skeuomorphism) — Similar
+- [aurora](/interface-atlas-web/en/styles/aurora) — Similar
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Similar
+- [card](/interface-atlas-web/en/components/card) — Affects
+- [modal](/interface-atlas-web/en/components/modal) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/glassmorphism.json` · Site: /en/styles/glassmorphism
+JSON: `/interface-atlas-web/api/concept/styles/glassmorphism.json` · Site: /interface-atlas-web/en/styles/glassmorphism

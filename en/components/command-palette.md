@@ -69,10 +69,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [search](/components/search) — Used with
-- [dropdown](/components/dropdown) — Alternative
-- [sidebar](/components/sidebar) — Similar
-- [menu](/components/menu) — Similar
+- [search](/interface-atlas-web/en/pages/search) — Used with
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Alternative
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Similar
+- [menu](/interface-atlas-web/en/components/menu) — Similar
 
 ## Applicable styles
 
@@ -85,4 +85,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/command-palette.json` · Site: /en/components/command-palette
+JSON: `/interface-atlas-web/api/concept/components/command-palette.json` · Site: /interface-atlas-web/en/components/command-palette

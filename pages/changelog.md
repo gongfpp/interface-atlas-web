@@ -65,11 +65,11 @@
 
 ## 相关概念
 
-- [timeline](/pages/timeline) — 包含组件
-- [accordion](/pages/accordion) — 包含组件
-- [badge](/pages/badge) — 包含组件
-- [search-filtering](/pages/search-filtering) — 使用模式
-- [documentation](/pages/documentation) — 相似概念
+- [timeline](/interface-atlas-web/components/timeline) — 包含组件
+- [accordion](/interface-atlas-web/components/accordion) — 包含组件
+- [badge](/interface-atlas-web/components/badge) — 包含组件
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 使用模式
+- [documentation](/interface-atlas-web/pages/documentation) — 相似概念
 
 ## Sources
 
@@ -78,4 +78,4 @@
 
 ---
 
-JSON: `/api/concept/pages/changelog.json` · 站点: /pages/changelog
+JSON: `/interface-atlas-web/api/concept/pages/changelog.json` · 站点: /interface-atlas-web/pages/changelog

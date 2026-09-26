@@ -63,11 +63,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [input](/patterns/input) — Used with
-- [toast](/patterns/toast) — Alternative
-- [alert](/patterns/alert) — Alternative
-- [inline-editing](/patterns/inline-editing) — Similar
-- [empty-state](/patterns/empty-state) — Similar
+- [input](/interface-atlas-web/en/components/input) — Used with
+- [toast](/interface-atlas-web/en/components/toast) — Alternative
+- [alert](/interface-atlas-web/en/components/alert) — Alternative
+- [inline-editing](/interface-atlas-web/en/patterns/inline-editing) — Similar
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Similar
 
 ## Applicable styles
 
@@ -80,4 +80,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/form-validation.json` · Site: /en/patterns/form-validation
+JSON: `/interface-atlas-web/api/concept/patterns/form-validation.json` · Site: /interface-atlas-web/en/patterns/form-validation

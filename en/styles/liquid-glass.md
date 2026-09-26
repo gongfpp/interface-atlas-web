@@ -66,16 +66,16 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [glassmorphism](/styles/glassmorphism) — Similar
-- [skeuomorphism](/styles/skeuomorphism) — Similar
-- [aurora](/styles/aurora) — Used with
-- [navbar](/styles/navbar) — Affects
-- [modal](/styles/modal) — Affects
-- [button](/styles/button) — Affects
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Similar
+- [skeuomorphism](/interface-atlas-web/en/styles/skeuomorphism) — Similar
+- [aurora](/interface-atlas-web/en/styles/aurora) — Used with
+- [navbar](/interface-atlas-web/en/components/navbar) — Affects
+- [modal](/interface-atlas-web/en/components/modal) — Affects
+- [button](/interface-atlas-web/en/components/button) — Affects
 
 ## Confusable
 
-- [glassmorphism](/styles/glassmorphism) — Glassmorphism is thin frosted blur (a veil of blur); liquid-glass is a thick refractive lens with edge distortion and speculars.
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Glassmorphism is thin frosted blur (a veil of blur); liquid-glass is a thick refractive lens with edge distortion and speculars.
 
 ## Sources
 
@@ -84,4 +84,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/liquid-glass.json` · Site: /en/styles/liquid-glass
+JSON: `/interface-atlas-web/api/concept/styles/liquid-glass.json` · Site: /interface-atlas-web/en/styles/liquid-glass

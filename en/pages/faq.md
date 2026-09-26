@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [accordion](/pages/accordion) — Contains
-- [input](/pages/input) — Contains
-- [filter-panel](/pages/filter-panel) — Contains
-- [progressive-disclosure](/pages/progressive-disclosure) — Uses pattern
-- [documentation](/pages/documentation) — Similar
+- [accordion](/interface-atlas-web/en/components/accordion) — Contains
+- [input](/interface-atlas-web/en/components/input) — Contains
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Contains
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Uses pattern
+- [documentation](/interface-atlas-web/en/pages/documentation) — Similar
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/faq.json` · Site: /en/pages/faq
+JSON: `/interface-atlas-web/api/concept/pages/faq.json` · Site: /interface-atlas-web/en/pages/faq

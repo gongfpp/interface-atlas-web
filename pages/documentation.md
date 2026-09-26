@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [sidebar](/pages/sidebar) — 包含组件
-- [breadcrumb](/pages/breadcrumb) — 包含组件
-- [command-palette](/pages/command-palette) — 包含组件
-- [tabs](/pages/tabs) — 包含组件
-- [alert](/pages/alert) — 包含组件
+- [sidebar](/interface-atlas-web/components/sidebar) — 包含组件
+- [breadcrumb](/interface-atlas-web/components/breadcrumb) — 包含组件
+- [command-palette](/interface-atlas-web/components/command-palette) — 包含组件
+- [tabs](/interface-atlas-web/components/tabs) — 包含组件
+- [alert](/interface-atlas-web/components/alert) — 包含组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/documentation.json` · 站点: /pages/documentation
+JSON: `/interface-atlas-web/api/concept/pages/documentation.json` · 站点: /interface-atlas-web/pages/documentation

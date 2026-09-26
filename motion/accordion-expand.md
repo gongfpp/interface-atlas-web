@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [accordion](/motion/accordion) — 应用于
-- [progressive-disclosure](/motion/progressive-disclosure) — 搭配使用
-- [filter-panel](/motion/filter-panel) — 应用于
-- [settings](/motion/settings) — 搭配使用
+- [accordion](/interface-atlas-web/components/accordion) — 应用于
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 搭配使用
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 应用于
+- [settings](/interface-atlas-web/pages/settings) — 搭配使用
 
 ## Sources
 
@@ -68,4 +68,4 @@
 
 ---
 
-JSON: `/api/concept/motion/accordion-expand.json` · 站点: /motion/accordion-expand
+JSON: `/interface-atlas-web/api/concept/motion/accordion-expand.json` · 站点: /interface-atlas-web/motion/accordion-expand

@@ -73,13 +73,13 @@ CSS 侧统一门控：@media (prefers-reduced-motion: reduce) { *, ::before, ::a
 
 ## 相关概念
 
-- [scroll-reveal](/a11y/scroll-reveal) — 搭配使用
-- [hover-lift](/a11y/hover-lift) — 搭配使用
-- [focus-ring](/a11y/focus-ring) — 搭配使用
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
+- [focus-ring](/interface-atlas-web/a11y/focus-ring) — 搭配使用
 
 ## 容易混淆
 
-- [page-transition](/a11y/page-transition) — page-transition 是转场动效本身，reduced-motion 是决定它要不要减弱的系统策略——一个造动效，一个裁动效。
+- [page-transition](/interface-atlas-web/motion/page-transition) — page-transition 是转场动效本身，reduced-motion 是决定它要不要减弱的系统策略——一个造动效，一个裁动效。
 
 ## Sources
 
@@ -88,4 +88,4 @@ CSS 侧统一门控：@media (prefers-reduced-motion: reduce) { *, ::before, ::a
 
 ---
 
-JSON: `/api/concept/a11y/reduced-motion.json` · 站点: /a11y/reduced-motion
+JSON: `/interface-atlas-web/api/concept/a11y/reduced-motion.json` · 站点: /interface-atlas-web/a11y/reduced-motion

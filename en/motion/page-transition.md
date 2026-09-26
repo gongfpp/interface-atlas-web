@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [drawer-slide](/motion/drawer-slide) — Similar
-- [modal](/motion/modal) — Applies to
-- [tabs](/motion/tabs) — Applies to
-- [toast-slide-in](/motion/toast-slide-in) — Similar
+- [drawer-slide](/interface-atlas-web/en/motion/drawer-slide) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Applies to
+- [tabs](/interface-atlas-web/en/components/tabs) — Applies to
+- [toast-slide-in](/interface-atlas-web/en/motion/toast-slide-in) — Similar
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/page-transition.json` · Site: /en/motion/page-transition
+JSON: `/interface-atlas-web/api/concept/motion/page-transition.json` · Site: /interface-atlas-web/en/motion/page-transition

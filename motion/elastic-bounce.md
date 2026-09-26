@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [press-feedback](/motion/press-feedback) — 相似概念
-- [magnetic-button](/motion/magnetic-button) — 相似概念
-- [confetti](/motion/confetti) — 相似概念
-- [card](/motion/card) — 应用于
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 相似概念
+- [magnetic-button](/interface-atlas-web/motion/magnetic-button) — 相似概念
+- [confetti](/interface-atlas-web/motion/confetti) — 相似概念
+- [card](/interface-atlas-web/components/card) — 应用于
 
 ## Sources
 
@@ -68,4 +68,4 @@
 
 ---
 
-JSON: `/api/concept/motion/elastic-bounce.json` · 站点: /motion/elastic-bounce
+JSON: `/interface-atlas-web/api/concept/motion/elastic-bounce.json` · 站点: /interface-atlas-web/motion/elastic-bounce

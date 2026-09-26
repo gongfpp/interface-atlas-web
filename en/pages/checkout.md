@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [input](/pages/input) — Contains
-- [form-validation](/pages/form-validation) — Uses pattern
-- [progress-bar](/pages/progress-bar) — Contains
-- [toast](/pages/toast) — Contains
-- [button](/pages/button) — Contains
+- [input](/interface-atlas-web/en/components/input) — Contains
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Uses pattern
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Contains
+- [toast](/interface-atlas-web/en/components/toast) — Contains
+- [button](/interface-atlas-web/en/components/button) — Contains
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/checkout.json` · Site: /en/pages/checkout
+JSON: `/interface-atlas-web/api/concept/pages/checkout.json` · Site: /interface-atlas-web/en/pages/checkout

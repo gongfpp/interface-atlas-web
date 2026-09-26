@@ -52,9 +52,9 @@ Run existing checks and list changed files and validation results.
 
 ## Related
 
-- [radio](/components/radio) — Similar
-- [slider](/components/slider) — Similar
-- [button](/components/button) — Similar
+- [radio](/interface-atlas-web/en/components/radio) — Similar
+- [slider](/interface-atlas-web/en/components/slider) — Similar
+- [button](/interface-atlas-web/en/components/button) — Similar
 
 ## Sources
 
@@ -62,4 +62,4 @@ Run existing checks and list changed files and validation results.
 
 ---
 
-JSON: `/api/concept/components/rating.json` · Site: /en/components/rating
+JSON: `/interface-atlas-web/api/concept/components/rating.json` · Site: /interface-atlas-web/en/components/rating

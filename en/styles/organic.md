@@ -56,10 +56,10 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 ## Related
 
-- [minimalism](/styles/minimalism) — Similar
-- [editorial](/styles/editorial) — Similar
-- [claymorphism](/styles/claymorphism) — Similar
-- [button](/styles/button) — Affects
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Similar
+- [editorial](/interface-atlas-web/en/styles/editorial) — Similar
+- [claymorphism](/interface-atlas-web/en/styles/claymorphism) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
 
 ## Sources
 
@@ -67,4 +67,4 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 ---
 
-JSON: `/api/concept/styles/organic.json` · Site: /en/styles/organic
+JSON: `/interface-atlas-web/api/concept/styles/organic.json` · Site: /interface-atlas-web/en/styles/organic

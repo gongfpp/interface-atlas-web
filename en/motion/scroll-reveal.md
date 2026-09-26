@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [lazy-loading](/motion/lazy-loading) — Used with
-- [infinite-scroll](/motion/infinite-scroll) — Used with
-- [text-reveal](/motion/text-reveal) — Similar
-- [stagger-reveal](/motion/stagger-reveal) — Similar
+- [lazy-loading](/interface-atlas-web/en/patterns/lazy-loading) — Used with
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Used with
+- [text-reveal](/interface-atlas-web/en/motion/text-reveal) — Similar
+- [stagger-reveal](/interface-atlas-web/en/motion/stagger-reveal) — Similar
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/scroll-reveal.json` · Site: /en/motion/scroll-reveal
+JSON: `/interface-atlas-web/api/concept/motion/scroll-reveal.json` · Site: /interface-atlas-web/en/motion/scroll-reveal

@@ -63,10 +63,10 @@
 
 ## 相关概念
 
-- [input](/components/input) — 相似概念
-- [popover](/components/popover) — 相似概念
-- [dropdown](/components/dropdown) — 相似概念
-- [form-validation](/components/form-validation) — 搭配使用
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [popover](/interface-atlas-web/components/popover) — 相似概念
+- [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
 
 ## 可搭配的风格
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/components/date-picker.json` · 站点: /components/date-picker
+JSON: `/interface-atlas-web/api/concept/components/date-picker.json` · 站点: /interface-atlas-web/components/date-picker

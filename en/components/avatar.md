@@ -63,9 +63,9 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [badge](/components/badge) — Similar
-- [dropdown](/components/dropdown) — Similar
-- [profile](/components/profile) — Used with
+- [badge](/interface-atlas-web/en/components/badge) — Similar
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
+- [profile](/interface-atlas-web/en/pages/profile) — Used with
 
 ## Sources
 
@@ -74,4 +74,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/avatar.json` · Site: /en/components/avatar
+JSON: `/interface-atlas-web/api/concept/components/avatar.json` · Site: /interface-atlas-web/en/components/avatar

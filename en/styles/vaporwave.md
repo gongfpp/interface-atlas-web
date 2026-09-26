@@ -66,12 +66,12 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [y2k](/styles/y2k) — Similar
-- [cyberpunk](/styles/cyberpunk) — Similar
-- [retro-futurism](/styles/retro-futurism) — Similar
-- [memphis](/styles/memphis) — Similar
-- [card](/styles/card) — Affects
-- [button](/styles/button) — Affects
+- [y2k](/interface-atlas-web/en/styles/y2k) — Similar
+- [cyberpunk](/interface-atlas-web/en/styles/cyberpunk) — Similar
+- [retro-futurism](/interface-atlas-web/en/styles/retro-futurism) — Similar
+- [memphis](/interface-atlas-web/en/styles/memphis) — Similar
+- [card](/interface-atlas-web/en/components/card) — Affects
+- [button](/interface-atlas-web/en/components/button) — Affects
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/vaporwave.json` · Site: /en/styles/vaporwave
+JSON: `/interface-atlas-web/api/concept/styles/vaporwave.json` · Site: /interface-atlas-web/en/styles/vaporwave

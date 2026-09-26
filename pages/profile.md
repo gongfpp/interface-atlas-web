@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [avatar](/pages/avatar) — 包含组件
-- [tabs](/pages/tabs) — 包含组件
-- [card](/pages/card) — 包含组件
-- [button](/pages/button) — 包含组件
-- [badge](/pages/badge) — 包含组件
+- [avatar](/interface-atlas-web/components/avatar) — 包含组件
+- [tabs](/interface-atlas-web/components/tabs) — 包含组件
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [button](/interface-atlas-web/components/button) — 包含组件
+- [badge](/interface-atlas-web/components/badge) — 包含组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/profile.json` · 站点: /pages/profile
+JSON: `/interface-atlas-web/api/concept/pages/profile.json` · 站点: /interface-atlas-web/pages/profile

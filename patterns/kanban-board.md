@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [drag-and-drop-sorting](/patterns/drag-and-drop-sorting) — 相似概念
-- [optimistic-ui](/patterns/optimistic-ui) — 相似概念
-- [dashboard](/patterns/dashboard) — 搭配使用
-- [master-detail](/patterns/master-detail) — 相似概念
+- [drag-and-drop-sorting](/interface-atlas-web/patterns/drag-and-drop-sorting) — 相似概念
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 相似概念
+- [dashboard](/interface-atlas-web/pages/dashboard) — 搭配使用
+- [master-detail](/interface-atlas-web/patterns/master-detail) — 相似概念
 
 ## 可搭配的风格
 
@@ -73,4 +73,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/kanban-board.json` · 站点: /patterns/kanban-board
+JSON: `/interface-atlas-web/api/concept/patterns/kanban-board.json` · 站点: /interface-atlas-web/patterns/kanban-board

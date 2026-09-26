@@ -69,10 +69,10 @@
 
 ## 相关概念
 
-- [search](/components/search) — 搭配使用
-- [dropdown](/components/dropdown) — 替代方案
-- [sidebar](/components/sidebar) — 相似概念
-- [menu](/components/menu) — 相似概念
+- [search](/interface-atlas-web/pages/search) — 搭配使用
+- [dropdown](/interface-atlas-web/components/dropdown) — 替代方案
+- [sidebar](/interface-atlas-web/components/sidebar) — 相似概念
+- [menu](/interface-atlas-web/components/menu) — 相似概念
 
 ## 可搭配的风格
 
@@ -85,4 +85,4 @@
 
 ---
 
-JSON: `/api/concept/components/command-palette.json` · 站点: /components/command-palette
+JSON: `/interface-atlas-web/api/concept/components/command-palette.json` · 站点: /interface-atlas-web/components/command-palette

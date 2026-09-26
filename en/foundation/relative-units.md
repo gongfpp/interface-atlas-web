@@ -72,10 +72,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [type-scale](/foundation/type-scale) — Used with
-- [pixel-density](/foundation/pixel-density) — Similar
-- [spacing-scale](/foundation/spacing-scale) — Similar
-- [measure](/foundation/measure) — Used with
+- [type-scale](/interface-atlas-web/en/foundation/type-scale) — Used with
+- [pixel-density](/interface-atlas-web/en/foundation/pixel-density) — Similar
+- [spacing-scale](/interface-atlas-web/en/foundation/spacing-scale) — Similar
+- [measure](/interface-atlas-web/en/foundation/measure) — Used with
 
 ## Sources
 
@@ -85,4 +85,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/relative-units.json` · Site: /en/foundation/relative-units
+JSON: `/interface-atlas-web/api/concept/foundation/relative-units.json` · Site: /interface-atlas-web/en/foundation/relative-units

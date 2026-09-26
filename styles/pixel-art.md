@@ -66,12 +66,12 @@
 
 ## 相关概念
 
-- [y2k](/styles/y2k) — 相似概念
-- [retro-futurism](/styles/retro-futurism) — 相似概念
-- [cyberpunk](/styles/cyberpunk) — 搭配使用
-- [button](/styles/button) — 影响组件
-- [badge](/styles/badge) — 影响组件
-- [progress-bar](/styles/progress-bar) — 影响组件
+- [y2k](/interface-atlas-web/styles/y2k) — 相似概念
+- [retro-futurism](/interface-atlas-web/styles/retro-futurism) — 相似概念
+- [cyberpunk](/interface-atlas-web/styles/cyberpunk) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [badge](/interface-atlas-web/components/badge) — 影响组件
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 影响组件
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/styles/pixel-art.json` · 站点: /styles/pixel-art
+JSON: `/interface-atlas-web/api/concept/styles/pixel-art.json` · 站点: /interface-atlas-web/styles/pixel-art

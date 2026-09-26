@@ -62,10 +62,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [progress-bar](/components/progress-bar) — Similar
-- [input](/components/input) — Similar
-- [number-counter](/components/number-counter) — Used with
-- [form-validation](/components/form-validation) — Used with
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Similar
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [number-counter](/interface-atlas-web/en/motion/number-counter) — Used with
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
 
 ## Applicable styles
 
@@ -78,4 +78,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/slider.json` · Site: /en/components/slider
+JSON: `/interface-atlas-web/api/concept/components/slider.json` · Site: /interface-atlas-web/en/components/slider

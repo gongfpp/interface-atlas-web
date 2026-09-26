@@ -67,11 +67,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [accordion](/pages/accordion) — Contains
-- [card](/pages/card) — Contains
-- [search-filtering](/pages/search-filtering) — Uses pattern
-- [progressive-disclosure](/pages/progressive-disclosure) — Uses pattern
-- [empty-state](/pages/empty-state) — Uses pattern
+- [accordion](/interface-atlas-web/en/components/accordion) — Contains
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Uses pattern
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Uses pattern
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Uses pattern
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/help-center.json` · Site: /en/pages/help-center
+JSON: `/interface-atlas-web/api/concept/pages/help-center.json` · Site: /interface-atlas-web/en/pages/help-center

@@ -70,14 +70,14 @@
 
 ## 相关概念
 
-- [select](/components/select) — 替代方案
-- [combobox](/components/combobox) — 替代方案
-- [tag-input](/components/tag-input) — 相似概念
+- [select](/interface-atlas-web/components/select) — 替代方案
+- [combobox](/interface-atlas-web/components/combobox) — 替代方案
+- [tag-input](/interface-atlas-web/components/tag-input) — 相似概念
 
 ## 容易混淆
 
-- [select](/components/select) — select 是互斥单选，多选框组累积多个值并以标签回显
-- [combobox](/components/combobox) — combobox 强调输入检索并提交单值，多选框组强调集合管理
+- [select](/interface-atlas-web/components/select) — select 是互斥单选，多选框组累积多个值并以标签回显
+- [combobox](/interface-atlas-web/components/combobox) — combobox 强调输入检索并提交单值，多选框组强调集合管理
 
 ## Sources
 
@@ -87,4 +87,4 @@
 
 ---
 
-JSON: `/api/concept/components/multi-select.json` · 站点: /components/multi-select
+JSON: `/interface-atlas-web/api/concept/components/multi-select.json` · 站点: /interface-atlas-web/components/multi-select

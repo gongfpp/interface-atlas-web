@@ -73,16 +73,16 @@
 
 ## 相关概念
 
-- [dropdown](/components/dropdown) — 相似概念
-- [navbar](/components/navbar) — 替代方案
-- [command-palette](/components/command-palette) — 相似概念
-- [popover](/components/popover) — 相似概念
+- [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
+- [navbar](/interface-atlas-web/components/navbar) — 替代方案
+- [command-palette](/interface-atlas-web/components/command-palette) — 相似概念
+- [popover](/interface-atlas-web/components/popover) — 相似概念
 
 ## 容易混淆
 
-- [dropdown](/components/dropdown) — Dropdown 是按钮+菜单的完整控件，Menu 只是弹出的命令列表部分。
-- [navbar](/components/navbar) — Navbar 跳转页面目的地，Menu 执行即时命令。
-- [select](/components/select) — Select 选中一个值回填表单，Menu 触发一个动作。
+- [dropdown](/interface-atlas-web/components/dropdown) — Dropdown 是按钮+菜单的完整控件，Menu 只是弹出的命令列表部分。
+- [navbar](/interface-atlas-web/components/navbar) — Navbar 跳转页面目的地，Menu 执行即时命令。
+- [select](/interface-atlas-web/components/select) — Select 选中一个值回填表单，Menu 触发一个动作。
 
 ## Sources
 
@@ -91,4 +91,4 @@
 
 ---
 
-JSON: `/api/concept/components/menu.json` · 站点: /components/menu
+JSON: `/interface-atlas-web/api/concept/components/menu.json` · 站点: /interface-atlas-web/components/menu

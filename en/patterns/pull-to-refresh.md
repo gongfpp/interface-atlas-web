@@ -64,11 +64,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [infinite-scroll](/patterns/infinite-scroll) — Alternative
-- [pagination](/patterns/pagination) — Alternative
-- [loading-spinner](/patterns/loading-spinner) — Used with
-- [skeleton-loading](/patterns/skeleton-loading) — Similar
-- [toast](/patterns/toast) — Used with
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Alternative
+- [pagination](/interface-atlas-web/en/components/pagination) — Alternative
+- [loading-spinner](/interface-atlas-web/en/motion/loading-spinner) — Used with
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Similar
+- [toast](/interface-atlas-web/en/components/toast) — Used with
 
 ## Sources
 
@@ -77,4 +77,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/pull-to-refresh.json` · Site: /en/patterns/pull-to-refresh
+JSON: `/interface-atlas-web/api/concept/patterns/pull-to-refresh.json` · Site: /interface-atlas-web/en/patterns/pull-to-refresh

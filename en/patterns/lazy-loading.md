@@ -57,11 +57,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [infinite-scroll](/patterns/infinite-scroll) — Similar
-- [skeleton-loading](/patterns/skeleton-loading) — Similar
-- [progressive-disclosure](/patterns/progressive-disclosure) — Similar
-- [empty-state](/patterns/empty-state) — Similar
-- [pagination](/patterns/pagination) — Used with
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Similar
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Similar
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Similar
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Similar
+- [pagination](/interface-atlas-web/en/components/pagination) — Used with
 
 ## Applicable styles
 
@@ -74,4 +74,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/lazy-loading.json` · Site: /en/patterns/lazy-loading
+JSON: `/interface-atlas-web/api/concept/patterns/lazy-loading.json` · Site: /interface-atlas-web/en/patterns/lazy-loading

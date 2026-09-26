@@ -80,10 +80,10 @@
 
 ## 相关概念
 
-- [loading-spinner](/components/loading-spinner) — 替代方案
-- [skeleton-loading](/components/skeleton-loading) — 替代方案
-- [number-counter](/components/number-counter) — 搭配使用
-- [optimistic-ui](/components/optimistic-ui) — 搭配使用
+- [loading-spinner](/interface-atlas-web/motion/loading-spinner) — 替代方案
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 替代方案
+- [number-counter](/interface-atlas-web/motion/number-counter) — 搭配使用
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 搭配使用
 
 ## Sources
 
@@ -92,4 +92,4 @@
 
 ---
 
-JSON: `/api/concept/components/progress-bar.json` · 站点: /components/progress-bar
+JSON: `/interface-atlas-web/api/concept/components/progress-bar.json` · 站点: /interface-atlas-web/components/progress-bar

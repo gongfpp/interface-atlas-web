@@ -79,11 +79,11 @@
 
 ## 相关概念
 
-- [press-feedback](/components/press-feedback) — 替代方案
-- [ripple](/components/ripple) — 搭配使用
-- [magnetic-button](/components/magnetic-button) — 搭配使用
-- [hover-lift](/components/hover-lift) — 搭配使用
-- [loading-spinner](/components/loading-spinner) — 搭配使用
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 替代方案
+- [ripple](/interface-atlas-web/motion/ripple) — 搭配使用
+- [magnetic-button](/interface-atlas-web/motion/magnetic-button) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
+- [loading-spinner](/interface-atlas-web/motion/loading-spinner) — 搭配使用
 
 ## 可搭配的风格
 
@@ -96,4 +96,4 @@
 
 ---
 
-JSON: `/api/concept/components/button.json` · 站点: /components/button
+JSON: `/interface-atlas-web/api/concept/components/button.json` · 站点: /interface-atlas-web/components/button

@@ -63,10 +63,10 @@
 
 ## 相关概念
 
-- [command-palette](/patterns/command-palette) — 搭配使用
-- [tooltip](/patterns/tooltip) — 搭配使用
-- [focus-ring](/patterns/focus-ring) — 搭配使用
-- [keyboard-navigation](/patterns/keyboard-navigation) — 搭配使用
+- [command-palette](/interface-atlas-web/components/command-palette) — 搭配使用
+- [tooltip](/interface-atlas-web/components/tooltip) — 搭配使用
+- [focus-ring](/interface-atlas-web/a11y/focus-ring) — 搭配使用
+- [keyboard-navigation](/interface-atlas-web/a11y/keyboard-navigation) — 搭配使用
 
 ## Sources
 
@@ -76,4 +76,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/keyboard-shortcuts.json` · 站点: /patterns/keyboard-shortcuts
+JSON: `/interface-atlas-web/api/concept/patterns/keyboard-shortcuts.json` · 站点: /interface-atlas-web/patterns/keyboard-shortcuts

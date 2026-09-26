@@ -65,10 +65,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [error-500](/pages/error-500) — Similar
-- [button](/pages/button) — Contains
-- [navbar](/pages/navbar) — Contains
-- [empty-state](/pages/empty-state) — Uses pattern
+- [error-500](/interface-atlas-web/en/pages/error-500) — Similar
+- [button](/interface-atlas-web/en/components/button) — Contains
+- [navbar](/interface-atlas-web/en/components/navbar) — Contains
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Uses pattern
 
 ## Sources
 
@@ -77,4 +77,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/error-404.json` · Site: /en/pages/error-404
+JSON: `/interface-atlas-web/api/concept/pages/error-404.json` · Site: /interface-atlas-web/en/pages/error-404

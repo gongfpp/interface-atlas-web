@@ -52,9 +52,9 @@ Run existing checks and list changed files and validation results.
 
 ## Related
 
-- [input](/components/input) — Similar
-- [select](/components/select) — Similar
-- [command-palette](/components/command-palette) — Similar
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [select](/interface-atlas-web/en/components/select) — Similar
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Similar
 
 ## Sources
 
@@ -62,4 +62,4 @@ Run existing checks and list changed files and validation results.
 
 ---
 
-JSON: `/api/concept/components/combobox.json` · Site: /en/components/combobox
+JSON: `/interface-atlas-web/api/concept/components/combobox.json` · Site: /interface-atlas-web/en/components/combobox

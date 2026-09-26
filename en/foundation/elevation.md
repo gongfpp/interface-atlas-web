@@ -70,9 +70,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [semantic-color](/foundation/semantic-color) — Used with
-- [glassmorphism](/foundation/glassmorphism) — Used with
-- [hover-lift](/foundation/hover-lift) — Used with
+- [semantic-color](/interface-atlas-web/en/foundation/semantic-color) — Used with
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
 
 ## Sources
 
@@ -82,4 +82,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/elevation.json` · Site: /en/foundation/elevation
+JSON: `/interface-atlas-web/api/concept/foundation/elevation.json` · Site: /interface-atlas-web/en/foundation/elevation

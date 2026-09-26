@@ -62,9 +62,9 @@
 
 ## 相关概念
 
-- [page-transition](/motion/page-transition) — 替代方案
-- [shared-element-transition](/motion/shared-element-transition) — 相似概念
-- [morphing-icon](/motion/morphing-icon) — 搭配使用
+- [page-transition](/interface-atlas-web/motion/page-transition) — 替代方案
+- [shared-element-transition](/interface-atlas-web/motion/shared-element-transition) — 相似概念
+- [morphing-icon](/interface-atlas-web/motion/morphing-icon) — 搭配使用
 
 ## Sources
 
@@ -74,4 +74,4 @@
 
 ---
 
-JSON: `/api/concept/motion/view-transition.json` · 站点: /motion/view-transition
+JSON: `/interface-atlas-web/api/concept/motion/view-transition.json` · 站点: /interface-atlas-web/motion/view-transition

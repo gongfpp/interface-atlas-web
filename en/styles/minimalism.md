@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [flat-design](/styles/flat-design) — Similar
-- [swiss-style](/styles/swiss-style) — Similar
-- [editorial](/styles/editorial) — Similar
-- [button](/styles/button) — Affects
-- [card](/styles/card) — Affects
+- [flat-design](/interface-atlas-web/en/styles/flat-design) — Similar
+- [swiss-style](/interface-atlas-web/en/styles/swiss-style) — Similar
+- [editorial](/interface-atlas-web/en/styles/editorial) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [card](/interface-atlas-web/en/components/card) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/minimalism.json` · Site: /en/styles/minimalism
+JSON: `/interface-atlas-web/api/concept/styles/minimalism.json` · Site: /interface-atlas-web/en/styles/minimalism

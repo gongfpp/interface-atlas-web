@@ -66,12 +66,12 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [y2k](/styles/y2k) — Similar
-- [retro-futurism](/styles/retro-futurism) — Similar
-- [cyberpunk](/styles/cyberpunk) — Used with
-- [button](/styles/button) — Affects
-- [badge](/styles/badge) — Affects
-- [progress-bar](/styles/progress-bar) — Affects
+- [y2k](/interface-atlas-web/en/styles/y2k) — Similar
+- [retro-futurism](/interface-atlas-web/en/styles/retro-futurism) — Similar
+- [cyberpunk](/interface-atlas-web/en/styles/cyberpunk) — Used with
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [badge](/interface-atlas-web/en/components/badge) — Affects
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Affects
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/pixel-art.json` · Site: /en/styles/pixel-art
+JSON: `/interface-atlas-web/api/concept/styles/pixel-art.json` · Site: /interface-atlas-web/en/styles/pixel-art

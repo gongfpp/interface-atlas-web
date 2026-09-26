@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [card](/pages/card) — Contains
-- [pagination](/pages/pagination) — Contains
-- [infinite-scroll](/pages/infinite-scroll) — Uses pattern
-- [search-filtering](/pages/search-filtering) — Uses pattern
-- [blog-post](/pages/blog-post) — Similar
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [pagination](/interface-atlas-web/en/components/pagination) — Contains
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Uses pattern
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Uses pattern
+- [blog-post](/interface-atlas-web/en/pages/blog-post) — Similar
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/blog-index.json` · Site: /en/pages/blog-index
+JSON: `/interface-atlas-web/api/concept/pages/blog-index.json` · Site: /interface-atlas-web/en/pages/blog-index

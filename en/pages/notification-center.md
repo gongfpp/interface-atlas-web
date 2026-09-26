@@ -67,11 +67,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [tabs](/pages/tabs) — Contains
-- [badge](/pages/badge) — Contains
-- [avatar](/pages/avatar) — Contains
-- [infinite-scroll](/pages/infinite-scroll) — Uses pattern
-- [empty-state](/pages/empty-state) — Uses pattern
+- [tabs](/interface-atlas-web/en/components/tabs) — Contains
+- [badge](/interface-atlas-web/en/components/badge) — Contains
+- [avatar](/interface-atlas-web/en/components/avatar) — Contains
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Uses pattern
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Uses pattern
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/notification-center.json` · Site: /en/pages/notification-center
+JSON: `/interface-atlas-web/api/concept/pages/notification-center.json` · Site: /interface-atlas-web/en/pages/notification-center

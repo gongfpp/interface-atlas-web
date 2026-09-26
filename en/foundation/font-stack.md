@@ -71,9 +71,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [type-scale](/foundation/type-scale) — Used with
-- [line-height](/foundation/line-height) — Used with
-- [minimalism](/foundation/minimalism) — Used with
+- [type-scale](/interface-atlas-web/en/foundation/type-scale) — Used with
+- [line-height](/interface-atlas-web/en/foundation/line-height) — Used with
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Used with
 
 ## Sources
 
@@ -83,4 +83,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/font-stack.json` · Site: /en/foundation/font-stack
+JSON: `/interface-atlas-web/api/concept/foundation/font-stack.json` · Site: /interface-atlas-web/en/foundation/font-stack

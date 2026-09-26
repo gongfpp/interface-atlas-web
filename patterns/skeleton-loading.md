@@ -65,11 +65,11 @@
 
 ## 相关概念
 
-- [loading-spinner](/patterns/loading-spinner) — 替代方案
-- [progress-bar](/patterns/progress-bar) — 替代方案
-- [optimistic-ui](/patterns/optimistic-ui) — 相似概念
-- [lazy-loading](/patterns/lazy-loading) — 相似概念
-- [empty-state](/patterns/empty-state) — 相似概念
+- [loading-spinner](/interface-atlas-web/motion/loading-spinner) — 替代方案
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 替代方案
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 相似概念
+- [lazy-loading](/interface-atlas-web/patterns/lazy-loading) — 相似概念
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 相似概念
 
 ## 可搭配的风格
 
@@ -82,4 +82,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/skeleton-loading.json` · 站点: /patterns/skeleton-loading
+JSON: `/interface-atlas-web/api/concept/patterns/skeleton-loading.json` · 站点: /interface-atlas-web/patterns/skeleton-loading

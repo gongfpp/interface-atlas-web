@@ -67,11 +67,11 @@
 
 ## 相关概念
 
-- [card](/pages/card) — 包含组件
-- [badge](/pages/badge) — 包含组件
-- [switch](/pages/switch) — 包含组件
-- [accordion](/pages/accordion) — 包含组件
-- [table](/pages/table) — 包含组件
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [badge](/interface-atlas-web/components/badge) — 包含组件
+- [switch](/interface-atlas-web/components/switch) — 包含组件
+- [accordion](/interface-atlas-web/components/accordion) — 包含组件
+- [table](/interface-atlas-web/components/table) — 包含组件
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/pages/pricing.json` · 站点: /pages/pricing
+JSON: `/interface-atlas-web/api/concept/pages/pricing.json` · 站点: /interface-atlas-web/pages/pricing

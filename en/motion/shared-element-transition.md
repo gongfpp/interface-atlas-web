@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [page-transition](/motion/page-transition) — Similar
-- [modal](/motion/modal) — Applies to
-- [card](/motion/card) — Applies to
-- [master-detail](/motion/master-detail) — Used with
+- [page-transition](/interface-atlas-web/en/motion/page-transition) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Applies to
+- [card](/interface-atlas-web/en/components/card) — Applies to
+- [master-detail](/interface-atlas-web/en/patterns/master-detail) — Used with
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/shared-element-transition.json` · Site: /en/motion/shared-element-transition
+JSON: `/interface-atlas-web/api/concept/motion/shared-element-transition.json` · Site: /interface-atlas-web/en/motion/shared-element-transition

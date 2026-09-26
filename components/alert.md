@@ -83,14 +83,14 @@ Alert 是页内持续显示的状态消息；Toast 是短暂浮层反馈；Modal
 
 ## 相关概念
 
-- [toast](/components/toast) — 替代方案
-- [form-validation](/components/form-validation) — 替代方案
-- [modal](/components/modal) — 相似概念
+- [toast](/interface-atlas-web/components/toast) — 替代方案
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 替代方案
+- [modal](/interface-atlas-web/components/modal) — 相似概念
 
 ## 容易混淆
 
-- [toast](/components/toast) — Toast 短暂自动消失，Alert 常驻直到状态消除。
-- [modal](/components/modal) — Modal 阻断并要求操作，Alert 只告知不打断。
+- [toast](/interface-atlas-web/components/toast) — Toast 短暂自动消失，Alert 常驻直到状态消除。
+- [modal](/interface-atlas-web/components/modal) — Modal 阻断并要求操作，Alert 只告知不打断。
 
 ## Sources
 
@@ -99,4 +99,4 @@ Alert 是页内持续显示的状态消息；Toast 是短暂浮层反馈；Modal
 
 ---
 
-JSON: `/api/concept/components/alert.json` · 站点: /components/alert
+JSON: `/interface-atlas-web/api/concept/components/alert.json` · 站点: /interface-atlas-web/components/alert

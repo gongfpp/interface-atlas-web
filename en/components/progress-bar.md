@@ -81,10 +81,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [loading-spinner](/components/loading-spinner) — Alternative
-- [skeleton-loading](/components/skeleton-loading) — Alternative
-- [number-counter](/components/number-counter) — Used with
-- [optimistic-ui](/components/optimistic-ui) — Used with
+- [loading-spinner](/interface-atlas-web/en/motion/loading-spinner) — Alternative
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Alternative
+- [number-counter](/interface-atlas-web/en/motion/number-counter) — Used with
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Used with
 
 ## Sources
 
@@ -93,4 +93,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/progress-bar.json` · Site: /en/components/progress-bar
+JSON: `/interface-atlas-web/api/concept/components/progress-bar.json` · Site: /interface-atlas-web/en/components/progress-bar

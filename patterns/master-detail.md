@@ -58,11 +58,11 @@
 
 ## 相关概念
 
-- [sidebar](/patterns/sidebar) — 搭配使用
-- [table](/patterns/table) — 搭配使用
-- [card](/patterns/card) — 搭配使用
-- [drawer](/patterns/drawer) — 搭配使用
-- [tabs](/patterns/tabs) — 搭配使用
+- [sidebar](/interface-atlas-web/components/sidebar) — 搭配使用
+- [table](/interface-atlas-web/components/table) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 搭配使用
+- [drawer](/interface-atlas-web/components/drawer) — 搭配使用
+- [tabs](/interface-atlas-web/components/tabs) — 搭配使用
 
 ## Sources
 
@@ -71,4 +71,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/master-detail.json` · 站点: /patterns/master-detail
+JSON: `/interface-atlas-web/api/concept/patterns/master-detail.json` · 站点: /interface-atlas-web/patterns/master-detail

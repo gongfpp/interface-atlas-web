@@ -65,11 +65,11 @@
 
 ## 相关概念
 
-- [card](/pages/card) — 包含组件
-- [avatar](/pages/avatar) — 包含组件
-- [badge](/pages/badge) — 包含组件
-- [profile](/pages/profile) — 相似概念
-- [hover-lift](/pages/hover-lift) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [avatar](/interface-atlas-web/components/avatar) — 包含组件
+- [badge](/interface-atlas-web/components/badge) — 包含组件
+- [profile](/interface-atlas-web/pages/profile) — 相似概念
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/team.json` · 站点: /pages/team
+JSON: `/interface-atlas-web/api/concept/pages/team.json` · 站点: /interface-atlas-web/pages/team

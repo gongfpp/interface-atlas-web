@@ -65,11 +65,11 @@
 
 ## 相关概念
 
-- [pagination](/patterns/pagination) — 替代方案
-- [pull-to-refresh](/patterns/pull-to-refresh) — 替代方案
-- [skeleton-loading](/patterns/skeleton-loading) — 相似概念
-- [lazy-loading](/patterns/lazy-loading) — 相似概念
-- [search-filtering](/patterns/search-filtering) — 相似概念
+- [pagination](/interface-atlas-web/components/pagination) — 替代方案
+- [pull-to-refresh](/interface-atlas-web/patterns/pull-to-refresh) — 替代方案
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 相似概念
+- [lazy-loading](/interface-atlas-web/patterns/lazy-loading) — 相似概念
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 相似概念
 
 ## Sources
 
@@ -78,4 +78,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/infinite-scroll.json` · 站点: /patterns/infinite-scroll
+JSON: `/interface-atlas-web/api/concept/patterns/infinite-scroll.json` · 站点: /interface-atlas-web/patterns/infinite-scroll

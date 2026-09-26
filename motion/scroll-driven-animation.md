@@ -63,9 +63,9 @@
 
 ## 相关概念
 
-- [scroll-reveal](/motion/scroll-reveal) — 替代方案
-- [parallax](/motion/parallax) — 替代方案
-- [text-reveal](/motion/text-reveal) — 搭配使用
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 替代方案
+- [parallax](/interface-atlas-web/motion/parallax) — 替代方案
+- [text-reveal](/interface-atlas-web/motion/text-reveal) — 搭配使用
 
 ## Sources
 
@@ -75,4 +75,4 @@
 
 ---
 
-JSON: `/api/concept/motion/scroll-driven-animation.json` · 站点: /motion/scroll-driven-animation
+JSON: `/interface-atlas-web/api/concept/motion/scroll-driven-animation.json` · 站点: /interface-atlas-web/motion/scroll-driven-animation

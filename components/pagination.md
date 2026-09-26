@@ -69,11 +69,11 @@
 
 ## 相关概念
 
-- [infinite-scroll](/components/infinite-scroll) — 替代方案
-- [pull-to-refresh](/components/pull-to-refresh) — 替代方案
-- [table](/components/table) — 相似概念
-- [tabs](/components/tabs) — 相似概念
-- [search-filtering](/components/search-filtering) — 搭配使用
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 替代方案
+- [pull-to-refresh](/interface-atlas-web/patterns/pull-to-refresh) — 替代方案
+- [table](/interface-atlas-web/components/table) — 相似概念
+- [tabs](/interface-atlas-web/components/tabs) — 相似概念
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 搭配使用
 
 ## 可搭配的风格
 
@@ -86,4 +86,4 @@
 
 ---
 
-JSON: `/api/concept/components/pagination.json` · 站点: /components/pagination
+JSON: `/interface-atlas-web/api/concept/components/pagination.json` · 站点: /interface-atlas-web/components/pagination

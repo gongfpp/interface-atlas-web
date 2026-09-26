@@ -64,11 +64,11 @@
 
 ## 相关概念
 
-- [onboarding-tour](/pages/onboarding-tour) — 使用模式
-- [wizard](/pages/wizard) — 使用模式
-- [stepper](/pages/stepper) — 包含组件
-- [progress-bar](/pages/progress-bar) — 包含组件
-- [button](/pages/button) — 包含组件
+- [onboarding-tour](/interface-atlas-web/patterns/onboarding-tour) — 使用模式
+- [wizard](/interface-atlas-web/patterns/wizard) — 使用模式
+- [stepper](/interface-atlas-web/components/stepper) — 包含组件
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 包含组件
+- [button](/interface-atlas-web/components/button) — 包含组件
 
 ## Sources
 
@@ -77,4 +77,4 @@
 
 ---
 
-JSON: `/api/concept/pages/onboarding.json` · 站点: /pages/onboarding
+JSON: `/interface-atlas-web/api/concept/pages/onboarding.json` · 站点: /interface-atlas-web/pages/onboarding

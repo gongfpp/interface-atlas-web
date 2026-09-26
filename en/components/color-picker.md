@@ -75,14 +75,14 @@ Run the existing project checks when done and list the modified files.
 
 ## Related
 
-- [input](/components/input) — Similar
-- [slider](/components/slider) — Used with
-- [switch](/components/switch) — Used with
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [slider](/interface-atlas-web/en/components/slider) — Used with
+- [switch](/interface-atlas-web/en/components/switch) — Used with
 
 ## Confusable
 
-- [slider](/components/slider) — Slider tunes one numeric axis; color-picker locates a point in colour space
-- [input](/components/input) — Input accepts any text; color-picker guarantees a valid colour value
+- [slider](/interface-atlas-web/en/components/slider) — Slider tunes one numeric axis; color-picker locates a point in colour space
+- [input](/interface-atlas-web/en/components/input) — Input accepts any text; color-picker guarantees a valid colour value
 
 ## Sources
 
@@ -92,4 +92,4 @@ Run the existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/color-picker.json` · Site: /en/components/color-picker
+JSON: `/interface-atlas-web/api/concept/components/color-picker.json` · Site: /interface-atlas-web/en/components/color-picker

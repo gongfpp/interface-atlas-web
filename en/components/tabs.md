@@ -76,17 +76,17 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [accordion](/components/accordion) — Similar
-- [breadcrumb](/components/breadcrumb) — Similar
-- [pagination](/components/pagination) — Similar
-- [dropdown](/components/dropdown) — Similar
-- [sidebar](/components/sidebar) — Similar
+- [accordion](/interface-atlas-web/en/components/accordion) — Similar
+- [breadcrumb](/interface-atlas-web/en/components/breadcrumb) — Similar
+- [pagination](/interface-atlas-web/en/components/pagination) — Similar
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Similar
 
 ## Confusable
 
-- [segmented-control](/components/segmented-control) — A segmented control is compact for modes/filters; tabs section content.
-- [breadcrumb](/components/breadcrumb) — A breadcrumb shows hierarchy; tabs show peers.
-- [sidebar](/components/sidebar) — A sidebar is persistent navigation; tabs are a strip inside content.
+- [segmented-control](/interface-atlas-web/en/components/segmented-control) — A segmented control is compact for modes/filters; tabs section content.
+- [breadcrumb](/interface-atlas-web/en/components/breadcrumb) — A breadcrumb shows hierarchy; tabs show peers.
+- [sidebar](/interface-atlas-web/en/components/sidebar) — A sidebar is persistent navigation; tabs are a strip inside content.
 
 ## Applicable styles
 
@@ -99,4 +99,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/tabs.json` · Site: /en/components/tabs
+JSON: `/interface-atlas-web/api/concept/components/tabs.json` · Site: /interface-atlas-web/en/components/tabs

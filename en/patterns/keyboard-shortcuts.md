@@ -63,10 +63,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [command-palette](/patterns/command-palette) — Used with
-- [tooltip](/patterns/tooltip) — Used with
-- [focus-ring](/patterns/focus-ring) — Used with
-- [keyboard-navigation](/patterns/keyboard-navigation) — Used with
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Used with
+- [tooltip](/interface-atlas-web/en/components/tooltip) — Used with
+- [focus-ring](/interface-atlas-web/en/a11y/focus-ring) — Used with
+- [keyboard-navigation](/interface-atlas-web/en/a11y/keyboard-navigation) — Used with
 
 ## Sources
 
@@ -76,4 +76,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/keyboard-shortcuts.json` · Site: /en/patterns/keyboard-shortcuts
+JSON: `/interface-atlas-web/api/concept/patterns/keyboard-shortcuts.json` · Site: /interface-atlas-web/en/patterns/keyboard-shortcuts

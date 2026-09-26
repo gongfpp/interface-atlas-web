@@ -65,10 +65,10 @@
 
 ## 相关概念
 
-- [error-404](/pages/error-404) — 相似概念
-- [button](/pages/button) — 包含组件
-- [alert](/pages/alert) — 包含组件
-- [empty-state](/pages/empty-state) — 使用模式
+- [error-404](/interface-atlas-web/pages/error-404) — 相似概念
+- [button](/interface-atlas-web/components/button) — 包含组件
+- [alert](/interface-atlas-web/components/alert) — 包含组件
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 使用模式
 
 ## Sources
 
@@ -77,4 +77,4 @@
 
 ---
 
-JSON: `/api/concept/pages/error-500.json` · 站点: /pages/error-500
+JSON: `/interface-atlas-web/api/concept/pages/error-500.json` · 站点: /interface-atlas-web/pages/error-500

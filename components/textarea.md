@@ -70,10 +70,10 @@
 
 ## 相关概念
 
-- [input](/components/input) — 相似概念
-- [form-validation](/components/form-validation) — 搭配使用
-- [inline-editing](/components/inline-editing) — 搭配使用
-- [toast](/components/toast) — 相似概念
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
+- [inline-editing](/interface-atlas-web/patterns/inline-editing) — 搭配使用
+- [toast](/interface-atlas-web/components/toast) — 相似概念
 
 ## 可搭配的风格
 
@@ -86,4 +86,4 @@
 
 ---
 
-JSON: `/api/concept/components/textarea.json` · 站点: /components/textarea
+JSON: `/interface-atlas-web/api/concept/components/textarea.json` · 站点: /interface-atlas-web/components/textarea

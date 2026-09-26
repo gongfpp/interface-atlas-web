@@ -76,15 +76,15 @@ Tooltip 是悬停/聚焦时的简短说明；Popover 可交互；Label 是常驻
 
 ## 相关概念
 
-- [popover](/components/popover) — 相似概念
-- [modal](/components/modal) — 相似概念
-- [toast](/components/toast) — 相似概念
-- [button](/components/button) — 相似概念
+- [popover](/interface-atlas-web/components/popover) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 相似概念
+- [toast](/interface-atlas-web/components/toast) — 相似概念
+- [button](/interface-atlas-web/components/button) — 相似概念
 
 ## 容易混淆
 
-- [popover](/components/popover) — Popover 点击出现、可交互；Tooltip 悬停出现、只读。
-- [toast](/components/toast) — Toast 是系统反馈、自动消失；Tooltip 解释控件、跟随指针。
+- [popover](/interface-atlas-web/components/popover) — Popover 点击出现、可交互；Tooltip 悬停出现、只读。
+- [toast](/interface-atlas-web/components/toast) — Toast 是系统反馈、自动消失；Tooltip 解释控件、跟随指针。
 
 ## Sources
 
@@ -93,4 +93,4 @@ Tooltip 是悬停/聚焦时的简短说明；Popover 可交互；Label 是常驻
 
 ---
 
-JSON: `/api/concept/components/tooltip.json` · 站点: /components/tooltip
+JSON: `/interface-atlas-web/api/concept/components/tooltip.json` · 站点: /interface-atlas-web/components/tooltip

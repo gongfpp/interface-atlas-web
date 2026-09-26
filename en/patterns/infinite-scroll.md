@@ -65,11 +65,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [pagination](/patterns/pagination) — Alternative
-- [pull-to-refresh](/patterns/pull-to-refresh) — Alternative
-- [skeleton-loading](/patterns/skeleton-loading) — Similar
-- [lazy-loading](/patterns/lazy-loading) — Similar
-- [search-filtering](/patterns/search-filtering) — Similar
+- [pagination](/interface-atlas-web/en/components/pagination) — Alternative
+- [pull-to-refresh](/interface-atlas-web/en/patterns/pull-to-refresh) — Alternative
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Similar
+- [lazy-loading](/interface-atlas-web/en/patterns/lazy-loading) — Similar
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Similar
 
 ## Sources
 
@@ -78,4 +78,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/infinite-scroll.json` · Site: /en/patterns/infinite-scroll
+JSON: `/interface-atlas-web/api/concept/patterns/infinite-scroll.json` · Site: /interface-atlas-web/en/patterns/infinite-scroll

@@ -63,9 +63,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [scroll-reveal](/motion/scroll-reveal) — Alternative
-- [parallax](/motion/parallax) — Alternative
-- [text-reveal](/motion/text-reveal) — Used with
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Alternative
+- [parallax](/interface-atlas-web/en/motion/parallax) — Alternative
+- [text-reveal](/interface-atlas-web/en/motion/text-reveal) — Used with
 
 ## Sources
 
@@ -75,4 +75,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/motion/scroll-driven-animation.json` · Site: /en/motion/scroll-driven-animation
+JSON: `/interface-atlas-web/api/concept/motion/scroll-driven-animation.json` · Site: /interface-atlas-web/en/motion/scroll-driven-animation

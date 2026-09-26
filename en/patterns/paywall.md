@@ -57,10 +57,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [progressive-disclosure](/patterns/progressive-disclosure) — Used with
-- [pricing](/patterns/pricing) — Used with
-- [signup](/patterns/signup) — Used with
-- [empty-state](/patterns/empty-state) — Similar
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Used with
+- [pricing](/interface-atlas-web/en/pages/pricing) — Used with
+- [signup](/interface-atlas-web/en/pages/signup) — Used with
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Similar
 
 ## Sources
 
@@ -70,4 +70,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/paywall.json` · Site: /en/patterns/paywall
+JSON: `/interface-atlas-web/api/concept/patterns/paywall.json` · Site: /interface-atlas-web/en/patterns/paywall

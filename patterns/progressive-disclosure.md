@@ -59,11 +59,11 @@
 
 ## 相关概念
 
-- [accordion](/patterns/accordion) — 搭配使用
-- [form-validation](/patterns/form-validation) — 相似概念
-- [onboarding-tour](/patterns/onboarding-tour) — 相似概念
-- [drawer](/patterns/drawer) — 搭配使用
-- [tooltip](/patterns/tooltip) — 搭配使用
+- [accordion](/interface-atlas-web/components/accordion) — 搭配使用
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 相似概念
+- [onboarding-tour](/interface-atlas-web/patterns/onboarding-tour) — 相似概念
+- [drawer](/interface-atlas-web/components/drawer) — 搭配使用
+- [tooltip](/interface-atlas-web/components/tooltip) — 搭配使用
 
 ## Sources
 
@@ -72,4 +72,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/progressive-disclosure.json` · 站点: /patterns/progressive-disclosure
+JSON: `/interface-atlas-web/api/concept/patterns/progressive-disclosure.json` · 站点: /interface-atlas-web/patterns/progressive-disclosure

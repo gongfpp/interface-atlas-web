@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [y2k](/styles/y2k) — Similar
-- [cyberpunk](/styles/cyberpunk) — Similar
-- [aurora](/styles/aurora) — Similar
-- [glassmorphism](/styles/glassmorphism) — Similar
-- [card](/styles/card) — Affects
+- [y2k](/interface-atlas-web/en/styles/y2k) — Similar
+- [cyberpunk](/interface-atlas-web/en/styles/cyberpunk) — Similar
+- [aurora](/interface-atlas-web/en/styles/aurora) — Similar
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Similar
+- [card](/interface-atlas-web/en/components/card) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/retro-futurism.json` · Site: /en/styles/retro-futurism
+JSON: `/interface-atlas-web/api/concept/styles/retro-futurism.json` · Site: /interface-atlas-web/en/styles/retro-futurism

@@ -77,14 +77,14 @@
 
 ## 相关概念
 
-- [drawer](/components/drawer) — 替代方案
-- [modal](/components/modal) — 替代方案
-- [pull-to-refresh](/components/pull-to-refresh) — 搭配使用
+- [drawer](/interface-atlas-web/components/drawer) — 替代方案
+- [modal](/interface-atlas-web/components/modal) — 替代方案
+- [pull-to-refresh](/interface-atlas-web/patterns/pull-to-refresh) — 搭配使用
 
 ## 容易混淆
 
-- [drawer](/components/drawer) — 侧边抽屉从左右边缘滑入，底部抽屉只从底边升起。
-- [modal](/components/modal) — 模态框居中且强调强制决策；底部抽屉贴底、可下滑关闭。
+- [drawer](/interface-atlas-web/components/drawer) — 侧边抽屉从左右边缘滑入，底部抽屉只从底边升起。
+- [modal](/interface-atlas-web/components/modal) — 模态框居中且强调强制决策；底部抽屉贴底、可下滑关闭。
 
 ## Sources
 
@@ -94,4 +94,4 @@
 
 ---
 
-JSON: `/api/concept/components/bottom-sheet.json` · 站点: /components/bottom-sheet
+JSON: `/interface-atlas-web/api/concept/components/bottom-sheet.json` · 站点: /interface-atlas-web/components/bottom-sheet

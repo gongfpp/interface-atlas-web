@@ -70,9 +70,9 @@
 
 ## 相关概念
 
-- [color-palette](/foundation/color-palette) — 搭配使用
-- [contrast-ratio](/foundation/contrast-ratio) — 搭配使用
-- [elevation](/foundation/elevation) — 搭配使用
+- [color-palette](/interface-atlas-web/foundation/color-palette) — 搭配使用
+- [contrast-ratio](/interface-atlas-web/foundation/contrast-ratio) — 搭配使用
+- [elevation](/interface-atlas-web/foundation/elevation) — 搭配使用
 
 ## Sources
 
@@ -82,4 +82,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/semantic-color.json` · 站点: /foundation/semantic-color
+JSON: `/interface-atlas-web/api/concept/foundation/semantic-color.json` · 站点: /interface-atlas-web/foundation/semantic-color

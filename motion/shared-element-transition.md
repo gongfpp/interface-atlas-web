@@ -57,10 +57,10 @@ FLIP 技术——先记录元素起始 getBoundingClientRect，视图切换后�
 
 ## 相关概念
 
-- [page-transition](/motion/page-transition) — 相似概念
-- [modal](/motion/modal) — 应用于
-- [card](/motion/card) — 应用于
-- [master-detail](/motion/master-detail) — 搭配使用
+- [page-transition](/interface-atlas-web/motion/page-transition) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 应用于
+- [card](/interface-atlas-web/components/card) — 应用于
+- [master-detail](/interface-atlas-web/patterns/master-detail) — 搭配使用
 
 ## Sources
 
@@ -68,4 +68,4 @@ FLIP 技术——先记录元素起始 getBoundingClientRect，视图切换后�
 
 ---
 
-JSON: `/api/concept/motion/shared-element-transition.json` · 站点: /motion/shared-element-transition
+JSON: `/interface-atlas-web/api/concept/motion/shared-element-transition.json` · 站点: /interface-atlas-web/motion/shared-element-transition

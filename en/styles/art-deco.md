@@ -56,10 +56,10 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 ## Related
 
-- [bauhaus](/styles/bauhaus) — Similar
-- [editorial](/styles/editorial) — Similar
-- [retro-futurism](/styles/retro-futurism) — Similar
-- [button](/styles/button) — Affects
+- [bauhaus](/interface-atlas-web/en/styles/bauhaus) — Similar
+- [editorial](/interface-atlas-web/en/styles/editorial) — Similar
+- [retro-futurism](/interface-atlas-web/en/styles/retro-futurism) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
 
 ## Sources
 
@@ -67,4 +67,4 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 ---
 
-JSON: `/api/concept/styles/art-deco.json` · Site: /en/styles/art-deco
+JSON: `/interface-atlas-web/api/concept/styles/art-deco.json` · Site: /interface-atlas-web/en/styles/art-deco

@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [drawer](/motion/drawer) — 应用于
-- [modal](/motion/modal) — 应用于
-- [sidebar](/motion/sidebar) — 应用于
-- [popover](/motion/popover) — 应用于
+- [drawer](/interface-atlas-web/components/drawer) — 应用于
+- [modal](/interface-atlas-web/components/modal) — 应用于
+- [sidebar](/interface-atlas-web/components/sidebar) — 应用于
+- [popover](/interface-atlas-web/components/popover) — 应用于
 
 ## Sources
 
@@ -68,4 +68,4 @@
 
 ---
 
-JSON: `/api/concept/motion/drawer-slide.json` · 站点: /motion/drawer-slide
+JSON: `/interface-atlas-web/api/concept/motion/drawer-slide.json` · 站点: /interface-atlas-web/motion/drawer-slide

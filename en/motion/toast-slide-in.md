@@ -56,10 +56,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [toast](/motion/toast) — Applies to
-- [alert](/motion/alert) — Applies to
-- [undo-action](/motion/undo-action) — Used with
-- [optimistic-ui](/motion/optimistic-ui) — Used with
+- [toast](/interface-atlas-web/en/components/toast) — Applies to
+- [alert](/interface-atlas-web/en/components/alert) — Applies to
+- [undo-action](/interface-atlas-web/en/patterns/undo-action) — Used with
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Used with
 
 ## Sources
 
@@ -67,4 +67,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/toast-slide-in.json` · Site: /en/motion/toast-slide-in
+JSON: `/interface-atlas-web/api/concept/motion/toast-slide-in.json` · Site: /interface-atlas-web/en/motion/toast-slide-in

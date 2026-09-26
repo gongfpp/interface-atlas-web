@@ -62,9 +62,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [page-transition](/motion/page-transition) — Alternative
-- [shared-element-transition](/motion/shared-element-transition) — Similar
-- [morphing-icon](/motion/morphing-icon) — Used with
+- [page-transition](/interface-atlas-web/en/motion/page-transition) — Alternative
+- [shared-element-transition](/interface-atlas-web/en/motion/shared-element-transition) — Similar
+- [morphing-icon](/interface-atlas-web/en/motion/morphing-icon) — Used with
 
 ## Sources
 
@@ -74,4 +74,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/motion/view-transition.json` · Site: /en/motion/view-transition
+JSON: `/interface-atlas-web/api/concept/motion/view-transition.json` · Site: /interface-atlas-web/en/motion/view-transition

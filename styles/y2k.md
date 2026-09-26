@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [cyberpunk](/styles/cyberpunk) — 相似概念
-- [aurora](/styles/aurora) — 相似概念
-- [glassmorphism](/styles/glassmorphism) — 相似概念
-- [retro-futurism](/styles/retro-futurism) — 相似概念
-- [card](/styles/card) — 影响组件
+- [cyberpunk](/interface-atlas-web/styles/cyberpunk) — 相似概念
+- [aurora](/interface-atlas-web/styles/aurora) — 相似概念
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 相似概念
+- [retro-futurism](/interface-atlas-web/styles/retro-futurism) — 相似概念
+- [card](/interface-atlas-web/components/card) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/y2k.json` · 站点: /styles/y2k
+JSON: `/interface-atlas-web/api/concept/styles/y2k.json` · 站点: /interface-atlas-web/styles/y2k

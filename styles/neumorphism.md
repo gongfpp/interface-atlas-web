@@ -56,10 +56,10 @@
 
 ## 相关概念
 
-- [skeuomorphism](/styles/skeuomorphism) — 相似概念
-- [claymorphism](/styles/claymorphism) — 相似概念
-- [minimalism](/styles/minimalism) — 相似概念
-- [button](/styles/button) — 影响组件
+- [skeuomorphism](/interface-atlas-web/styles/skeuomorphism) — 相似概念
+- [claymorphism](/interface-atlas-web/styles/claymorphism) — 相似概念
+- [minimalism](/interface-atlas-web/styles/minimalism) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
 
 ## Sources
 
@@ -67,4 +67,4 @@
 
 ---
 
-JSON: `/api/concept/styles/neumorphism.json` · 站点: /styles/neumorphism
+JSON: `/interface-atlas-web/api/concept/styles/neumorphism.json` · 站点: /interface-atlas-web/styles/neumorphism

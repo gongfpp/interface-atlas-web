@@ -67,10 +67,10 @@
 
 ## 相关概念
 
-- [table](/components/table) — 替代方案
-- [bento-grid](/components/bento-grid) — 搭配使用
-- [hover-lift](/components/hover-lift) — 搭配使用
-- [badge](/components/badge) — 相似概念
+- [table](/interface-atlas-web/components/table) — 替代方案
+- [bento-grid](/interface-atlas-web/styles/bento-grid) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
+- [badge](/interface-atlas-web/components/badge) — 相似概念
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/components/card.json` · 站点: /components/card
+JSON: `/interface-atlas-web/api/concept/components/card.json` · 站点: /interface-atlas-web/components/card

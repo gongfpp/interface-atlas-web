@@ -52,9 +52,9 @@
 
 ## 相关概念
 
-- [input](/components/input) — 相似概念
-- [progress-bar](/components/progress-bar) — 相似概念
-- [alert](/components/alert) — 相似概念
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 相似概念
+- [alert](/interface-atlas-web/components/alert) — 相似概念
 
 ## Sources
 
@@ -62,4 +62,4 @@
 
 ---
 
-JSON: `/api/concept/components/file-upload.json` · 站点: /components/file-upload
+JSON: `/interface-atlas-web/api/concept/components/file-upload.json` · 站点: /interface-atlas-web/components/file-upload

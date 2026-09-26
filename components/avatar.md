@@ -62,9 +62,9 @@
 
 ## 相关概念
 
-- [badge](/components/badge) — 相似概念
-- [dropdown](/components/dropdown) — 相似概念
-- [profile](/components/profile) — 搭配使用
+- [badge](/interface-atlas-web/components/badge) — 相似概念
+- [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
+- [profile](/interface-atlas-web/pages/profile) — 搭配使用
 
 ## Sources
 
@@ -73,4 +73,4 @@
 
 ---
 
-JSON: `/api/concept/components/avatar.json` · 站点: /components/avatar
+JSON: `/interface-atlas-web/api/concept/components/avatar.json` · 站点: /interface-atlas-web/components/avatar

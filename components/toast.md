@@ -82,15 +82,15 @@ Toast（Snackbar）是短暂的非打断反馈，自动消失；Alert 常驻；M
 
 ## 相关概念
 
-- [alert](/components/alert) — 替代方案
-- [modal](/components/modal) — 相似概念
-- [toast-slide-in](/components/toast-slide-in) — 搭配使用
-- [undo-action](/components/undo-action) — 搭配使用
+- [alert](/interface-atlas-web/components/alert) — 替代方案
+- [modal](/interface-atlas-web/components/modal) — 相似概念
+- [toast-slide-in](/interface-atlas-web/motion/toast-slide-in) — 搭配使用
+- [undo-action](/interface-atlas-web/patterns/undo-action) — 搭配使用
 
 ## 容易混淆
 
-- [alert](/components/alert) — Alert 常驻可含操作按钮；Toast 短暂、角落出现。
-- [tooltip](/components/tooltip) — Tooltip 解释控件，Toast 反馈系统事件。
+- [alert](/interface-atlas-web/components/alert) — Alert 常驻可含操作按钮；Toast 短暂、角落出现。
+- [tooltip](/interface-atlas-web/components/tooltip) — Tooltip 解释控件，Toast 反馈系统事件。
 
 ## Sources
 
@@ -99,4 +99,4 @@ Toast（Snackbar）是短暂的非打断反馈，自动消失；Alert 常驻；M
 
 ---
 
-JSON: `/api/concept/components/toast.json` · 站点: /components/toast
+JSON: `/interface-atlas-web/api/concept/components/toast.json` · 站点: /interface-atlas-web/components/toast

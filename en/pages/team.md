@@ -65,11 +65,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [card](/pages/card) — Contains
-- [avatar](/pages/avatar) — Contains
-- [badge](/pages/badge) — Contains
-- [profile](/pages/profile) — Similar
-- [hover-lift](/pages/hover-lift) — Used with
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [avatar](/interface-atlas-web/en/components/avatar) — Contains
+- [badge](/interface-atlas-web/en/components/badge) — Contains
+- [profile](/interface-atlas-web/en/pages/profile) — Similar
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/team.json` · Site: /en/pages/team
+JSON: `/interface-atlas-web/api/concept/pages/team.json` · Site: /interface-atlas-web/en/pages/team

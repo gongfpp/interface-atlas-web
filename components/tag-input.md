@@ -68,10 +68,10 @@
 
 ## 相关概念
 
-- [input](/components/input) — 相似概念
-- [combobox](/components/combobox) — 相似概念
-- [badge](/components/badge) — 搭配使用
-- [multi-select](/components/multi-select) — 搭配使用
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [combobox](/interface-atlas-web/components/combobox) — 相似概念
+- [badge](/interface-atlas-web/components/badge) — 搭配使用
+- [multi-select](/interface-atlas-web/components/multi-select) — 搭配使用
 
 ## Sources
 
@@ -81,4 +81,4 @@
 
 ---
 
-JSON: `/api/concept/components/tag-input.json` · 站点: /components/tag-input
+JSON: `/interface-atlas-web/api/concept/components/tag-input.json` · 站点: /interface-atlas-web/components/tag-input

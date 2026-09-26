@@ -67,11 +67,11 @@
 
 ## 相关概念
 
-- [navbar](/pages/navbar) — 包含组件
-- [card](/pages/card) — 包含组件
-- [scroll-reveal](/pages/scroll-reveal) — 搭配使用
-- [text-reveal](/pages/text-reveal) — 搭配使用
-- [hover-lift](/pages/hover-lift) — 搭配使用
+- [navbar](/interface-atlas-web/components/navbar) — 包含组件
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 搭配使用
+- [text-reveal](/interface-atlas-web/motion/text-reveal) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/pages/landing-page.json` · 站点: /pages/landing-page
+JSON: `/interface-atlas-web/api/concept/pages/landing-page.json` · 站点: /interface-atlas-web/pages/landing-page

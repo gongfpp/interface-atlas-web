@@ -59,11 +59,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [toast](/patterns/toast) — Used with
-- [undo-action](/patterns/undo-action) — Similar
-- [skeleton-loading](/patterns/skeleton-loading) — Similar
-- [loading-spinner](/patterns/loading-spinner) — Used with
-- [button](/patterns/button) — Used with
+- [toast](/interface-atlas-web/en/components/toast) — Used with
+- [undo-action](/interface-atlas-web/en/patterns/undo-action) — Similar
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Similar
+- [loading-spinner](/interface-atlas-web/en/motion/loading-spinner) — Used with
+- [button](/interface-atlas-web/en/components/button) — Used with
 
 ## Sources
 
@@ -72,4 +72,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/optimistic-ui.json` · Site: /en/patterns/optimistic-ui
+JSON: `/interface-atlas-web/api/concept/patterns/optimistic-ui.json` · Site: /interface-atlas-web/en/patterns/optimistic-ui

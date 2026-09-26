@@ -73,14 +73,14 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [focus-ring](/a11y/focus-ring) — Used with
-- [skip-link](/a11y/skip-link) — Used with
-- [menu](/a11y/menu) — Used with
-- [command-palette](/a11y/command-palette) — Used with
+- [focus-ring](/interface-atlas-web/en/a11y/focus-ring) — Used with
+- [skip-link](/interface-atlas-web/en/a11y/skip-link) — Used with
+- [menu](/interface-atlas-web/en/components/menu) — Used with
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Used with
 
 ## Confusable
 
-- [tabs](/a11y/tabs) — tabs is the tab component; the Tab key in keyboard-navigation is the focus-mover — same word, different things.
+- [tabs](/interface-atlas-web/en/components/tabs) — tabs is the tab component; the Tab key in keyboard-navigation is the focus-mover — same word, different things.
 
 ## Sources
 
@@ -89,4 +89,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/a11y/keyboard-navigation.json` · Site: /en/a11y/keyboard-navigation
+JSON: `/interface-atlas-web/api/concept/a11y/keyboard-navigation.json` · Site: /interface-atlas-web/en/a11y/keyboard-navigation

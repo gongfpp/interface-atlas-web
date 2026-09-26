@@ -70,9 +70,9 @@
 
 ## 相关概念
 
-- [checkbox](/components/checkbox) — 相似概念
-- [press-feedback](/components/press-feedback) — 搭配使用
-- [settings](/components/settings) — 搭配使用
+- [checkbox](/interface-atlas-web/components/checkbox) — 相似概念
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 搭配使用
+- [settings](/interface-atlas-web/pages/settings) — 搭配使用
 
 ## 可搭配的风格
 
@@ -85,4 +85,4 @@
 
 ---
 
-JSON: `/api/concept/components/switch.json` · 站点: /components/switch
+JSON: `/interface-atlas-web/api/concept/components/switch.json` · 站点: /interface-atlas-web/components/switch

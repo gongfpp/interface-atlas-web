@@ -73,13 +73,13 @@
 
 ## 相关概念
 
-- [keyboard-navigation](/a11y/keyboard-navigation) — 搭配使用
-- [navbar](/a11y/navbar) — 搭配使用
-- [focus-ring](/a11y/focus-ring) — 搭配使用
+- [keyboard-navigation](/interface-atlas-web/a11y/keyboard-navigation) — 搭配使用
+- [navbar](/interface-atlas-web/components/navbar) — 搭配使用
+- [focus-ring](/interface-atlas-web/a11y/focus-ring) — 搭配使用
 
 ## 容易混淆
 
-- [navbar](/a11y/navbar) — navbar 是被跳过的长导航本身，不是跳过机制；把「跳过导航」塞成 navbar 第一项就失去了意义。
+- [navbar](/interface-atlas-web/components/navbar) — navbar 是被跳过的长导航本身，不是跳过机制；把「跳过导航」塞成 navbar 第一项就失去了意义。
 
 ## Sources
 
@@ -88,4 +88,4 @@
 
 ---
 
-JSON: `/api/concept/a11y/skip-link.json` · 站点: /a11y/skip-link
+JSON: `/interface-atlas-web/api/concept/a11y/skip-link.json` · 站点: /interface-atlas-web/a11y/skip-link

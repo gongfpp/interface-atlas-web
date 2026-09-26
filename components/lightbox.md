@@ -75,14 +75,14 @@ Lightbox 是媒体专用的 Modal；Modal 是通用容器。灯箱打开的是�
 
 ## 相关概念
 
-- [modal](/components/modal) — 替代方案
-- [carousel](/components/carousel) — 搭配使用
-- [drawer](/components/drawer) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 替代方案
+- [carousel](/interface-atlas-web/components/carousel) — 搭配使用
+- [drawer](/interface-atlas-web/components/drawer) — 相似概念
 
 ## 容易混淆
 
-- [modal](/components/modal) — modal 承载通用任务与文案，lightbox 专用于放大观赏媒体
-- [carousel](/components/carousel) — carousel 在页面内轮播，lightbox 在压暗遮罩上全屏展示
+- [modal](/interface-atlas-web/components/modal) — modal 承载通用任务与文案，lightbox 专用于放大观赏媒体
+- [carousel](/interface-atlas-web/components/carousel) — carousel 在页面内轮播，lightbox 在压暗遮罩上全屏展示
 
 ## Sources
 
@@ -92,4 +92,4 @@ Lightbox 是媒体专用的 Modal；Modal 是通用容器。灯箱打开的是�
 
 ---
 
-JSON: `/api/concept/components/lightbox.json` · 站点: /components/lightbox
+JSON: `/interface-atlas-web/api/concept/components/lightbox.json` · 站点: /interface-atlas-web/components/lightbox

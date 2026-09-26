@@ -67,11 +67,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [card](/pages/card) — Contains
-- [badge](/pages/badge) — Contains
-- [switch](/pages/switch) — Contains
-- [accordion](/pages/accordion) — Contains
-- [table](/pages/table) — Contains
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [badge](/interface-atlas-web/en/components/badge) — Contains
+- [switch](/interface-atlas-web/en/components/switch) — Contains
+- [accordion](/interface-atlas-web/en/components/accordion) — Contains
+- [table](/interface-atlas-web/en/components/table) — Contains
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/pricing.json` · Site: /en/pages/pricing
+JSON: `/interface-atlas-web/api/concept/pages/pricing.json` · Site: /interface-atlas-web/en/pages/pricing

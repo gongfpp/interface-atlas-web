@@ -57,10 +57,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [form-validation](/patterns/form-validation) — Used with
-- [stepper](/patterns/stepper) — Used with
-- [progressive-disclosure](/patterns/progressive-disclosure) — Similar
-- [onboarding-tour](/patterns/onboarding-tour) — Similar
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
+- [stepper](/interface-atlas-web/en/components/stepper) — Used with
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Similar
+- [onboarding-tour](/interface-atlas-web/en/patterns/onboarding-tour) — Similar
 
 ## Sources
 
@@ -70,4 +70,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/wizard.json` · Site: /en/patterns/wizard
+JSON: `/interface-atlas-web/api/concept/patterns/wizard.json` · Site: /interface-atlas-web/en/patterns/wizard

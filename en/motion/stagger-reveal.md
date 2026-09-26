@@ -56,10 +56,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [scroll-reveal](/motion/scroll-reveal) — Similar
-- [text-reveal](/motion/text-reveal) — Similar
-- [card](/motion/card) — Applies to
-- [menu](/motion/menu) — Applies to
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Similar
+- [text-reveal](/interface-atlas-web/en/motion/text-reveal) — Similar
+- [card](/interface-atlas-web/en/components/card) — Applies to
+- [menu](/interface-atlas-web/en/components/menu) — Applies to
 
 ## Sources
 
@@ -67,4 +67,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/stagger-reveal.json` · Site: /en/motion/stagger-reveal
+JSON: `/interface-atlas-web/api/concept/motion/stagger-reveal.json` · Site: /interface-atlas-web/en/motion/stagger-reveal

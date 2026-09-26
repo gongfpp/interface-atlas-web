@@ -71,9 +71,9 @@
 
 ## 相关概念
 
-- [type-scale](/foundation/type-scale) — 搭配使用
-- [line-height](/foundation/line-height) — 搭配使用
-- [minimalism](/foundation/minimalism) — 搭配使用
+- [type-scale](/interface-atlas-web/foundation/type-scale) — 搭配使用
+- [line-height](/interface-atlas-web/foundation/line-height) — 搭配使用
+- [minimalism](/interface-atlas-web/styles/minimalism) — 搭配使用
 
 ## Sources
 
@@ -83,4 +83,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/font-stack.json` · 站点: /foundation/font-stack
+JSON: `/interface-atlas-web/api/concept/foundation/font-stack.json` · 站点: /interface-atlas-web/foundation/font-stack

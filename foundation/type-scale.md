@@ -77,10 +77,10 @@
 
 ## 相关概念
 
-- [font-stack](/foundation/font-stack) — 搭配使用
-- [line-height](/foundation/line-height) — 搭配使用
-- [measure](/foundation/measure) — 搭配使用
-- [editorial](/foundation/editorial) — 搭配使用
+- [font-stack](/interface-atlas-web/foundation/font-stack) — 搭配使用
+- [line-height](/interface-atlas-web/foundation/line-height) — 搭配使用
+- [measure](/interface-atlas-web/foundation/measure) — 搭配使用
+- [editorial](/interface-atlas-web/styles/editorial) — 搭配使用
 
 ## Sources
 
@@ -90,4 +90,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/type-scale.json` · 站点: /foundation/type-scale
+JSON: `/interface-atlas-web/api/concept/foundation/type-scale.json` · 站点: /interface-atlas-web/foundation/type-scale

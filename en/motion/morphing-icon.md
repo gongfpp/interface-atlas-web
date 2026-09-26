@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [button](/motion/button) — Applies to
-- [menu](/motion/menu) — Applies to
-- [drawer](/motion/drawer) — Applies to
-- [press-feedback](/motion/press-feedback) — Similar
+- [button](/interface-atlas-web/en/components/button) — Applies to
+- [menu](/interface-atlas-web/en/components/menu) — Applies to
+- [drawer](/interface-atlas-web/en/components/drawer) — Applies to
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Similar
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/morphing-icon.json` · Site: /en/motion/morphing-icon
+JSON: `/interface-atlas-web/api/concept/motion/morphing-icon.json` · Site: /interface-atlas-web/en/motion/morphing-icon

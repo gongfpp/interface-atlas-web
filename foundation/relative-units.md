@@ -72,10 +72,10 @@
 
 ## 相关概念
 
-- [type-scale](/foundation/type-scale) — 搭配使用
-- [pixel-density](/foundation/pixel-density) — 相似概念
-- [spacing-scale](/foundation/spacing-scale) — 相似概念
-- [measure](/foundation/measure) — 搭配使用
+- [type-scale](/interface-atlas-web/foundation/type-scale) — 搭配使用
+- [pixel-density](/interface-atlas-web/foundation/pixel-density) — 相似概念
+- [spacing-scale](/interface-atlas-web/foundation/spacing-scale) — 相似概念
+- [measure](/interface-atlas-web/foundation/measure) — 搭配使用
 
 ## Sources
 
@@ -85,4 +85,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/relative-units.json` · 站点: /foundation/relative-units
+JSON: `/interface-atlas-web/api/concept/foundation/relative-units.json` · 站点: /interface-atlas-web/foundation/relative-units

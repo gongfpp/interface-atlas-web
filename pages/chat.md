@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [input](/pages/input) — 包含组件
-- [avatar](/pages/avatar) — 包含组件
-- [badge](/pages/badge) — 包含组件
-- [infinite-scroll](/pages/infinite-scroll) — 使用模式
-- [optimistic-ui](/pages/optimistic-ui) — 使用模式
+- [input](/interface-atlas-web/components/input) — 包含组件
+- [avatar](/interface-atlas-web/components/avatar) — 包含组件
+- [badge](/interface-atlas-web/components/badge) — 包含组件
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 使用模式
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 使用模式
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/chat.json` · 站点: /pages/chat
+JSON: `/interface-atlas-web/api/concept/pages/chat.json` · 站点: /interface-atlas-web/pages/chat

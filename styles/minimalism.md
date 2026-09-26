@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [flat-design](/styles/flat-design) — 相似概念
-- [swiss-style](/styles/swiss-style) — 相似概念
-- [editorial](/styles/editorial) — 相似概念
-- [button](/styles/button) — 影响组件
-- [card](/styles/card) — 影响组件
+- [flat-design](/interface-atlas-web/styles/flat-design) — 相似概念
+- [swiss-style](/interface-atlas-web/styles/swiss-style) — 相似概念
+- [editorial](/interface-atlas-web/styles/editorial) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [card](/interface-atlas-web/components/card) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/minimalism.json` · 站点: /styles/minimalism
+JSON: `/interface-atlas-web/api/concept/styles/minimalism.json` · 站点: /interface-atlas-web/styles/minimalism

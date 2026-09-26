@@ -57,11 +57,11 @@ HTML5 拖拽：条目设 draggable，dragstart 记录来源索引，dragover 阻
 
 ## 相关概念
 
-- [kanban-board](/patterns/kanban-board) — 相似概念
-- [inline-editing](/patterns/inline-editing) — 相似概念
-- [optimistic-ui](/patterns/optimistic-ui) — 相似概念
-- [button](/patterns/button) — 搭配使用
-- [accordion](/patterns/accordion) — 搭配使用
+- [kanban-board](/interface-atlas-web/patterns/kanban-board) — 相似概念
+- [inline-editing](/interface-atlas-web/patterns/inline-editing) — 相似概念
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 相似概念
+- [button](/interface-atlas-web/components/button) — 搭配使用
+- [accordion](/interface-atlas-web/components/accordion) — 搭配使用
 
 ## 可搭配的风格
 
@@ -74,4 +74,4 @@ HTML5 拖拽：条目设 draggable，dragstart 记录来源索引，dragover 阻
 
 ---
 
-JSON: `/api/concept/patterns/drag-and-drop-sorting.json` · 站点: /patterns/drag-and-drop-sorting
+JSON: `/interface-atlas-web/api/concept/patterns/drag-and-drop-sorting.json` · 站点: /interface-atlas-web/patterns/drag-and-drop-sorting

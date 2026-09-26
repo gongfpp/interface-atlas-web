@@ -71,10 +71,10 @@
 
 ## 相关概念
 
-- [spacing-scale](/foundation/spacing-scale) — 相似概念
-- [elevation](/foundation/elevation) — 搭配使用
-- [button](/foundation/button) — 搭配使用
-- [card](/foundation/card) — 搭配使用
+- [spacing-scale](/interface-atlas-web/foundation/spacing-scale) — 相似概念
+- [elevation](/interface-atlas-web/foundation/elevation) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 搭配使用
 
 ## Sources
 
@@ -84,4 +84,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/border-radius.json` · 站点: /foundation/border-radius
+JSON: `/interface-atlas-web/api/concept/foundation/border-radius.json` · 站点: /interface-atlas-web/foundation/border-radius

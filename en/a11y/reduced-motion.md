@@ -73,13 +73,13 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [scroll-reveal](/a11y/scroll-reveal) — Used with
-- [hover-lift](/a11y/hover-lift) — Used with
-- [focus-ring](/a11y/focus-ring) — Used with
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
+- [focus-ring](/interface-atlas-web/en/a11y/focus-ring) — Used with
 
 ## Confusable
 
-- [page-transition](/a11y/page-transition) — page-transition is the transition motion itself; reduced-motion is the system policy deciding whether to soften it — one builds motion, the other trims it.
+- [page-transition](/interface-atlas-web/en/motion/page-transition) — page-transition is the transition motion itself; reduced-motion is the system policy deciding whether to soften it — one builds motion, the other trims it.
 
 ## Sources
 
@@ -88,4 +88,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/a11y/reduced-motion.json` · Site: /en/a11y/reduced-motion
+JSON: `/interface-atlas-web/api/concept/a11y/reduced-motion.json` · Site: /interface-atlas-web/en/a11y/reduced-motion

@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [sidebar](/pages/sidebar) — 包含组件
-- [switch](/pages/switch) — 包含组件
-- [input](/pages/input) — 包含组件
-- [tabs](/pages/tabs) — 包含组件
-- [toast](/pages/toast) — 包含组件
+- [sidebar](/interface-atlas-web/components/sidebar) — 包含组件
+- [switch](/interface-atlas-web/components/switch) — 包含组件
+- [input](/interface-atlas-web/components/input) — 包含组件
+- [tabs](/interface-atlas-web/components/tabs) — 包含组件
+- [toast](/interface-atlas-web/components/toast) — 包含组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/settings.json` · 站点: /pages/settings
+JSON: `/interface-atlas-web/api/concept/pages/settings.json` · 站点: /interface-atlas-web/pages/settings

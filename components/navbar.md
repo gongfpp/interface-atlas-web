@@ -68,11 +68,11 @@
 
 ## 相关概念
 
-- [sidebar](/components/sidebar) — 替代方案
-- [menu](/components/menu) — 替代方案
-- [breadcrumb](/components/breadcrumb) — 相似概念
-- [tabs](/components/tabs) — 相似概念
-- [landing-page](/components/landing-page) — 搭配使用
+- [sidebar](/interface-atlas-web/components/sidebar) — 替代方案
+- [menu](/interface-atlas-web/components/menu) — 替代方案
+- [breadcrumb](/interface-atlas-web/components/breadcrumb) — 相似概念
+- [tabs](/interface-atlas-web/components/tabs) — 相似概念
+- [landing-page](/interface-atlas-web/pages/landing-page) — 搭配使用
 
 ## 可搭配的风格
 
@@ -85,4 +85,4 @@
 
 ---
 
-JSON: `/api/concept/components/navbar.json` · 站点: /components/navbar
+JSON: `/interface-atlas-web/api/concept/components/navbar.json` · 站点: /interface-atlas-web/components/navbar

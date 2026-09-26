@@ -66,9 +66,9 @@
 
 ## 相关概念
 
-- [tabs](/components/tabs) — 替代方案
-- [marquee](/components/marquee) — 替代方案
-- [card](/components/card) — 搭配使用
+- [tabs](/interface-atlas-web/components/tabs) — 替代方案
+- [marquee](/interface-atlas-web/motion/marquee) — 替代方案
+- [card](/interface-atlas-web/components/card) — 搭配使用
 
 ## Sources
 
@@ -77,4 +77,4 @@
 
 ---
 
-JSON: `/api/concept/components/carousel.json` · 站点: /components/carousel
+JSON: `/interface-atlas-web/api/concept/components/carousel.json` · 站点: /interface-atlas-web/components/carousel

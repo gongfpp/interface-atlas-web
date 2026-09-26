@@ -68,10 +68,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [table](/components/table) — Alternative
-- [bento-grid](/components/bento-grid) — Used with
-- [hover-lift](/components/hover-lift) — Used with
-- [badge](/components/badge) — Similar
+- [table](/interface-atlas-web/en/components/table) — Alternative
+- [bento-grid](/interface-atlas-web/en/styles/bento-grid) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
+- [badge](/interface-atlas-web/en/components/badge) — Similar
 
 ## Sources
 
@@ -80,4 +80,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/card.json` · Site: /en/components/card
+JSON: `/interface-atlas-web/api/concept/components/card.json` · Site: /interface-atlas-web/en/components/card

@@ -64,9 +64,9 @@
 
 ## 相关概念
 
-- [skeleton-loading](/motion/skeleton-loading) — 替代方案
-- [progress-bar](/motion/progress-bar) — 替代方案
-- [button](/motion/button) — 应用于
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 替代方案
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 替代方案
+- [button](/interface-atlas-web/components/button) — 应用于
 
 ## Sources
 
@@ -74,4 +74,4 @@
 
 ---
 
-JSON: `/api/concept/motion/loading-spinner.json` · 站点: /motion/loading-spinner
+JSON: `/interface-atlas-web/api/concept/motion/loading-spinner.json` · 站点: /interface-atlas-web/motion/loading-spinner

@@ -63,9 +63,9 @@ CSS 近似弹簧用带回弹的 cubic-bezier(0.34, 1.56, 0.64, 1) 或 keyframes 
 
 ## 相关概念
 
-- [elastic-bounce](/motion/elastic-bounce) — 替代方案
-- [press-feedback](/motion/press-feedback) — 搭配使用
-- [hover-lift](/motion/hover-lift) — 搭配使用
+- [elastic-bounce](/interface-atlas-web/motion/elastic-bounce) — 替代方案
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
 
 ## Sources
 
@@ -75,4 +75,4 @@ CSS 近似弹簧用带回弹的 cubic-bezier(0.34, 1.56, 0.64, 1) 或 keyframes 
 
 ---
 
-JSON: `/api/concept/motion/spring-animation.json` · 站点: /motion/spring-animation
+JSON: `/interface-atlas-web/api/concept/motion/spring-animation.json` · 站点: /interface-atlas-web/motion/spring-animation

@@ -72,11 +72,11 @@
 
 ## 相关概念
 
-- [focus-ring](/foundation/focus-ring) — 搭配使用
-- [input](/foundation/input) — 搭配使用
-- [card](/foundation/card) — 搭配使用
-- [elevation](/foundation/elevation) — 相似概念
-- [neobrutalism](/foundation/neobrutalism) — 搭配使用
+- [focus-ring](/interface-atlas-web/a11y/focus-ring) — 搭配使用
+- [input](/interface-atlas-web/components/input) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 搭配使用
+- [elevation](/interface-atlas-web/foundation/elevation) — 相似概念
+- [neobrutalism](/interface-atlas-web/styles/neobrutalism) — 搭配使用
 
 ## Sources
 
@@ -87,4 +87,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/border-stroke.json` · 站点: /foundation/border-stroke
+JSON: `/interface-atlas-web/api/concept/foundation/border-stroke.json` · 站点: /interface-atlas-web/foundation/border-stroke

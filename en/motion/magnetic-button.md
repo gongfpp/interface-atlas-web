@@ -56,10 +56,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [hover-lift](/motion/hover-lift) — Similar
-- [press-feedback](/motion/press-feedback) — Similar
-- [hover-glow](/motion/hover-glow) — Similar
-- [elastic-bounce](/motion/elastic-bounce) — Similar
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Similar
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Similar
+- [hover-glow](/interface-atlas-web/en/motion/hover-glow) — Similar
+- [elastic-bounce](/interface-atlas-web/en/motion/elastic-bounce) — Similar
 
 ## Sources
 
@@ -67,4 +67,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/magnetic-button.json` · Site: /en/motion/magnetic-button
+JSON: `/interface-atlas-web/api/concept/motion/magnetic-button.json` · Site: /interface-atlas-web/en/motion/magnetic-button

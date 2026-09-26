@@ -58,11 +58,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [sidebar](/patterns/sidebar) — Used with
-- [table](/patterns/table) — Used with
-- [card](/patterns/card) — Used with
-- [drawer](/patterns/drawer) — Used with
-- [tabs](/patterns/tabs) — Used with
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Used with
+- [table](/interface-atlas-web/en/components/table) — Used with
+- [card](/interface-atlas-web/en/components/card) — Used with
+- [drawer](/interface-atlas-web/en/components/drawer) — Used with
+- [tabs](/interface-atlas-web/en/components/tabs) — Used with
 
 ## Sources
 
@@ -71,4 +71,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/master-detail.json` · Site: /en/patterns/master-detail
+JSON: `/interface-atlas-web/api/concept/patterns/master-detail.json` · Site: /interface-atlas-web/en/patterns/master-detail

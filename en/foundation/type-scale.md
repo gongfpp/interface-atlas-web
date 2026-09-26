@@ -77,10 +77,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [font-stack](/foundation/font-stack) — Used with
-- [line-height](/foundation/line-height) — Used with
-- [measure](/foundation/measure) — Used with
-- [editorial](/foundation/editorial) — Used with
+- [font-stack](/interface-atlas-web/en/foundation/font-stack) — Used with
+- [line-height](/interface-atlas-web/en/foundation/line-height) — Used with
+- [measure](/interface-atlas-web/en/foundation/measure) — Used with
+- [editorial](/interface-atlas-web/en/styles/editorial) — Used with
 
 ## Sources
 
@@ -90,4 +90,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/type-scale.json` · Site: /en/foundation/type-scale
+JSON: `/interface-atlas-web/api/concept/foundation/type-scale.json` · Site: /interface-atlas-web/en/foundation/type-scale

@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [card](/styles/card) — Affects
-- [minimalism](/styles/minimalism) — Similar
-- [glassmorphism](/styles/glassmorphism) — Similar
-- [dashboard](/styles/dashboard) — Used with
-- [aurora](/styles/aurora) — Similar
+- [card](/interface-atlas-web/en/components/card) — Affects
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Similar
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Similar
+- [dashboard](/interface-atlas-web/en/pages/dashboard) — Used with
+- [aurora](/interface-atlas-web/en/styles/aurora) — Similar
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/bento-grid.json` · Site: /en/styles/bento-grid
+JSON: `/interface-atlas-web/api/concept/styles/bento-grid.json` · Site: /interface-atlas-web/en/styles/bento-grid

@@ -74,13 +74,13 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [keyboard-navigation](/a11y/keyboard-navigation) — Used with
-- [skip-link](/a11y/skip-link) — Used with
-- [contrast-ratio](/a11y/contrast-ratio) — Used with
+- [keyboard-navigation](/interface-atlas-web/en/a11y/keyboard-navigation) — Used with
+- [skip-link](/interface-atlas-web/en/a11y/skip-link) — Used with
+- [contrast-ratio](/interface-atlas-web/en/foundation/contrast-ratio) — Used with
 
 ## Confusable
 
-- [hover-glow](/a11y/hover-glow) — hover-glow is decorative pointer feedback; a focus ring is required keyboard affordance.
+- [hover-glow](/interface-atlas-web/en/motion/hover-glow) — hover-glow is decorative pointer feedback; a focus ring is required keyboard affordance.
 
 ## Sources
 
@@ -89,4 +89,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/a11y/focus-ring.json` · Site: /en/a11y/focus-ring
+JSON: `/interface-atlas-web/api/concept/a11y/focus-ring.json` · Site: /interface-atlas-web/en/a11y/focus-ring

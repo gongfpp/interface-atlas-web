@@ -72,10 +72,10 @@
 
 ## 相关概念
 
-- [textarea](/components/textarea) — 相似概念
-- [select](/components/select) — 相似概念
-- [form-validation](/components/form-validation) — 搭配使用
-- [search-filtering](/components/search-filtering) — 搭配使用
+- [textarea](/interface-atlas-web/components/textarea) — 相似概念
+- [select](/interface-atlas-web/components/select) — 相似概念
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 搭配使用
 
 ## 可搭配的风格
 
@@ -88,4 +88,4 @@
 
 ---
 
-JSON: `/api/concept/components/input.json` · 站点: /components/input
+JSON: `/interface-atlas-web/api/concept/components/input.json` · 站点: /interface-atlas-web/components/input

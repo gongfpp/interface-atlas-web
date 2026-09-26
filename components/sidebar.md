@@ -68,10 +68,10 @@
 
 ## 相关概念
 
-- [navbar](/components/navbar) — 替代方案
-- [drawer](/components/drawer) — 相似概念
-- [command-palette](/components/command-palette) — 相似概念
-- [breadcrumb](/components/breadcrumb) — 相似概念
+- [navbar](/interface-atlas-web/components/navbar) — 替代方案
+- [drawer](/interface-atlas-web/components/drawer) — 相似概念
+- [command-palette](/interface-atlas-web/components/command-palette) — 相似概念
+- [breadcrumb](/interface-atlas-web/components/breadcrumb) — 相似概念
 
 ## 可搭配的风格
 
@@ -84,4 +84,4 @@
 
 ---
 
-JSON: `/api/concept/components/sidebar.json` · 站点: /components/sidebar
+JSON: `/interface-atlas-web/api/concept/components/sidebar.json` · 站点: /interface-atlas-web/components/sidebar

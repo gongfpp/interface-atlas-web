@@ -71,10 +71,10 @@
 
 ## 相关概念
 
-- [accordion-expand](/components/accordion-expand) — 搭配使用
-- [progressive-disclosure](/components/progressive-disclosure) — 搭配使用
-- [tabs](/components/tabs) — 相似概念
-- [dropdown](/components/dropdown) — 相似概念
+- [accordion-expand](/interface-atlas-web/motion/accordion-expand) — 搭配使用
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 搭配使用
+- [tabs](/interface-atlas-web/components/tabs) — 相似概念
+- [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
 
 ## Sources
 
@@ -83,4 +83,4 @@
 
 ---
 
-JSON: `/api/concept/components/accordion.json` · 站点: /components/accordion
+JSON: `/interface-atlas-web/api/concept/components/accordion.json` · 站点: /interface-atlas-web/components/accordion

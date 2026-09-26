@@ -72,10 +72,10 @@
 
 ## 相关概念
 
-- [modal](/foundation/modal) — 搭配使用
-- [dropdown](/foundation/dropdown) — 搭配使用
-- [tooltip](/foundation/tooltip) — 搭配使用
-- [elevation](/foundation/elevation) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 搭配使用
+- [dropdown](/interface-atlas-web/components/dropdown) — 搭配使用
+- [tooltip](/interface-atlas-web/components/tooltip) — 搭配使用
+- [elevation](/interface-atlas-web/foundation/elevation) — 相似概念
 
 ## Sources
 
@@ -85,4 +85,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/z-index.json` · 站点: /foundation/z-index
+JSON: `/interface-atlas-web/api/concept/foundation/z-index.json` · 站点: /interface-atlas-web/foundation/z-index

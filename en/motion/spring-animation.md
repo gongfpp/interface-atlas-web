@@ -63,9 +63,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [elastic-bounce](/motion/elastic-bounce) — Alternative
-- [press-feedback](/motion/press-feedback) — Used with
-- [hover-lift](/motion/hover-lift) — Used with
+- [elastic-bounce](/interface-atlas-web/en/motion/elastic-bounce) — Alternative
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
 
 ## Sources
 
@@ -75,4 +75,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/motion/spring-animation.json` · Site: /en/motion/spring-animation
+JSON: `/interface-atlas-web/api/concept/motion/spring-animation.json` · Site: /interface-atlas-web/en/motion/spring-animation

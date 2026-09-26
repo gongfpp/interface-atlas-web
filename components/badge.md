@@ -62,9 +62,9 @@
 
 ## 相关概念
 
-- [avatar](/components/avatar) — 相似概念
-- [button](/components/button) — 相似概念
-- [card](/components/card) — 相似概念
+- [avatar](/interface-atlas-web/components/avatar) — 相似概念
+- [button](/interface-atlas-web/components/button) — 相似概念
+- [card](/interface-atlas-web/components/card) — 相似概念
 
 ## Sources
 
@@ -73,4 +73,4 @@
 
 ---
 
-JSON: `/api/concept/components/badge.json` · 站点: /components/badge
+JSON: `/interface-atlas-web/api/concept/components/badge.json` · 站点: /interface-atlas-web/components/badge

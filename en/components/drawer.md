@@ -71,10 +71,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [modal](/components/modal) — Alternative
-- [sidebar](/components/sidebar) — Similar
-- [popover](/components/popover) — Alternative
-- [drawer-slide](/components/drawer-slide) — Used with
+- [modal](/interface-atlas-web/en/components/modal) — Alternative
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Similar
+- [popover](/interface-atlas-web/en/components/popover) — Alternative
+- [drawer-slide](/interface-atlas-web/en/motion/drawer-slide) — Used with
 
 ## Sources
 
@@ -83,4 +83,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/drawer.json` · Site: /en/components/drawer
+JSON: `/interface-atlas-web/api/concept/components/drawer.json` · Site: /interface-atlas-web/en/components/drawer

@@ -65,10 +65,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [error-404](/pages/error-404) — Similar
-- [button](/pages/button) — Contains
-- [alert](/pages/alert) — Contains
-- [empty-state](/pages/empty-state) — Uses pattern
+- [error-404](/interface-atlas-web/en/pages/error-404) — Similar
+- [button](/interface-atlas-web/en/components/button) — Contains
+- [alert](/interface-atlas-web/en/components/alert) — Contains
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Uses pattern
 
 ## Sources
 
@@ -77,4 +77,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/error-500.json` · Site: /en/pages/error-500
+JSON: `/interface-atlas-web/api/concept/pages/error-500.json` · Site: /interface-atlas-web/en/pages/error-500

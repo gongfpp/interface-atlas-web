@@ -57,11 +57,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [filter-panel](/patterns/filter-panel) — Used with
-- [command-palette](/patterns/command-palette) — Used with
-- [input](/patterns/input) — Used with
-- [empty-state](/patterns/empty-state) — Similar
-- [infinite-scroll](/patterns/infinite-scroll) — Similar
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Used with
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Used with
+- [input](/interface-atlas-web/en/components/input) — Used with
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Similar
+- [infinite-scroll](/interface-atlas-web/en/patterns/infinite-scroll) — Similar
 
 ## Applicable styles
 
@@ -74,4 +74,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/search-filtering.json` · Site: /en/patterns/search-filtering
+JSON: `/interface-atlas-web/api/concept/patterns/search-filtering.json` · Site: /interface-atlas-web/en/patterns/search-filtering

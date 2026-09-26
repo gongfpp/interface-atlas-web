@@ -70,10 +70,10 @@
 
 ## 相关概念
 
-- [card](/components/card) — 替代方案
-- [pagination](/components/pagination) — 相似概念
-- [filter-panel](/components/filter-panel) — 相似概念
-- [master-detail](/components/master-detail) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 替代方案
+- [pagination](/interface-atlas-web/components/pagination) — 相似概念
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 相似概念
+- [master-detail](/interface-atlas-web/patterns/master-detail) — 搭配使用
 
 ## Sources
 
@@ -82,4 +82,4 @@
 
 ---
 
-JSON: `/api/concept/components/table.json` · 站点: /components/table
+JSON: `/interface-atlas-web/api/concept/components/table.json` · 站点: /interface-atlas-web/components/table

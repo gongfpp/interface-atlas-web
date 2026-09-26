@@ -67,11 +67,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [table](/pages/table) — Contains
-- [segmented-control](/pages/segmented-control) — Contains
-- [badge](/pages/badge) — Contains
-- [progressive-disclosure](/pages/progressive-disclosure) — Uses pattern
-- [pricing](/pages/pricing) — Similar
+- [table](/interface-atlas-web/en/components/table) — Contains
+- [segmented-control](/interface-atlas-web/en/components/segmented-control) — Contains
+- [badge](/interface-atlas-web/en/components/badge) — Contains
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Uses pattern
+- [pricing](/interface-atlas-web/en/pages/pricing) — Similar
 
 ## Sources
 
@@ -81,4 +81,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/features-comparison.json` · Site: /en/pages/features-comparison
+JSON: `/interface-atlas-web/api/concept/pages/features-comparison.json` · Site: /interface-atlas-web/en/pages/features-comparison

@@ -72,10 +72,10 @@
 
 ## 相关概念
 
-- [relative-units](/foundation/relative-units) — 相似概念
-- [border-radius](/foundation/border-radius) — 相似概念
-- [type-scale](/foundation/type-scale) — 搭配使用
-- [button](/foundation/button) — 搭配使用
+- [relative-units](/interface-atlas-web/foundation/relative-units) — 相似概念
+- [border-radius](/interface-atlas-web/foundation/border-radius) — 相似概念
+- [type-scale](/interface-atlas-web/foundation/type-scale) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 搭配使用
 
 ## Sources
 
@@ -85,4 +85,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/spacing-scale.json` · 站点: /foundation/spacing-scale
+JSON: `/interface-atlas-web/api/concept/foundation/spacing-scale.json` · 站点: /interface-atlas-web/foundation/spacing-scale

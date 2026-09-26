@@ -56,10 +56,10 @@
 
 ## 相关概念
 
-- [scroll-reveal](/motion/scroll-reveal) — 相似概念
-- [text-reveal](/motion/text-reveal) — 相似概念
-- [card](/motion/card) — 应用于
-- [menu](/motion/menu) — 应用于
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 相似概念
+- [text-reveal](/interface-atlas-web/motion/text-reveal) — 相似概念
+- [card](/interface-atlas-web/components/card) — 应用于
+- [menu](/interface-atlas-web/components/menu) — 应用于
 
 ## Sources
 
@@ -67,4 +67,4 @@
 
 ---
 
-JSON: `/api/concept/motion/stagger-reveal.json` · 站点: /motion/stagger-reveal
+JSON: `/interface-atlas-web/api/concept/motion/stagger-reveal.json` · 站点: /interface-atlas-web/motion/stagger-reveal

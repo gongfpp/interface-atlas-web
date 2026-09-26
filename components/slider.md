@@ -62,10 +62,10 @@
 
 ## 相关概念
 
-- [progress-bar](/components/progress-bar) — 相似概念
-- [input](/components/input) — 相似概念
-- [number-counter](/components/number-counter) — 搭配使用
-- [form-validation](/components/form-validation) — 搭配使用
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 相似概念
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [number-counter](/interface-atlas-web/motion/number-counter) — 搭配使用
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
 
 ## 可搭配的风格
 
@@ -78,4 +78,4 @@
 
 ---
 
-JSON: `/api/concept/components/slider.json` · 站点: /components/slider
+JSON: `/interface-atlas-web/api/concept/components/slider.json` · 站点: /interface-atlas-web/components/slider

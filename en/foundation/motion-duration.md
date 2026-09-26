@@ -72,10 +72,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [reduced-motion](/foundation/reduced-motion) — Used with
-- [hover-lift](/foundation/hover-lift) — Used with
-- [page-transition](/foundation/page-transition) — Used with
-- [press-feedback](/foundation/press-feedback) — Used with
+- [reduced-motion](/interface-atlas-web/en/a11y/reduced-motion) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
+- [page-transition](/interface-atlas-web/en/motion/page-transition) — Used with
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Used with
 
 ## Sources
 
@@ -86,4 +86,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/motion-duration.json` · Site: /en/foundation/motion-duration
+JSON: `/interface-atlas-web/api/concept/foundation/motion-duration.json` · Site: /interface-atlas-web/en/foundation/motion-duration

@@ -63,11 +63,11 @@
 
 ## 相关概念
 
-- [input](/patterns/input) — 搭配使用
-- [toast](/patterns/toast) — 替代方案
-- [alert](/patterns/alert) — 替代方案
-- [inline-editing](/patterns/inline-editing) — 相似概念
-- [empty-state](/patterns/empty-state) — 相似概念
+- [input](/interface-atlas-web/components/input) — 搭配使用
+- [toast](/interface-atlas-web/components/toast) — 替代方案
+- [alert](/interface-atlas-web/components/alert) — 替代方案
+- [inline-editing](/interface-atlas-web/patterns/inline-editing) — 相似概念
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 相似概念
 
 ## 可搭配的风格
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/form-validation.json` · 站点: /patterns/form-validation
+JSON: `/interface-atlas-web/api/concept/patterns/form-validation.json` · 站点: /interface-atlas-web/patterns/form-validation

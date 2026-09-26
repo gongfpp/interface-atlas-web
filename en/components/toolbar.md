@@ -71,14 +71,14 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [navbar](/components/navbar) — Alternative
-- [menu](/components/menu) — Used with
-- [button](/components/button) — Used with
+- [navbar](/interface-atlas-web/en/components/navbar) — Alternative
+- [menu](/interface-atlas-web/en/components/menu) — Used with
+- [button](/interface-atlas-web/en/components/button) — Used with
 
 ## Confusable
 
-- [navbar](/components/navbar) — A navbar navigates to destinations; a toolbar runs actions in the current context.
-- [menu](/components/menu) — A menu opens a list to choose from; a toolbar button acts on click.
+- [navbar](/interface-atlas-web/en/components/navbar) — A navbar navigates to destinations; a toolbar runs actions in the current context.
+- [menu](/interface-atlas-web/en/components/menu) — A menu opens a list to choose from; a toolbar button acts on click.
 
 ## Sources
 
@@ -88,4 +88,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/toolbar.json` · Site: /en/components/toolbar
+JSON: `/interface-atlas-web/api/concept/components/toolbar.json` · Site: /interface-atlas-web/en/components/toolbar

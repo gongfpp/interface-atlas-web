@@ -59,11 +59,11 @@
 
 ## 相关概念
 
-- [toast](/patterns/toast) — 搭配使用
-- [undo-action](/patterns/undo-action) — 相似概念
-- [skeleton-loading](/patterns/skeleton-loading) — 相似概念
-- [loading-spinner](/patterns/loading-spinner) — 搭配使用
-- [button](/patterns/button) — 搭配使用
+- [toast](/interface-atlas-web/components/toast) — 搭配使用
+- [undo-action](/interface-atlas-web/patterns/undo-action) — 相似概念
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 相似概念
+- [loading-spinner](/interface-atlas-web/motion/loading-spinner) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 搭配使用
 
 ## Sources
 
@@ -72,4 +72,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/optimistic-ui.json` · 站点: /patterns/optimistic-ui
+JSON: `/interface-atlas-web/api/concept/patterns/optimistic-ui.json` · 站点: /interface-atlas-web/patterns/optimistic-ui

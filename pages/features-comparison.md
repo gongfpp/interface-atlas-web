@@ -67,11 +67,11 @@
 
 ## 相关概念
 
-- [table](/pages/table) — 包含组件
-- [segmented-control](/pages/segmented-control) — 包含组件
-- [badge](/pages/badge) — 包含组件
-- [progressive-disclosure](/pages/progressive-disclosure) — 使用模式
-- [pricing](/pages/pricing) — 相似概念
+- [table](/interface-atlas-web/components/table) — 包含组件
+- [segmented-control](/interface-atlas-web/components/segmented-control) — 包含组件
+- [badge](/interface-atlas-web/components/badge) — 包含组件
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 使用模式
+- [pricing](/interface-atlas-web/pages/pricing) — 相似概念
 
 ## Sources
 
@@ -81,4 +81,4 @@
 
 ---
 
-JSON: `/api/concept/pages/features-comparison.json` · 站点: /pages/features-comparison
+JSON: `/interface-atlas-web/api/concept/pages/features-comparison.json` · 站点: /interface-atlas-web/pages/features-comparison

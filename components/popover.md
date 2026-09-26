@@ -82,16 +82,16 @@ Popover 是锚定触发元素的非打断浮层，内容任意；Tooltip 只读�
 
 ## 相关概念
 
-- [tooltip](/components/tooltip) — 相似概念
-- [modal](/components/modal) — 替代方案
-- [drawer](/components/drawer) — 替代方案
-- [dropdown](/components/dropdown) — 相似概念
+- [tooltip](/interface-atlas-web/components/tooltip) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 替代方案
+- [drawer](/interface-atlas-web/components/drawer) — 替代方案
+- [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
 
 ## 容易混淆
 
-- [tooltip](/components/tooltip) — Tooltip 只读、短暂、悬停触发；Popover 可交互、点击触发。
-- [dropdown](/components/dropdown) — Dropdown 列表是命令项，Popover 内容任意。
-- [modal](/components/modal) — Modal 遮罩整页，Popover 不遮罩、可点外部关闭。
+- [tooltip](/interface-atlas-web/components/tooltip) — Tooltip 只读、短暂、悬停触发；Popover 可交互、点击触发。
+- [dropdown](/interface-atlas-web/components/dropdown) — Dropdown 列表是命令项，Popover 内容任意。
+- [modal](/interface-atlas-web/components/modal) — Modal 遮罩整页，Popover 不遮罩、可点外部关闭。
 
 ## Sources
 
@@ -100,4 +100,4 @@ Popover 是锚定触发元素的非打断浮层，内容任意；Tooltip 只读�
 
 ---
 
-JSON: `/api/concept/components/popover.json` · 站点: /components/popover
+JSON: `/interface-atlas-web/api/concept/components/popover.json` · 站点: /interface-atlas-web/components/popover

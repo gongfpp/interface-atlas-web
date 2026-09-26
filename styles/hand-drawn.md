@@ -66,12 +66,12 @@
 
 ## 相关概念
 
-- [organic](/styles/organic) — 相似概念
-- [neobrutalism](/styles/neobrutalism) — 相似概念
-- [minimalism](/styles/minimalism) — 替代方案
-- [empty-state](/styles/empty-state) — 搭配使用
-- [button](/styles/button) — 影响组件
-- [card](/styles/card) — 影响组件
+- [organic](/interface-atlas-web/styles/organic) — 相似概念
+- [neobrutalism](/interface-atlas-web/styles/neobrutalism) — 相似概念
+- [minimalism](/interface-atlas-web/styles/minimalism) — 替代方案
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [card](/interface-atlas-web/components/card) — 影响组件
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/styles/hand-drawn.json` · 站点: /styles/hand-drawn
+JSON: `/interface-atlas-web/api/concept/styles/hand-drawn.json` · 站点: /interface-atlas-web/styles/hand-drawn

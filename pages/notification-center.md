@@ -67,11 +67,11 @@
 
 ## 相关概念
 
-- [tabs](/pages/tabs) — 包含组件
-- [badge](/pages/badge) — 包含组件
-- [avatar](/pages/avatar) — 包含组件
-- [infinite-scroll](/pages/infinite-scroll) — 使用模式
-- [empty-state](/pages/empty-state) — 使用模式
+- [tabs](/interface-atlas-web/components/tabs) — 包含组件
+- [badge](/interface-atlas-web/components/badge) — 包含组件
+- [avatar](/interface-atlas-web/components/avatar) — 包含组件
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 使用模式
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 使用模式
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/pages/notification-center.json` · 站点: /pages/notification-center
+JSON: `/interface-atlas-web/api/concept/pages/notification-center.json` · 站点: /interface-atlas-web/pages/notification-center

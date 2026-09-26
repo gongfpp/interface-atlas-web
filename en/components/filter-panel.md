@@ -64,10 +64,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [search-filtering](/components/search-filtering) — Used with
-- [checkbox](/components/checkbox) — Similar
-- [drawer](/components/drawer) — Similar
-- [search](/components/search) — Used with
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Used with
+- [checkbox](/interface-atlas-web/en/components/checkbox) — Similar
+- [drawer](/interface-atlas-web/en/components/drawer) — Similar
+- [search](/interface-atlas-web/en/pages/search) — Used with
 
 ## Sources
 
@@ -76,4 +76,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/filter-panel.json` · Site: /en/components/filter-panel
+JSON: `/interface-atlas-web/api/concept/components/filter-panel.json` · Site: /interface-atlas-web/en/components/filter-panel

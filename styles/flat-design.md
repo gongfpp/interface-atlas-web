@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [minimalism](/styles/minimalism) — 相似概念
-- [skeuomorphism](/styles/skeuomorphism) — 相似概念
-- [swiss-style](/styles/swiss-style) — 相似概念
-- [button](/styles/button) — 影响组件
-- [card](/styles/card) — 影响组件
+- [minimalism](/interface-atlas-web/styles/minimalism) — 相似概念
+- [skeuomorphism](/interface-atlas-web/styles/skeuomorphism) — 相似概念
+- [swiss-style](/interface-atlas-web/styles/swiss-style) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
+- [card](/interface-atlas-web/components/card) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/flat-design.json` · 站点: /styles/flat-design
+JSON: `/interface-atlas-web/api/concept/styles/flat-design.json` · 站点: /interface-atlas-web/styles/flat-design

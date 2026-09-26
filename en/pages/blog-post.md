@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [avatar](/pages/avatar) — Contains
-- [breadcrumb](/pages/breadcrumb) — Contains
-- [progressive-disclosure](/pages/progressive-disclosure) — Uses pattern
-- [scroll-reveal](/pages/scroll-reveal) — Used with
-- [blog-index](/pages/blog-index) — Similar
+- [avatar](/interface-atlas-web/en/components/avatar) — Contains
+- [breadcrumb](/interface-atlas-web/en/components/breadcrumb) — Contains
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Uses pattern
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Used with
+- [blog-index](/interface-atlas-web/en/pages/blog-index) — Similar
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/blog-post.json` · Site: /en/pages/blog-post
+JSON: `/interface-atlas-web/api/concept/pages/blog-post.json` · Site: /interface-atlas-web/en/pages/blog-post

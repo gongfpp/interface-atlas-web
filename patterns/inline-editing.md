@@ -59,11 +59,11 @@
 
 ## 相关概念
 
-- [input](/patterns/input) — 搭配使用
-- [textarea](/patterns/textarea) — 搭配使用
-- [form-validation](/patterns/form-validation) — 相似概念
-- [optimistic-ui](/patterns/optimistic-ui) — 相似概念
-- [button](/patterns/button) — 搭配使用
+- [input](/interface-atlas-web/components/input) — 搭配使用
+- [textarea](/interface-atlas-web/components/textarea) — 搭配使用
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 相似概念
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 相似概念
+- [button](/interface-atlas-web/components/button) — 搭配使用
 
 ## Sources
 
@@ -72,4 +72,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/inline-editing.json` · 站点: /patterns/inline-editing
+JSON: `/interface-atlas-web/api/concept/patterns/inline-editing.json` · 站点: /interface-atlas-web/patterns/inline-editing

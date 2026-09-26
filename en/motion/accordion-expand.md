@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [accordion](/motion/accordion) — Applies to
-- [progressive-disclosure](/motion/progressive-disclosure) — Used with
-- [filter-panel](/motion/filter-panel) — Applies to
-- [settings](/motion/settings) — Used with
+- [accordion](/interface-atlas-web/en/components/accordion) — Applies to
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Used with
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Applies to
+- [settings](/interface-atlas-web/en/pages/settings) — Used with
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/accordion-expand.json` · Site: /en/motion/accordion-expand
+JSON: `/interface-atlas-web/api/concept/motion/accordion-expand.json` · Site: /interface-atlas-web/en/motion/accordion-expand

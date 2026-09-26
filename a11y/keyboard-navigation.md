@@ -73,14 +73,14 @@
 
 ## 相关概念
 
-- [focus-ring](/a11y/focus-ring) — 搭配使用
-- [skip-link](/a11y/skip-link) — 搭配使用
-- [menu](/a11y/menu) — 搭配使用
-- [command-palette](/a11y/command-palette) — 搭配使用
+- [focus-ring](/interface-atlas-web/a11y/focus-ring) — 搭配使用
+- [skip-link](/interface-atlas-web/a11y/skip-link) — 搭配使用
+- [menu](/interface-atlas-web/components/menu) — 搭配使用
+- [command-palette](/interface-atlas-web/components/command-palette) — 搭配使用
 
 ## 容易混淆
 
-- [tabs](/a11y/tabs) — tabs 是标签页组件；keyboard-navigation 里的 Tab 键是焦点移动按键——同名不同物。
+- [tabs](/interface-atlas-web/components/tabs) — tabs 是标签页组件；keyboard-navigation 里的 Tab 键是焦点移动按键——同名不同物。
 
 ## Sources
 
@@ -89,4 +89,4 @@
 
 ---
 
-JSON: `/api/concept/a11y/keyboard-navigation.json` · 站点: /a11y/keyboard-navigation
+JSON: `/interface-atlas-web/api/concept/a11y/keyboard-navigation.json` · 站点: /interface-atlas-web/a11y/keyboard-navigation

@@ -83,15 +83,15 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [alert](/components/alert) — Alternative
-- [modal](/components/modal) — Similar
-- [toast-slide-in](/components/toast-slide-in) — Used with
-- [undo-action](/components/undo-action) — Used with
+- [alert](/interface-atlas-web/en/components/alert) — Alternative
+- [modal](/interface-atlas-web/en/components/modal) — Similar
+- [toast-slide-in](/interface-atlas-web/en/motion/toast-slide-in) — Used with
+- [undo-action](/interface-atlas-web/en/patterns/undo-action) — Used with
 
 ## Confusable
 
-- [alert](/components/alert) — Alert persists and may carry actions; a toast is brief at a corner.
-- [tooltip](/components/tooltip) — A tooltip explains a control; a toast reports a system event.
+- [alert](/interface-atlas-web/en/components/alert) — Alert persists and may carry actions; a toast is brief at a corner.
+- [tooltip](/interface-atlas-web/en/components/tooltip) — A tooltip explains a control; a toast reports a system event.
 
 ## Sources
 
@@ -100,4 +100,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/toast.json` · Site: /en/components/toast
+JSON: `/interface-atlas-web/api/concept/components/toast.json` · Site: /interface-atlas-web/en/components/toast

@@ -73,13 +73,13 @@ alt 文本是图片的文本替代，tooltip 是指针悬停的补充说明—�
 
 ## 相关概念
 
-- [avatar](/a11y/avatar) — 搭配使用
-- [card](/a11y/card) — 搭配使用
-- [empty-state](/a11y/empty-state) — 搭配使用
+- [avatar](/interface-atlas-web/components/avatar) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 搭配使用
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 搭配使用
 
 ## 容易混淆
 
-- [tooltip](/a11y/tooltip) — tooltip 是悬停才出现的补充说明，替代文本是图片本身无障碍必需的文本替身。
+- [tooltip](/interface-atlas-web/components/tooltip) — tooltip 是悬停才出现的补充说明，替代文本是图片本身无障碍必需的文本替身。
 
 ## Sources
 
@@ -88,4 +88,4 @@ alt 文本是图片的文本替代，tooltip 是指针悬停的补充说明—�
 
 ---
 
-JSON: `/api/concept/a11y/alt-text.json` · 站点: /a11y/alt-text
+JSON: `/interface-atlas-web/api/concept/a11y/alt-text.json` · 站点: /interface-atlas-web/a11y/alt-text

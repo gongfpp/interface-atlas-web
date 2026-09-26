@@ -57,11 +57,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [tooltip](/patterns/tooltip) — Used with
-- [popover](/patterns/popover) — Used with
-- [modal](/patterns/modal) — Used with
-- [progressive-disclosure](/patterns/progressive-disclosure) — Similar
-- [empty-state](/patterns/empty-state) — Similar
+- [tooltip](/interface-atlas-web/en/components/tooltip) — Used with
+- [popover](/interface-atlas-web/en/components/popover) — Used with
+- [modal](/interface-atlas-web/en/components/modal) — Used with
+- [progressive-disclosure](/interface-atlas-web/en/patterns/progressive-disclosure) — Similar
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Similar
 
 ## Applicable styles
 
@@ -74,4 +74,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/onboarding-tour.json` · Site: /en/patterns/onboarding-tour
+JSON: `/interface-atlas-web/api/concept/patterns/onboarding-tour.json` · Site: /interface-atlas-web/en/patterns/onboarding-tour

@@ -71,14 +71,14 @@
 
 ## 相关概念
 
-- [navbar](/components/navbar) — 替代方案
-- [menu](/components/menu) — 搭配使用
-- [button](/components/button) — 搭配使用
+- [navbar](/interface-atlas-web/components/navbar) — 替代方案
+- [menu](/interface-atlas-web/components/menu) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 搭配使用
 
 ## 容易混淆
 
-- [navbar](/components/navbar) — 导航条跳转目的地；工具条执行当前上下文的动作。
-- [menu](/components/menu) — 菜单点开后再选一项；工具条按钮点击即执行。
+- [navbar](/interface-atlas-web/components/navbar) — 导航条跳转目的地；工具条执行当前上下文的动作。
+- [menu](/interface-atlas-web/components/menu) — 菜单点开后再选一项；工具条按钮点击即执行。
 
 ## Sources
 
@@ -88,4 +88,4 @@
 
 ---
 
-JSON: `/api/concept/components/toolbar.json` · 站点: /components/toolbar
+JSON: `/interface-atlas-web/api/concept/components/toolbar.json` · 站点: /interface-atlas-web/components/toolbar

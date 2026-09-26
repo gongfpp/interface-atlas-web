@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [swiss-style](/styles/swiss-style) — Similar
-- [memphis](/styles/memphis) — Similar
-- [flat-design](/styles/flat-design) — Similar
-- [button](/styles/button) — Affects
-- [card](/styles/card) — Affects
+- [swiss-style](/interface-atlas-web/en/styles/swiss-style) — Similar
+- [memphis](/interface-atlas-web/en/styles/memphis) — Similar
+- [flat-design](/interface-atlas-web/en/styles/flat-design) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [card](/interface-atlas-web/en/components/card) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/bauhaus.json` · Site: /en/styles/bauhaus
+JSON: `/interface-atlas-web/api/concept/styles/bauhaus.json` · Site: /interface-atlas-web/en/styles/bauhaus

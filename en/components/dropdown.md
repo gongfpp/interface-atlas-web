@@ -82,17 +82,17 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [menu](/components/menu) — Similar
-- [popover](/components/popover) — Similar
-- [command-palette](/components/command-palette) — Alternative
-- [select](/components/select) — Similar
-- [modal](/components/modal) — Similar
+- [menu](/interface-atlas-web/en/components/menu) — Similar
+- [popover](/interface-atlas-web/en/components/popover) — Similar
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Alternative
+- [select](/interface-atlas-web/en/components/select) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Similar
 
 ## Confusable
 
-- [menu](/components/menu) — Menu is just the popup list; Dropdown includes trigger and dismiss logic.
-- [select](/components/select) — Select collects form values; Dropdown runs commands.
-- [popover](/components/popover) — Popover content is free-form; a dropdown list is command items.
+- [menu](/interface-atlas-web/en/components/menu) — Menu is just the popup list; Dropdown includes trigger and dismiss logic.
+- [select](/interface-atlas-web/en/components/select) — Select collects form values; Dropdown runs commands.
+- [popover](/interface-atlas-web/en/components/popover) — Popover content is free-form; a dropdown list is command items.
 
 ## Applicable styles
 
@@ -105,4 +105,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/dropdown.json` · Site: /en/components/dropdown
+JSON: `/interface-atlas-web/api/concept/components/dropdown.json` · Site: /interface-atlas-web/en/components/dropdown

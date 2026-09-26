@@ -65,11 +65,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [timeline](/pages/timeline) — Contains
-- [accordion](/pages/accordion) — Contains
-- [badge](/pages/badge) — Contains
-- [search-filtering](/pages/search-filtering) — Uses pattern
-- [documentation](/pages/documentation) — Similar
+- [timeline](/interface-atlas-web/en/components/timeline) — Contains
+- [accordion](/interface-atlas-web/en/components/accordion) — Contains
+- [badge](/interface-atlas-web/en/components/badge) — Contains
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Uses pattern
+- [documentation](/interface-atlas-web/en/pages/documentation) — Similar
 
 ## Sources
 
@@ -78,4 +78,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/changelog.json` · Site: /en/pages/changelog
+JSON: `/interface-atlas-web/api/concept/pages/changelog.json` · Site: /interface-atlas-web/en/pages/changelog

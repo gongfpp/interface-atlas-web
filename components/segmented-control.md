@@ -56,15 +56,15 @@ Segmented Control（分段控制器）是紧凑的互斥选择条，常用于模
 
 ## 相关概念
 
-- [radio](/components/radio) — 相似概念
-- [tabs](/components/tabs) — 相似概念
-- [switch](/components/switch) — 相似概念
+- [radio](/interface-atlas-web/components/radio) — 相似概念
+- [tabs](/interface-atlas-web/components/tabs) — 相似概念
+- [switch](/interface-atlas-web/components/switch) — 相似概念
 
 ## 容易混淆
 
-- [tabs](/components/tabs) — Tabs 对应内容面板，Segmented Control 对应状态/模式。
-- [radio](/components/radio) — Radio 属表单字段，Segmented Control 属视图切换。
-- [switch](/components/switch) — Switch 是开/关二态，Segmented Control 是多选一。
+- [tabs](/interface-atlas-web/components/tabs) — Tabs 对应内容面板，Segmented Control 对应状态/模式。
+- [radio](/interface-atlas-web/components/radio) — Radio 属表单字段，Segmented Control 属视图切换。
+- [switch](/interface-atlas-web/components/switch) — Switch 是开/关二态，Segmented Control 是多选一。
 
 ## Sources
 
@@ -72,4 +72,4 @@ Segmented Control（分段控制器）是紧凑的互斥选择条，常用于模
 
 ---
 
-JSON: `/api/concept/components/segmented-control.json` · 站点: /components/segmented-control
+JSON: `/interface-atlas-web/api/concept/components/segmented-control.json` · 站点: /interface-atlas-web/components/segmented-control

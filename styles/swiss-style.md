@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [minimalism](/styles/minimalism) — 相似概念
-- [editorial](/styles/editorial) — 相似概念
-- [bauhaus](/styles/bauhaus) — 相似概念
-- [card](/styles/card) — 影响组件
-- [table](/styles/table) — 影响组件
+- [minimalism](/interface-atlas-web/styles/minimalism) — 相似概念
+- [editorial](/interface-atlas-web/styles/editorial) — 相似概念
+- [bauhaus](/interface-atlas-web/styles/bauhaus) — 相似概念
+- [card](/interface-atlas-web/components/card) — 影响组件
+- [table](/interface-atlas-web/components/table) — 影响组件
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/styles/swiss-style.json` · 站点: /styles/swiss-style
+JSON: `/interface-atlas-web/api/concept/styles/swiss-style.json` · 站点: /interface-atlas-web/styles/swiss-style

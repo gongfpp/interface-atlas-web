@@ -52,9 +52,9 @@
 
 ## 相关概念
 
-- [input](/components/input) — 相似概念
-- [select](/components/select) — 相似概念
-- [command-palette](/components/command-palette) — 相似概念
+- [input](/interface-atlas-web/components/input) — 相似概念
+- [select](/interface-atlas-web/components/select) — 相似概念
+- [command-palette](/interface-atlas-web/components/command-palette) — 相似概念
 
 ## Sources
 
@@ -62,4 +62,4 @@
 
 ---
 
-JSON: `/api/concept/components/combobox.json` · 站点: /components/combobox
+JSON: `/interface-atlas-web/api/concept/components/combobox.json` · 站点: /interface-atlas-web/components/combobox

@@ -77,15 +77,15 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [popover](/components/popover) — Similar
-- [modal](/components/modal) — Similar
-- [toast](/components/toast) — Similar
-- [button](/components/button) — Similar
+- [popover](/interface-atlas-web/en/components/popover) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Similar
+- [toast](/interface-atlas-web/en/components/toast) — Similar
+- [button](/interface-atlas-web/en/components/button) — Similar
 
 ## Confusable
 
-- [popover](/components/popover) — A popover opens on click and is interactive; a tooltip shows on hover and is read-only.
-- [toast](/components/toast) — Toast is system feedback that auto-dismisses; a tooltip explains a control near the pointer.
+- [popover](/interface-atlas-web/en/components/popover) — A popover opens on click and is interactive; a tooltip shows on hover and is read-only.
+- [toast](/interface-atlas-web/en/components/toast) — Toast is system feedback that auto-dismisses; a tooltip explains a control near the pointer.
 
 ## Sources
 
@@ -94,4 +94,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/tooltip.json` · Site: /en/components/tooltip
+JSON: `/interface-atlas-web/api/concept/components/tooltip.json` · Site: /interface-atlas-web/en/components/tooltip

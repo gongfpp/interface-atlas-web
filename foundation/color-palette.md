@@ -70,9 +70,9 @@
 
 ## 相关概念
 
-- [semantic-color](/foundation/semantic-color) — 搭配使用
-- [contrast-ratio](/foundation/contrast-ratio) — 搭配使用
-- [minimalism](/foundation/minimalism) — 搭配使用
+- [semantic-color](/interface-atlas-web/foundation/semantic-color) — 搭配使用
+- [contrast-ratio](/interface-atlas-web/foundation/contrast-ratio) — 搭配使用
+- [minimalism](/interface-atlas-web/styles/minimalism) — 搭配使用
 
 ## Sources
 
@@ -82,4 +82,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/color-palette.json` · 站点: /foundation/color-palette
+JSON: `/interface-atlas-web/api/concept/foundation/color-palette.json` · 站点: /interface-atlas-web/foundation/color-palette

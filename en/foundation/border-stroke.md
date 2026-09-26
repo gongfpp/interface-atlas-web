@@ -72,11 +72,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [focus-ring](/foundation/focus-ring) — Used with
-- [input](/foundation/input) — Used with
-- [card](/foundation/card) — Used with
-- [elevation](/foundation/elevation) — Similar
-- [neobrutalism](/foundation/neobrutalism) — Used with
+- [focus-ring](/interface-atlas-web/en/a11y/focus-ring) — Used with
+- [input](/interface-atlas-web/en/components/input) — Used with
+- [card](/interface-atlas-web/en/components/card) — Used with
+- [elevation](/interface-atlas-web/en/foundation/elevation) — Similar
+- [neobrutalism](/interface-atlas-web/en/styles/neobrutalism) — Used with
 
 ## Sources
 
@@ -87,4 +87,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/border-stroke.json` · Site: /en/foundation/border-stroke
+JSON: `/interface-atlas-web/api/concept/foundation/border-stroke.json` · Site: /interface-atlas-web/en/foundation/border-stroke

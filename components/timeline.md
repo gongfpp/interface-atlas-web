@@ -52,9 +52,9 @@
 
 ## 相关概念
 
-- [accordion](/components/accordion) — 相似概念
-- [card](/components/card) — 相似概念
-- [badge](/components/badge) — 相似概念
+- [accordion](/interface-atlas-web/components/accordion) — 相似概念
+- [card](/interface-atlas-web/components/card) — 相似概念
+- [badge](/interface-atlas-web/components/badge) — 相似概念
 
 ## Sources
 
@@ -62,4 +62,4 @@
 
 ---
 
-JSON: `/api/concept/components/timeline.json` · 站点: /components/timeline
+JSON: `/interface-atlas-web/api/concept/components/timeline.json` · 站点: /interface-atlas-web/components/timeline

@@ -74,13 +74,13 @@
 
 ## 相关概念
 
-- [keyboard-navigation](/a11y/keyboard-navigation) — 搭配使用
-- [skip-link](/a11y/skip-link) — 搭配使用
-- [contrast-ratio](/a11y/contrast-ratio) — 搭配使用
+- [keyboard-navigation](/interface-atlas-web/a11y/keyboard-navigation) — 搭配使用
+- [skip-link](/interface-atlas-web/a11y/skip-link) — 搭配使用
+- [contrast-ratio](/interface-atlas-web/foundation/contrast-ratio) — 搭配使用
 
 ## 容易混淆
 
-- [hover-glow](/a11y/hover-glow) — hover-glow 是鼠标悬停的装饰反馈，焦点环是键盘可达性的必需指示。
+- [hover-glow](/interface-atlas-web/motion/hover-glow) — hover-glow 是鼠标悬停的装饰反馈，焦点环是键盘可达性的必需指示。
 
 ## Sources
 
@@ -89,4 +89,4 @@
 
 ---
 
-JSON: `/api/concept/a11y/focus-ring.json` · 站点: /a11y/focus-ring
+JSON: `/interface-atlas-web/api/concept/a11y/focus-ring.json` · 站点: /interface-atlas-web/a11y/focus-ring

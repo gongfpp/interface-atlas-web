@@ -57,11 +57,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [scroll-reveal](/motion/scroll-reveal) — Similar
-- [stagger-reveal](/motion/stagger-reveal) — Similar
-- [number-counter](/motion/number-counter) — Similar
-- [editorial](/motion/editorial) — Used with
-- [landing-page](/motion/landing-page) — Used with
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Similar
+- [stagger-reveal](/interface-atlas-web/en/motion/stagger-reveal) — Similar
+- [number-counter](/interface-atlas-web/en/motion/number-counter) — Similar
+- [editorial](/interface-atlas-web/en/styles/editorial) — Used with
+- [landing-page](/interface-atlas-web/en/pages/landing-page) — Used with
 
 ## Sources
 
@@ -69,4 +69,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/text-reveal.json` · Site: /en/motion/text-reveal
+JSON: `/interface-atlas-web/api/concept/motion/text-reveal.json` · Site: /interface-atlas-web/en/motion/text-reveal

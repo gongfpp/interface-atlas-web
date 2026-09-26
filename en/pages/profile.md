@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [avatar](/pages/avatar) — Contains
-- [tabs](/pages/tabs) — Contains
-- [card](/pages/card) — Contains
-- [button](/pages/button) — Contains
-- [badge](/pages/badge) — Contains
+- [avatar](/interface-atlas-web/en/components/avatar) — Contains
+- [tabs](/interface-atlas-web/en/components/tabs) — Contains
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [button](/interface-atlas-web/en/components/button) — Contains
+- [badge](/interface-atlas-web/en/components/badge) — Contains
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/profile.json` · Site: /en/pages/profile
+JSON: `/interface-atlas-web/api/concept/pages/profile.json` · Site: /interface-atlas-web/en/pages/profile

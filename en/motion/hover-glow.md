@@ -63,10 +63,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [hover-lift](/motion/hover-lift) — Alternative
-- [press-feedback](/motion/press-feedback) — Similar
-- [button](/motion/button) — Applies to
-- [glassmorphism](/motion/glassmorphism) — Used with
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Alternative
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Similar
+- [button](/interface-atlas-web/en/components/button) — Applies to
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Used with
 
 ## Sources
 
@@ -74,4 +74,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/hover-glow.json` · Site: /en/motion/hover-glow
+JSON: `/interface-atlas-web/api/concept/motion/hover-glow.json` · Site: /interface-atlas-web/en/motion/hover-glow

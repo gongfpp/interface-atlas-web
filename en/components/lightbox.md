@@ -75,14 +75,14 @@ Run the existing project checks when done and list the modified files.
 
 ## Related
 
-- [modal](/components/modal) — Alternative
-- [carousel](/components/carousel) — Used with
-- [drawer](/components/drawer) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Alternative
+- [carousel](/interface-atlas-web/en/components/carousel) — Used with
+- [drawer](/interface-atlas-web/en/components/drawer) — Similar
 
 ## Confusable
 
-- [modal](/components/modal) — Modal hosts generic tasks and copy; lightbox exists to view media enlarged
-- [carousel](/components/carousel) — Carousel rotates in-page; lightbox presents full-screen over a dimmed page
+- [modal](/interface-atlas-web/en/components/modal) — Modal hosts generic tasks and copy; lightbox exists to view media enlarged
+- [carousel](/interface-atlas-web/en/components/carousel) — Carousel rotates in-page; lightbox presents full-screen over a dimmed page
 
 ## Sources
 
@@ -92,4 +92,4 @@ Run the existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/lightbox.json` · Site: /en/components/lightbox
+JSON: `/interface-atlas-web/api/concept/components/lightbox.json` · Site: /interface-atlas-web/en/components/lightbox

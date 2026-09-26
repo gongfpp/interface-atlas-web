@@ -52,9 +52,9 @@
 
 ## 相关概念
 
-- [radio](/components/radio) — 相似概念
-- [slider](/components/slider) — 相似概念
-- [button](/components/button) — 相似概念
+- [radio](/interface-atlas-web/components/radio) — 相似概念
+- [slider](/interface-atlas-web/components/slider) — 相似概念
+- [button](/interface-atlas-web/components/button) — 相似概念
 
 ## Sources
 
@@ -62,4 +62,4 @@
 
 ---
 
-JSON: `/api/concept/components/rating.json` · 站点: /components/rating
+JSON: `/interface-atlas-web/api/concept/components/rating.json` · 站点: /interface-atlas-web/components/rating

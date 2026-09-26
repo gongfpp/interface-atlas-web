@@ -63,10 +63,10 @@
 
 ## 相关概念
 
-- [search-filtering](/components/search-filtering) — 搭配使用
-- [checkbox](/components/checkbox) — 相似概念
-- [drawer](/components/drawer) — 相似概念
-- [search](/components/search) — 搭配使用
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 搭配使用
+- [checkbox](/interface-atlas-web/components/checkbox) — 相似概念
+- [drawer](/interface-atlas-web/components/drawer) — 相似概念
+- [search](/interface-atlas-web/pages/search) — 搭配使用
 
 ## Sources
 
@@ -75,4 +75,4 @@
 
 ---
 
-JSON: `/api/concept/components/filter-panel.json` · 站点: /components/filter-panel
+JSON: `/interface-atlas-web/api/concept/components/filter-panel.json` · 站点: /interface-atlas-web/components/filter-panel

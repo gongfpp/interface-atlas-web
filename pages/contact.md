@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [input](/pages/input) — 包含组件
-- [textarea](/pages/textarea) — 包含组件
-- [button](/pages/button) — 包含组件
-- [form-validation](/pages/form-validation) — 使用模式
-- [about](/pages/about) — 相似概念
+- [input](/interface-atlas-web/components/input) — 包含组件
+- [textarea](/interface-atlas-web/components/textarea) — 包含组件
+- [button](/interface-atlas-web/components/button) — 包含组件
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 使用模式
+- [about](/interface-atlas-web/pages/about) — 相似概念
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/contact.json` · 站点: /pages/contact
+JSON: `/interface-atlas-web/api/concept/pages/contact.json` · 站点: /interface-atlas-web/pages/contact

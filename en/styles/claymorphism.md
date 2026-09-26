@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [glassmorphism](/styles/glassmorphism) — Similar
-- [neobrutalism](/styles/neobrutalism) — Similar
-- [button](/styles/button) — Affects
-- [card](/styles/card) — Affects
-- [badge](/styles/badge) — Affects
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Similar
+- [neobrutalism](/interface-atlas-web/en/styles/neobrutalism) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [card](/interface-atlas-web/en/components/card) — Affects
+- [badge](/interface-atlas-web/en/components/badge) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/claymorphism.json` · Site: /en/styles/claymorphism
+JSON: `/interface-atlas-web/api/concept/styles/claymorphism.json` · Site: /interface-atlas-web/en/styles/claymorphism

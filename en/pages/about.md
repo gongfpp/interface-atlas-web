@@ -66,11 +66,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [avatar](/pages/avatar) — Contains
-- [timeline](/pages/timeline) — Contains
-- [card](/pages/card) — Contains
-- [scroll-reveal](/pages/scroll-reveal) — Used with
-- [contact](/pages/contact) — Similar
+- [avatar](/interface-atlas-web/en/components/avatar) — Contains
+- [timeline](/interface-atlas-web/en/components/timeline) — Contains
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Used with
+- [contact](/interface-atlas-web/en/pages/contact) — Similar
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/about.json` · Site: /en/pages/about
+JSON: `/interface-atlas-web/api/concept/pages/about.json` · Site: /interface-atlas-web/en/pages/about

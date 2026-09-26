@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [scroll-reveal](/motion/scroll-reveal) — Similar
-- [landing-page](/motion/landing-page) — Used with
-- [editorial](/motion/editorial) — Used with
-- [aurora](/motion/aurora) — Used with
+- [scroll-reveal](/interface-atlas-web/en/motion/scroll-reveal) — Similar
+- [landing-page](/interface-atlas-web/en/pages/landing-page) — Used with
+- [editorial](/interface-atlas-web/en/styles/editorial) — Used with
+- [aurora](/interface-atlas-web/en/styles/aurora) — Used with
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/parallax.json` · Site: /en/motion/parallax
+JSON: `/interface-atlas-web/api/concept/motion/parallax.json` · Site: /interface-atlas-web/en/motion/parallax

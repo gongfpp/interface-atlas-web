@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [glassmorphism](/styles/glassmorphism) — Similar
-- [flat-design](/styles/flat-design) — Similar
-- [retro-futurism](/styles/retro-futurism) — Similar
-- [button](/styles/button) — Affects
-- [switch](/styles/switch) — Affects
+- [glassmorphism](/interface-atlas-web/en/styles/glassmorphism) — Similar
+- [flat-design](/interface-atlas-web/en/styles/flat-design) — Similar
+- [retro-futurism](/interface-atlas-web/en/styles/retro-futurism) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [switch](/interface-atlas-web/en/components/switch) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/skeuomorphism.json` · Site: /en/styles/skeuomorphism
+JSON: `/interface-atlas-web/api/concept/styles/skeuomorphism.json` · Site: /interface-atlas-web/en/styles/skeuomorphism

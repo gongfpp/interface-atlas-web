@@ -63,9 +63,9 @@ HTML5 拖拽用 draggable + dragstart / dragover / drop；触屏不支持，需 
 
 ## 相关概念
 
-- [drag-and-drop-sorting](/patterns/drag-and-drop-sorting) — 相似概念
-- [inline-editing](/patterns/inline-editing) — 搭配使用
-- [kanban-board](/patterns/kanban-board) — 搭配使用
+- [drag-and-drop-sorting](/interface-atlas-web/patterns/drag-and-drop-sorting) — 相似概念
+- [inline-editing](/interface-atlas-web/patterns/inline-editing) — 搭配使用
+- [kanban-board](/interface-atlas-web/patterns/kanban-board) — 搭配使用
 
 ## Sources
 
@@ -75,4 +75,4 @@ HTML5 拖拽用 draggable + dragstart / dragover / drop；触屏不支持，需 
 
 ---
 
-JSON: `/api/concept/patterns/drag-and-drop.json` · 站点: /patterns/drag-and-drop
+JSON: `/interface-atlas-web/api/concept/patterns/drag-and-drop.json` · 站点: /interface-atlas-web/patterns/drag-and-drop

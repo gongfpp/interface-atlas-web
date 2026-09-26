@@ -72,10 +72,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [modal](/foundation/modal) — Used with
-- [dropdown](/foundation/dropdown) — Used with
-- [tooltip](/foundation/tooltip) — Used with
-- [elevation](/foundation/elevation) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Used with
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Used with
+- [tooltip](/interface-atlas-web/en/components/tooltip) — Used with
+- [elevation](/interface-atlas-web/en/foundation/elevation) — Similar
 
 ## Sources
 
@@ -85,4 +85,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/z-index.json` · Site: /en/foundation/z-index
+JSON: `/interface-atlas-web/api/concept/foundation/z-index.json` · Site: /interface-atlas-web/en/foundation/z-index

@@ -66,12 +66,12 @@
 
 ## 相关概念
 
-- [y2k](/styles/y2k) — 相似概念
-- [cyberpunk](/styles/cyberpunk) — 相似概念
-- [retro-futurism](/styles/retro-futurism) — 相似概念
-- [memphis](/styles/memphis) — 相似概念
-- [card](/styles/card) — 影响组件
-- [button](/styles/button) — 影响组件
+- [y2k](/interface-atlas-web/styles/y2k) — 相似概念
+- [cyberpunk](/interface-atlas-web/styles/cyberpunk) — 相似概念
+- [retro-futurism](/interface-atlas-web/styles/retro-futurism) — 相似概念
+- [memphis](/interface-atlas-web/styles/memphis) — 相似概念
+- [card](/interface-atlas-web/components/card) — 影响组件
+- [button](/interface-atlas-web/components/button) — 影响组件
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/styles/vaporwave.json` · 站点: /styles/vaporwave
+JSON: `/interface-atlas-web/api/concept/styles/vaporwave.json` · 站点: /interface-atlas-web/styles/vaporwave

@@ -66,16 +66,16 @@
 
 ## 相关概念
 
-- [glassmorphism](/styles/glassmorphism) — 相似概念
-- [skeuomorphism](/styles/skeuomorphism) — 相似概念
-- [aurora](/styles/aurora) — 搭配使用
-- [navbar](/styles/navbar) — 影响组件
-- [modal](/styles/modal) — 影响组件
-- [button](/styles/button) — 影响组件
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 相似概念
+- [skeuomorphism](/interface-atlas-web/styles/skeuomorphism) — 相似概念
+- [aurora](/interface-atlas-web/styles/aurora) — 搭配使用
+- [navbar](/interface-atlas-web/components/navbar) — 影响组件
+- [modal](/interface-atlas-web/components/modal) — 影响组件
+- [button](/interface-atlas-web/components/button) — 影响组件
 
 ## 容易混淆
 
-- [glassmorphism](/styles/glassmorphism) — 玻璃拟态是薄磨砂模糊（backdrop blur 一片雾）；液态玻璃是厚折射透镜，边缘变形并带镜面高光。
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 玻璃拟态是薄磨砂模糊（backdrop blur 一片雾）；液态玻璃是厚折射透镜，边缘变形并带镜面高光。
 
 ## Sources
 
@@ -84,4 +84,4 @@
 
 ---
 
-JSON: `/api/concept/styles/liquid-glass.json` · 站点: /styles/liquid-glass
+JSON: `/interface-atlas-web/api/concept/styles/liquid-glass.json` · 站点: /interface-atlas-web/styles/liquid-glass

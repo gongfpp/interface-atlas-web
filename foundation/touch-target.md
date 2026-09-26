@@ -71,10 +71,10 @@
 
 ## 相关概念
 
-- [breakpoints](/foundation/breakpoints) — 相似概念
-- [button](/foundation/button) — 搭配使用
-- [fab](/foundation/fab) — 搭配使用
-- [focus-ring](/foundation/focus-ring) — 搭配使用
+- [breakpoints](/interface-atlas-web/foundation/breakpoints) — 相似概念
+- [button](/interface-atlas-web/components/button) — 搭配使用
+- [fab](/interface-atlas-web/components/fab) — 搭配使用
+- [focus-ring](/interface-atlas-web/a11y/focus-ring) — 搭配使用
 
 ## Sources
 
@@ -84,4 +84,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/touch-target.json` · 站点: /foundation/touch-target
+JSON: `/interface-atlas-web/api/concept/foundation/touch-target.json` · 站点: /interface-atlas-web/foundation/touch-target

@@ -56,10 +56,10 @@
 
 ## 相关概念
 
-- [hover-lift](/motion/hover-lift) — 相似概念
-- [press-feedback](/motion/press-feedback) — 相似概念
-- [hover-glow](/motion/hover-glow) — 相似概念
-- [elastic-bounce](/motion/elastic-bounce) — 相似概念
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 相似概念
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 相似概念
+- [hover-glow](/interface-atlas-web/motion/hover-glow) — 相似概念
+- [elastic-bounce](/interface-atlas-web/motion/elastic-bounce) — 相似概念
 
 ## Sources
 
@@ -67,4 +67,4 @@
 
 ---
 
-JSON: `/api/concept/motion/magnetic-button.json` · 站点: /motion/magnetic-button
+JSON: `/interface-atlas-web/api/concept/motion/magnetic-button.json` · 站点: /interface-atlas-web/motion/magnetic-button

@@ -67,11 +67,11 @@
 
 ## 相关概念
 
-- [command-palette](/pages/command-palette) — 包含组件
-- [filter-panel](/pages/filter-panel) — 包含组件
-- [search-filtering](/pages/search-filtering) — 使用模式
-- [pagination](/pages/pagination) — 包含组件
-- [empty-state](/pages/empty-state) — 使用模式
+- [command-palette](/interface-atlas-web/components/command-palette) — 包含组件
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 包含组件
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 使用模式
+- [pagination](/interface-atlas-web/components/pagination) — 包含组件
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 使用模式
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/pages/search.json` · 站点: /pages/search
+JSON: `/interface-atlas-web/api/concept/pages/search.json` · 站点: /interface-atlas-web/pages/search

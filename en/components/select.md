@@ -72,11 +72,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [dropdown](/components/dropdown) — Similar
-- [menu](/components/menu) — Similar
-- [radio](/components/radio) — Similar
-- [form-validation](/components/form-validation) — Used with
-- [command-palette](/components/command-palette) — Similar
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
+- [menu](/interface-atlas-web/en/components/menu) — Similar
+- [radio](/interface-atlas-web/en/components/radio) — Similar
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
+- [command-palette](/interface-atlas-web/en/components/command-palette) — Similar
 
 ## Applicable styles
 
@@ -89,4 +89,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/select.json` · Site: /en/components/select
+JSON: `/interface-atlas-web/api/concept/components/select.json` · Site: /interface-atlas-web/en/components/select

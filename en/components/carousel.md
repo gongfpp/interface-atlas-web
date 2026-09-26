@@ -66,9 +66,9 @@ Run the project's existing checks when done and list the modified files.
 
 ## Related
 
-- [tabs](/components/tabs) — Alternative
-- [marquee](/components/marquee) — Alternative
-- [card](/components/card) — Used with
+- [tabs](/interface-atlas-web/en/components/tabs) — Alternative
+- [marquee](/interface-atlas-web/en/motion/marquee) — Alternative
+- [card](/interface-atlas-web/en/components/card) — Used with
 
 ## Sources
 
@@ -77,4 +77,4 @@ Run the project's existing checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/carousel.json` · Site: /en/components/carousel
+JSON: `/interface-atlas-web/api/concept/components/carousel.json` · Site: /interface-atlas-web/en/components/carousel

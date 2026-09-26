@@ -56,15 +56,15 @@ Run existing checks and list changed files and validation results.
 
 ## Related
 
-- [radio](/components/radio) — Similar
-- [tabs](/components/tabs) — Similar
-- [switch](/components/switch) — Similar
+- [radio](/interface-atlas-web/en/components/radio) — Similar
+- [tabs](/interface-atlas-web/en/components/tabs) — Similar
+- [switch](/interface-atlas-web/en/components/switch) — Similar
 
 ## Confusable
 
-- [tabs](/components/tabs) — Tabs map to content panels; segmented control to state or mode.
-- [radio](/components/radio) — Radio is a form field; segmented control is a view switch.
-- [switch](/components/switch) — A switch is on/off; a segmented control picks one of several.
+- [tabs](/interface-atlas-web/en/components/tabs) — Tabs map to content panels; segmented control to state or mode.
+- [radio](/interface-atlas-web/en/components/radio) — Radio is a form field; segmented control is a view switch.
+- [switch](/interface-atlas-web/en/components/switch) — A switch is on/off; a segmented control picks one of several.
 
 ## Sources
 
@@ -72,4 +72,4 @@ Run existing checks and list changed files and validation results.
 
 ---
 
-JSON: `/api/concept/components/segmented-control.json` · Site: /en/components/segmented-control
+JSON: `/interface-atlas-web/api/concept/components/segmented-control.json` · Site: /interface-atlas-web/en/components/segmented-control

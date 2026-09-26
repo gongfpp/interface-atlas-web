@@ -62,10 +62,10 @@ transition: transform 200ms ease, box-shadow 200ms；hover 时 translateY(-4px) 
 
 ## 相关概念
 
-- [press-feedback](/motion/press-feedback) — 相似概念
-- [hover-glow](/motion/hover-glow) — 替代方案
-- [card](/motion/card) — 应用于
-- [magnetic-button](/motion/magnetic-button) — 相似概念
+- [press-feedback](/interface-atlas-web/motion/press-feedback) — 相似概念
+- [hover-glow](/interface-atlas-web/motion/hover-glow) — 替代方案
+- [card](/interface-atlas-web/components/card) — 应用于
+- [magnetic-button](/interface-atlas-web/motion/magnetic-button) — 相似概念
 
 ## 可搭配的风格
 
@@ -77,4 +77,4 @@ transition: transform 200ms ease, box-shadow 200ms；hover 时 translateY(-4px) 
 
 ---
 
-JSON: `/api/concept/motion/hover-lift.json` · 站点: /motion/hover-lift
+JSON: `/interface-atlas-web/api/concept/motion/hover-lift.json` · 站点: /interface-atlas-web/motion/hover-lift

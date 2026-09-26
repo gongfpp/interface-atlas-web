@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [progressive-disclosure](/patterns/progressive-disclosure) — 搭配使用
-- [pricing](/patterns/pricing) — 搭配使用
-- [signup](/patterns/signup) — 搭配使用
-- [empty-state](/patterns/empty-state) — 相似概念
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 搭配使用
+- [pricing](/interface-atlas-web/pages/pricing) — 搭配使用
+- [signup](/interface-atlas-web/pages/signup) — 搭配使用
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 相似概念
 
 ## Sources
 
@@ -70,4 +70,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/paywall.json` · 站点: /patterns/paywall
+JSON: `/interface-atlas-web/api/concept/patterns/paywall.json` · 站点: /interface-atlas-web/patterns/paywall

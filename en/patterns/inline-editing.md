@@ -59,11 +59,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [input](/patterns/input) — Used with
-- [textarea](/patterns/textarea) — Used with
-- [form-validation](/patterns/form-validation) — Similar
-- [optimistic-ui](/patterns/optimistic-ui) — Similar
-- [button](/patterns/button) — Used with
+- [input](/interface-atlas-web/en/components/input) — Used with
+- [textarea](/interface-atlas-web/en/components/textarea) — Used with
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Similar
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Similar
+- [button](/interface-atlas-web/en/components/button) — Used with
 
 ## Sources
 
@@ -72,4 +72,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/inline-editing.json` · Site: /en/patterns/inline-editing
+JSON: `/interface-atlas-web/api/concept/patterns/inline-editing.json` · Site: /interface-atlas-web/en/patterns/inline-editing

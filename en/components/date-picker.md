@@ -63,10 +63,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [input](/components/input) — Similar
-- [popover](/components/popover) — Similar
-- [dropdown](/components/dropdown) — Similar
-- [form-validation](/components/form-validation) — Used with
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [popover](/interface-atlas-web/en/components/popover) — Similar
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
 
 ## Applicable styles
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/date-picker.json` · Site: /en/components/date-picker
+JSON: `/interface-atlas-web/api/concept/components/date-picker.json` · Site: /interface-atlas-web/en/components/date-picker

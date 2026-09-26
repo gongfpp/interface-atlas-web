@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [table](/patterns/table) — 搭配使用
-- [checkbox](/patterns/checkbox) — 搭配使用
-- [undo-action](/patterns/undo-action) — 搭配使用
-- [filter-panel](/patterns/filter-panel) — 搭配使用
+- [table](/interface-atlas-web/components/table) — 搭配使用
+- [checkbox](/interface-atlas-web/components/checkbox) — 搭配使用
+- [undo-action](/interface-atlas-web/patterns/undo-action) — 搭配使用
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 搭配使用
 
 ## Sources
 
@@ -70,4 +70,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/bulk-actions.json` · 站点: /patterns/bulk-actions
+JSON: `/interface-atlas-web/api/concept/patterns/bulk-actions.json` · 站点: /interface-atlas-web/patterns/bulk-actions

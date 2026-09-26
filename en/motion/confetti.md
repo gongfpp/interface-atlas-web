@@ -57,10 +57,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [elastic-bounce](/motion/elastic-bounce) — Similar
-- [empty-state](/motion/empty-state) — Used with
-- [button](/motion/button) — Applies to
-- [optimistic-ui](/motion/optimistic-ui) — Used with
+- [elastic-bounce](/interface-atlas-web/en/motion/elastic-bounce) — Similar
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Used with
+- [button](/interface-atlas-web/en/components/button) — Applies to
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Used with
 
 ## Sources
 
@@ -68,4 +68,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/confetti.json` · Site: /en/motion/confetti
+JSON: `/interface-atlas-web/api/concept/motion/confetti.json` · Site: /interface-atlas-web/en/motion/confetti

@@ -68,11 +68,11 @@
 
 ## 相关概念
 
-- [sidebar](/pages/sidebar) — 包含组件
-- [card](/pages/card) — 包含组件
-- [table](/pages/table) — 包含组件
-- [filter-panel](/pages/filter-panel) — 包含组件
-- [skeleton-loading](/pages/skeleton-loading) — 使用模式
+- [sidebar](/interface-atlas-web/components/sidebar) — 包含组件
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [table](/interface-atlas-web/components/table) — 包含组件
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 包含组件
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 使用模式
 
 ## Sources
 
@@ -81,4 +81,4 @@
 
 ---
 
-JSON: `/api/concept/pages/dashboard.json` · 站点: /pages/dashboard
+JSON: `/interface-atlas-web/api/concept/pages/dashboard.json` · 站点: /interface-atlas-web/pages/dashboard

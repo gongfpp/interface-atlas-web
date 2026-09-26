@@ -70,9 +70,9 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [checkbox](/components/checkbox) — Similar
-- [press-feedback](/components/press-feedback) — Used with
-- [settings](/components/settings) — Used with
+- [checkbox](/interface-atlas-web/en/components/checkbox) — Similar
+- [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Used with
+- [settings](/interface-atlas-web/en/pages/settings) — Used with
 
 ## Applicable styles
 
@@ -85,4 +85,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/switch.json` · Site: /en/components/switch
+JSON: `/interface-atlas-web/api/concept/components/switch.json` · Site: /interface-atlas-web/en/components/switch

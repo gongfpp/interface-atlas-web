@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [avatar](/pages/avatar) — 包含组件
-- [timeline](/pages/timeline) — 包含组件
-- [card](/pages/card) — 包含组件
-- [scroll-reveal](/pages/scroll-reveal) — 搭配使用
-- [contact](/pages/contact) — 相似概念
+- [avatar](/interface-atlas-web/components/avatar) — 包含组件
+- [timeline](/interface-atlas-web/components/timeline) — 包含组件
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 搭配使用
+- [contact](/interface-atlas-web/pages/contact) — 相似概念
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/about.json` · 站点: /pages/about
+JSON: `/interface-atlas-web/api/concept/pages/about.json` · 站点: /interface-atlas-web/pages/about

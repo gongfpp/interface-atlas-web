@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [card](/pages/card) — 包含组件
-- [pagination](/pages/pagination) — 包含组件
-- [infinite-scroll](/pages/infinite-scroll) — 使用模式
-- [search-filtering](/pages/search-filtering) — 使用模式
-- [blog-post](/pages/blog-post) — 相似概念
+- [card](/interface-atlas-web/components/card) — 包含组件
+- [pagination](/interface-atlas-web/components/pagination) — 包含组件
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 使用模式
+- [search-filtering](/interface-atlas-web/patterns/search-filtering) — 使用模式
+- [blog-post](/interface-atlas-web/pages/blog-post) — 相似概念
 
 ## Sources
 
@@ -80,4 +80,4 @@
 
 ---
 
-JSON: `/api/concept/pages/blog-index.json` · 站点: /pages/blog-index
+JSON: `/interface-atlas-web/api/concept/pages/blog-index.json` · 站点: /interface-atlas-web/pages/blog-index

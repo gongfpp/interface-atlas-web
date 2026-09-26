@@ -66,11 +66,11 @@
 
 ## 相关概念
 
-- [accordion](/pages/accordion) — 包含组件
-- [input](/pages/input) — 包含组件
-- [filter-panel](/pages/filter-panel) — 包含组件
-- [progressive-disclosure](/pages/progressive-disclosure) — 使用模式
-- [documentation](/pages/documentation) — 相似概念
+- [accordion](/interface-atlas-web/components/accordion) — 包含组件
+- [input](/interface-atlas-web/components/input) — 包含组件
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 包含组件
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 使用模式
+- [documentation](/interface-atlas-web/pages/documentation) — 相似概念
 
 ## Sources
 
@@ -79,4 +79,4 @@
 
 ---
 
-JSON: `/api/concept/pages/faq.json` · 站点: /pages/faq
+JSON: `/interface-atlas-web/api/concept/pages/faq.json` · 站点: /interface-atlas-web/pages/faq

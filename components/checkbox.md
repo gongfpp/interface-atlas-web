@@ -71,10 +71,10 @@
 
 ## 相关概念
 
-- [radio](/components/radio) — 相似概念
-- [switch](/components/switch) — 相似概念
-- [filter-panel](/components/filter-panel) — 相似概念
-- [form-validation](/components/form-validation) — 搭配使用
+- [radio](/interface-atlas-web/components/radio) — 相似概念
+- [switch](/interface-atlas-web/components/switch) — 相似概念
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 相似概念
+- [form-validation](/interface-atlas-web/patterns/form-validation) — 搭配使用
 
 ## 可搭配的风格
 
@@ -87,4 +87,4 @@
 
 ---
 
-JSON: `/api/concept/components/checkbox.json` · 站点: /components/checkbox
+JSON: `/interface-atlas-web/api/concept/components/checkbox.json` · 站点: /interface-atlas-web/components/checkbox

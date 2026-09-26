@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [elastic-bounce](/motion/elastic-bounce) — 相似概念
-- [empty-state](/motion/empty-state) — 搭配使用
-- [button](/motion/button) — 应用于
-- [optimistic-ui](/motion/optimistic-ui) — 搭配使用
+- [elastic-bounce](/interface-atlas-web/motion/elastic-bounce) — 相似概念
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 搭配使用
+- [button](/interface-atlas-web/components/button) — 应用于
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 搭配使用
 
 ## Sources
 
@@ -68,4 +68,4 @@
 
 ---
 
-JSON: `/api/concept/motion/confetti.json` · 站点: /motion/confetti
+JSON: `/interface-atlas-web/api/concept/motion/confetti.json` · 站点: /interface-atlas-web/motion/confetti

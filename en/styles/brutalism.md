@@ -67,16 +67,16 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [neobrutalism](/styles/neobrutalism) — Similar
-- [minimalism](/styles/minimalism) — Alternative
-- [swiss-style](/styles/swiss-style) — Similar
-- [button](/styles/button) — Affects
-- [card](/styles/card) — Affects
-- [navbar](/styles/navbar) — Affects
+- [neobrutalism](/interface-atlas-web/en/styles/neobrutalism) — Similar
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Alternative
+- [swiss-style](/interface-atlas-web/en/styles/swiss-style) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [card](/interface-atlas-web/en/components/card) — Affects
+- [navbar](/interface-atlas-web/en/components/navbar) — Affects
 
 ## Confusable
 
-- [neobrutalism](/styles/neobrutalism) — Brutalism is raw, unstyled web in monochrome; neobrutalism is candy stickers with thick borders and hard shadows.
+- [neobrutalism](/interface-atlas-web/en/styles/neobrutalism) — Brutalism is raw, unstyled web in monochrome; neobrutalism is candy stickers with thick borders and hard shadows.
 
 ## Sources
 
@@ -85,4 +85,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/brutalism.json` · Site: /en/styles/brutalism
+JSON: `/interface-atlas-web/api/concept/styles/brutalism.json` · Site: /interface-atlas-web/en/styles/brutalism

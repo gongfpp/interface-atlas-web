@@ -70,9 +70,9 @@
 
 ## 相关概念
 
-- [semantic-color](/foundation/semantic-color) — 搭配使用
-- [glassmorphism](/foundation/glassmorphism) — 搭配使用
-- [hover-lift](/foundation/hover-lift) — 搭配使用
+- [semantic-color](/interface-atlas-web/foundation/semantic-color) — 搭配使用
+- [glassmorphism](/interface-atlas-web/styles/glassmorphism) — 搭配使用
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
 
 ## Sources
 
@@ -82,4 +82,4 @@
 
 ---
 
-JSON: `/api/concept/foundation/elevation.json` · 站点: /foundation/elevation
+JSON: `/interface-atlas-web/api/concept/foundation/elevation.json` · 站点: /interface-atlas-web/foundation/elevation

@@ -56,10 +56,10 @@ CSS 无法直接给文本计数，实用做法是 requestAnimationFrame 插值 +
 
 ## 相关概念
 
-- [dashboard](/motion/dashboard) — 搭配使用
-- [scroll-reveal](/motion/scroll-reveal) — 相似概念
-- [progress-bar](/motion/progress-bar) — 应用于
-- [text-reveal](/motion/text-reveal) — 相似概念
+- [dashboard](/interface-atlas-web/pages/dashboard) — 搭配使用
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 相似概念
+- [progress-bar](/interface-atlas-web/components/progress-bar) — 应用于
+- [text-reveal](/interface-atlas-web/motion/text-reveal) — 相似概念
 
 ## Sources
 
@@ -67,4 +67,4 @@ CSS 无法直接给文本计数，实用做法是 requestAnimationFrame 插值 +
 
 ---
 
-JSON: `/api/concept/motion/number-counter.json` · 站点: /motion/number-counter
+JSON: `/interface-atlas-web/api/concept/motion/number-counter.json` · 站点: /interface-atlas-web/motion/number-counter

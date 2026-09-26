@@ -66,16 +66,16 @@
 
 ## 相关概念
 
-- [flat-design](/styles/flat-design) — 相似概念
-- [memphis](/styles/memphis) — 替代方案
-- [organic](/styles/organic) — 替代方案
-- [empty-state](/styles/empty-state) — 搭配使用
-- [onboarding-tour](/styles/onboarding-tour) — 搭配使用
-- [card](/styles/card) — 影响组件
+- [flat-design](/interface-atlas-web/styles/flat-design) — 相似概念
+- [memphis](/interface-atlas-web/styles/memphis) — 替代方案
+- [organic](/interface-atlas-web/styles/organic) — 替代方案
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 搭配使用
+- [onboarding-tour](/interface-atlas-web/patterns/onboarding-tour) — 搭配使用
+- [card](/interface-atlas-web/components/card) — 影响组件
 
 ## 容易混淆
 
-- [memphis](/styles/memphis) — 企业孟菲斯是 2017 后的扁平人形插画；孟菲斯是 1980s 米兰的波点波浪撞色家具语汇。
+- [memphis](/interface-atlas-web/styles/memphis) — 企业孟菲斯是 2017 后的扁平人形插画；孟菲斯是 1980s 米兰的波点波浪撞色家具语汇。
 
 ## Sources
 
@@ -84,4 +84,4 @@
 
 ---
 
-JSON: `/api/concept/styles/corporate-memphis.json` · 站点: /styles/corporate-memphis
+JSON: `/interface-atlas-web/api/concept/styles/corporate-memphis.json` · 站点: /interface-atlas-web/styles/corporate-memphis

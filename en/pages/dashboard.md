@@ -68,11 +68,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [sidebar](/pages/sidebar) — Contains
-- [card](/pages/card) — Contains
-- [table](/pages/table) — Contains
-- [filter-panel](/pages/filter-panel) — Contains
-- [skeleton-loading](/pages/skeleton-loading) — Uses pattern
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Contains
+- [card](/interface-atlas-web/en/components/card) — Contains
+- [table](/interface-atlas-web/en/components/table) — Contains
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Contains
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Uses pattern
 
 ## Sources
 
@@ -81,4 +81,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/dashboard.json` · Site: /en/pages/dashboard
+JSON: `/interface-atlas-web/api/concept/pages/dashboard.json` · Site: /interface-atlas-web/en/pages/dashboard

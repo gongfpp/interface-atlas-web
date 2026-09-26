@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [bauhaus](/styles/bauhaus) — Similar
-- [memphis](/styles/memphis) — Similar
-- [y2k](/styles/y2k) — Similar
-- [button](/styles/button) — Affects
-- [card](/styles/card) — Affects
+- [bauhaus](/interface-atlas-web/en/styles/bauhaus) — Similar
+- [memphis](/interface-atlas-web/en/styles/memphis) — Similar
+- [y2k](/interface-atlas-web/en/styles/y2k) — Similar
+- [button](/interface-atlas-web/en/components/button) — Affects
+- [card](/interface-atlas-web/en/components/card) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/neobrutalism.json` · Site: /en/styles/neobrutalism
+JSON: `/interface-atlas-web/api/concept/styles/neobrutalism.json` · Site: /interface-atlas-web/en/styles/neobrutalism

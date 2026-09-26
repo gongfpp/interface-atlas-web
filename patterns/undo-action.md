@@ -57,11 +57,11 @@
 
 ## 相关概念
 
-- [toast](/patterns/toast) — 搭配使用
-- [optimistic-ui](/patterns/optimistic-ui) — 相似概念
-- [modal](/patterns/modal) — 搭配使用
-- [empty-state](/patterns/empty-state) — 相似概念
-- [progressive-disclosure](/patterns/progressive-disclosure) — 相似概念
+- [toast](/interface-atlas-web/components/toast) — 搭配使用
+- [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 搭配使用
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 相似概念
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 相似概念
 
 ## 可搭配的风格
 
@@ -74,4 +74,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/undo-action.json` · 站点: /patterns/undo-action
+JSON: `/interface-atlas-web/api/concept/patterns/undo-action.json` · 站点: /interface-atlas-web/patterns/undo-action

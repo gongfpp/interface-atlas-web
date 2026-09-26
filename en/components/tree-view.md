@@ -75,14 +75,14 @@ Run the existing project checks when done and list the modified files.
 
 ## Related
 
-- [accordion](/components/accordion) — Alternative
-- [sidebar](/components/sidebar) — Used with
-- [menu](/components/menu) — Similar
+- [accordion](/interface-atlas-web/en/components/accordion) — Alternative
+- [sidebar](/interface-atlas-web/en/components/sidebar) — Used with
+- [menu](/interface-atlas-web/en/components/menu) — Similar
 
 ## Confusable
 
-- [accordion](/components/accordion) — Accordion opens sibling sections; tree-view expresses parent-child nesting at any depth
-- [menu](/components/menu) — Menu issues commands and navigation; tree-view browses and selects hierarchical data
+- [accordion](/interface-atlas-web/en/components/accordion) — Accordion opens sibling sections; tree-view expresses parent-child nesting at any depth
+- [menu](/interface-atlas-web/en/components/menu) — Menu issues commands and navigation; tree-view browses and selects hierarchical data
 
 ## Sources
 
@@ -92,4 +92,4 @@ Run the existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/tree-view.json` · Site: /en/components/tree-view
+JSON: `/interface-atlas-web/api/concept/components/tree-view.json` · Site: /interface-atlas-web/en/components/tree-view

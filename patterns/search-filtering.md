@@ -57,11 +57,11 @@
 
 ## 相关概念
 
-- [filter-panel](/patterns/filter-panel) — 搭配使用
-- [command-palette](/patterns/command-palette) — 搭配使用
-- [input](/patterns/input) — 搭配使用
-- [empty-state](/patterns/empty-state) — 相似概念
-- [infinite-scroll](/patterns/infinite-scroll) — 相似概念
+- [filter-panel](/interface-atlas-web/components/filter-panel) — 搭配使用
+- [command-palette](/interface-atlas-web/components/command-palette) — 搭配使用
+- [input](/interface-atlas-web/components/input) — 搭配使用
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 相似概念
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 相似概念
 
 ## 可搭配的风格
 
@@ -74,4 +74,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/search-filtering.json` · 站点: /patterns/search-filtering
+JSON: `/interface-atlas-web/api/concept/patterns/search-filtering.json` · 站点: /interface-atlas-web/patterns/search-filtering

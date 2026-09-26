@@ -57,11 +57,11 @@
 
 ## 相关概念
 
-- [infinite-scroll](/patterns/infinite-scroll) — 相似概念
-- [skeleton-loading](/patterns/skeleton-loading) — 相似概念
-- [progressive-disclosure](/patterns/progressive-disclosure) — 相似概念
-- [empty-state](/patterns/empty-state) — 相似概念
-- [pagination](/patterns/pagination) — 搭配使用
+- [infinite-scroll](/interface-atlas-web/patterns/infinite-scroll) — 相似概念
+- [skeleton-loading](/interface-atlas-web/patterns/skeleton-loading) — 相似概念
+- [progressive-disclosure](/interface-atlas-web/patterns/progressive-disclosure) — 相似概念
+- [empty-state](/interface-atlas-web/patterns/empty-state) — 相似概念
+- [pagination](/interface-atlas-web/components/pagination) — 搭配使用
 
 ## 可搭配的风格
 
@@ -74,4 +74,4 @@
 
 ---
 
-JSON: `/api/concept/patterns/lazy-loading.json` · 站点: /patterns/lazy-loading
+JSON: `/interface-atlas-web/api/concept/patterns/lazy-loading.json` · 站点: /interface-atlas-web/patterns/lazy-loading

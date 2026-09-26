@@ -64,11 +64,11 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [onboarding-tour](/pages/onboarding-tour) — Uses pattern
-- [wizard](/pages/wizard) — Uses pattern
-- [stepper](/pages/stepper) — Contains
-- [progress-bar](/pages/progress-bar) — Contains
-- [button](/pages/button) — Contains
+- [onboarding-tour](/interface-atlas-web/en/patterns/onboarding-tour) — Uses pattern
+- [wizard](/interface-atlas-web/en/patterns/wizard) — Uses pattern
+- [stepper](/interface-atlas-web/en/components/stepper) — Contains
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Contains
+- [button](/interface-atlas-web/en/components/button) — Contains
 
 ## Sources
 
@@ -77,4 +77,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/pages/onboarding.json` · Site: /en/pages/onboarding
+JSON: `/interface-atlas-web/api/concept/pages/onboarding.json` · Site: /interface-atlas-web/en/pages/onboarding

@@ -57,10 +57,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [table](/patterns/table) — Used with
-- [checkbox](/patterns/checkbox) — Used with
-- [undo-action](/patterns/undo-action) — Used with
-- [filter-panel](/patterns/filter-panel) — Used with
+- [table](/interface-atlas-web/en/components/table) — Used with
+- [checkbox](/interface-atlas-web/en/components/checkbox) — Used with
+- [undo-action](/interface-atlas-web/en/patterns/undo-action) — Used with
+- [filter-panel](/interface-atlas-web/en/components/filter-panel) — Used with
 
 ## Sources
 
@@ -70,4 +70,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/bulk-actions.json` · Site: /en/patterns/bulk-actions
+JSON: `/interface-atlas-web/api/concept/patterns/bulk-actions.json` · Site: /interface-atlas-web/en/patterns/bulk-actions

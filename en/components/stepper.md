@@ -56,15 +56,15 @@ Run existing checks and list changed files and validation results.
 
 ## Related
 
-- [progress-bar](/components/progress-bar) — Similar
-- [input](/components/input) — Similar
-- [button](/components/button) — Similar
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Similar
+- [input](/interface-atlas-web/en/components/input) — Similar
+- [button](/interface-atlas-web/en/components/button) — Similar
 
 ## Confusable
 
-- [wizard](/components/wizard) — A wizard is the multi-step flow itself; a progress stepper is only its indicator.
-- [slider](/components/slider) — A slider picks along a continuum; an input stepper steps by a fixed delta.
-- [pagination](/components/pagination) — Pagination moves through data pages; a stepper advances task steps.
+- [wizard](/interface-atlas-web/en/patterns/wizard) — A wizard is the multi-step flow itself; a progress stepper is only its indicator.
+- [slider](/interface-atlas-web/en/components/slider) — A slider picks along a continuum; an input stepper steps by a fixed delta.
+- [pagination](/interface-atlas-web/en/components/pagination) — Pagination moves through data pages; a stepper advances task steps.
 
 ## Sources
 
@@ -72,4 +72,4 @@ Run existing checks and list changed files and validation results.
 
 ---
 
-JSON: `/api/concept/components/stepper.json` · Site: /en/components/stepper
+JSON: `/interface-atlas-web/api/concept/components/stepper.json` · Site: /interface-atlas-web/en/components/stepper

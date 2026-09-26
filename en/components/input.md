@@ -72,10 +72,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [textarea](/components/textarea) — Similar
-- [select](/components/select) — Similar
-- [form-validation](/components/form-validation) — Used with
-- [search-filtering](/components/search-filtering) — Used with
+- [textarea](/interface-atlas-web/en/components/textarea) — Similar
+- [select](/interface-atlas-web/en/components/select) — Similar
+- [form-validation](/interface-atlas-web/en/patterns/form-validation) — Used with
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Used with
 
 ## Applicable styles
 
@@ -88,4 +88,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/components/input.json` · Site: /en/components/input
+JSON: `/interface-atlas-web/api/concept/components/input.json` · Site: /interface-atlas-web/en/components/input

@@ -56,10 +56,10 @@
 
 ## 相关概念
 
-- [bauhaus](/styles/bauhaus) — 相似概念
-- [editorial](/styles/editorial) — 相似概念
-- [retro-futurism](/styles/retro-futurism) — 相似概念
-- [button](/styles/button) — 影响组件
+- [bauhaus](/interface-atlas-web/styles/bauhaus) — 相似概念
+- [editorial](/interface-atlas-web/styles/editorial) — 相似概念
+- [retro-futurism](/interface-atlas-web/styles/retro-futurism) — 相似概念
+- [button](/interface-atlas-web/components/button) — 影响组件
 
 ## Sources
 
@@ -67,4 +67,4 @@
 
 ---
 
-JSON: `/api/concept/styles/art-deco.json` · 站点: /styles/art-deco
+JSON: `/interface-atlas-web/api/concept/styles/art-deco.json` · 站点: /interface-atlas-web/styles/art-deco

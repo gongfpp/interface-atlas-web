@@ -65,11 +65,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [loading-spinner](/patterns/loading-spinner) — Alternative
-- [progress-bar](/patterns/progress-bar) — Alternative
-- [optimistic-ui](/patterns/optimistic-ui) — Similar
-- [lazy-loading](/patterns/lazy-loading) — Similar
-- [empty-state](/patterns/empty-state) — Similar
+- [loading-spinner](/interface-atlas-web/en/motion/loading-spinner) — Alternative
+- [progress-bar](/interface-atlas-web/en/components/progress-bar) — Alternative
+- [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Similar
+- [lazy-loading](/interface-atlas-web/en/patterns/lazy-loading) — Similar
+- [empty-state](/interface-atlas-web/en/patterns/empty-state) — Similar
 
 ## Applicable styles
 
@@ -82,4 +82,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/skeleton-loading.json` · Site: /en/patterns/skeleton-loading
+JSON: `/interface-atlas-web/api/concept/patterns/skeleton-loading.json` · Site: /interface-atlas-web/en/patterns/skeleton-loading

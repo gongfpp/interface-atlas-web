@@ -63,10 +63,10 @@
 
 ## 相关概念
 
-- [hover-lift](/motion/hover-lift) — 相似概念
-- [magnetic-button](/motion/magnetic-button) — 相似概念
-- [ripple](/motion/ripple) — 相似概念
-- [button](/motion/button) — 替代方案
+- [hover-lift](/interface-atlas-web/motion/hover-lift) — 相似概念
+- [magnetic-button](/interface-atlas-web/motion/magnetic-button) — 相似概念
+- [ripple](/interface-atlas-web/motion/ripple) — 相似概念
+- [button](/interface-atlas-web/components/button) — 替代方案
 
 ## 可搭配的风格
 
@@ -78,4 +78,4 @@
 
 ---
 
-JSON: `/api/concept/motion/press-feedback.json` · 站点: /motion/press-feedback
+JSON: `/interface-atlas-web/api/concept/motion/press-feedback.json` · 站点: /interface-atlas-web/motion/press-feedback

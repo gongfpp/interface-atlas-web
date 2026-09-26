@@ -57,11 +57,11 @@
 
 ## 相关概念
 
-- [scroll-reveal](/motion/scroll-reveal) — 相似概念
-- [stagger-reveal](/motion/stagger-reveal) — 相似概念
-- [number-counter](/motion/number-counter) — 相似概念
-- [editorial](/motion/editorial) — 搭配使用
-- [landing-page](/motion/landing-page) — 搭配使用
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 相似概念
+- [stagger-reveal](/interface-atlas-web/motion/stagger-reveal) — 相似概念
+- [number-counter](/interface-atlas-web/motion/number-counter) — 相似概念
+- [editorial](/interface-atlas-web/styles/editorial) — 搭配使用
+- [landing-page](/interface-atlas-web/pages/landing-page) — 搭配使用
 
 ## Sources
 
@@ -69,4 +69,4 @@
 
 ---
 
-JSON: `/api/concept/motion/text-reveal.json` · 站点: /motion/text-reveal
+JSON: `/interface-atlas-web/api/concept/motion/text-reveal.json` · 站点: /interface-atlas-web/motion/text-reveal

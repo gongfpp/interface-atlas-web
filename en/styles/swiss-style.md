@@ -66,11 +66,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [minimalism](/styles/minimalism) — Similar
-- [editorial](/styles/editorial) — Similar
-- [bauhaus](/styles/bauhaus) — Similar
-- [card](/styles/card) — Affects
-- [table](/styles/table) — Affects
+- [minimalism](/interface-atlas-web/en/styles/minimalism) — Similar
+- [editorial](/interface-atlas-web/en/styles/editorial) — Similar
+- [bauhaus](/interface-atlas-web/en/styles/bauhaus) — Similar
+- [card](/interface-atlas-web/en/components/card) — Affects
+- [table](/interface-atlas-web/en/components/table) — Affects
 
 ## Sources
 
@@ -79,4 +79,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/swiss-style.json` · Site: /en/styles/swiss-style
+JSON: `/interface-atlas-web/api/concept/styles/swiss-style.json` · Site: /interface-atlas-web/en/styles/swiss-style

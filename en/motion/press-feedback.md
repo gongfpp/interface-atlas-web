@@ -63,10 +63,10 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [hover-lift](/motion/hover-lift) — Similar
-- [magnetic-button](/motion/magnetic-button) — Similar
-- [ripple](/motion/ripple) — Similar
-- [button](/motion/button) — Alternative
+- [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Similar
+- [magnetic-button](/interface-atlas-web/en/motion/magnetic-button) — Similar
+- [ripple](/interface-atlas-web/en/motion/ripple) — Similar
+- [button](/interface-atlas-web/en/components/button) — Alternative
 
 ## Applicable styles
 
@@ -78,4 +78,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/motion/press-feedback.json` · Site: /en/motion/press-feedback
+JSON: `/interface-atlas-web/api/concept/motion/press-feedback.json` · Site: /interface-atlas-web/en/motion/press-feedback

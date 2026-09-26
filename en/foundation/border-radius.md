@@ -71,10 +71,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [spacing-scale](/foundation/spacing-scale) — Similar
-- [elevation](/foundation/elevation) — Used with
-- [button](/foundation/button) — Used with
-- [card](/foundation/card) — Used with
+- [spacing-scale](/interface-atlas-web/en/foundation/spacing-scale) — Similar
+- [elevation](/interface-atlas-web/en/foundation/elevation) — Used with
+- [button](/interface-atlas-web/en/components/button) — Used with
+- [card](/interface-atlas-web/en/components/card) — Used with
 
 ## Sources
 
@@ -84,4 +84,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/border-radius.json` · Site: /en/foundation/border-radius
+JSON: `/interface-atlas-web/api/concept/foundation/border-radius.json` · Site: /interface-atlas-web/en/foundation/border-radius

@@ -65,11 +65,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [y2k](/styles/y2k) — Similar
-- [retro-futurism](/styles/retro-futurism) — Similar
-- [neobrutalism](/styles/neobrutalism) — Similar
-- [input](/styles/input) — Affects
-- [card](/styles/card) — Affects
+- [y2k](/interface-atlas-web/en/styles/y2k) — Similar
+- [retro-futurism](/interface-atlas-web/en/styles/retro-futurism) — Similar
+- [neobrutalism](/interface-atlas-web/en/styles/neobrutalism) — Similar
+- [input](/interface-atlas-web/en/components/input) — Affects
+- [card](/interface-atlas-web/en/components/card) — Affects
 
 ## Sources
 
@@ -78,4 +78,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/styles/cyberpunk.json` · Site: /en/styles/cyberpunk
+JSON: `/interface-atlas-web/api/concept/styles/cyberpunk.json` · Site: /interface-atlas-web/en/styles/cyberpunk

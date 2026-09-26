@@ -59,11 +59,11 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [skeleton-loading](/patterns/skeleton-loading) — Similar
-- [onboarding-tour](/patterns/onboarding-tour) — Similar
-- [button](/patterns/button) — Used with
-- [search-filtering](/patterns/search-filtering) — Similar
-- [card](/patterns/card) — Used with
+- [skeleton-loading](/interface-atlas-web/en/patterns/skeleton-loading) — Similar
+- [onboarding-tour](/interface-atlas-web/en/patterns/onboarding-tour) — Similar
+- [button](/interface-atlas-web/en/components/button) — Used with
+- [search-filtering](/interface-atlas-web/en/patterns/search-filtering) — Similar
+- [card](/interface-atlas-web/en/components/card) — Used with
 
 ## Sources
 
@@ -72,4 +72,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/patterns/empty-state.json` · Site: /en/patterns/empty-state
+JSON: `/interface-atlas-web/api/concept/patterns/empty-state.json` · Site: /interface-atlas-web/en/patterns/empty-state

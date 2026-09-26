@@ -71,10 +71,10 @@ Run existing project checks when done and list the modified files.
 
 ## Related
 
-- [breakpoints](/foundation/breakpoints) — Similar
-- [button](/foundation/button) — Used with
-- [fab](/foundation/fab) — Used with
-- [focus-ring](/foundation/focus-ring) — Used with
+- [breakpoints](/interface-atlas-web/en/foundation/breakpoints) — Similar
+- [button](/interface-atlas-web/en/components/button) — Used with
+- [fab](/interface-atlas-web/en/components/fab) — Used with
+- [focus-ring](/interface-atlas-web/en/a11y/focus-ring) — Used with
 
 ## Sources
 
@@ -84,4 +84,4 @@ Run existing project checks when done and list the modified files.
 
 ---
 
-JSON: `/api/concept/foundation/touch-target.json` · Site: /en/foundation/touch-target
+JSON: `/interface-atlas-web/api/concept/foundation/touch-target.json` · Site: /interface-atlas-web/en/foundation/touch-target

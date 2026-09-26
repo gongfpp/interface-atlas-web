@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [drawer-slide](/motion/drawer-slide) — 相似概念
-- [modal](/motion/modal) — 应用于
-- [tabs](/motion/tabs) — 应用于
-- [toast-slide-in](/motion/toast-slide-in) — 相似概念
+- [drawer-slide](/interface-atlas-web/motion/drawer-slide) — 相似概念
+- [modal](/interface-atlas-web/components/modal) — 应用于
+- [tabs](/interface-atlas-web/components/tabs) — 应用于
+- [toast-slide-in](/interface-atlas-web/motion/toast-slide-in) — 相似概念
 
 ## Sources
 
@@ -68,4 +68,4 @@
 
 ---
 
-JSON: `/api/concept/motion/page-transition.json` · 站点: /motion/page-transition
+JSON: `/interface-atlas-web/api/concept/motion/page-transition.json` · 站点: /interface-atlas-web/motion/page-transition

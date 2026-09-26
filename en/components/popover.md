@@ -83,16 +83,16 @@ Run existing checks when done and list modified files.
 
 ## Related
 
-- [tooltip](/components/tooltip) — Similar
-- [modal](/components/modal) — Alternative
-- [drawer](/components/drawer) — Alternative
-- [dropdown](/components/dropdown) — Similar
+- [tooltip](/interface-atlas-web/en/components/tooltip) — Similar
+- [modal](/interface-atlas-web/en/components/modal) — Alternative
+- [drawer](/interface-atlas-web/en/components/drawer) — Alternative
+- [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
 
 ## Confusable
 
-- [tooltip](/components/tooltip) — A tooltip is brief read-only on hover; a popover is interactive on click.
-- [dropdown](/components/dropdown) — A dropdown list is commands; popover content is free-form.
-- [modal](/components/modal) — A modal dims the page; a popover does not, and dismisses on outside click.
+- [tooltip](/interface-atlas-web/en/components/tooltip) — A tooltip is brief read-only on hover; a popover is interactive on click.
+- [dropdown](/interface-atlas-web/en/components/dropdown) — A dropdown list is commands; popover content is free-form.
+- [modal](/interface-atlas-web/en/components/modal) — A modal dims the page; a popover does not, and dismisses on outside click.
 
 ## Sources
 
@@ -101,4 +101,4 @@ Run existing checks when done and list modified files.
 
 ---
 
-JSON: `/api/concept/components/popover.json` · Site: /en/components/popover
+JSON: `/interface-atlas-web/api/concept/components/popover.json` · Site: /interface-atlas-web/en/components/popover

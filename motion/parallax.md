@@ -57,10 +57,10 @@
 
 ## 相关概念
 
-- [scroll-reveal](/motion/scroll-reveal) — 相似概念
-- [landing-page](/motion/landing-page) — 搭配使用
-- [editorial](/motion/editorial) — 搭配使用
-- [aurora](/motion/aurora) — 搭配使用
+- [scroll-reveal](/interface-atlas-web/motion/scroll-reveal) — 相似概念
+- [landing-page](/interface-atlas-web/pages/landing-page) — 搭配使用
+- [editorial](/interface-atlas-web/styles/editorial) — 搭配使用
+- [aurora](/interface-atlas-web/styles/aurora) — 搭配使用
 
 ## Sources
 
@@ -68,4 +68,4 @@
 
 ---
 
-JSON: `/api/concept/motion/parallax.json` · 站点: /motion/parallax
+JSON: `/interface-atlas-web/api/concept/motion/parallax.json` · 站点: /interface-atlas-web/motion/parallax
