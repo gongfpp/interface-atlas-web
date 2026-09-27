@@ -30,6 +30,8 @@
 - **border:** 细直线、双层边框、阶梯轮廓。
 - **shadow:** 不依赖阴影，以边线分出层次。
 - **spacing:** 轴线对齐，留白对称，移动端收敛装饰。
+- **motion:** 200–300ms ease-out 的优雅淡入与描边展开，尊重 prefers-reduced-motion
+- **states:** hover 金色描边增亮；focus 用双层金色可见外框；active 描边收紧；disabled 降为暗金；error 用红金强调，保持轴对称
 
 ## 实现要点
 

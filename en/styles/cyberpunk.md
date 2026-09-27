@@ -33,6 +33,8 @@
 - **border:** 1px neon cyan borders, tiny radius
 - **shadow:** Cyan neon glow shadows
 - **spacing:** Terminal-dense layout
+- **motion:** 120ms neon ignition transitions; honour prefers-reduced-motion
+- **states:** Hover brightens the cyan neon; focus shows a visible 2px cyan outline; active flickers inverted once; disabled fades to dim grey without glow; error uses magenta neon
 
 ## Implementation
 

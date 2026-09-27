@@ -33,6 +33,8 @@ A visual language that expresses floating layers as frosted glass: a blurred bac
 - **border:** 1px translucent white borders
 - **shadow:** Large soft coloured shadows
 - **spacing:** 16px+ radii with roomy card padding
+- **motion:** 200–300ms ease-out transitions for movement and blur; honour prefers-reduced-motion
+- **states:** Hover raises opacity and blur and lifts slightly; focus shows a visible white ring; active lowers the glow; disabled loses opacity and blur; error tints the glass red, fading colour only
 
 ## Implementation
 

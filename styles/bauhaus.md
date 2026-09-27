@@ -33,6 +33,8 @@
 - **border:** 0 圆角，细黑边框
 - **shadow:** 无阴影
 - **spacing:** 几何构图留白
+- **motion:** 100ms 内完成的原色切换，无缓动位移
+- **states:** hover 切换到另一原色；focus 用 2px 黑色可见外框；active 反色块；disabled 降为灰阶；error 用红 #E23B2E
 
 ## 实现要点
 

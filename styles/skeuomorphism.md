@@ -33,6 +33,8 @@
 - **border:** 金属描边 + 内侧高光线
 - **shadow:** 外投影 + inset 内高光同时使用
 - **spacing:** 控件内边距模拟实物比例
+- **motion:** 150–200ms 的按压实感过渡，模拟物理回弹
+- **states:** hover 加深高光；focus 用蓝色发光可见轮廓；active 用 inset 阴影表现按下；disabled 降低对比；error 用红色高光
 
 ## 实现要点
 

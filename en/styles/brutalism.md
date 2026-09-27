@@ -33,6 +33,8 @@ Raw structure, oversized type and blunt contrast as an anti-polish web look. Mon
 - **border:** 2px solid square edges, radius always 0
 - **shadow:** No shadows; inverted blocks or thick strokes instead
 - **spacing:** Hard cuts on the grid, whitespace in big blunt blocks
+- **motion:** Near-instant, no transition
+- **states:** Hover inverts immediately; focus shows a 2px solid black frame; active switches to harsh orange-red #FF3B00; disabled drops to 50% grey; error uses a solid #FF3B00 block
 
 ## Implementation
 

@@ -33,6 +33,8 @@ A visual language reviving turn-of-the-millennium digital optimism: liquid chrom
 - **border:** 1px lavender outlines, large radius
 - **shadow:** Soft violet glow shadows
 - **spacing:** Bubble 20px radii, relaxed spacing
+- **motion:** 150–250ms transitions with a slight bounce and glow shifts; honour prefers-reduced-motion
+- **states:** Hover strengthens the chrome gradient and glow; focus shows a visible violet ring; active scales down and darkens; disabled loses opacity and glow; error uses a red-pink gradient
 
 ## Implementation
 

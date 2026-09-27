@@ -33,6 +33,8 @@
 - **border:** 几乎无边框，大圆角 22px
 - **shadow:** 外投影 + inset 内阴影 = 黏土感
 - **spacing:** 蓬松间距，元素相互分离
+- **motion:** 180–240ms 的柔和弹性按压过渡，尊重 prefers-reduced-motion
+- **states:** hover 轻微上浮并加深外阴影；focus 用紫色可见柔框；active 转为 inset 内陷；disabled 变扁降饱和；error 用珊瑚红内陷
 
 ## 实现要点
 

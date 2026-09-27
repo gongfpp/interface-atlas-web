@@ -33,6 +33,8 @@
 - **border:** 1px 半透明白边框
 - **shadow:** 大范围柔和彩色投影
 - **spacing:** 圆角 16px+，卡片内边距充足
+- **motion:** 200–300ms ease-out 的位移与模糊过渡，尊重 prefers-reduced-motion
+- **states:** hover 提升透明度与模糊并轻微上浮；focus 用白色可见亮环；active 压低光晕；disabled 降不透明并去模糊；error 用红调玻璃且仅淡入颜色
 
 ## 实现要点
 

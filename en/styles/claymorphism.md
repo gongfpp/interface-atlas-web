@@ -33,6 +33,8 @@ A visual language that molds controls from soft clay: generous radii on pastel g
 - **border:** Borderless with 22px+ radius
 - **shadow:** Outer + inset shadows create the clay feel
 - **spacing:** Puffy spacing, elements float apart
+- **motion:** 180–240ms soft elastic press transitions; honour prefers-reduced-motion
+- **states:** Hover lifts and deepens the outer shadow; focus shows a visible violet ring; active becomes an inset press; disabled flattens and desaturates; error uses a coral inset
 
 ## Implementation
 

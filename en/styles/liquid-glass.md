@@ -33,6 +33,8 @@ Thick refractive glass layers, specular highlights and liquid morphing as a func
 - **border:** 1px translucent white rims suggesting refraction edges
 - **shadow:** Top inset specular plus a wide soft outer shadow
 - **spacing:** 20px+ radii or pills, controls on a separate floating layer
+- **motion:** 250–400ms ease-out refraction shifts and specular slide; honour prefers-reduced-motion
+- **states:** Hover slides the specular along the rim and scales slightly; focus shows a visible white ring; active lowers refraction; disabled loses opacity and speculars; error tints refraction red, fading colour only
 
 ## Implementation
 

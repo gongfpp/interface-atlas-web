@@ -33,6 +33,8 @@ Wobbly strokes, skewed borders, paper texture and marker highlights as a human-m
 - **border:** 2px wobbly strokes with asymmetric radii
 - **shadow:** Barely-there paper shadows, hugging the surface
 - **spacing:** Casual misalignment and slight tilts
+- **motion:** 150–250ms slight wobbly offsets with a hint of bounce; honour prefers-reduced-motion
+- **states:** Hover tilts and deepens the wobbly stroke; focus shows a visible 2px hand-drawn frame; active flattens the wobble; disabled desaturates but keeps the stroke; error looks like a red pen correction
 
 ## Implementation
 

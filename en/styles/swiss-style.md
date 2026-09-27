@@ -33,6 +33,8 @@ A visual language of objective grids and typography: strict mathematical grids, 
 - **border:** 1px solid black column rules
 - **shadow:** Zero shadows — strictly flat
 - **spacing:** Strict modular grid, consistent gutters
+- **motion:** Near-instant colour swaps within 100ms, no eased movement
+- **states:** Hover switches to signal red or knock-out white; focus shows a visible 2px black solid frame; active inverts the block; disabled drops to grey; error uses signal red at a heavier weight
 
 ## Implementation
 

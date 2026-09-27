@@ -33,6 +33,8 @@ A visual language of playing composition with geometry: circle, triangle and squ
 - **border:** Zero radius with thin black rules
 - **shadow:** No shadows
 - **spacing:** Compositional whitespace around geometry
+- **motion:** Primary-colour swaps within 100ms, no eased movement
+- **states:** Hover swaps to another primary; focus shows a visible 2px black frame; active inverts the block; disabled drops to greyscale; error uses red #E23B2E
 
 ## Implementation
 

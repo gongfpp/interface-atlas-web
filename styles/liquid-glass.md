@@ -33,6 +33,8 @@
 - **border:** 1px 半透明白描边，暗示折射边缘
 - **shadow:** 顶部镜面内高光 + 大范围柔和外投影
 - **spacing:** 20px+ 圆角或胶囊，控制件独立浮层
+- **motion:** 250–400ms ease-out 的折射位移与高光滑动，尊重 prefers-reduced-motion
+- **states:** hover 高光沿边缘滑动并轻微放大；focus 用白色可见亮环；active 压低折射；disabled 降透明去高光；error 用红调折射且仅淡入颜色
 
 ## 实现要点
 

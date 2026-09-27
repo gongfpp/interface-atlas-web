@@ -33,6 +33,8 @@
 - **border:** 1px #E5E7EB 卡片描边
 - **shadow:** 1px 微投影保持层次
 - **spacing:** 16px 圆角 + 10px 网格间距
+- **motion:** 160–200ms ease-out 的卡片抬升与阴影过渡
+- **states:** hover 轻微上浮并加深投影；focus 用紫色可见外框；active 回落到平面；disabled 降不透明；error 用红色描边
 
 ## 实现要点
 

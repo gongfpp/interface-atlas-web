@@ -33,6 +33,8 @@
 - **border:** 1px 半透明紫边框
 - **shadow:** 深色大投影 + 光晕
 - **spacing:** 悬浮卡层叠，间距宽松
+- **motion:** 300–500ms ease-in-out 的光斑漂移与淡入，尊重 prefers-reduced-motion
+- **states:** hover 增强光斑亮度；focus 用紫粉色可见亮环；active 压低光晕；disabled 降透明去光；error 用红调光斑且仅淡入颜色
 
 ## 实现要点
 

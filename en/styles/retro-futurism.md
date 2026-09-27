@@ -33,6 +33,8 @@ The future as imagined by the past: cream-orange-brown warm palettes, chunky rou
 - **border:** 1px neon pink outlines
 - **shadow:** Neon glow
 - **spacing:** Horizon-grid composition
+- **motion:** 200–300ms neon warm-up and scanline drift; honour prefers-reduced-motion
+- **states:** Hover brightens the chrome and pink glow; focus shows a visible pink ring; active lowers brightness; disabled loses glow and saturation; error uses magenta neon
 
 ## Implementation
 

@@ -33,6 +33,8 @@ An atmosphere built from large flowing gradient blooms: teal, violet and blue bl
 - **border:** 1px translucent violet borders
 - **shadow:** Deep shadows with glow
 - **spacing:** Floating stacked cards, roomy gaps
+- **motion:** 300–500ms ease-in-out drift of the glow, with fades; honour prefers-reduced-motion
+- **states:** Hover brightens the glow; focus shows a visible violet-pink ring; active dims the bloom; disabled loses opacity and glow; error tints the glow red, fading colour only
 
 ## Implementation
 

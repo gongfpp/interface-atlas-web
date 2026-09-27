@@ -33,6 +33,8 @@
 - **border:** 1px 霓虹描边，胶囊与直角混用
 - **shadow:** 多层同色霓虹光晕
 - **spacing:** 地平线居中对称，元素悬浮网格上
+- **motion:** 300–400ms 的霓虹渐亮与地平线滑动，尊重 prefers-reduced-motion
+- **states:** hover 增强多层霓虹光晕；focus 用青色可见亮环；active 压低饱和；disabled 去光降透明；error 用粉红霓虹
 
 ## 实现要点
 

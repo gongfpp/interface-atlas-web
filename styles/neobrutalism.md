@@ -33,6 +33,8 @@
 - **border:** 3px 黑色实线粗边
 - **shadow:** 5px 5px 0 硬投影（不模糊）
 - **spacing:** 0 圆角，紧凑堆叠
+- **motion:** 约 100ms 的硬位移按压，无缓动
+- **states:** hover 位移到硬投影位置；focus 用 3px 黑色可见外框；active 继续下压并收起投影；disabled 灰化且不位移；error 用橙红粗边
 
 ## 实现要点
 

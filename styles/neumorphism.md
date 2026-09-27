@@ -30,6 +30,8 @@
 - **border:** 中大圆角；焦点保留可见外轮廓。
 - **shadow:** 双向外阴影表现凸起，内阴影表现按下。
 - **spacing:** 控件间距充足，避免阴影彼此挤压。
+- **motion:** 150–200ms 的凸起与内陷阴影过渡
+- **states:** hover 阴影加深并抬升；focus 必须保留 2px 可见外轮廓；active 切换为 inset 内陷；disabled 降低对比；error 用红色 inset 内陷
 
 ## 实现要点
 

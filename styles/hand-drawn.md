@@ -33,6 +33,8 @@
 - **border:** 2px 抖动描边，非对称圆角
 - **shadow:** 极浅纸质投影，几乎贴地
 - **spacing:** 随手贴的错位与轻微倾斜
+- **motion:** 150–250ms 的轻微抖动式位移，带一点回弹，尊重 prefers-reduced-motion
+- **states:** hover 歪斜并加深抖动描边；focus 用 2px 手绘感可见外框；active 压平抖动；disabled 去色保留描边；error 用红笔涂改感
 
 ## 实现要点
 

@@ -33,6 +33,8 @@
 - **border:** 2px 黑边
 - **shadow:** 4px 4px 0 位移硬投影
 - **spacing:** 故意歪斜、错位排布
+- **motion:** 150ms 的轻微弹跳位移，短 ease-out，尊重 prefers-reduced-motion
+- **states:** hover 错位并加深硬投影；focus 用 2px 黑色可见外框；active 位移贴合投影；disabled 去色不位移；error 用粉红强调
 
 ## 实现要点
 

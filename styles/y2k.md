@@ -33,6 +33,8 @@
 - **border:** 1px 淡紫描边，大圆角
 - **shadow:** 柔和紫色光晕投影
 - **spacing:** 气泡式 20px 圆角，松弛排布
+- **motion:** 150–250ms 带轻微回弹的过渡与光晕变化，尊重 prefers-reduced-motion
+- **states:** hover 增强金属渐变与光晕；focus 用紫色可见亮环；active 缩小并加深；disabled 降透明去光；error 用红粉渐变
 
 ## 实现要点
 

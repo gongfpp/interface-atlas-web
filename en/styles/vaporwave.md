@@ -33,6 +33,8 @@ Neon pink-cyan-purple, a perspective grid horizon, retro 3D chrome type and palm
 - **border:** 1px neon rims, pills and hard corners mixed
 - **shadow:** Multi-layer same-hue neon glows
 - **spacing:** Centered symmetric horizon, elements floating over the grid
+- **motion:** 300–400ms neon warm-up and horizon glide; honour prefers-reduced-motion
+- **states:** Hover strengthens the layered neon glow; focus shows a visible cyan ring; active lowers saturation; disabled loses glow and opacity; error uses pink neon
 
 ## Implementation
 

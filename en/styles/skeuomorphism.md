@@ -33,6 +33,8 @@ A visual language that borrows real-world materials and physical forms for digit
 - **border:** Metal outlines with inner highlight lines
 - **shadow:** Outer shadows plus inset highlights
 - **spacing:** Padding mimics physical proportions
+- **motion:** 150–200ms pressed-feel transitions mimicking a physical rebound
+- **states:** Hover deepens the highlight; focus shows a visible blue glow outline; active presses via inset shadow; disabled lowers contrast; error uses a red highlight
 
 ## Implementation
 

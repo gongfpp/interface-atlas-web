@@ -33,6 +33,8 @@ A visual language that lays out the page like a magazine spread: serif display h
 - **border:** Hairline rules instead of card boxes
 - **shadow:** Soft shadow on photo cards only
 - **spacing:** Multi-column layout, airy leading
+- **motion:** 150–200ms fades and underline transitions, restrained, no bounce
+- **states:** Hover reveals an underline and turns brown; focus shows a visible ink dotted frame; active sinks one pixel; disabled fades to light grey; error uses a brown accent with an italic note
 
 ## Implementation
 

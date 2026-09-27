@@ -33,6 +33,8 @@
 - **border:** 2px 纯色像素描边，圆角 0
 - **shadow:** 硬偏移像素块投影，无模糊
 - **spacing:** 8px 网格对齐，元素贴像素格
+- **motion:** 无补间，步进式的瞬时切换
+- **states:** hover 换用高亮像素色；focus 用 2px 像素可见描边；active 位移一个像素块；disabled 降为两档灰；error 用红像素块
 
 ## 实现要点
 

@@ -33,6 +33,8 @@ A visual language built on "less is more": generous whitespace, a restrained mon
 - **border:** Frameless; 1px #EDEDE9 hairlines at most
 - **shadow:** No shadows — depth via greyscale
 - **spacing:** Generous whitespace on a relaxed 8pt grid
+- **motion:** Colours and opacity only, under 150ms, no movement
+- **states:** Hover changes colour only; focus shows a black hairline ring; active darkens slightly; disabled drops to 40% opacity; error uses a single red
 
 ## Implementation
 

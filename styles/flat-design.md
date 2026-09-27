@@ -33,6 +33,8 @@
 - **border:** 无描边，色块分区
 - **shadow:** 完全无阴影
 - **spacing:** 小圆角 6px，均匀网格
+- **motion:** 100–150ms 颜色与透明度的线性过渡，无位移
+- **states:** hover 用更亮的平涂色；focus 用 2px 深色可见实线外框；active 换用更深色块；disabled 降到 50% 不透明；error 用红色平涂且不加阴影
 
 ## 实现要点
 

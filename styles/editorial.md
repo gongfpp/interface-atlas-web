@@ -33,6 +33,8 @@
 - **border:** 细分割线代替卡片框
 - **shadow:** 仅照片卡带轻微投影
 - **spacing:** 分栏排版，行距宽松
+- **motion:** 150–200ms 的淡入与下划线过渡，克制不弹跳
+- **states:** hover 显示下划线并转棕；focus 用墨色点线可见外框；active 下沉一像素；disabled 降为浅灰；error 用棕色强调并加斜体提示
 
 ## 实现要点
 

@@ -30,6 +30,8 @@ A visual language of natural shapes, warm materials and muted earth tones. Soft 
 - **border:** Soft radii and occasional arches; keep controls predictable.
 - **shadow:** Gentle contact shadows without strong glow.
 - **spacing:** Generous whitespace and leading, stacked on narrow screens.
+- **motion:** 250–350ms ease-out organic growth and fades; honour prefers-reduced-motion
+- **states:** Hover expands slightly and deepens the moss green; focus shows a visible green frame; active contracts one pixel; disabled fades to grey-green; error uses clay red
 
 ## Implementation
 

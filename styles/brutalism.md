@@ -33,6 +33,8 @@
 - **border:** 2px 实线直角硬边，圆角一律 0
 - **shadow:** 不用投影，需要层级时用反色块或粗描边
 - **spacing:** 紧贴网格线的硬切排布，留白大开大合
+- **motion:** 近似瞬时，无过渡
+- **states:** hover 直接反色；focus 用 2px 黑色实线粗框；active 换成刺眼橙红 #FF3B00；disabled 降为 50% 灰；error 用 #FF3B00 实色块
 
 ## 实现要点
 

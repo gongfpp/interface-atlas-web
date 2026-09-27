@@ -33,6 +33,8 @@
 - **border:** 无描边，色块直接相接
 - **shadow:** 无阴影，纯平涂
 - **spacing:** 大留白，插画与文案左右分栏
+- **motion:** 150–200ms 的平涂色切换，无位移
+- **states:** hover 换用相邻色块；focus 用紫色 2px 可见外框；active 换深色平涂；disabled 降不透明；error 用桃粉平涂
 
 ## 实现要点
 

@@ -33,6 +33,8 @@ A visual language that strips out all simulation: solid color blocks, simple geo
 - **border:** No outlines — blocks define areas
 - **shadow:** Completely shadowless
 - **spacing:** Small 6px radius, even grid
+- **motion:** Linear 100–150ms colour and opacity transitions, no movement
+- **states:** Hover uses a brighter flat fill; focus shows a visible 2px dark solid frame; active uses a deeper fill; disabled drops to 50% opacity; error uses a red flat fill with no shadow
 
 ## Implementation
 

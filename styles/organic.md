@@ -30,6 +30,8 @@
 - **border:** 柔和圆角与少量拱形，不扭曲表单控件。
 - **shadow:** 轻微接触阴影，不使用强发光。
 - **spacing:** 大段留白与宽松行距，窄屏堆叠。
+- **motion:** 250–350ms ease-out 的柔和生长与淡入，尊重 prefers-reduced-motion
+- **states:** hover 轻微舒展并加深苔绿；focus 用绿色可见外框；active 收拢一像素；disabled 降为灰绿；error 用陶土红
 
 ## 实现要点
 

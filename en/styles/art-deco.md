@@ -30,6 +30,8 @@ A decorative visual language built from geometry, symmetry, radiating lines and 
 - **border:** Hairlines, double frames and stepped outlines.
 - **shadow:** Use borders for hierarchy instead of shadows.
 - **spacing:** Axial alignment and balanced space; reduce ornament on mobile.
+- **motion:** 200–300ms ease-out fades and border reveals; honour prefers-reduced-motion
+- **states:** Hover brightens the gold rule; focus shows a visible double gold frame; active tightens the border; disabled fades to dim gold; error uses red-gold, staying axially symmetric
 
 ## Implementation
 

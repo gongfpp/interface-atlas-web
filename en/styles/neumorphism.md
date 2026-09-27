@@ -30,6 +30,8 @@ A soft relief style that uses paired light and dark shadows on similarly colored
 - **border:** Medium to large radii with a visible focus outline.
 - **shadow:** Paired outer shadows for elevation; inset shadows for pressing.
 - **spacing:** Space controls so shadows do not collide.
+- **motion:** 150–200ms raised-to-inset shadow transitions
+- **states:** Hover deepens and raises the shadow; focus must keep a visible 2px outline; active switches to an inset press; disabled lowers contrast; error uses a red inset shadow
 
 ## Implementation
 

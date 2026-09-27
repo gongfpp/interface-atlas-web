@@ -33,6 +33,8 @@
 - **border:** 1px 黑色实线分割栏
 - **shadow:** 无阴影，扁平到极致
 - **spacing:** 严格网格，栏距一致
+- **motion:** 近似瞬时，颜色切换在 100ms 内，无缓动位移
+- **states:** hover 改用正红或反白；focus 用 2px 黑色可见实线框；active 反色块；disabled 降为灰；error 用正红并加粗
 
 ## 实现要点
 

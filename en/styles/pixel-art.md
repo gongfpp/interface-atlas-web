@@ -33,6 +33,8 @@ Hard pixel edges, a limited palette and bitmap faces as a console-nostalgia inte
 - **border:** 2px solid pixel outlines, radius 0
 - **shadow:** Hard offset pixel-block shadows, no blur
 - **spacing:** 8px grid alignment, elements snapped to the pixel lattice
+- **motion:** No tweening, stepped and instant
+- **states:** Hover switches to a highlight pixel colour; focus shows a visible 2px pixel outline; active shifts by one pixel block; disabled drops to two greys; error uses a red pixel block
 
 ## Implementation
 

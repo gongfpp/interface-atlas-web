@@ -33,6 +33,8 @@ Flat abstract human figures and a limited solid palette as the friendly big-tech
 - **border:** No outlines — fills meet directly
 - **shadow:** No shadows, flat fills only
 - **spacing:** Airy padding, illustration and copy in split columns
+- **motion:** 150–200ms flat fill colour swaps, no movement
+- **states:** Hover switches to an adjacent fill; focus shows a visible 2px violet frame; active uses a darker flat fill; disabled reduces opacity; error uses a peach fill
 
 ## Implementation
 

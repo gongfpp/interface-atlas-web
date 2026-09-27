@@ -33,6 +33,8 @@ A loud visual language of thick black outlines, saturated clashing colors and ha
 - **border:** 3px solid black borders
 - **shadow:** 5px 5px 0 hard offset shadows
 - **spacing:** Zero radius, tight stacking
+- **motion:** Roughly 100ms hard positional press, no easing
+- **states:** Hover shifts into the hard shadow; focus shows a visible 3px black frame; active presses down and removes the shadow; disabled greys out without shifting; error uses a harsh orange-red border
 
 ## Implementation
 

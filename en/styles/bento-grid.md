@@ -33,6 +33,8 @@ A layout language that packs the interface like a bento box: rounded tiles of va
 - **border:** 1px #E5E7EB card borders
 - **shadow:** 1px micro shadows for depth
 - **spacing:** 16px radius, ~10px grid gaps
+- **motion:** 160–200ms ease-out card lift and shadow transition
+- **states:** Hover lifts slightly and deepens the shadow; focus shows a visible violet ring; active settles back flat; disabled reduces opacity; error uses a red border
 
 ## Implementation
 

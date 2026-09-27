@@ -33,6 +33,8 @@
 - **border:** 1px 霓虹青色边框，小圆角
 - **shadow:** 青色霓虹光晕 box-shadow
 - **spacing:** 终端式紧凑排布
+- **motion:** 120ms 的霓虹瞬时点亮过渡，尊重 prefers-reduced-motion
+- **states:** hover 增亮青色霓虹；focus 用 2px 青色可见描边；active 反向闪烁一次；disabled 降为暗灰去光；error 用洋红霓虹
 
 ## 实现要点
 

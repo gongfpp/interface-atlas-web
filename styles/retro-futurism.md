@@ -33,6 +33,8 @@
 - **border:** 1px 霓虹粉描边
 - **shadow:** 霓虹光晕
 - **spacing:** 网格地平线式构图
+- **motion:** 200–300ms 的霓虹渐亮与扫描线位移，尊重 prefers-reduced-motion
+- **states:** hover 增强铬金与粉光晕；focus 用粉色可见亮环；active 压低亮度；disabled 去光降饱和；error 用洋红霓虹
 
 ## 实现要点
 

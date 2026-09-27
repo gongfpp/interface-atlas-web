@@ -33,6 +33,8 @@ The postmodern anti-functionalist language: squiggles, dots, zigzags and confett
 - **border:** 2px black outlines
 - **shadow:** 4px 4px 0 offset hard shadows
 - **spacing:** Deliberately tilted, misaligned
+- **motion:** 150ms light bouncy offsets with a short ease-out; honour prefers-reduced-motion
+- **states:** Hover offsets and deepens the hard shadow; focus shows a visible 2px black frame; active shifts flush to the shadow; disabled desaturates without shifting; error uses a pink accent
 
 ## Implementation
 

@@ -33,6 +33,8 @@
 - **border:** 无边框，或 1px #EDEDE9 细分隔线
 - **shadow:** 几乎无阴影，层次靠灰度
 - **spacing:** 极大留白，宽松的 8pt 网格
+- **motion:** 150ms 内只做颜色与透明度过渡，无位移
+- **states:** hover 只变颜色；focus 用黑色发丝可见外框；active 轻微加深；disabled 降到 40% 不透明；error 用单一红
 
 ## 实现要点
 
