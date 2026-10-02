@@ -25,6 +25,7 @@ A single-line bordered field for collecting text — the basic unit of every for
 - **Outline** (描边) — Bordered box — the default everywhere
 - **Filled** (填充) — Tinted background, borderless — Material style
 - **With addons** (带前后缀) — Inline icons and a clear button
+- **Underline** (下划线) — Keep only the bottom rule with no radius or fill; the label stays visible.
 
 ## Platform API
 

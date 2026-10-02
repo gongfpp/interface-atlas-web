@@ -1,0 +1,1 @@
+import{t as e}from"./react.DJY1zw8Z.js";var t=e(),n=(0,t.createContext)(null);function r(e){let r=(0,t.useContext)(n),[i,a]=(0,t.useState)(e);return r?[r.value,e=>r.onChange(typeof e==`function`?e(r.value):e)]:[i,a]}export{r as n,n as t};

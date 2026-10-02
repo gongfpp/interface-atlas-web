@@ -25,6 +25,7 @@
 - **描边** (Outline) — 边框包裹，最通用
 - **填充** (Filled) — 浅灰底无边框，Material 常用
 - **带前后缀** (With addons) — 内嵌图标与清除按钮
+- **下划线** (Underline) — 仅保留下边线，不使用圆角与填充底色；标签始终可见。
 
 ## Platform API
 

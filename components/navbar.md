@@ -25,6 +25,7 @@
 - **标准** (Standard) — 品牌左、链接中、动作右
 - **居中** (Centered) — 链接绝对居中，Apple 官网风格
 - **透明悬浮** (Transparent overlay) — 压在首屏大图上，滚动后加底色
+- **悬浮容器** (Floating container) — 导航置于带圆角、描边与轻阴影的独立容器中。
 
 ## Platform API
 

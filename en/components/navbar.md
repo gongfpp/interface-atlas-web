@@ -25,6 +25,7 @@ A horizontal navigation bar pinned to the top of the page: brand on the left, pr
 - **Standard** (标准) — Brand left, links center, actions right
 - **Centered** (居中) — Absolutely centered links, Apple-style
 - **Transparent overlay** (透明悬浮) — Floats over the hero, gains a background on scroll
+- **Floating container** (悬浮容器) — Place navigation in a rounded, outlined container with a subtle shadow.
 
 ## Platform API
 
