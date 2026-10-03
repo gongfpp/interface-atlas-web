@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gongfpp.github.io/interface-atlas-web/preview/handoff/atlas-promo-20261003/sitemap-index.xml

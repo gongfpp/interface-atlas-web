@@ -1,0 +1,1 @@
+import{t as e}from"./react.DJY1zw8Z.js";var t=e();function n(){let e=new Map;return{get(t,n){return e.has(t)?e.get(t):n},set(t,n){e.set(t,n)}}}function r(e,n,r){let[i,a]=(0,t.useState)(()=>e?e.get(n,r):r);return[i,(0,t.useCallback)(t=>{a(r=>{let i=typeof t==`function`?t(r):t;return e?.set(n,i),i})},[e,n])]}export{r as n,n as t};
