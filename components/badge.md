@@ -66,6 +66,10 @@
 - [button](/interface-atlas-web/components/button) — 相似概念
 - [card](/interface-atlas-web/components/card) — 相似概念
 
+## 可搭配的风格
+
+`neobrutalism` `editorial` `skeuomorphism` `flat-design` `minimalism` `swiss-style` `cyberpunk` `art-deco`
+
 ## Sources
 
 - [Material Design — Badges](https://m3.material.io/components/badges/overview)

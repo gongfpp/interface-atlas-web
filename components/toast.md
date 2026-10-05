@@ -92,6 +92,10 @@ Toast（Snackbar）是短暂的非打断反馈，自动消失；Alert 常驻；M
 - [alert](/interface-atlas-web/components/alert) — Alert 常驻可含操作按钮；Toast 短暂、角落出现。
 - [tooltip](/interface-atlas-web/components/tooltip) — Tooltip 解释控件，Toast 反馈系统事件。
 
+## 可搭配的风格
+
+`glassmorphism` `pixel-art` `claymorphism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `cyberpunk`
+
 ## Sources
 
 - [Material Design — Snackbar](https://m3.material.io/components/snackbar/overview)

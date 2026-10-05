@@ -66,6 +66,10 @@ Segmented Control（分段控制器）是紧凑的互斥选择条，常用于模
 - [radio](/interface-atlas-web/components/radio) — Radio 属表单字段，Segmented Control 属视图切换。
 - [switch](/interface-atlas-web/components/switch) — Switch 是开/关二态，Segmented Control 是多选一。
 
+## 可搭配的风格
+
+`minimalism` `neobrutalism` `glassmorphism` `flat-design` `swiss-style` `neumorphism` `organic` `cyberpunk`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/ARIA/apg/patterns/radio/)

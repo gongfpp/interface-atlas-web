@@ -56,6 +56,10 @@ Run existing checks and list changed files and validation results.
 - [select](/interface-atlas-web/en/components/select) — Similar
 - [command-palette](/interface-atlas-web/en/components/command-palette) — Similar
 
+## Applicable styles
+
+`corporate-memphis` `cyberpunk` `bento-grid` `minimalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/)

@@ -75,7 +75,7 @@ Run existing checks when done and list modified files.
 
 ## Applicable styles
 
-`minimalism` `swiss-style`
+`art-deco` `bento-grid` `editorial` `minimalism` `flat-design` `swiss-style` `neobrutalism` `organic`
 
 ## Sources
 

@@ -86,6 +86,10 @@ Tooltip 是悬停/聚焦时的简短说明；Popover 可交互；Label 是常驻
 - [popover](/interface-atlas-web/components/popover) — Popover 点击出现、可交互；Tooltip 悬停出现、只读。
 - [toast](/interface-atlas-web/components/toast) — Toast 是系统反馈、自动消失；Tooltip 解释控件、跟随指针。
 
+## 可搭配的风格
+
+`retro-futurism` `cyberpunk` `skeuomorphism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `glassmorphism`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Tooltip](https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/)

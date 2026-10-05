@@ -93,6 +93,10 @@ Run existing checks when done and list modified files.
 - [alert](/interface-atlas-web/en/components/alert) — Alert persists and may carry actions; a toast is brief at a corner.
 - [tooltip](/interface-atlas-web/en/components/tooltip) — A tooltip explains a control; a toast reports a system event.
 
+## Applicable styles
+
+`glassmorphism` `pixel-art` `claymorphism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `cyberpunk`
+
 ## Sources
 
 - [Material Design — Snackbar](https://m3.material.io/components/snackbar/overview)

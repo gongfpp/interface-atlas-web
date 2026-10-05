@@ -78,7 +78,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `flat-design`
+`neumorphism` `pixel-art` `neobrutalism` `minimalism` `flat-design` `swiss-style` `organic` `glassmorphism`
 
 ## Sources
 

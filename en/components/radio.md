@@ -79,7 +79,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`minimalism` `flat-design`
+`glassmorphism` `art-deco` `memphis` `minimalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism`
 
 ## Sources
 

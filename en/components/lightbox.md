@@ -84,6 +84,10 @@ Run the existing project checks when done and list the modified files.
 - [modal](/interface-atlas-web/en/components/modal) — Modal hosts generic tasks and copy; lightbox exists to view media enlarged
 - [carousel](/interface-atlas-web/en/components/carousel) — Carousel rotates in-page; lightbox presents full-screen over a dimmed page
 
+## Applicable styles
+
+`art-deco` `aurora` `pixel-art` `minimalism` `flat-design` `swiss-style` `neobrutalism` `glassmorphism`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Dialog (Modal)](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)

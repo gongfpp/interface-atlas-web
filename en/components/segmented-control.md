@@ -66,6 +66,10 @@ Run existing checks and list changed files and validation results.
 - [radio](/interface-atlas-web/en/components/radio) — Radio is a form field; segmented control is a view switch.
 - [switch](/interface-atlas-web/en/components/switch) — A switch is on/off; a segmented control picks one of several.
 
+## Applicable styles
+
+`minimalism` `neobrutalism` `glassmorphism` `flat-design` `swiss-style` `neumorphism` `organic` `cyberpunk`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/ARIA/apg/patterns/radio/)

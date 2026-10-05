@@ -93,6 +93,10 @@ Popover 是锚定触发元素的非打断浮层，内容任意；Tooltip 只读�
 - [dropdown](/interface-atlas-web/components/dropdown) — Dropdown 列表是命令项，Popover 内容任意。
 - [modal](/interface-atlas-web/components/modal) — Modal 遮罩整页，Popover 不遮罩、可点外部关闭。
 
+## 可搭配的风格
+
+`flat-design` `neumorphism` `editorial` `minimalism` `swiss-style` `neobrutalism` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [MDN — Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API)

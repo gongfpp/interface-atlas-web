@@ -70,6 +70,10 @@
 - [marquee](/interface-atlas-web/motion/marquee) — 替代方案
 - [card](/interface-atlas-web/components/card) — 搭配使用
 
+## 可搭配的风格
+
+`editorial` `cyberpunk` `pixel-art` `minimalism` `flat-design` `swiss-style` `neobrutalism` `art-deco`
+
 ## Sources
 
 - [ARIA APG Carousel](https://www.w3.org/WAI/ARIA/apg/patterns/carousel/)

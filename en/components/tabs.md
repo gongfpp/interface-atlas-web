@@ -90,7 +90,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`minimalism` `bento-grid`
+`flat-design` `liquid-glass` `memphis` `minimalism` `swiss-style` `neobrutalism` `editorial` `art-deco`
 
 ## Sources
 

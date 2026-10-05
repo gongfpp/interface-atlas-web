@@ -76,6 +76,10 @@ position: fixed（或 absolute 于滚动容器外）锚定角落，圆形用 bor
 - [press-feedback](/interface-atlas-web/motion/press-feedback) — 搭配使用
 - [ripple](/interface-atlas-web/motion/ripple) — 搭配使用
 
+## 可搭配的风格
+
+`neobrutalism` `liquid-glass` `claymorphism` `minimalism` `flat-design` `swiss-style` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [Material Design — Floating action button](https://m3.material.io/components/floating-action-button/overview)

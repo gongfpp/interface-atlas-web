@@ -67,6 +67,10 @@ Run existing checks when done and list modified files.
 - [button](/interface-atlas-web/en/components/button) — Similar
 - [card](/interface-atlas-web/en/components/card) — Similar
 
+## Applicable styles
+
+`neobrutalism` `editorial` `skeuomorphism` `flat-design` `minimalism` `swiss-style` `cyberpunk` `art-deco`
+
 ## Sources
 
 - [Material Design — Badges](https://m3.material.io/components/badges/overview)

@@ -84,6 +84,10 @@
 - [slider](/interface-atlas-web/components/slider) — slider 调节单一数值维度，color-picker 在颜色空间中定位一点
 - [input](/interface-atlas-web/components/input) — input 接受任意文本，color-picker 保证输出合法颜色值
 
+## 可搭配的风格
+
+`cyberpunk` `memphis` `organic` `minimalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism`
+
 ## Sources
 
 - [MDN — input type color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)

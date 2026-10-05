@@ -69,7 +69,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`minimalism` `swiss-style`
+`brutalism` `vaporwave` `organic` `minimalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism`
 
 ## Sources
 

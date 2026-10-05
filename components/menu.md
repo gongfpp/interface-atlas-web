@@ -84,6 +84,10 @@
 - [navbar](/interface-atlas-web/components/navbar) — Navbar 跳转页面目的地，Menu 执行即时命令。
 - [select](/interface-atlas-web/components/select) — Select 选中一个值回填表单，Menu 触发一个动作。
 
+## 可搭配的风格
+
+`bento-grid` `cyberpunk` `organic` `minimalism` `flat-design` `swiss-style` `neobrutalism` `editorial`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Menu Button](https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/)

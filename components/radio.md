@@ -79,7 +79,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `flat-design`
+`glassmorphism` `art-deco` `memphis` `minimalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism`
 
 ## Sources
 

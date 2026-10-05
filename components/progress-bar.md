@@ -85,6 +85,10 @@
 - [number-counter](/interface-atlas-web/motion/number-counter) — 搭配使用
 - [optimistic-ui](/interface-atlas-web/patterns/optimistic-ui) — 搭配使用
 
+## 可搭配的风格
+
+`minimalism` `bauhaus` `pixel-art` `flat-design` `swiss-style` `neobrutalism` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [Material Design — Linear progress](https://m3.material.io/components/linear-progress/overview)

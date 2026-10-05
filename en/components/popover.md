@@ -94,6 +94,10 @@ Run existing checks when done and list modified files.
 - [dropdown](/interface-atlas-web/en/components/dropdown) — A dropdown list is commands; popover content is free-form.
 - [modal](/interface-atlas-web/en/components/modal) — A modal dims the page; a popover does not, and dismisses on outside click.
 
+## Applicable styles
+
+`flat-design` `neumorphism` `editorial` `minimalism` `swiss-style` `neobrutalism` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [MDN — Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API)

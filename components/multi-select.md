@@ -79,6 +79,10 @@
 - [select](/interface-atlas-web/components/select) — select 是互斥单选，多选框组累积多个值并以标签回显
 - [combobox](/interface-atlas-web/components/combobox) — combobox 强调输入检索并提交单值，多选框组强调集合管理
 
+## 可搭配的风格
+
+`minimalism` `bauhaus` `liquid-glass` `flat-design` `swiss-style` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [ARIA APG Listbox](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/)

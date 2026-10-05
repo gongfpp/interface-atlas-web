@@ -96,7 +96,7 @@ Dropdown 是「触发按钮 + 弹出菜单」的组合；Select 是表单取值�
 
 ## 可搭配的风格
 
-`minimalism` `glassmorphism`
+`neumorphism` `y2k` `hand-drawn` `minimalism` `flat-design` `swiss-style` `neobrutalism` `glassmorphism`
 
 ## Sources
 

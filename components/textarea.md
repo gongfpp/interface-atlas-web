@@ -77,7 +77,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `editorial`
+`flat-design` `hand-drawn` `cyberpunk` `minimalism` `swiss-style` `neobrutalism` `neumorphism` `organic`
 
 ## Sources
 

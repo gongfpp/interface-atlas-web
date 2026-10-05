@@ -77,6 +77,10 @@ Run the project's existing checks when done and list the modified files.
 - [press-feedback](/interface-atlas-web/en/motion/press-feedback) — Used with
 - [ripple](/interface-atlas-web/en/motion/ripple) — Used with
 
+## Applicable styles
+
+`neobrutalism` `liquid-glass` `claymorphism` `minimalism` `flat-design` `swiss-style` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [Material Design — Floating action button](https://m3.material.io/components/floating-action-button/overview)

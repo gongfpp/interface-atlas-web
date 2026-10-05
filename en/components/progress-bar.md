@@ -86,6 +86,10 @@ Run existing checks when done and list modified files.
 - [number-counter](/interface-atlas-web/en/motion/number-counter) — Used with
 - [optimistic-ui](/interface-atlas-web/en/patterns/optimistic-ui) — Used with
 
+## Applicable styles
+
+`minimalism` `bauhaus` `pixel-art` `flat-design` `swiss-style` `neobrutalism` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [Material Design — Linear progress](https://m3.material.io/components/linear-progress/overview)

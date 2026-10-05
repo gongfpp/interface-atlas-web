@@ -73,6 +73,10 @@ Run existing checks when done and list modified files.
 - [hover-lift](/interface-atlas-web/en/motion/hover-lift) — Used with
 - [badge](/interface-atlas-web/en/components/badge) — Similar
 
+## Applicable styles
+
+`minimalism` `aurora` `bento-grid` `editorial` `neobrutalism` `neumorphism` `swiss-style` `art-deco`
+
 ## Sources
 
 - [Material Design — Cards](https://m3.material.io/components/cards/overview)

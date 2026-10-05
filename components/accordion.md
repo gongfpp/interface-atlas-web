@@ -76,6 +76,10 @@
 - [tabs](/interface-atlas-web/components/tabs) — 相似概念
 - [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
 
+## 可搭配的风格
+
+`swiss-style` `brutalism` `liquid-glass` `minimalism` `flat-design` `neobrutalism` `editorial` `art-deco`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Accordion](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/)

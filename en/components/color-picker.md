@@ -84,6 +84,10 @@ Run the existing project checks when done and list the modified files.
 - [slider](/interface-atlas-web/en/components/slider) — Slider tunes one numeric axis; color-picker locates a point in colour space
 - [input](/interface-atlas-web/en/components/input) — Input accepts any text; color-picker guarantees a valid colour value
 
+## Applicable styles
+
+`cyberpunk` `memphis` `organic` `minimalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism`
+
 ## Sources
 
 - [MDN — input type color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)

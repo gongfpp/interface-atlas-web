@@ -67,6 +67,10 @@ Run existing checks when done and list modified files.
 - [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
 - [profile](/interface-atlas-web/en/pages/profile) — Used with
 
+## Applicable styles
+
+`flat-design` `memphis` `art-deco` `minimalism` `neobrutalism` `organic` `glassmorphism` `hand-drawn`
+
 ## Sources
 
 - [Atlassian Design System — Avatar](https://atlassian.design/components/avatar/overview)

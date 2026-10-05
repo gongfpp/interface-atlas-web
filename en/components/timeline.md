@@ -56,6 +56,10 @@ Run existing checks and list changed files and validation results.
 - [card](/interface-atlas-web/en/components/card) — Similar
 - [badge](/interface-atlas-web/en/components/badge) — Similar
 
+## Applicable styles
+
+`vaporwave` `organic` `brutalism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `editorial`
+
 ## Sources
 
 - [MDN — HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/time)

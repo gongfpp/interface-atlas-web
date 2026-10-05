@@ -87,6 +87,10 @@ Run existing checks when done and list modified files.
 - [popover](/interface-atlas-web/en/components/popover) — A popover opens on click and is interactive; a tooltip shows on hover and is read-only.
 - [toast](/interface-atlas-web/en/components/toast) — Toast is system feedback that auto-dismisses; a tooltip explains a control near the pointer.
 
+## Applicable styles
+
+`retro-futurism` `cyberpunk` `skeuomorphism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `glassmorphism`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Tooltip](https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/)

@@ -73,6 +73,10 @@ Run the project's existing checks when done and list the modified files.
 - [badge](/interface-atlas-web/en/components/badge) — Used with
 - [multi-select](/interface-atlas-web/en/components/multi-select) — Used with
 
+## Applicable styles
+
+`minimalism` `memphis` `brutalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [Material Design — Chips](https://m3.material.io/components/chips/overview)

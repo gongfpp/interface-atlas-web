@@ -79,6 +79,10 @@ Run the existing project checks when done and list the modified files.
 - [select](/interface-atlas-web/en/components/select) — Select commits one value; multi-select accumulates many and echoes them as chips
 - [combobox](/interface-atlas-web/en/components/combobox) — Combobox searches and commits one value; multi-select manages a set
 
+## Applicable styles
+
+`minimalism` `bauhaus` `liquid-glass` `flat-design` `swiss-style` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [ARIA APG Listbox](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/)

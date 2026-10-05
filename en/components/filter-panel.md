@@ -69,6 +69,10 @@ Run existing checks when done and list modified files.
 - [drawer](/interface-atlas-web/en/components/drawer) — Similar
 - [search](/interface-atlas-web/en/pages/search) — Used with
 
+## Applicable styles
+
+`swiss-style` `bauhaus` `neumorphism` `minimalism` `flat-design` `neobrutalism` `organic` `glassmorphism`
+
 ## Sources
 
 - [Nielsen Norman Group — Faceted Navigation](https://www.nngroup.com/articles/faceted-navigation/)

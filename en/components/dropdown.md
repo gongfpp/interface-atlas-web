@@ -96,7 +96,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`minimalism` `glassmorphism`
+`neumorphism` `y2k` `hand-drawn` `minimalism` `flat-design` `swiss-style` `neobrutalism` `glassmorphism`
 
 ## Sources
 

@@ -77,7 +77,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `swiss-style`
+`neumorphism` `vaporwave` `swiss-style` `minimalism` `flat-design` `neobrutalism` `editorial` `art-deco`
 
 ## Sources
 

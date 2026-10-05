@@ -90,7 +90,7 @@ Tabs 在同级内容面板间切换（内容同级并列）；Segmented Control 
 
 ## 可搭配的风格
 
-`minimalism` `bento-grid`
+`flat-design` `liquid-glass` `memphis` `minimalism` `swiss-style` `neobrutalism` `editorial` `art-deco`
 
 ## Sources
 

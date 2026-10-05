@@ -66,6 +66,10 @@
 - [dropdown](/interface-atlas-web/components/dropdown) — 相似概念
 - [profile](/interface-atlas-web/pages/profile) — 搭配使用
 
+## 可搭配的风格
+
+`flat-design` `memphis` `art-deco` `minimalism` `neobrutalism` `organic` `glassmorphism` `hand-drawn`
+
 ## Sources
 
 - [Atlassian Design System — Avatar](https://atlassian.design/components/avatar/overview)

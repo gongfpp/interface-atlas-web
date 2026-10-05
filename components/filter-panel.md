@@ -68,6 +68,10 @@
 - [drawer](/interface-atlas-web/components/drawer) — 相似概念
 - [search](/interface-atlas-web/pages/search) — 搭配使用
 
+## 可搭配的风格
+
+`swiss-style` `bauhaus` `neumorphism` `minimalism` `flat-design` `neobrutalism` `organic` `glassmorphism`
+
 ## Sources
 
 - [Nielsen Norman Group — Faceted Navigation](https://www.nngroup.com/articles/faceted-navigation/)

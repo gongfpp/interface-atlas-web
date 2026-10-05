@@ -56,6 +56,10 @@ Run existing checks and list changed files and validation results.
 - [slider](/interface-atlas-web/en/components/slider) — Similar
 - [button](/interface-atlas-web/en/components/button) — Similar
 
+## Applicable styles
+
+`retro-futurism` `y2k` `memphis` `flat-design` `minimalism` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/ARIA/apg/patterns/radio/)

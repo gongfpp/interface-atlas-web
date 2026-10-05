@@ -80,7 +80,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `swiss-style`
+`minimalism` `neobrutalism` `editorial` `swiss-style` `cyberpunk` `neumorphism` `flat-design` `organic`
 
 ## Sources
 

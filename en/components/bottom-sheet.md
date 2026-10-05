@@ -86,6 +86,10 @@ Run the project's existing checks when done and list the modified files.
 - [drawer](/interface-atlas-web/en/components/drawer) — A drawer slides from a side edge; a bottom sheet only rises from the bottom.
 - [modal](/interface-atlas-web/en/components/modal) — A modal sits centered and demands a decision; a bottom sheet hugs the bottom and swipes away.
 
+## Applicable styles
+
+`glassmorphism` `neumorphism` `swiss-style` `minimalism` `flat-design` `neobrutalism` `cyberpunk` `hand-drawn`
+
 ## Sources
 
 - [Apple HIG — Sheets](https://developer.apple.com/design/human-interface-guidelines/sheets)

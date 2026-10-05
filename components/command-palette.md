@@ -76,7 +76,7 @@
 
 ## 可搭配的风格
 
-`minimalism`
+`aurora` `glassmorphism` `flat-design` `minimalism` `swiss-style` `neobrutalism` `cyberpunk` `neumorphism`
 
 ## Sources
 

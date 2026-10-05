@@ -75,6 +75,10 @@
 - [popover](/interface-atlas-web/components/popover) — 替代方案
 - [drawer-slide](/interface-atlas-web/motion/drawer-slide) — 搭配使用
 
+## 可搭配的风格
+
+`minimalism` `neobrutalism` `art-deco` `flat-design` `swiss-style` `glassmorphism` `cyberpunk` `neumorphism`
+
 ## Sources
 
 - [Material Design — Navigation drawer](https://m3.material.io/components/navigation-drawer/overview)

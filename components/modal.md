@@ -95,6 +95,10 @@ Modal 居中打断当前任务、要求处理；Drawer 从侧边滑出保留上�
 - [alert](/interface-atlas-web/components/alert) — Alert 是页内消息条，不打断；Modal 是必须处理的浮层。
 - [lightbox](/interface-atlas-web/components/lightbox) — Lightbox 专管图片/视频放大，Modal 承载通用任务。
 
+## 可搭配的风格
+
+`glassmorphism` `claymorphism` `y2k` `minimalism` `flat-design` `swiss-style` `neobrutalism` `cyberpunk`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Dialog (Modal)](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)

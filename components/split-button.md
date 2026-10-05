@@ -84,6 +84,10 @@
 - [dropdown](/interface-atlas-web/components/dropdown) — dropdown 整键打开菜单；split-button 主区执行动作、只有箭头开菜单
 - [button](/interface-atlas-web/components/button) — 普通 button 只有一个动作；split-button 把同组变体收进附属菜单
 
+## 可搭配的风格
+
+`swiss-style` `flat-design` `claymorphism` `minimalism` `neobrutalism` `glassmorphism` `cyberpunk` `neumorphism`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Menu Button](https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/)

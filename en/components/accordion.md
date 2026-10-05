@@ -77,6 +77,10 @@ Run existing checks when done and list modified files.
 - [tabs](/interface-atlas-web/en/components/tabs) — Similar
 - [dropdown](/interface-atlas-web/en/components/dropdown) — Similar
 
+## Applicable styles
+
+`swiss-style` `brutalism` `liquid-glass` `minimalism` `flat-design` `neobrutalism` `editorial` `art-deco`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Accordion](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/)

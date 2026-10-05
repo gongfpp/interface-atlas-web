@@ -80,6 +80,10 @@ Run the project's existing checks when done and list the modified files.
 - [navbar](/interface-atlas-web/en/components/navbar) — A navbar navigates to destinations; a toolbar runs actions in the current context.
 - [menu](/interface-atlas-web/en/components/menu) — A menu opens a list to choose from; a toolbar button acts on click.
 
+## Applicable styles
+
+`flat-design` `art-deco` `bauhaus` `minimalism` `swiss-style` `neobrutalism` `editorial` `organic`
+
 ## Sources
 
 - [ARIA APG — Toolbar](https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/)

@@ -93,6 +93,10 @@ Run existing checks when done and list modified files.
 - [toast](/interface-atlas-web/en/components/toast) — A toast auto-dismisses; an alert stays until the condition clears.
 - [modal](/interface-atlas-web/en/components/modal) — A modal blocks and demands action; an alert only informs.
 
+## Applicable styles
+
+`swiss-style` `brutalism` `corporate-memphis` `minimalism` `flat-design` `neobrutalism` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [Apple HIG — Alerts](https://developer.apple.com/design/human-interface-guidelines/alerts)

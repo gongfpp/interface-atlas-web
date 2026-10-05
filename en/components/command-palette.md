@@ -76,7 +76,7 @@ Run existing checks when done and list modified files.
 
 ## Applicable styles
 
-`minimalism`
+`aurora` `glassmorphism` `flat-design` `minimalism` `swiss-style` `neobrutalism` `cyberpunk` `neumorphism`
 
 ## Sources
 

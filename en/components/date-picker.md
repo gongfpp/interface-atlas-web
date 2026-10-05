@@ -70,7 +70,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`minimalism` `flat-design`
+`minimalism` `bauhaus` `cyberpunk` `flat-design` `swiss-style` `neobrutalism` `neumorphism` `organic`
 
 ## Sources
 

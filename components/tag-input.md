@@ -73,6 +73,10 @@
 - [badge](/interface-atlas-web/components/badge) — 搭配使用
 - [multi-select](/interface-atlas-web/components/multi-select) — 搭配使用
 
+## 可搭配的风格
+
+`minimalism` `memphis` `brutalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [Material Design — Chips](https://m3.material.io/components/chips/overview)

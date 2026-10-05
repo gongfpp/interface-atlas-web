@@ -56,6 +56,10 @@
 - [progress-bar](/interface-atlas-web/components/progress-bar) — 相似概念
 - [alert](/interface-atlas-web/components/alert) — 相似概念
 
+## 可搭配的风格
+
+`hand-drawn` `flat-design` `skeuomorphism` `minimalism` `swiss-style` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [MDN — HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/file)

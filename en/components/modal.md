@@ -96,6 +96,10 @@ Run existing checks when done and list modified files.
 - [alert](/interface-atlas-web/en/components/alert) — Alert is in-page messaging; a modal is a blocking overlay.
 - [lightbox](/interface-atlas-web/en/components/lightbox) — Lightbox is media zoom; a modal hosts general tasks.
 
+## Applicable styles
+
+`glassmorphism` `claymorphism` `y2k` `minimalism` `flat-design` `swiss-style` `neobrutalism` `cyberpunk`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Dialog (Modal)](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)

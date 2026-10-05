@@ -86,6 +86,10 @@
 - [drawer](/interface-atlas-web/components/drawer) — 侧边抽屉从左右边缘滑入，底部抽屉只从底边升起。
 - [modal](/interface-atlas-web/components/modal) — 模态框居中且强调强制决策；底部抽屉贴底、可下滑关闭。
 
+## 可搭配的风格
+
+`glassmorphism` `neumorphism` `swiss-style` `minimalism` `flat-design` `neobrutalism` `cyberpunk` `hand-drawn`
+
 ## Sources
 
 - [Apple HIG — Sheets](https://developer.apple.com/design/human-interface-guidelines/sheets)

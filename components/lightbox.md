@@ -84,6 +84,10 @@ Lightbox 是媒体专用的 Modal；Modal 是通用容器。灯箱打开的是�
 - [modal](/interface-atlas-web/components/modal) — modal 承载通用任务与文案，lightbox 专用于放大观赏媒体
 - [carousel](/interface-atlas-web/components/carousel) — carousel 在页面内轮播，lightbox 在压暗遮罩上全屏展示
 
+## 可搭配的风格
+
+`art-deco` `aurora` `pixel-art` `minimalism` `flat-design` `swiss-style` `neobrutalism` `glassmorphism`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Dialog (Modal)](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)

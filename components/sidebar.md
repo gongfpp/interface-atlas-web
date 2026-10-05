@@ -75,7 +75,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `swiss-style`
+`art-deco` `bento-grid` `editorial` `minimalism` `flat-design` `swiss-style` `neobrutalism` `organic`
 
 ## Sources
 

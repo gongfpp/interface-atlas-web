@@ -70,6 +70,10 @@ Run the project's existing checks when done and list the modified files.
 - [marquee](/interface-atlas-web/en/motion/marquee) — Alternative
 - [card](/interface-atlas-web/en/components/card) — Used with
 
+## Applicable styles
+
+`editorial` `cyberpunk` `pixel-art` `minimalism` `flat-design` `swiss-style` `neobrutalism` `art-deco`
+
 ## Sources
 
 - [ARIA APG Carousel](https://www.w3.org/WAI/ARIA/apg/patterns/carousel/)

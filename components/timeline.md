@@ -56,6 +56,10 @@
 - [card](/interface-atlas-web/components/card) — 相似概念
 - [badge](/interface-atlas-web/components/badge) — 相似概念
 
+## 可搭配的风格
+
+`vaporwave` `organic` `brutalism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `editorial`
+
 ## Sources
 
 - [MDN — HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/time)

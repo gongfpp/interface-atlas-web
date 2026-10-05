@@ -76,6 +76,10 @@ Run existing checks when done and list modified files.
 - [filter-panel](/interface-atlas-web/en/components/filter-panel) — Similar
 - [master-detail](/interface-atlas-web/en/patterns/master-detail) — Used with
 
+## Applicable styles
+
+`editorial` `swiss-style` `hand-drawn` `minimalism` `flat-design` `neobrutalism` `art-deco` `organic`
+
 ## Sources
 
 - [W3C WAI Tables Tutorial](https://www.w3.org/WAI/tutorials/tables/)

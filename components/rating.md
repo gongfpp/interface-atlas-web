@@ -56,6 +56,10 @@
 - [slider](/interface-atlas-web/components/slider) — 相似概念
 - [button](/interface-atlas-web/components/button) — 相似概念
 
+## 可搭配的风格
+
+`retro-futurism` `y2k` `memphis` `flat-design` `minimalism` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/ARIA/apg/patterns/radio/)

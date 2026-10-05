@@ -66,6 +66,10 @@ Run existing checks and list changed files and validation results.
 - [slider](/interface-atlas-web/en/components/slider) — A slider picks along a continuum; an input stepper steps by a fixed delta.
 - [pagination](/interface-atlas-web/en/components/pagination) — Pagination moves through data pages; a stepper advances task steps.
 
+## Applicable styles
+
+`editorial` `art-deco` `pixel-art` `minimalism` `flat-design` `swiss-style` `neobrutalism` `organic`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/tutorials/forms/multi-page/)

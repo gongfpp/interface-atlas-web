@@ -75,6 +75,10 @@
 - [filter-panel](/interface-atlas-web/components/filter-panel) — 相似概念
 - [master-detail](/interface-atlas-web/patterns/master-detail) — 搭配使用
 
+## 可搭配的风格
+
+`editorial` `swiss-style` `hand-drawn` `minimalism` `flat-design` `neobrutalism` `art-deco` `organic`
+
 ## Sources
 
 - [W3C WAI Tables Tutorial](https://www.w3.org/WAI/tutorials/tables/)

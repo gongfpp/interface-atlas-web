@@ -66,6 +66,10 @@ Stepper 一名两义：既指数值加减输入框（Input Stepper / Number Inpu
 - [slider](/interface-atlas-web/components/slider) — Slider 在连续区间取值，Input Stepper 按固定步长加减。
 - [pagination](/interface-atlas-web/components/pagination) — Pagination 切换数据页，Stepper 推进任务步骤。
 
+## 可搭配的风格
+
+`editorial` `art-deco` `pixel-art` `minimalism` `flat-design` `swiss-style` `neobrutalism` `organic`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/tutorials/forms/multi-page/)

@@ -56,6 +56,10 @@ Run existing checks and list changed files and validation results.
 - [progress-bar](/interface-atlas-web/en/components/progress-bar) — Similar
 - [alert](/interface-atlas-web/en/components/alert) — Similar
 
+## Applicable styles
+
+`hand-drawn` `flat-design` `skeuomorphism` `minimalism` `swiss-style` `neobrutalism` `neumorphism` `organic`
+
 ## Sources
 
 - [MDN — HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/file)

@@ -71,7 +71,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `editorial`
+`editorial` `pixel-art` `brutalism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `organic`
 
 ## Sources
 

@@ -72,6 +72,10 @@
 - [hover-lift](/interface-atlas-web/motion/hover-lift) — 搭配使用
 - [badge](/interface-atlas-web/components/badge) — 相似概念
 
+## 可搭配的风格
+
+`minimalism` `aurora` `bento-grid` `editorial` `neobrutalism` `neumorphism` `swiss-style` `art-deco`
+
 ## Sources
 
 - [Material Design — Cards](https://m3.material.io/components/cards/overview)

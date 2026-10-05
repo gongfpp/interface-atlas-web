@@ -92,6 +92,10 @@ Alert 是页内持续显示的状态消息；Toast 是短暂浮层反馈；Modal
 - [toast](/interface-atlas-web/components/toast) — Toast 短暂自动消失，Alert 常驻直到状态消除。
 - [modal](/interface-atlas-web/components/modal) — Modal 阻断并要求操作，Alert 只告知不打断。
 
+## 可搭配的风格
+
+`swiss-style` `brutalism` `corporate-memphis` `minimalism` `flat-design` `neobrutalism` `glassmorphism` `cyberpunk`
+
 ## Sources
 
 - [Apple HIG — Alerts](https://developer.apple.com/design/human-interface-guidelines/alerts)

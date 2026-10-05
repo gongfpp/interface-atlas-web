@@ -84,6 +84,10 @@
 - [accordion](/interface-atlas-web/components/accordion) — accordion 是并列分区的开合，tree-view 表达任意深度的父子层级
 - [menu](/interface-atlas-web/components/menu) — menu 用于命令与导航动作，tree-view 用于浏览并选择层级数据
 
+## 可搭配的风格
+
+`brutalism` `editorial` `neumorphism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `art-deco`
+
 ## Sources
 
 - [ARIA APG — Tree View](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/)

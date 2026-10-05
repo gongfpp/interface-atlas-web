@@ -80,6 +80,10 @@
 - [navbar](/interface-atlas-web/components/navbar) — 导航条跳转目的地；工具条执行当前上下文的动作。
 - [menu](/interface-atlas-web/components/menu) — 菜单点开后再选一项；工具条按钮点击即执行。
 
+## 可搭配的风格
+
+`flat-design` `art-deco` `bauhaus` `minimalism` `swiss-style` `neobrutalism` `editorial` `organic`
+
 ## Sources
 
 - [ARIA APG — Toolbar](https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/)

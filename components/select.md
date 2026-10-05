@@ -80,7 +80,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `swiss-style`
+`swiss-style` `bauhaus` `liquid-glass` `minimalism` `flat-design` `neobrutalism` `neumorphism` `organic`
 
 ## Sources
 

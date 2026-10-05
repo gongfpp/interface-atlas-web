@@ -70,7 +70,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `flat-design`
+`minimalism` `bauhaus` `cyberpunk` `flat-design` `swiss-style` `neobrutalism` `neumorphism` `organic`
 
 ## Sources
 

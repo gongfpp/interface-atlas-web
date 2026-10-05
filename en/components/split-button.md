@@ -84,6 +84,10 @@ Run the existing project checks when done and list the modified files.
 - [dropdown](/interface-atlas-web/en/components/dropdown) — A dropdown opens a menu from the whole face; split-button runs an action on the main face
 - [button](/interface-atlas-web/en/components/button) — A plain button has one action; split-button folds sibling variants into an attached menu
 
+## Applicable styles
+
+`swiss-style` `flat-design` `claymorphism` `minimalism` `neobrutalism` `glassmorphism` `cyberpunk` `neumorphism`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Menu Button](https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/)

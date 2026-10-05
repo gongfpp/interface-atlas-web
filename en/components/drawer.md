@@ -76,6 +76,10 @@ Run existing checks when done and list modified files.
 - [popover](/interface-atlas-web/en/components/popover) — Alternative
 - [drawer-slide](/interface-atlas-web/en/motion/drawer-slide) — Used with
 
+## Applicable styles
+
+`minimalism` `neobrutalism` `art-deco` `flat-design` `swiss-style` `glassmorphism` `cyberpunk` `neumorphism`
+
 ## Sources
 
 - [Material Design — Navigation drawer](https://m3.material.io/components/navigation-drawer/overview)

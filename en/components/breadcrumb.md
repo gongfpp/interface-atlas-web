@@ -71,7 +71,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`minimalism` `editorial`
+`editorial` `pixel-art` `brutalism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `organic`
 
 ## Sources
 

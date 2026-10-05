@@ -84,6 +84,10 @@ Run the existing project checks when done and list the modified files.
 - [accordion](/interface-atlas-web/en/components/accordion) — Accordion opens sibling sections; tree-view expresses parent-child nesting at any depth
 - [menu](/interface-atlas-web/en/components/menu) — Menu issues commands and navigation; tree-view browses and selects hierarchical data
 
+## Applicable styles
+
+`brutalism` `editorial` `neumorphism` `minimalism` `flat-design` `swiss-style` `neobrutalism` `art-deco`
+
 ## Sources
 
 - [ARIA APG — Tree View](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/)

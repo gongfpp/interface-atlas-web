@@ -85,6 +85,10 @@ Run existing checks when done and list modified files.
 - [navbar](/interface-atlas-web/en/components/navbar) — Navbar jumps to destinations; Menu runs immediate commands.
 - [select](/interface-atlas-web/en/components/select) — Select picks a value for a form; Menu triggers an action.
 
+## Applicable styles
+
+`bento-grid` `cyberpunk` `organic` `minimalism` `flat-design` `swiss-style` `neobrutalism` `editorial`
+
 ## Sources
 
 - [WAI-ARIA Authoring Practices — Menu Button](https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/)

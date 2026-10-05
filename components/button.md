@@ -87,7 +87,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `neobrutalism` `glassmorphism`
+`minimalism` `neobrutalism` `glassmorphism` `swiss-style` `cyberpunk` `neumorphism` `flat-design` `pixel-art`
 
 ## Sources
 

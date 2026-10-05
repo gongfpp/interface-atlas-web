@@ -56,6 +56,10 @@
 - [select](/interface-atlas-web/components/select) — 相似概念
 - [command-palette](/interface-atlas-web/components/command-palette) — 相似概念
 
+## 可搭配的风格
+
+`corporate-memphis` `cyberpunk` `bento-grid` `minimalism` `flat-design` `swiss-style` `neobrutalism` `neumorphism`
+
 ## Sources
 
 - [W3C WAI — Accessible interaction patterns](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/)
