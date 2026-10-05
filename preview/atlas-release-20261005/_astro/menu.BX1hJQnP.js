@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime.DK-X9XDJ.js";import{t}from"./ActionMenu.BXiBM8NP.js";var n=e(),r=({mode:e,locale:r})=>(0,n.jsx)(t,{en:r===`en`,compact:e===`variants`,contextMode:e===`variants`});export{r as default};
