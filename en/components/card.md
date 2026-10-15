@@ -75,7 +75,7 @@ Run existing checks when done and list modified files.
 
 ## Applicable styles
 
-`minimalism` `aurora` `bento-grid` `editorial` `neobrutalism` `neumorphism` `swiss-style` `art-deco`
+`minimalism` `aurora` `bento-grid` `editorial` `neobrutalism` `neumorphism` `swiss-style` `art-deco` `glassmorphism` `claymorphism` `hand-drawn` `pixel-art`
 
 ## Sources
 

@@ -80,7 +80,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `neobrutalism` `editorial` `swiss-style` `cyberpunk` `neumorphism` `flat-design` `organic`
+`minimalism` `neobrutalism` `editorial` `swiss-style` `cyberpunk` `neumorphism` `flat-design` `organic` `skeuomorphism` `glassmorphism` `hand-drawn` `claymorphism`
 
 ## Sources
 

@@ -76,7 +76,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`skeuomorphism` `flat-design` `aurora` `minimalism` `swiss-style` `neobrutalism` `neumorphism` `organic`
+`skeuomorphism` `flat-design` `aurora` `minimalism` `swiss-style` `neobrutalism` `neumorphism` `organic` `glassmorphism` `pixel-art` `art-deco` `cyberpunk`
 
 ## Sources
 

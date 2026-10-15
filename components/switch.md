@@ -76,7 +76,7 @@
 
 ## 可搭配的风格
 
-`skeuomorphism` `flat-design` `aurora` `minimalism` `swiss-style` `neobrutalism` `neumorphism` `organic`
+`skeuomorphism` `flat-design` `aurora` `minimalism` `swiss-style` `neobrutalism` `neumorphism` `organic` `glassmorphism` `pixel-art` `art-deco` `cyberpunk`
 
 ## Sources
 

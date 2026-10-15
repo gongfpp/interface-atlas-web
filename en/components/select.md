@@ -80,7 +80,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`swiss-style` `bauhaus` `liquid-glass` `minimalism` `flat-design` `neobrutalism` `neumorphism` `organic`
+`swiss-style` `bauhaus` `liquid-glass` `minimalism` `flat-design` `neobrutalism` `neumorphism` `organic` `glassmorphism` `cyberpunk` `art-deco` `pixel-art`
 
 ## Sources
 

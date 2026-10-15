@@ -74,7 +74,7 @@
 
 ## 可搭配的风格
 
-`minimalism` `aurora` `bento-grid` `editorial` `neobrutalism` `neumorphism` `swiss-style` `art-deco`
+`minimalism` `aurora` `bento-grid` `editorial` `neobrutalism` `neumorphism` `swiss-style` `art-deco` `glassmorphism` `claymorphism` `hand-drawn` `pixel-art`
 
 ## Sources
 

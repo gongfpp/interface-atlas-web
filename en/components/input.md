@@ -80,7 +80,7 @@ Run existing project checks when done and list the modified files.
 
 ## Applicable styles
 
-`minimalism` `neobrutalism` `editorial` `swiss-style` `cyberpunk` `neumorphism` `flat-design` `organic`
+`minimalism` `neobrutalism` `editorial` `swiss-style` `cyberpunk` `neumorphism` `flat-design` `organic` `skeuomorphism` `glassmorphism` `hand-drawn` `claymorphism`
 
 ## Sources
 
