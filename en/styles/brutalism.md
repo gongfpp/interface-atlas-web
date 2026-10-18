@@ -45,18 +45,20 @@ The point is unpolish: radii stay 0, shadows are replaced by hard borders, type 
 ## Agent task prompt
 
 ```text
-Implement Brutalism visual style in the current project.
+Build a complete STUDIO VOID page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
 
-Inspect the existing component system and design tokens first; reuse components and swap only the visual layer.
-Requirements:
-- Zero radii, no gradients, no soft shadows; hierarchy via thick strokes or inverted blocks
-- Oversized clamp headings in system sans or monospace
-- Visible background grid, exactly one harsh accent (#FF3B00), rest monochrome
-- Buttons invert on hover; no bounce or lift
-- Dark mode inverts values while keeping the blunt vocabulary
-- Text contrast at 4.5:1 minimum; reading order never scrambled by decoration
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Continue STUDIO VOID’s 40% / 28% / 29% columns with 1.5% gaps: Atlas Heavy (Anton) condensed display, studio copy and monochrome concrete photograph. Keep 8.9cqw/.95 display type and the navigation’s 2px black bottom rule. The default is direct near-white/black contrast with a square black CTA, not an orange-red background-grid template. Cases retain their black/white panels and heavy display; stack below 600px while preserving the photograph and overlaid white lettering. Variants may use the existing #c52f1b display accent; dark mode does not invert photographs.
+
+Full-page operations:
+View our work opens the project index; inspect a project and return. WORK / ABOUT / NEWS / CONTACT reveal matching content; the contact form validates and shows a local summary without sending email.
+
+Share one renderer between static covers, the detail experience and /style-scenes/brutalism/ (English /en/style-scenes/brutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -65,7 +67,17 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Brutalism spec: paper white #F5F5F0 or near-black ground; pure black #0A0A0A body; exactly one harsh accent #FF3B00; zero radii everywhere; headings at clamp(2.5rem, 8vw, 6rem) in ultra-bold sans or mono; 1px visible grid rules; buttons as 2px outline or solid inverted blocks, hover just inverts colors; dark mode flips to near-black with paper-white type, accent unchanged."
 
-**Implementation:** "Implement Brutalism in CSS: global border-radius 0; headings with font-size clamp and weight 800+; grid via background-image: repeating-linear-gradient(to right, #0A0A0A14 0 1px, transparent 1px 48px) plus a vertical twin; buttons with border: 2px solid #0A0A0A that invert fill/text on hover; no box-shadow — hierarchy comes from thick strokes or inverted blocks; system-ui or ui-monospace stack."
+**Implementation:** Build a complete STUDIO VOID page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Continue STUDIO VOID’s 40% / 28% / 29% columns with 1.5% gaps: Atlas Heavy (Anton) condensed display, studio copy and monochrome concrete photograph. Keep 8.9cqw/.95 display type and the navigation’s 2px black bottom rule. The default is direct near-white/black contrast with a square black CTA, not an orange-red background-grid template. Cases retain their black/white panels and heavy display; stack below 600px while preserving the photograph and overlaid white lettering. Variants may use the existing #c52f1b display accent; dark mode does not invert photographs.
+
+View our work opens the project index; inspect a project and return. WORK / ABOUT / NEWS / CONTACT reveal matching content; the contact form validates and shows a local summary without sending email.
+
+Share one renderer between static covers, the detail experience and /style-scenes/brutalism/ (English /en/style-scenes/brutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

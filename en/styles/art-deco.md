@@ -42,10 +42,24 @@ Draw radiating and stepped ornament with SVG, independent of semantic content. U
 ## Agent task prompt
 
 ```text
-Inspect existing layouts, typography and theme tokens, then build an interactive Art Deco brand scene.
-Display serif titles with tracked short labels. Midnight blue-black and warm gold; soft light body text. Hairlines, double frames and stepped outlines. Use borders for hierarchy instead of shadows. Axial alignment and balanced space; reduce ornament on mobile.
-Draw radiating and stepped ornament with SVG, independent of semantic content. Use gold as an accent while keeping body contrast strong. Preserve title and form width on narrow screens by reducing surrounding ornament.
-Make controls give clear feedback, support narrow screens, focus and reduced motion, and add no dependencies. Run checks and list modified files.
+Build a complete THE AURELIA page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep THE AURELIA’s midnight blue-black, warm-gold display, deep-green cards, square gold rims and right-side geometry; do not add radiating/stepped SVG ornament that rewrites the composition. The evening result card retains centered text, a 1px inset gold outline and tracked short labels; forms keep full rectangular input targets.
+
+Reuse current preview.tokens: background #151c24; foreground #e8ce92; accent #d7b571 / #151c24; card #25312e; border #a88b51; radius 0px; font Georgia, serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Explore opens dinner interest. Enter a name, date and party size, save the matching result and return to edit. Collection and About show evening experiences and brand information; local interest is not a table reservation.
+
+Share one renderer between static covers, the detail experience and /style-scenes/art-deco/ (English /en/style-scenes/art-deco/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -54,7 +68,21 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 **Design:** Display serif titles with tracked short labels. Midnight blue-black and warm gold; soft light body text. Hairlines, double frames and stepped outlines. Use borders for hierarchy instead of shadows. Axial alignment and balanced space; reduce ornament on mobile.
 
-**Implementation:** Draw radiating and stepped ornament with SVG, independent of semantic content. Use gold as an accent while keeping body contrast strong. Preserve title and form width on narrow screens by reducing surrounding ornament.
+**Implementation:** Build a complete THE AURELIA page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep THE AURELIA’s midnight blue-black, warm-gold display, deep-green cards, square gold rims and right-side geometry; do not add radiating/stepped SVG ornament that rewrites the composition. The evening result card retains centered text, a 1px inset gold outline and tracked short labels; forms keep full rectangular input targets.
+
+Reuse current preview.tokens: background #151c24; foreground #e8ce92; accent #d7b571 / #151c24; card #25312e; border #a88b51; radius 0px; font Georgia, serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Explore opens dinner interest. Enter a name, date and party size, save the matching result and return to edit. Collection and About show evening experiences and brand information; local interest is not a table reservation.
+
+Share one renderer between static covers, the detail experience and /style-scenes/art-deco/ (English /en/style-scenes/art-deco/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

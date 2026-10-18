@@ -45,16 +45,24 @@ Ground runs #0a0a12–#12101f. Neon needs both glow (box-shadow/text-shadow 0 0 
 ## Agent task prompt
 
 ```text
-Implement a terminal-style Cyberpunk input and panel section in the current project.
+Build a complete NEON://CITY page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing theme system first; scope the neon-dark theme behind an isolated class so the default theme stays untouched.
-Requirements:
-- Near-black ground with neon cyan/magenta borders and glow; corner-cut panels via clip-path
-- Monospace type and terminal glyphs ("> _") throughout
-- Scanline overlay at opacity ≤ 0.06; glitch animations rare, brief, respecting prefers-reduced-motion
-- Body text keeps compliant contrast; neon is accent-only, never body color
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep NEON://CITY’s navy-black ground, cyan rims/glow, uppercase monospace, right-side bar chart and terminal cards. Panels retain their existing 4px radius rather than new 12px cuts, scanlines or glitch overlays. Continue with the offline terminal and cyan signal bars, expressing state through real HUD text and gear checkboxes.
+
+Reuse current preview.tokens: background #0B0F1A; foreground #EAF6FF; accent #00E5FF / #050810; card rgba(0,229,255,.06); border rgba(0,229,255,.35); radius 4px; font 'SF Mono', Menlo, monospace; card shadow 0 0 14px rgba(0,229,255,.25).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Connect to the network establishes an offline district connection and can disconnect. Toggle gear to update the district, connection and loadout HUD. Districts, Gear, Black market and SYS status reveal local content without real networking or trades.
+
+Share one renderer between static covers, the detail experience and /style-scenes/cyberpunk/ (English /en/style-scenes/cyberpunk/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -63,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Cyberpunk spec: ground #0d0b14; neon cyan #00E5FF primary, magenta #FF2E88 secondary, glow radius under 8px; corner-cut panels via clip-path with 1px neon borders and faint glow; monospace type (JetBrains Mono/system mono); headings with two-layer RGB offset; scanline overlay at 0.05 opacity; hover brightens borders. Dark only — a light ground contradicts the style."
 
-**Implementation:** "Implement a Cyberpunk panel in CSS: .cyber-panel { background: #12101f; color: #d8f6ff; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px)); border: 1px solid rgba(0,229,255,0.7); box-shadow: 0 0 10px rgba(0,229,255,0.25); } Scanline pseudo-element: repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px). Multiply glitch animation duration by var(--demo-speed, 1)."
+**Implementation:** Build a complete NEON://CITY page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep NEON://CITY’s navy-black ground, cyan rims/glow, uppercase monospace, right-side bar chart and terminal cards. Panels retain their existing 4px radius rather than new 12px cuts, scanlines or glitch overlays. Continue with the offline terminal and cyan signal bars, expressing state through real HUD text and gear checkboxes.
+
+Reuse current preview.tokens: background #0B0F1A; foreground #EAF6FF; accent #00E5FF / #050810; card rgba(0,229,255,.06); border rgba(0,229,255,.35); radius 4px; font 'SF Mono', Menlo, monospace; card shadow 0 0 14px rgba(0,229,255,.25).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Connect to the network establishes an offline district connection and can disconnect. Toggle gear to update the district, connection and loadout HUD. Districts, Gear, Black market and SYS status reveal local content without real networking or trades.
+
+Share one renderer between static covers, the detail experience and /style-scenes/cyberpunk/ (English /en/style-scenes/cyberpunk/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

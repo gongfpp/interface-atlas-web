@@ -45,17 +45,20 @@ The style hinges on three traits: thick black borders (2–4px), hard offset sha
 ## Agent task prompt
 
 ```text
-Implement a card + button section in Neobrutalism style in the current project.
+Build a complete PlayLab page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
 
-Inspect the existing components and design tokens first; check for reusable border/shadow variables.
-Requirements:
-- Thick black borders (2–3px) + hard offset shadows (no blur)
-- Saturated clashing colors on a cream base
-- Buttons that lift on hover and swallow their shadow on active
-- Dark mode support (near-black base, colors stay bright)
-- Transitions respect prefers-reduced-motion, under 120ms
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Preserve PlayLab’s 47% / 53% copy/stacked-window composition, #ffff13 title highlights, square #f4a1d1 CTA, yellow navigation CTA, #4e96f9 blue and #3bbc8b green blocks. Retain 2px black rims, unblurred hard shadows, tilted idea windows, smile and actionable checklist rather than a 10px-rounded orange BRUTAL* template. The continuation keeps pink/blue/green case buttons and heavy rules; below 600px flow the copy and 360px-high window artwork separately with usable checklist controls.
+
+Full-page operations:
+Let’s make it and Start a project open a brief with an editable local summary. Toggle Design / Develop / Create independently; Work, Services and About reach portfolio, services and team content.
+
+Share one renderer between static covers, the detail experience and /style-scenes/neobrutalism/ (English /en/style-scenes/neobrutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +67,17 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Neobrutalism design spec: cream background (#FDF2D8); every element gets a 2–3px pure black border; shadows are solid offsets only (4px 4px 0 #000), never blurred; ~10px radii; saturated primary colors (#FF5D5D / #FFC900 / #4D9FFF) that clash boldly; heavy uppercase headings; buttons swallow their shadow when pressed. Dark mode keeps a near-black base with the bright colors intact."
 
-**Implementation:** "Implement Neobrutalism in CSS: a .nb base class (border: 3px solid #000; box-shadow: 4px 4px 0 #000; border-radius: 10px), candy palette as CSS variables; hover lifts via translate(-2px,-2px) with a deeper 6px shadow, active resets it like a physical press; badges are solid color chips with black borders and uppercase labels; keep transitions under 120ms."
+**Implementation:** Build a complete PlayLab page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Preserve PlayLab’s 47% / 53% copy/stacked-window composition, #ffff13 title highlights, square #f4a1d1 CTA, yellow navigation CTA, #4e96f9 blue and #3bbc8b green blocks. Retain 2px black rims, unblurred hard shadows, tilted idea windows, smile and actionable checklist rather than a 10px-rounded orange BRUTAL* template. The continuation keeps pink/blue/green case buttons and heavy rules; below 600px flow the copy and 360px-high window artwork separately with usable checklist controls.
+
+Let’s make it and Start a project open a brief with an editable local summary. Toggle Design / Develop / Create independently; Work, Services and About reach portfolio, services and team content.
+
+Share one renderer between static covers, the detail experience and /style-scenes/neobrutalism/ (English /en/style-scenes/neobrutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

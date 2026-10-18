@@ -45,17 +45,24 @@ Thickness comes from three layers: low-opacity fill + backdrop-filter blur(20px)
 ## Agent task prompt
 
 ```text
-Implement Liquid Glass visual style in the current project.
+Build a complete Lumen page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect existing overlay and navigation components first; confirm colorful content beneath to refract.
-Requirements:
-- Thick glass: low-opacity fill + backdrop blur/saturate + top specular + bottom edge
-- Translucent white rims to suggest lensing — not a thin blur veil
-- Controls float on their own functional layer; glass never fully hides the content
-- @supports fallback to a more opaque fill; speculars kept in dark mode
-- Text contrast verified against the refracted result
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep Lumen’s peach/violet/blue gradient, CSS mountain scene, 22px glass cards, blur(20px) saturate(180%) and upper highlight/lower edge. The workbench retains its 28px specimen, blur(var(--glass-depth)) saturate(150%), Clear/Frost/Prism surfaces and ambient-light angle, without new SVG displacement refraction or floating navigation. Depth/highlights/refraction remain the current readable CSS approximation.
+
+Reuse current preview.tokens: background linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%); foreground #FFFFFF; accent rgba(255,255,255,.92) / #1A1030; card rgba(255,255,255,.14); border rgba(255,255,255,.5); radius 22px; font SF Pro Display, Helvetica Neue, PingFang SC, sans-serif; card shadow inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Explore refraction opens material sampling. Adjust material, thickness and angle, preview live and save a recipe. Optics, Materials and Pricing reveal content; refraction/speculars are web approximations, not physical optical simulation.
+
+Share one renderer between static covers, the detail experience and /style-scenes/liquid-glass/ (English /en/style-scenes/liquid-glass/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Liquid Glass spec: colorful photo or gradient beneath; glass filled rgba(255,255,255,0.12) or rgba(20,20,30,0.35) in dark; backdrop-filter blur(20px) saturate(180%); inset 0 1px 0 rgba(255,255,255,0.7) top specular and inset 0 -1px 0 rgba(0,0,0,0.15) bottom edge; 1px translucent white rim; radii 20px or 999px pills; controls float on their own functional layer while content stays clear."
 
-**Implementation:** "Implement Liquid Glass in CSS: .lg { background: rgba(255,255,255,0.12); backdrop-filter: blur(20px) saturate(180%); border: 1px solid rgba(255,255,255,0.45); box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), inset 0 -1px 0 rgba(0,0,0,0.15), 0 8px 24px rgba(0,0,0,0.18); border-radius: 22px; } Gate with @supports and fall back to a more opaque fill; on hover, nudge the specular inset up 1px to catch light."
+**Implementation:** Build a complete Lumen page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep Lumen’s peach/violet/blue gradient, CSS mountain scene, 22px glass cards, blur(20px) saturate(180%) and upper highlight/lower edge. The workbench retains its 28px specimen, blur(var(--glass-depth)) saturate(150%), Clear/Frost/Prism surfaces and ambient-light angle, without new SVG displacement refraction or floating navigation. Depth/highlights/refraction remain the current readable CSS approximation.
+
+Reuse current preview.tokens: background linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%); foreground #FFFFFF; accent rgba(255,255,255,.92) / #1A1030; card rgba(255,255,255,.14); border rgba(255,255,255,.5); radius 22px; font SF Pro Display, Helvetica Neue, PingFang SC, sans-serif; card shadow inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Explore refraction opens material sampling. Adjust material, thickness and angle, preview live and save a recipe. Optics, Materials and Pricing reveal content; refraction/speculars are web approximations, not physical optical simulation.
+
+Share one renderer between static covers, the detail experience and /style-scenes/liquid-glass/ (English /en/style-scenes/liquid-glass/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

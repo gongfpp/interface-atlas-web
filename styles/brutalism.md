@@ -45,18 +45,20 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中实现 Brutalism 粗野主义视觉风格。
+用当前风格完成 STUDIO VOID 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。
 
-先检查现有组件体系和 Design Token，优先复用当前组件，只替换视觉层。
-要求：
-- 全部圆角 0，无渐变无柔和阴影，层级用粗描边或反色块表达
-- 标题超大字号（clamp），系统无衬线或等宽字体
-- 背景可见网格线，单一刺眼强调色（如 #FF3B00），其余黑白
-- 按钮 hover 反色，不做弹跳位移
-- 深色模式反转明度但保持硬切语汇
-- 文字对比度不低于 4.5:1，阅读顺序不被装饰打乱
-- 不新增任何依赖
-完成后运行项目现有检查，并列出修改的文件。
+延续 STUDIO VOID 的 40% / 28% / 29% 三栏（1.5% 间隙）：Atlas Heavy（Anton）压缩大字、工作室说明、黑白混凝土照片；主标题使用原 8.9cqw/.95，导航保留 2px 黑色底线。默认画面是近白与黑的直接对比、直角黑 CTA，而不是橙红背景网格模板。作品案例使用现有黑底白字与粗显示字；600px 以下三栏改单列，照片与白字叠层保持。variants 可用现有 #c52f1b 标题色，dark 不反色照片。
+
+完整页面操作：
+查看作品进入项目目录，打开项目内容并返回；WORK / ABOUT / NEWS / CONTACT 均有对应内容；联系表单校验后显示本地整理结果，不发送邮件。
+
+静态封面、详情演示与 /style-scenes/brutalism/（英文 /en/style-scenes/brutalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -65,7 +67,17 @@
 
 **Design:** 粗野主义设计规范：底色纸白 #F5F5F0 或近黑；正文纯黑 #0A0A0A；强调色只用一个刺眼橙红 #FF3B00； 全部圆角 0；标题字号 clamp(2.5rem, 8vw, 6rem)，超粗无衬线或等宽；网格线 1px 实线可见； 按钮用 2px 实线框或纯色块反白，hover 反色即可不做位移；深色模式用近黑底配纸白字，强调色不变。
 
-**Implementation:** 用 CSS 实现粗野主义：全局 border-radius: 0；标题用 font-size clamp 与 font-weight 800+； 背景网格 background-image: repeating-linear-gradient(to right, #0A0A0A14 0 1px, transparent 1px 48px), repeating-linear-gradient(to bottom, ...); 按钮 border: 2px solid #0A0A0A，hover 时 background/color 对调； 不用 box-shadow，需要层级时用粗描边或反色块；字体栈 system-ui 或 ui-monospace。
+**Implementation:** 用当前风格完成 STUDIO VOID 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。
+
+延续 STUDIO VOID 的 40% / 28% / 29% 三栏（1.5% 间隙）：Atlas Heavy（Anton）压缩大字、工作室说明、黑白混凝土照片；主标题使用原 8.9cqw/.95，导航保留 2px 黑色底线。默认画面是近白与黑的直接对比、直角黑 CTA，而不是橙红背景网格模板。作品案例使用现有黑底白字与粗显示字；600px 以下三栏改单列，照片与白字叠层保持。variants 可用现有 #c52f1b 标题色，dark 不反色照片。
+
+查看作品进入项目目录，打开项目内容并返回；WORK / ABOUT / NEWS / CONTACT 均有对应内容；联系表单校验后显示本地整理结果，不发送邮件。
+
+静态封面、详情演示与 /style-scenes/brutalism/（英文 /en/style-scenes/brutalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

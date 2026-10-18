@@ -42,10 +42,20 @@ Derive shadows from the shared surface; use positive and negative offsets for ra
 ## Agent task prompt
 
 ```text
-Inspect existing layouts, typography and theme tokens, then build an interactive Neumorphism brand scene.
-Clear sans-serif type; avoid overly light weights. Light blue-grey surfaces, dark text and blue accents. Medium to large radii with a visible focus outline. Paired outer shadows for elevation; inset shadows for pressing. Space controls so shadows do not collide.
-Derive shadows from the shared surface; use positive and negative offsets for raised controls and inset for pressed states. Reinforce focus and selection with labels or icons. Avoid large animated shadows and support reduced motion.
-Make controls give clear feedback, support narrow screens, focus and reduced motion, and add no dependencies. Run checks and list modified files.
+Build a complete Mellow page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Keep Mellow’s same-material pale greys, #f4f5f6→#eeeff0, Georgia brand/display and grey sans copy, with the original copy/weather/tilted soft clock/tool-column composition. Preserve outer paired shadows and the separate circular inset clock face, dark-gradient CTA and raised login button rather than replacing them with generic blue sans cards. Below 600px return positioned elements to a single content flow and pair the tools; reuse existing dark/high-contrast styles and never make shadows the only state signal.
+
+Full-page operations:
+Explore Mellow and Get started open focus tools. Start/pause/reset the timer; Focus, Tasks, Stats and Settings reveal matching tools. Cycle focus tips; login explains local demo identity only.
+
+Share one renderer between static covers, the detail experience and /style-scenes/neumorphism/ (English /en/style-scenes/neumorphism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -54,7 +64,17 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 **Design:** Clear sans-serif type; avoid overly light weights. Light blue-grey surfaces, dark text and blue accents. Medium to large radii with a visible focus outline. Paired outer shadows for elevation; inset shadows for pressing. Space controls so shadows do not collide.
 
-**Implementation:** Derive shadows from the shared surface; use positive and negative offsets for raised controls and inset for pressed states. Reinforce focus and selection with labels or icons. Avoid large animated shadows and support reduced motion.
+**Implementation:** Build a complete Mellow page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Keep Mellow’s same-material pale greys, #f4f5f6→#eeeff0, Georgia brand/display and grey sans copy, with the original copy/weather/tilted soft clock/tool-column composition. Preserve outer paired shadows and the separate circular inset clock face, dark-gradient CTA and raised login button rather than replacing them with generic blue sans cards. Below 600px return positioned elements to a single content flow and pair the tools; reuse existing dark/high-contrast styles and never make shadows the only state signal.
+
+Explore Mellow and Get started open focus tools. Start/pause/reset the timer; Focus, Tasks, Stats and Settings reveal matching tools. Cycle focus tips; login explains local demo identity only.
+
+Share one renderer between static covers, the detail experience and /style-scenes/neumorphism/ (English /en/style-scenes/neumorphism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

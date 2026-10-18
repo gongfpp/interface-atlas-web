@@ -45,17 +45,24 @@ Fake wobbly borders with asymmetric border-radius values — no SVG filter requi
 ## Agent task prompt
 
 ```text
-Implement Hand-drawn UI visual style in the current project.
+Build a complete scribble& page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect existing components and texture assets first; keep hand-drawn effects on the visual layer only, hit targets untouched.
-Requirements:
-- Asymmetric wobbly radii and strokes, two to four slightly tilted elements
-- Paper ground (rules or noise under 0.12 opacity) plus marker highlights
-- Sketchy icon paths, decoration aria-hidden
-- Buttons keep regular rectangular hit areas; only the visual stroke wobbles
-- Dark mode on kraft brown; motion respects prefers-reduced-motion
-- Text contrast compliant, no new dependencies
-Run existing project checks when done and list the modified files.
+Keep scribble&’s paper branch at 2/5 copy, 2/5 CSS life scene and 1/5 sidebar, with Comic Sans MS/Chalkboard SE/Marker Felt fallbacks and italic styling. Retain 14px 6px 18px 8px asymmetric radii and the light paper shadow. Do not replace coral actions and paper ground with full-page yellow marker decoration. The notebook card uses its existing 32px ruling; targets stay regular without new turbulence filters or rotated interaction areas.
+
+Reuse current preview.tokens: background #FAF6EE; foreground #2B2B2B; accent #FF8A65 / #2B2B2B; card #FFFDF7; border #2B2B2B; radius 14px 6px 18px 8px; font Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif; card shadow 2px 3px 0 rgba(43,43,43,0.08).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Make a quick note opens editing. Save notes to the list, filter by keyword and delete entries. Journal, Materials, About and Search reveal content with blank-input validation, no-match and deletion results.
+
+Share one renderer between static covers, the detail experience and /style-scenes/hand-drawn/ (English /en/style-scenes/hand-drawn/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Hand-drawn spec: paper #FAF6EE, ink #2B2B2B, highlight yellow #FFE566, coral accent #FF8A65; every container gets asymmetric radii (four different corner values); buttons with 2px wobbly strokes and a slight rotate(-1deg); highlighter bars under key words; icons as sketchy paths or thick simple strokes; dark mode on deep kraft brown with cream ink, highlight kept."
 
-**Implementation:** "Implement a wobbly container in CSS: .sketchy { border: 2px solid #2B2B2B; border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px; } Highlight: background: linear-gradient(transparent 55%, #FFE566 55%); paper: repeating-linear-gradient(#0000 0 27px, #2B2B2B12 27px 28px); tilt via transform: rotate(-1deg) with transitions gated on prefers-reduced-motion."
+**Implementation:** Build a complete scribble& page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep scribble&’s paper branch at 2/5 copy, 2/5 CSS life scene and 1/5 sidebar, with Comic Sans MS/Chalkboard SE/Marker Felt fallbacks and italic styling. Retain 14px 6px 18px 8px asymmetric radii and the light paper shadow. Do not replace coral actions and paper ground with full-page yellow marker decoration. The notebook card uses its existing 32px ruling; targets stay regular without new turbulence filters or rotated interaction areas.
+
+Reuse current preview.tokens: background #FAF6EE; foreground #2B2B2B; accent #FF8A65 / #2B2B2B; card #FFFDF7; border #2B2B2B; radius 14px 6px 18px 8px; font Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif; card shadow 2px 3px 0 rgba(43,43,43,0.08).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Make a quick note opens editing. Save notes to the list, filter by keyword and delete entries. Journal, Materials, About and Search reveal content with blank-input validation, no-match and deletion results.
+
+Share one renderer between static covers, the detail experience and /style-scenes/hand-drawn/ (English /en/style-scenes/hand-drawn/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

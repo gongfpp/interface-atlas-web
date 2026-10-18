@@ -45,17 +45,20 @@ Three depth layers: a material base (texture image or a fine gradient), a 1px in
 ## Agent task prompt
 
 ```text
-Implement dimensional skeuomorphic buttons and switches in the current project.
+Build a complete Daily Goods page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
 
-Inspect the existing design tokens first; express material parameters as configurable variables, not magic values.
-Requirements:
-- Buttons and switches with gradient + inset highlight + drop shadow, :active flips the inset shadow
-- Materials as procedural gradients or inline SVG — no heavy texture assets
-- Keyboard focus states and readable contrast
-- Dark mode lowers material luminance but keeps the highlight structure
-- Respect prefers-reduced-motion for any transitions
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep Daily Goods’ original camera/wood/book/plant photograph, occupying the right 74% on desktop, with #e7ddcd warmth and the left cream overlay supporting copy. Use Georgia for the brand and the existing bold sans copy; retain the #9b6c36→#775025 brown CTA gradient, inset highlight, thin rim and .25cqw radius, plus the rotated warm-paper note and shadow. Continue with cream product cards and brown material buttons; on narrow screens flow copy, the 320px-high photograph and note in sequence. Do not replace the photograph with procedural texture or rebuild an aluminium-grey note tool.
+
+Full-page operations:
+Explore the collection and 01/02/03 show matching objects. Search including no matches, inspect an object and add it to the bag, adjust/remove items and inspect totals. Objects, Stories, Craft and Stores have matching content; checkout creates no real order.
+
+Share one renderer between static covers, the detail experience and /style-scenes/skeuomorphism/ (English /en/style-scenes/skeuomorphism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +67,17 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Skeuomorphism design spec: leather-grain or wood texture backgrounds; buttons with a narrow linear gradient (under 8% luminance swing), 1px inset top highlight and a bottom drop shadow; 6–10px radii; embossed type (1px dark shadow + 1px highlight); dashed borders for stitching; pressed state flips the inset shadow and shifts down 1px. Dark mode drops material luminance ~20% and keeps highlights."
 
-**Implementation:** "Implement a skeuomorphic button in CSS: background: linear-gradient(#f5f0e6, #d8d0c0); box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 2px 3px rgba(0,0,0,0.35); border: 1px solid rgba(0,0,0,0.4); on :active use inset 0 2px 4px rgba(0,0,0,0.4). Prefer procedural gradients or inline SVG over heavy texture images; keep focus states and contrast compliant."
+**Implementation:** Build a complete Daily Goods page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Keep Daily Goods’ original camera/wood/book/plant photograph, occupying the right 74% on desktop, with #e7ddcd warmth and the left cream overlay supporting copy. Use Georgia for the brand and the existing bold sans copy; retain the #9b6c36→#775025 brown CTA gradient, inset highlight, thin rim and .25cqw radius, plus the rotated warm-paper note and shadow. Continue with cream product cards and brown material buttons; on narrow screens flow copy, the 320px-high photograph and note in sequence. Do not replace the photograph with procedural texture or rebuild an aluminium-grey note tool.
+
+Explore the collection and 01/02/03 show matching objects. Search including no matches, inspect an object and add it to the bag, adjust/remove items and inspect totals. Objects, Stories, Craft and Stores have matching content; checkout creates no real order.
+
+Share one renderer between static covers, the detail experience and /style-scenes/skeuomorphism/ (English /en/style-scenes/skeuomorphism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

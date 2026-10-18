@@ -45,17 +45,24 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中实现 Liquid Glass 液态玻璃视觉风格。
+用当前风格完成 Lumen 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-先检查现有弹层与导航组件，确认底层有可折射的彩色内容。
-要求：
-- 厚玻璃：低透明填充 + backdrop blur/saturate + 顶部镜面高光 + 底部暗边
-- 边缘用半透明白描边暗示 lensing，不用薄磨砂一片雾
-- 控制件浮在独立功能层，玻璃不遮死底层内容
-- @supports 降级为更实填充；深色模式保留高光
-- 文字对比度按折射后的实际背景校验
-- 不新增任何依赖
-完成后运行项目现有检查，并列出修改的文件。
+保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台按现有 28px 圆角试样、blur(var(--glass-depth)) saturate(150%)、Clear/Frost/Prism 表面和环境光角度变化，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。
+
+复用当前 preview.tokens：背景 linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%)；前景 #FFFFFF；强调 rgba(255,255,255,.92) / #1A1030；卡面 rgba(255,255,255,.14)；边框 rgba(255,255,255,.5)；圆角 22px；字体 SF Pro Display, Helvetica Neue, PingFang SC, sans-serif；卡影 inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18)。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+完整页面操作：
+体验折射进入材质试样，调整材质、厚度、角度实时查看变化并保存配方；光学、材质、价格各有内容，明确高光折射只是网页近似，并非真实光学模拟。
+
+静态封面、详情演示与 /style-scenes/liquid-glass/（英文 /en/style-scenes/liquid-glass/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -64,7 +71,21 @@
 
 **Design:** 液态玻璃设计规范：底层放彩色照片或渐变；玻璃填充 rgba(255,255,255,0.12) 深色模式 rgba(20,20,30,0.35)； backdrop-filter blur(20px) saturate(180%)；顶部 inset 0 1px 0 rgba(255,255,255,0.7) 镜面高光， 底部 inset 0 -1px 0 rgba(0,0,0,0.15)；1px 半透明白描边；圆角 20px 或胶囊 999px； 控制件浮在独立功能层，内容区保持通透。
 
-**Implementation:** 用 CSS 实现液态玻璃：.lg { background: rgba(255,255,255,0.12); backdrop-filter: blur(20px) saturate(180%); border: 1px solid rgba(255,255,255,0.45); box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), inset 0 -1px 0 rgba(0,0,0,0.15), 0 8px 24px rgba(0,0,0,0.18); border-radius: 22px; } 用 @supports 降级为更实的填充；hover 可把高光内阴影上移 1px 表示受光。
+**Implementation:** 用当前风格完成 Lumen 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
+
+保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台按现有 28px 圆角试样、blur(var(--glass-depth)) saturate(150%)、Clear/Frost/Prism 表面和环境光角度变化，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。
+
+复用当前 preview.tokens：背景 linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%)；前景 #FFFFFF；强调 rgba(255,255,255,.92) / #1A1030；卡面 rgba(255,255,255,.14)；边框 rgba(255,255,255,.5)；圆角 22px；字体 SF Pro Display, Helvetica Neue, PingFang SC, sans-serif；卡影 inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18)。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+体验折射进入材质试样，调整材质、厚度、角度实时查看变化并保存配方；光学、材质、价格各有内容，明确高光折射只是网页近似，并非真实光学模拟。
+
+静态封面、详情演示与 /style-scenes/liquid-glass/（英文 /en/style-scenes/liquid-glass/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

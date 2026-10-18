@@ -42,11 +42,20 @@ Use inset/outset borders or layered shadows for grey panels. Keep readable type 
 ## Agent task prompt
 
 ```text
-Inspect existing routing and styles, then create a Retro Web personal homepage.
-Include working directory navigation, content and a local-only guestbook simulation.
-Use grey beveled chrome, a navy title bar, serif copy and blue underlined links; never replace the DOM with a screenshot.
-Add no backend, credentials or external requests. Support keyboard navigation and messages, clear empty-submit feedback and narrow layouts without page overflow.
-Verify both languages, focus, navigation and state after reload. Report passed and unverified checks accurately.
+Build a complete GoodOldNet page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Reuse GoodOldNet’s #c4c4c4 grey chrome, #164479→#387ebd blue title bar, inset/outset bevels, Times New Roman copy and Arial menus. Keep the default 21% / 54% / 25% directory/copy/picture columns and blue underlined internal entries; reading content remains white with dark-blue text. Reflow through the existing wrapping toolbar/menu and single-column rules, never by shrinking a fixed vintage browser. Keep windows, address and directory in DOM with semantic focus, current-page and status feedback.
+
+Full-page operations:
+Directory and Back / Forward / Home navigate Home / About / Projects / Links / Guestbook; the local address follows navigation. Go opens a native dialog for home/about/projects/links/guestbook (with an optional goodoldnet/ prefix), adding valid navigation to internal history; unknown or external addresses show not-found feedback without leaving the site. Menus, Search, Favorites and window controls have reversible local behavior. Validate blank guestbook input and display accepted messages; disclose reload clears them with no service or browser storage.
+
+Share one renderer between static covers, the detail experience and /style-scenes/retro-web/ (English /en/style-scenes/retro-web/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -55,7 +64,17 @@ Verify both languages, focus, navigation and state after reload. Report passed a
 
 **Design:** Layer white content inside grey chrome with a dark-blue system-font title bar. Compact spacing, square corners and beveled borders evoke a vintage browser. Keep links recognizable and targets large enough.
 
-**Implementation:** Use semantic HTML and flex-wrap to adapt the sidebar and content. Use real buttons or links, visible focus and aria-current. Keep guestbook entries as a local simulation with explicit feedback and no external requests.
+**Implementation:** Build a complete GoodOldNet page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Reuse GoodOldNet’s #c4c4c4 grey chrome, #164479→#387ebd blue title bar, inset/outset bevels, Times New Roman copy and Arial menus. Keep the default 21% / 54% / 25% directory/copy/picture columns and blue underlined internal entries; reading content remains white with dark-blue text. Reflow through the existing wrapping toolbar/menu and single-column rules, never by shrinking a fixed vintage browser. Keep windows, address and directory in DOM with semantic focus, current-page and status feedback.
+
+Directory and Back / Forward / Home navigate Home / About / Projects / Links / Guestbook; the local address follows navigation. Go opens a native dialog for home/about/projects/links/guestbook (with an optional goodoldnet/ prefix), adding valid navigation to internal history; unknown or external addresses show not-found feedback without leaving the site. Menus, Search, Favorites and window controls have reversible local behavior. Validate blank guestbook input and display accepted messages; disclose reload clears them with no service or browser storage.
+
+Share one renderer between static covers, the detail experience and /style-scenes/retro-web/ (English /en/style-scenes/retro-web/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

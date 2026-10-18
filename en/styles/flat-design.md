@@ -45,17 +45,24 @@ Discipline over technique: solid fills and 1px borders only, box-shadow always n
 ## Agent task prompt
 
 ```text
-Implement a flat-design card and button section in the current project.
+Build a complete Flatly page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing design tokens and color variables first; map the flat palette into them.
-Requirements:
-- Solid fills only — no gradients, shadows or textures
-- Saturated accents for interactive elements; hover changes background-color only
-- Hierarchy from color area, luminance and type weight
-- Dark mode with its own palette, not a naive inversion
-- Respect prefers-reduced-motion for transitions, under 150ms
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep Flatly’s blue hero, yellow actions and yellow/white/teal feature cards: 2/5 copy, 3/5 geometry and three cards below, not a new six-color card experiment. Preserve the renderer’s circle/triangle/rectangle and local shadows rather than flattening existing art with global no-gradient/no-shadow bans. Continue with the existing workspace form and result list.
+
+Reuse current preview.tokens: background #1FA2FF; foreground #FFFFFF; accent #FFD54F / #333333; card rgba(255,255,255,.16); border rgba(255,255,255,.35); radius 8px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Get started creates a named workspace with a chosen plan and shows the matching result. Features, Pricing, Blog and Log in reach relevant content or a demo identity explanation.
+
+Share one renderer between static covers, the detail experience and /style-scenes/flat-design/ (English /en/style-scenes/flat-design/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Flat design spec: white or light grey background with 5–6 saturated tiles (Flat UI Colors: #3498DB, #E74C3C, #2ECC71...); no borders, no shadows, 0–4px radii; inverted or near-black text with clear type scale; hover darkens the fill by 8% only; dark mode uses its own palette, not a simple inversion."
 
-**Implementation:** "Implement flat design in CSS: six color variables (--c-primary etc.); .btn-flat { background: var(--c-primary); color: #fff; border-radius: 3px; transition: background-color 150ms; } hover darkens 8%; cards as solid blocks or 1px dividers; keep interactive vs. non-interactive elements color-distinguishable."
+**Implementation:** Build a complete Flatly page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep Flatly’s blue hero, yellow actions and yellow/white/teal feature cards: 2/5 copy, 3/5 geometry and three cards below, not a new six-color card experiment. Preserve the renderer’s circle/triangle/rectangle and local shadows rather than flattening existing art with global no-gradient/no-shadow bans. Continue with the existing workspace form and result list.
+
+Reuse current preview.tokens: background #1FA2FF; foreground #FFFFFF; accent #FFD54F / #333333; card rgba(255,255,255,.16); border rgba(255,255,255,.35); radius 8px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Get started creates a named workspace with a chosen plan and shows the matching result. Features, Pricing, Blog and Log in reach relevant content or a demo identity explanation.
+
+Share one renderer between static covers, the detail experience and /style-scenes/flat-design/ (English /en/style-scenes/flat-design/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

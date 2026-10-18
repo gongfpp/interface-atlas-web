@@ -45,17 +45,24 @@ Build illustrations from SVG or solid blocks: circle heads, rounded-rectangle to
 ## Agent task prompt
 
 ```text
-Implement Corporate Memphis visual style in the current project.
+Build a complete alegria page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect existing illustration assets and design tokens first; collapse the palette into 3–5 scoped variables.
-Requirements:
-- Flat abstract figures (small heads, long limbs, no facial detail, non-realistic skin) or abstract rounded blocks
-- Strictly flat fills — no strokes, gradients or shadows (gradient variant only, two stops max)
-- Pill buttons, borderless cards, generous whitespace
-- Illustration marked aria-hidden and never carrying key information
-- Text contrast compliant; dark mode keeps saturation
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Preserve alegria’s original .gs-tasko-grid: intro/avatars, real calendar/task entry, green focus statistics, and notes/motivation, not a replacement figure illustration occupying 40–60% of the hero. Keep #FFF8F0, #7B61FF actions, white cards, #E8DFF5 rims, the 24px token radius and Poppins/Nunito fallback stack; retain the existing stats/motivation gradients. The calendar uses a fixed six-week grid and violet selected day; existing container rules pair columns below 1020px and stack below 600px. Continue real task/note lists rather than substituting abstract figures.
+
+Reuse current preview.tokens: background #FFF8F0; foreground #2B2140; accent #7B61FF / #FFFFFF; card #FFFFFF; border #E8DFF5; radius 24px; font Poppins, Nunito, Helvetica Neue, PingFang SC, sans-serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Try it free opens the collaboration workspace. Operate the original hero calendar’s previous/next month and date controls, including year boundaries and date selection; the fixed initial date is 2024-01-17. The original Tasks 5 and Notes 12 entries open five actual seeded tasks and twelve readable notes. Create an owner-assigned task for the selected date; complete/uncomplete tasks to update pending counts, progress and the selected-date summary. Add, read and delete notes with synchronized hero note totals. In-page reset or reload restores 2024-01-17, five pending tasks and twelve notes. Product, Customers, Pricing, Careers and Log in reveal content without real accounts or team invitations.
+
+Share one renderer between static covers, the detail experience and /style-scenes/corporate-memphis/ (English /en/style-scenes/corporate-memphis/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Corporate Memphis spec: primary purple #7B61FF, yellow #FAD141, peach #F48196, teal accent #14C88C, non-realistic skin like #86CCCA; illustrations strictly flat with no strokes or shadows; geometric sans (Poppins/Nunito family) at medium weight; full-pill buttons and borderless cards separated by fill; airy whitespace with illustration taking 40–60% of the hero; dark mode on deep purple-black with saturation kept."
 
-**Implementation:** "Implement Corporate Memphis figures in SVG: circle head, rx rect torso, thick round-cap stroke limbs, fills from palette variables, no stroke. The gradient variant only overlays a two-stop linear-gradient — never 3D shading. On the UI side, unify 999px pills and 24px card radii; shadows are forbidden."
+**Implementation:** Build a complete alegria page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Preserve alegria’s original .gs-tasko-grid: intro/avatars, real calendar/task entry, green focus statistics, and notes/motivation, not a replacement figure illustration occupying 40–60% of the hero. Keep #FFF8F0, #7B61FF actions, white cards, #E8DFF5 rims, the 24px token radius and Poppins/Nunito fallback stack; retain the existing stats/motivation gradients. The calendar uses a fixed six-week grid and violet selected day; existing container rules pair columns below 1020px and stack below 600px. Continue real task/note lists rather than substituting abstract figures.
+
+Reuse current preview.tokens: background #FFF8F0; foreground #2B2140; accent #7B61FF / #FFFFFF; card #FFFFFF; border #E8DFF5; radius 24px; font Poppins, Nunito, Helvetica Neue, PingFang SC, sans-serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Try it free opens the collaboration workspace. Operate the original hero calendar’s previous/next month and date controls, including year boundaries and date selection; the fixed initial date is 2024-01-17. The original Tasks 5 and Notes 12 entries open five actual seeded tasks and twelve readable notes. Create an owner-assigned task for the selected date; complete/uncomplete tasks to update pending counts, progress and the selected-date summary. Add, read and delete notes with synchronized hero note totals. In-page reset or reload restores 2024-01-17, five pending tasks and twelve notes. Product, Customers, Pricing, Careers and Log in reveal content without real accounts or team invitations.
+
+Share one renderer between static covers, the detail experience and /style-scenes/corporate-memphis/ (English /en/style-scenes/corporate-memphis/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

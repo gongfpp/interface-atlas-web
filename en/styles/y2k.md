@@ -45,17 +45,24 @@ Chrome is a narrow multi-stop greyscale gradient — #f8f8f8 → #9a9ba2 → #ff
 ## Agent task prompt
 
 ```text
-Implement Y2K capsule buttons and candy cards in the current project.
+Build a complete ☆ CyberDream ☆ page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing design tokens first; keep the Y2K palette scoped to avoid leaking into brand colors.
-Requirements:
-- Chrome via multi-stop greyscale gradients with background-clip: text or fills
-- Candy plastic via saturated fills plus a white top inner glow
-- Sparkles and stars limited to two or three accents
-- Verify text contrast against the final backdrop; never carry meaning through sparkle alone
-- Dark mode on purple-black with silver chrome highlights
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep CyberDream’s pale silver/lilac/pink gradient, rounded type, violet CTA, right-side chart and three pale feature cards; do not replace original text with mandatory clipped chrome lettering or new sparkle components. The member card retains its pastel pink/blue gradient, 2px white rim, 28px radius and -2deg tilt, with nickname and outfit as real content.
+
+Reuse current preview.tokens: background linear-gradient(160deg,#DDE7F5 0%,#EFD3E8 55%,#C9C8F4 100%); foreground #3A3A55; accent #7B61FF / #fff; card rgba(255,255,255,.78); border #B8B8E0; radius 20px; font ui-rounded, 'Arial Rounded MT Bold', 'PingFang SC', sans-serif; card shadow 0 8px 18px rgba(123,97,255,.18).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Enter now, supply a nickname and outfit and generate a matching member card; edit and regenerate it. Music, Outfits, Planet and Member card reveal content; identity is generated locally only.
+
+Share one renderer between static covers, the detail experience and /style-scenes/y2k/ (English /en/style-scenes/y2k/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Y2K spec: pink-purple gradient ground (#FFC8F0 → #C8B8FF → #A8D8FF) or silver; pill buttons with a four-stop chrome gradient and white inset highlight; cards as translucent candy rounded blocks with a top inner glow; bubble-bold or chrome headings (background-clip: text); four-point sparkle accents. Dark mode on purple-black with silver chrome highlights."
 
-**Implementation:** "Implement Y2K chrome in CSS: .chrome { background: linear-gradient(180deg, #fdfdfd, #b9bac1 38%, #ffffff 50%, #83848c 62%, #e6e6ea); background-clip: text; color: transparent; -webkit-text-fill-color: transparent; } Candy button: .candy { background: #7DE2FF; box-shadow: inset 0 14px 18px rgba(255,255,255,0.75), inset 0 -8px 14px rgba(0,60,120,0.25); border-radius: 999px; }"
+**Implementation:** Build a complete ☆ CyberDream ☆ page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep CyberDream’s pale silver/lilac/pink gradient, rounded type, violet CTA, right-side chart and three pale feature cards; do not replace original text with mandatory clipped chrome lettering or new sparkle components. The member card retains its pastel pink/blue gradient, 2px white rim, 28px radius and -2deg tilt, with nickname and outfit as real content.
+
+Reuse current preview.tokens: background linear-gradient(160deg,#DDE7F5 0%,#EFD3E8 55%,#C9C8F4 100%); foreground #3A3A55; accent #7B61FF / #fff; card rgba(255,255,255,.78); border #B8B8E0; radius 20px; font ui-rounded, 'Arial Rounded MT Bold', 'PingFang SC', sans-serif; card shadow 0 8px 18px rgba(123,97,255,.18).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Enter now, supply a nickname and outfit and generate a matching member card; edit and regenerate it. Music, Outfits, Planet and Member card reveal content; identity is generated locally only.
+
+Share one renderer between static covers, the detail experience and /style-scenes/y2k/ (English /en/style-scenes/y2k/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

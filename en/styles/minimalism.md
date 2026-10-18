@@ -45,17 +45,20 @@ Typography and whitespace carry the design: at most three type sizes with restra
 ## Agent task prompt
 
 ```text
-Implement a minimal content card section in Minimalism style in the current project.
+Build a complete LUMO page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
 
-Inspect the existing design tokens and component system first; reuse the current font and spacing variables.
-Requirements:
-- Generous whitespace; hierarchy from type scale, weight and space only
-- Palette restrained to black, white, grey plus at most one accent
-- No shadows, gradients or textures; separate with 1px hairlines or whitespace
-- Dark mode support
-- If any transitions are added, respect prefers-reduced-motion and keep them under 150ms
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Continue LUMO from ReferenceStyleScene and reference-scenes.css: #fdfdfc ground, the existing white-to-grey horizontal hero gradient, and the device/stone photograph with its desktop mask and crop. Keep the Georgia display at 6.45cqw/.94 with tight tracking, grey sans body and black pill CTAs with a faint inset highlight. On narrow screens move the photograph below the copy in normal flow; do not remove it or flatten every surface into gradient-free square cards.
+
+Full-page operations:
+Explore Lumo opens the focus-device collection; Shop now shows device specifications and finishes. Cycle three daily rituals, select a device and inspect the local shopping result without placing an order.
+
+Share one renderer between static covers, the detail experience and /style-scenes/minimalism/ (English /en/style-scenes/minimalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +67,17 @@ Run existing project checks when done and list the modified files.
 
 **Design:** Minimalism design spec: pure white surface, near-black text (#111); at most three type sizes with tight heading tracking; palette limited to black, white, grey plus one accent; separate with 1px hairlines or whitespace — no shadows, gradients or textures; buttons are solid black or 1px outlined; whitespace at least half the content height. Dark mode: near-black surface, inverted text.
 
-**Implementation:** Implement minimalism in CSS: a whitespace scale (multiples of 8) and three font-size tokens; .btn-solid (black on white) and .btn-outline (1px border) with no or 2px radius; cards separated by 1px borders or whitespace with box-shadow: none; inputs keep a bottom hairline that turns accent on focus. Transition colors only, under 150ms.
+**Implementation:** Build a complete LUMO page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Continue LUMO from ReferenceStyleScene and reference-scenes.css: #fdfdfc ground, the existing white-to-grey horizontal hero gradient, and the device/stone photograph with its desktop mask and crop. Keep the Georgia display at 6.45cqw/.94 with tight tracking, grey sans body and black pill CTAs with a faint inset highlight. On narrow screens move the photograph below the copy in normal flow; do not remove it or flatten every surface into gradient-free square cards.
+
+Explore Lumo opens the focus-device collection; Shop now shows device specifications and finishes. Cycle three daily rituals, select a device and inspect the local shopping result without placing an order.
+
+Share one renderer between static covers, the detail experience and /style-scenes/minimalism/ (English /en/style-scenes/minimalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

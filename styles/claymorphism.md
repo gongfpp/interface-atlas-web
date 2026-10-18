@@ -45,17 +45,24 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中用黏土风（Claymorphism）实现一组膨胀按钮与卡片区块。
+用当前风格完成 Claymates 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-先检查现有 Design Token 与阴影变量，膨胀阴影参数做成可配置变量。
-要求：
-- 大圆角 + 三重阴影（外投影带色 内下压 内上高光）模拟黏土膨胀
-- 按下态外投影收缩 内凹加强，形成捏压反馈
-- 投影与底色同色系，避免灰黑阴影显脏
-- 文字对比度达标；支持深色模式（深灰哑光黏土）
-- 若有动效，尊重 prefers-reduced-motion
-- 不新增任何依赖
-完成后运行项目现有检查，并列出修改的文件。
+保留 Claymates 淡紫底、白色 22px 圆角卡、紫色操作和右侧立体设备面板。沿用 token 的外投影与 inset 内影，不把所有按钮替换成另一套 18px 黏土按钮。小屋中的 .gs-blob 保留不规则软圆形、顶部/底部内影与带色外投影，捏压只触发原 .35s 形变。
+
+复用当前 preview.tokens：背景 #EDF0FF；前景 #3A3F5C；强调 #6C7BFF / #fff；卡面 #FFFFFF；边框 rgba(108,123,255,.18)；圆角 22px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 0 14px 28px rgba(108,123,255,.22), inset 0 -6px 12px rgba(108,123,255,.10)。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+完整页面操作：
+捏一下进入黏土小屋，选择颜色、反复捏压并同步计数和角色结果，可收藏到小屋；主页、小屋、商店、小熊入口均有内容，不真实购买。
+
+静态封面、详情演示与 /style-scenes/claymorphism/（英文 /en/style-scenes/claymorphism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -64,7 +71,21 @@
 
 **Design:** 黏土风设计规范：底色粉彩（#EAF0FF 等浅底或淡粉 淡绿 淡紫）；主色 #6C8CFF 类柔和饱和色；卡片圆角 24px，阴影三重：0 14px 28px 主色 35%、 inset 0 -8px 16px 主色 30%、inset 0 3px 6px 白 70%；按钮按压时外投影 收缩 内凹加强；文字近黑保证对比；深色模式用深灰底 #23252E 加深一号 同色投影。
 
-**Implementation:** 用 CSS 实现黏土按钮：.clay-btn { background: #6C8CFF; color: #fff; border: none; border-radius: 18px; padding: 12px 24px; box-shadow: 0 12px 22px rgba(108,140,255,0.4), inset 0 -6px 12px rgba(30,50,150,0.35), inset 0 3px 6px rgba(255,255,255,0.55); } :active { box-shadow: 0 5px 10px rgba(108,140,255,0.35), inset 0 -3px 8px rgba(30,50,150,0.4), inset 0 4px 8px rgba(0,0,0,0.15); }
+**Implementation:** 用当前风格完成 Claymates 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
+
+保留 Claymates 淡紫底、白色 22px 圆角卡、紫色操作和右侧立体设备面板。沿用 token 的外投影与 inset 内影，不把所有按钮替换成另一套 18px 黏土按钮。小屋中的 .gs-blob 保留不规则软圆形、顶部/底部内影与带色外投影，捏压只触发原 .35s 形变。
+
+复用当前 preview.tokens：背景 #EDF0FF；前景 #3A3F5C；强调 #6C7BFF / #fff；卡面 #FFFFFF；边框 rgba(108,123,255,.18)；圆角 22px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 0 14px 28px rgba(108,123,255,.22), inset 0 -6px 12px rgba(108,123,255,.10)。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+捏一下进入黏土小屋，选择颜色、反复捏压并同步计数和角色结果，可收藏到小屋；主页、小屋、商店、小熊入口均有内容，不真实购买。
+
+静态封面、详情演示与 /style-scenes/claymorphism/（英文 /en/style-scenes/claymorphism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

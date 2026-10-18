@@ -45,17 +45,24 @@ Lock the palette to warm tones: cream #F2E4C2, apricot #E8965A, terracotta #8A4B
 ## Agent task prompt
 
 ```text
-Implement a retro-futurist casing card and button section in the current project.
+Build a complete SYNTH-84 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing design tokens first; scope the warm retro palette independently.
-Requirements:
-- Locked cream-orange-brown warm palette, no cold greys
-- Big radii + double inset shadow for plastic casing; buttons with tangible press feel
-- Orbit lines and grid horizons capped at two or three accents
-- Dark mode as CRT warm black with phosphor amber screen type
-- Respect prefers-reduced-motion for any motion
-- No new dependencies
-Run existing project checks when done and list the modified files.
+The current page is the SYNTH-84 synth radio: retain the #140A33→#3D1170→#7A1F63 purple gradient, #FF71CE pink accent, uppercase monospace DRIVE INTO / THE SUNSET, right-side bar chart and translucent cards. Continue with FM 84.0, three local tracks and the pink-to-orange equalizer, not atomic rockets, 1968, cream plastic casings, CRT amber or a new perspective horizon. Only actual playback runs the existing .8s equalizer animation; pause and reduced motion stop it.
+
+Reuse current preview.tokens: background linear-gradient(180deg,#140A33 0%,#3D1170 62%,#7A1F63 100%); foreground #FFE8F6; accent #FF71CE / #2A0A2E; card rgba(255,113,206,.12); border rgba(255,113,206,.45); radius 6px; font 'SF Mono', Menlo, monospace; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Play the radio starts a WebAudio synthesized tone after a user gesture. Play/pause, choose among three tracks and adjust volume. Radio, Tour, Tapes and REC reveal content; disclose local synthesis, not live broadcasting or recording uploads.
+
+Share one renderer between static covers, the detail experience and /style-scenes/retro-futurism/ (English /en/style-scenes/retro-futurism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Retro-futurism spec: cream #F2E4C2 to apricot #E8965A gradient ground; cards at 24px radii with a double inset shadow (lit top edge, dark bottom) for plastic casing; pill or chunky square buttons with lake blue #3D7A99 accents; 1px ellipse orbit lines and a repeating-linear-gradient grid horizon; wide geometric sans headings, mono screen numerals. Dark mode: CRT warm black with phosphor amber."
 
-**Implementation:** "Implement a retro casing card in CSS: .casing { background: linear-gradient(#F7EDD6, #EBD9B4); border-radius: 24px; box-shadow: inset 0 2px 0 rgba(255,255,255,0.9), inset 0 -4px 8px rgba(120,70,30,0.25), 0 6px 14px rgba(90,50,20,0.25); } Grid horizon: repeating-linear-gradient(0deg, rgba(61,122,153,0.35) 0 1px, transparent 1px 12px)."
+**Implementation:** Build a complete SYNTH-84 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+The current page is the SYNTH-84 synth radio: retain the #140A33→#3D1170→#7A1F63 purple gradient, #FF71CE pink accent, uppercase monospace DRIVE INTO / THE SUNSET, right-side bar chart and translucent cards. Continue with FM 84.0, three local tracks and the pink-to-orange equalizer, not atomic rockets, 1968, cream plastic casings, CRT amber or a new perspective horizon. Only actual playback runs the existing .8s equalizer animation; pause and reduced motion stop it.
+
+Reuse current preview.tokens: background linear-gradient(180deg,#140A33 0%,#3D1170 62%,#7A1F63 100%); foreground #FFE8F6; accent #FF71CE / #2A0A2E; card rgba(255,113,206,.12); border rgba(255,113,206,.45); radius 6px; font 'SF Mono', Menlo, monospace; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Play the radio starts a WebAudio synthesized tone after a user gesture. Play/pause, choose among three tracks and adjust volume. Radio, Tour, Tapes and REC reveal content; disclose local synthesis, not live broadcasting or recording uploads.
+
+Share one renderer between static covers, the detail experience and /style-scenes/retro-futurism/ (English /en/style-scenes/retro-futurism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

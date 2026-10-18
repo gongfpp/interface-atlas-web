@@ -45,17 +45,24 @@ Give the primaries fixed roles: red as the hero plane, yellow the warm accent, b
 ## Agent task prompt
 
 ```text
-Implement a Bauhaus geometric hero section in the current project.
+Build a complete BAUHAUS page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing design tokens first; keep primaries as isolated variables that do not pollute brand colors.
-Requirements:
-- Circle, triangle, square in red/yellow/blue/black forming an asymmetrically balanced composition
-- Shapes in pure CSS (border-radius/clip-path) — no image assets
-- Type interlocking with geometry; balanced center of gravity
-- No gradients, shadows or textures
-- Dark mode support
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep BAUHAUS’ cream hero, red primary action and red/blue/yellow cards. Retain the original circle/triangle/rectangle panel with its local shadows and uppercase sans display, without imposing new negative-margin overlaps. The workshop uses a #eee5d7 canvas, 2px black rim and CSS shapes in #e23b2e, #21409a and #f2b705.
+
+Reuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #fff; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Enter the workshop, choose a red circle, blue square or yellow triangle and place up to 12 shapes on the canvas, then clear and restart. Form, Color and Workshop have matching content.
+
+Share one renderer between static covers, the detail experience and /style-scenes/bauhaus/ (English /en/style-scenes/bauhaus/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Bauhaus spec: cream #F4EFE6 or black ground; hero geometry (at least two of red circle, yellow triangle, blue square) interlocking with type; black geometric sans, uppercase or heavy; no gradients, shadows or textures; asymmetric yet balanced. Dark mode on near-black with primaries lifted one step."
 
-**Implementation:** "Implement Bauhaus composition in CSS: circles with border-radius: 50%; triangles with clip-path: polygon(50% 0, 0 100%, 100% 100%); 2px solid black structural lines; interleave type and shapes via negative margins or grid overlap; all planes solid, no shadows."
+**Implementation:** Build a complete BAUHAUS page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep BAUHAUS’ cream hero, red primary action and red/blue/yellow cards. Retain the original circle/triangle/rectangle panel with its local shadows and uppercase sans display, without imposing new negative-margin overlaps. The workshop uses a #eee5d7 canvas, 2px black rim and CSS shapes in #e23b2e, #21409a and #f2b705.
+
+Reuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #fff; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Enter the workshop, choose a red circle, blue square or yellow triangle and place up to 12 shapes on the canvas, then clear and restart. Form, Color and Workshop have matching content.
+
+Share one renderer between static covers, the detail experience and /style-scenes/bauhaus/ (English /en/style-scenes/bauhaus/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

@@ -45,17 +45,24 @@ The classic recipe: a black-and-white geometric ground (dots via tiled radial-gr
 ## Agent task prompt
 
 ```text
-Implement a Memphis Design card and button section in the current project.
+Build a complete Milano '88 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing design tokens first; scope the Memphis palette and ground patterns independently.
-Requirements:
-- Black-and-white geometric ground (dots/stripes) + saturated clash blocks + black outlines + offset solid shadows
-- Three to five doodle accents (squiggles, zigzags, shapes)
-- Text contrast compliant; decoration never carries key information
-- Dark mode on ink blue with saturation kept
-- Respect prefers-reduced-motion for hover effects
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep Milano ’88’s cream ground, pink CTA, pink/yellow/teal cards and circle/triangle/rectangle hero. Retain the cards’ 2px radius and 4px 4px hard shadow, without adding full-screen monochrome dots or forcing 10px radii. The invitation uses its existing 2px black rim, 7px 7px hard shadow and 2deg tilt; name, guest count and palette update that card.
+
+Reuse current preview.tokens: background #FFF4E3; foreground #232323; accent #FF5C8A / #fff; card #FFFFFF; border #232323; radius 2px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow 4px 4px 0 #232323.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Start the party, enter a name, guest count and colors and generate an invitation; edit and regenerate it. Homeware, Patterns, Party and Made in Italy reveal content; no invitations are sent.
+
+Share one renderer between static covers, the detail experience and /style-scenes/memphis/ (English /en/style-scenes/memphis/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Memphis spec: a black-and-white dot or stripe geometric ground; blocks in lemon #FFD53D, coral #FF6B6B, lake blue #4D96FF, violet #B388FF with 3px black borders and 5px offset solid shadows; three to five squiggles, zigzags and confetti shapes; chunky sans type, slightly tilted OK. Dark mode on ink blue #14143C with saturation kept."
 
-**Implementation:** "Implement a Memphis ground in CSS: .memphis-dots { background-image: radial-gradient(#000 2.5px, transparent 2.5px); background-size: 18px 18px; } Clash card: .memphis-card { border: 3px solid #000; box-shadow: 6px 6px 0 #000; border-radius: 10px; } Squiggles as inline SVG paths; zigzags via clip-path polygon."
+**Implementation:** Build a complete Milano '88 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep Milano ’88’s cream ground, pink CTA, pink/yellow/teal cards and circle/triangle/rectangle hero. Retain the cards’ 2px radius and 4px 4px hard shadow, without adding full-screen monochrome dots or forcing 10px radii. The invitation uses its existing 2px black rim, 7px 7px hard shadow and 2deg tilt; name, guest count and palette update that card.
+
+Reuse current preview.tokens: background #FFF4E3; foreground #232323; accent #FF5C8A / #fff; card #FFFFFF; border #232323; radius 2px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow 4px 4px 0 #232323.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Start the party, enter a name, guest count and colors and generate an invitation; edit and regenerate it. Homeware, Patterns, Party and Made in Italy reveal content; no invitations are sent.
+
+Share one renderer between static covers, the detail experience and /style-scenes/memphis/ (English /en/style-scenes/memphis/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

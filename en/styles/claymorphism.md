@@ -45,17 +45,24 @@ Inflation formula = big radii (20–32px) plus three shadows: a large blurred sa
 ## Agent task prompt
 
 ```text
-Implement inflated clay buttons and cards in the current project.
+Build a complete Claymates page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing design tokens and shadow variables first; express the inflation parameters as configurable variables.
-Requirements:
-- Big radii + triple shadow (tinted drop, inner bottom press, inner top light) for the clay inflation
-- Pressed state shrinks the drop and deepens the concave — a squeezing feel
-- Tinted same-family shadows only, never muddy grey
-- Compliant text contrast; dark mode with matte deep-grey clay
-- Respect prefers-reduced-motion for any motion
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep Claymates’ lavender ground, white 22px-radius cards, violet actions and dimensional device panel. Reuse token drop/inset shadows rather than replacing every button with a new 18px clay recipe. The cabin’s .gs-blob retains irregular soft contours, upper/lower inset shadows and a tinted drop; squeezing triggers only the existing .35s deformation.
+
+Reuse current preview.tokens: background #EDF0FF; foreground #3A3F5C; accent #6C7BFF / #fff; card #FFFFFF; border rgba(108,123,255,.18); radius 22px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow 0 14px 28px rgba(108,123,255,.22), inset 0 -6px 12px rgba(108,123,255,.10).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Give it a squeeze opens the clay cabin. Pick a color, squeeze repeatedly and update counter and character together, then save to the cabin. Home, Cabin, Shop and the bear entry reveal content without real purchases.
+
+Share one renderer between static covers, the detail experience and /style-scenes/claymorphism/ (English /en/style-scenes/claymorphism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Claymorphism spec: pastel grounds (#EAF0FF or soft pink/green/lilac); gentle saturated primary like #6C8CFF; cards at 24px radii with triple shadows — 0 14px 28px primary 35%, inset 0 -8px 16px primary 30%, inset 0 3px 6px white 70%; pressed buttons shrink the drop and deepen the concave; near-black text for contrast. Dark mode: deep grey #23252E with a darker same-hue drop."
 
-**Implementation:** "Implement a clay button in CSS: .clay-btn { background: #6C8CFF; color: #fff; border: none; border-radius: 18px; padding: 12px 24px; box-shadow: 0 12px 22px rgba(108,140,255,0.4), inset 0 -6px 12px rgba(30,50,150,0.35), inset 0 3px 6px rgba(255,255,255,0.55); } :active { box-shadow: 0 5px 10px rgba(108,140,255,0.35), inset 0 -3px 8px rgba(30,50,150,0.4), inset 0 4px 8px rgba(0,0,0,0.15); }"
+**Implementation:** Build a complete Claymates page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep Claymates’ lavender ground, white 22px-radius cards, violet actions and dimensional device panel. Reuse token drop/inset shadows rather than replacing every button with a new 18px clay recipe. The cabin’s .gs-blob retains irregular soft contours, upper/lower inset shadows and a tinted drop; squeezing triggers only the existing .35s deformation.
+
+Reuse current preview.tokens: background #EDF0FF; foreground #3A3F5C; accent #6C7BFF / #fff; card #FFFFFF; border rgba(108,123,255,.18); radius 22px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow 0 14px 28px rgba(108,123,255,.22), inset 0 -6px 12px rgba(108,123,255,.10).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Give it a squeeze opens the clay cabin. Pick a color, squeeze repeatedly and update counter and character together, then save to the cabin. Home, Cabin, Shop and the bear entry reveal content without real purchases.
+
+Share one renderer between static covers, the detail experience and /style-scenes/claymorphism/ (English /en/style-scenes/claymorphism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

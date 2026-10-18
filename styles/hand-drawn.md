@@ -45,17 +45,24 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中实现 Hand-drawn UI 手绘涂鸦视觉风格。
+用当前风格完成 scribble& 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-先检查现有组件与纹理资产，手绘效果限制在展示层，不改交互命中区域。
-要求：
-- 非对称圆角抖动描边，2～4 个轻微倾斜元素
-- 纸纹底（横线或噪点，透明度 < 0.12）与马克笔高亮
-- 图标用手绘路径或粗描边简笔，装饰 aria-hidden
-- 按钮命中区域保持规则矩形，只让视觉描边抖动
-- 深色模式牛皮纸深棕底；动效尊重 prefers-reduced-motion
-- 文字对比度达标，不新增依赖
-完成后运行项目现有检查，并列出修改的文件。
+保留 scribble& 原 paper 分支的 2/5 文案、2/5 CSS 生活景观、1/5 侧栏；字体沿用 Comic Sans MS/Chalkboard SE/Marker Felt 回退与轻斜体，容器保留 14px 6px 18px 8px 非对称圆角和轻纸影。橘色 CTA 与纸白底不替换成全页黄色马克笔装饰。日记卡只使用已有 32px 横线背景，命中范围仍规则，不新增抖动滤镜或旋转交互区。
+
+复用当前 preview.tokens：背景 #FAF6EE；前景 #2B2B2B；强调 #FF8A65 / #2B2B2B；卡面 #FFFDF7；边框 #2B2B2B；圆角 14px 6px 18px 8px；字体 Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif；卡影 2px 3px 0 rgba(43,43,43,0.08)。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+完整页面操作：
+随手记一笔打开编辑，保存笔记到列表，按关键词过滤并可删除；日记、素材、关于、搜索均有对应内容，显示空白校验、无匹配、删除结果。
+
+静态封面、详情演示与 /style-scenes/hand-drawn/（英文 /en/style-scenes/hand-drawn/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -64,7 +71,21 @@
 
 **Design:** 手绘涂鸦设计规范：底色纸白 #FAF6EE，墨色 #2B2B2B，高亮黄 #FFE566，点缀珊瑚 #FF8A65； 所有容器非对称圆角（四角不同值）模拟手画；按钮 2px 抖动描边 + 轻微 rotate(-1deg)； 高亮条压在关键词下；图标用手绘路径或粗描边简笔； 深色模式用牛皮纸深棕底，墨色反成米白，高亮保持。
 
-**Implementation:** 用 CSS 实现抖动容器：.sketchy { border: 2px solid #2B2B2B; border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px; } 高亮：background: linear-gradient(transparent 55%, #FFE566 55%); 纸纹：repeating-linear-gradient(#0000 0 27px, #2B2B2B12 27px 28px); 倾斜用 transform: rotate(-1deg) 且过渡尊重 prefers-reduced-motion。
+**Implementation:** 用当前风格完成 scribble& 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
+
+保留 scribble& 原 paper 分支的 2/5 文案、2/5 CSS 生活景观、1/5 侧栏；字体沿用 Comic Sans MS/Chalkboard SE/Marker Felt 回退与轻斜体，容器保留 14px 6px 18px 8px 非对称圆角和轻纸影。橘色 CTA 与纸白底不替换成全页黄色马克笔装饰。日记卡只使用已有 32px 横线背景，命中范围仍规则，不新增抖动滤镜或旋转交互区。
+
+复用当前 preview.tokens：背景 #FAF6EE；前景 #2B2B2B；强调 #FF8A65 / #2B2B2B；卡面 #FFFDF7；边框 #2B2B2B；圆角 14px 6px 18px 8px；字体 Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif；卡影 2px 3px 0 rgba(43,43,43,0.08)。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+随手记一笔打开编辑，保存笔记到列表，按关键词过滤并可删除；日记、素材、关于、搜索均有对应内容，显示空白校验、无匹配、删除结果。
+
+静态封面、详情演示与 /style-scenes/hand-drawn/（英文 /en/style-scenes/hand-drawn/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

@@ -45,17 +45,24 @@ The grid horizon is the signature: a perspective container holding a rotateX(70d
 ## Agent task prompt
 
 ```text
-Implement Vaporwave visual style in the current project.
+Build a complete MALL★95 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect the existing theme and motion systems first; scope the Vaporwave palette and effects independently.
-Requirements:
-- Pink-purple-cyan neon palette + perspective grid horizon + chrome display type
-- Palm/column silhouettes limited to one or two accents
-- Scanlines at opacity ≤ 0.06; glitch brief and rare, respecting prefers-reduced-motion
-- Body text contrast compliant; neon is accent-only
-- Dark-first, with light mall-soft as a variant
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep MALL★95’s original pink/violet gradient, cyan actions/rims, mountain-silhouette panel and pill feature cards; do not add a mandatory perspective horizon, clipped chrome type, palm/column stickers or glitches. The floor map uses its existing orthogonal repeating-gradient grid, cyan text glow and three-floor hue shifts; passport entries remain in normal document flow.
+
+Reuse current preview.tokens: background linear-gradient(180deg,#2B0F54 0%,#5B1E8C 45%,#FF71CE 100%); foreground #FFE9FF; accent #01CDFE / #0A0030; card rgba(255,113,206,.12); border rgba(1,205,254,.55); radius 999px; font Arial Black, Futura, Helvetica Neue, PingFang SC, sans-serif; card shadow 0 0 16px rgba(1,205,254,.45).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Enter the atrium opens the floor guide. Choose floors for media and food venues; stamp a passport without counting duplicates. Media, Food court and About return to the matching guide; there are no real purchases.
+
+Share one renderer between static covers, the detail experience and /style-scenes/vaporwave/ (English /en/style-scenes/vaporwave/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Vaporwave spec: deep purple-pink gradient ground (#2B0F54 → #FF71CE at the edges); cyan #01CDFE grid horizon; chrome headings (multi-stop silver or pink-cyan via background-clip: text); pill buttons with pink-cyan strokes and neon glow; one or two palm/column silhouettes; scanline overlay at opacity ≤ 0.06; dark is the native mode — a light ground only appears in the mall-soft variant."
 
-**Implementation:** "Implement the grid horizon in CSS: .vapor-grid { perspective: 220px; overflow: hidden; } .vapor-grid i { display:block; height: 240px; transform: rotateX(72deg); background: repeating-linear-gradient(90deg, #01CDFE 0 2px, transparent 2px 48px), repeating-linear-gradient(0deg, #01CDFE 0 2px, transparent 2px 48px); } Chrome type via background-clip: text; glitch as two-layer RGB-offset pseudos in brief bursts."
+**Implementation:** Build a complete MALL★95 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep MALL★95’s original pink/violet gradient, cyan actions/rims, mountain-silhouette panel and pill feature cards; do not add a mandatory perspective horizon, clipped chrome type, palm/column stickers or glitches. The floor map uses its existing orthogonal repeating-gradient grid, cyan text glow and three-floor hue shifts; passport entries remain in normal document flow.
+
+Reuse current preview.tokens: background linear-gradient(180deg,#2B0F54 0%,#5B1E8C 45%,#FF71CE 100%); foreground #FFE9FF; accent #01CDFE / #0A0030; card rgba(255,113,206,.12); border rgba(1,205,254,.55); radius 999px; font Arial Black, Futura, Helvetica Neue, PingFang SC, sans-serif; card shadow 0 0 16px rgba(1,205,254,.45).
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Enter the atrium opens the floor guide. Choose floors for media and food venues; stamp a passport without counting duplicates. Media, Food court and About return to the matching guide; there are no real purchases.
+
+Share one renderer between static covers, the detail experience and /style-scenes/vaporwave/ (English /en/style-scenes/vaporwave/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

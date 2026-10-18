@@ -42,10 +42,24 @@ Unify cream and deep green with tokens. Use curves in display areas while keepin
 ## Agent task prompt
 
 ```text
-Inspect existing layouts, typography and theme tokens, then build an interactive Organic brand scene.
-Serif headlines with clear sans-serif body text. Cream, moss and clay; deep green for body text. Soft radii and occasional arches; keep controls predictable. Gentle contact shadows without strong glow. Generous whitespace and leading, stacked on narrow screens.
-Unify cream and deep green with tokens. Use curves in display areas while keeping predictable button targets. CSS shapes can evoke plants and ceramics; mark decoration aria-hidden. Prioritize text contrast over a muted aesthetic.
-Make controls give clear feedback, support narrow screens, focus and reduced motion, and add no dependencies. Run checks and list modified files.
+Build a complete mori / 森 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep mori / 森’s cream/deep-green/moss hierarchy, Georgia serif, 24px radii and existing CSS life-scene panel rather than replacing it with plant photography or sans body type. Products retain CSS linen/ceramic/wood-tray objects on arched grounds, with woodgrain only on the tray. Selection and totals remain readable content with predictable control targets.
+
+Reuse current preview.tokens: background #f1efe5; foreground #29392b; accent #526445 / #fff; card #e3e5d6; border #b7bd9f; radius 24px; font Georgia, serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+Explore opens the natural-object collection. Inspect three products, add/remove selections and update the total. Collection and About reach objects and brand philosophy without submitting orders.
+
+Share one renderer between static covers, the detail experience and /style-scenes/organic/ (English /en/style-scenes/organic/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -54,7 +68,21 @@ Make controls give clear feedback, support narrow screens, focus and reduced mot
 
 **Design:** Serif headlines with clear sans-serif body text. Cream, moss and clay; deep green for body text. Soft radii and occasional arches; keep controls predictable. Gentle contact shadows without strong glow. Generous whitespace and leading, stacked on narrow screens.
 
-**Implementation:** Unify cream and deep green with tokens. Use curves in display areas while keeping predictable button targets. CSS shapes can evoke plants and ceramics; mark decoration aria-hidden. Prioritize text contrast over a muted aesthetic.
+**Implementation:** Build a complete mori / 森 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep mori / 森’s cream/deep-green/moss hierarchy, Georgia serif, 24px radii and existing CSS life-scene panel rather than replacing it with plant photography or sans body type. Products retain CSS linen/ceramic/wood-tray objects on arched grounds, with woodgrain only on the tray. Selection and totals remain readable content with predictable control targets.
+
+Reuse current preview.tokens: background #f1efe5; foreground #29392b; accent #526445 / #fff; card #e3e5d6; border #b7bd9f; radius 24px; font Georgia, serif; card shadow none.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Explore opens the natural-object collection. Inspect three products, add/remove selections and update the total. Collection and About reach objects and brand philosophy without submitting orders.
+
+Share one renderer between static covers, the detail experience and /style-scenes/organic/ (English /en/style-scenes/organic/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

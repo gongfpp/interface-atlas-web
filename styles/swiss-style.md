@@ -45,17 +45,20 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中用瑞士风格（Swiss Style）实现一个排版主导的信息区块。
+用当前风格完成 VERTEX 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。
 
-先检查现有 Design Token 与字体栈，网格间距映射到现有间距变量。
-要求：
-- 建立 12 列网格，所有元素吸附网格线，间距成模数
-- 单一无衬线字体，层级靠字号跳跃不靠加粗渐变
-- 黑白灰 + 单一强调红，红只用于标号与关键线
-- 正文左对齐，分隔用 2px/1px 两种横线
-- 支持深色模式
-- 不新增任何依赖
-完成后运行项目现有检查，并列出修改的文件。
+直接复用 .vertex-body 的 grid-template-columns: 49% 27% 24%，保留左侧 IDEAS / BUILD / TOMORROW 大字、中间说明与右侧 #ff3511 整块海报。展示字用现有 Atlas Heavy（Anton）/ Atlas Display / Impact 压缩字体栈；左字 8.1cqw、line-height .95，海报字 3.65cqw，正文沿用 Arial 无衬线与 1px 栏线。保留现有字面横向拉伸，不缩放整页。项目延续区用三列案例与红/黑/纸灰案例图，600px 以下首屏与项目改为单列。不要另建 12 列 44px Helvetica 区块，也不要把红色限制为编号/细线；dark/variants 使用现有文档模式选择器。
+
+完整页面操作：
+探索项目进入精选作品；打开 NORTH / OPEN / FORM 案例并返回；菜单到达 WORK / STUDIO / APPROACH / CONTACT。联系表单校验姓名、邮箱、简介并显示可继续修改的整理结果，不发送邮件；语言入口切换中英文同款页。
+
+静态封面、详情演示与 /style-scenes/swiss-style/（英文 /en/style-scenes/swiss-style/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -64,7 +67,17 @@
 
 **Design:** 瑞士风格设计规范：白色底 黑色 Helvetica（或 Inter）；建立 12 列网格并 让所有元素对齐；标题字号与正文形成 4 倍以上跳跃；强调色仅用一个红色 #E30613，用于标号与粗横线；留白宽松且成模数（8 的倍数）；无阴影 无 渐变 无圆角（或极小圆角）；深色模式为近黑底 反白字 红色保留。
 
-**Implementation:** 用 CSS 实现瑞士风格：外层 .swiss-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }；标题 font-family: "Helvetica Neue", Arial; font-size: 44px; line-height: 1.05; letter-spacing: -0.02em；分隔线 .rule { border-top: 2px solid #000 } 与 .rule-thin { border-top: 1px solid #ccc }；编号用红色等宽小字。
+**Implementation:** 用当前风格完成 VERTEX 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。
+
+直接复用 .vertex-body 的 grid-template-columns: 49% 27% 24%，保留左侧 IDEAS / BUILD / TOMORROW 大字、中间说明与右侧 #ff3511 整块海报。展示字用现有 Atlas Heavy（Anton）/ Atlas Display / Impact 压缩字体栈；左字 8.1cqw、line-height .95，海报字 3.65cqw，正文沿用 Arial 无衬线与 1px 栏线。保留现有字面横向拉伸，不缩放整页。项目延续区用三列案例与红/黑/纸灰案例图，600px 以下首屏与项目改为单列。不要另建 12 列 44px Helvetica 区块，也不要把红色限制为编号/细线；dark/variants 使用现有文档模式选择器。
+
+探索项目进入精选作品；打开 NORTH / OPEN / FORM 案例并返回；菜单到达 WORK / STUDIO / APPROACH / CONTACT。联系表单校验姓名、邮箱、简介并显示可继续修改的整理结果，不发送邮件；语言入口切换中英文同款页。
+
+静态封面、详情演示与 /style-scenes/swiss-style/（英文 /en/style-scenes/swiss-style/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

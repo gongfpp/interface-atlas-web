@@ -45,17 +45,20 @@ Type carries it: high-contrast serif display (Playfair/Georgia), serif or humani
 ## Agent task prompt
 
 ```text
-Implement an Editorial long-form reading section in the current project.
+Build a complete The Paper Room page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
 
-Inspect the existing font stacks and typography variables first; bring in serifs through the current font system.
-Requirements:
-- Serif display + eyebrow + body hierarchy, 60–75 character measure
-- Drop caps and section numerals in pure CSS
-- Separate with hairlines and whitespace only — no heavy shadows or gradients
-- Mobile type scale keeps rhythm; headings wrap gracefully
-- Dark mode with warm black for the paper feel
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Continue .paper-body’s 34% / 36% / 26% columns with 2% gaps: Georgia italic display, the morning-life photograph and three sidebar stories. Retain #fdfdf9 warm paper, hairline separators and existing image colors/local filters rather than forcing every photograph into monochrome. Keep the reading dialog’s Georgia 18px/1.9 and italic lede, with the existing four-story category data; stack copy, photograph and stories below 600px. Do not add an unrelated drop-cap or 65ch article section.
+
+Full-page operations:
+Read the journal opens the index. Read Morning in the mountains, The art of wandering, A slower weekend and An afternoon with a potter, save/unsave and return. Search filters four stories and reports counts; clear a no-match query to restore them. Journal, Living, Travel, People and About reveal content.
+
+Share one renderer between static covers, the detail experience and /style-scenes/editorial/ (English /en/style-scenes/editorial/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +67,17 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Editorial spec: paper white #FAF8F4 ground, near-black #1A1816 text; high-contrast serif headings 36px+, small-caps eyebrows with wide tracking; serif body 17px/1.75 at 60–75 characters; 3-line drop caps; 1px hairlines with Roman or oldstyle numerals; B&W or duotone imagery. Dark mode: warm black #17150F with cream text."
 
-**Implementation:** "Implement editorial layout in CSS: .article { font-family: Georgia, serif; font-size: 17px; line-height: 1.75; max-width: 65ch; } drop cap: .article > p:first-of-type::first-letter { float: left; font-size: 3.4em; line-height: 0.85; padding-right: 8px; } eyebrow: .eyebrow { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; } hairlines at 1px solid #D8D2C6."
+**Implementation:** Build a complete The Paper Room page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Continue .paper-body’s 34% / 36% / 26% columns with 2% gaps: Georgia italic display, the morning-life photograph and three sidebar stories. Retain #fdfdf9 warm paper, hairline separators and existing image colors/local filters rather than forcing every photograph into monochrome. Keep the reading dialog’s Georgia 18px/1.9 and italic lede, with the existing four-story category data; stack copy, photograph and stories below 600px. Do not add an unrelated drop-cap or 65ch article section.
+
+Read the journal opens the index. Read Morning in the mountains, The art of wandering, A slower weekend and An afternoon with a potter, save/unsave and return. Search filters four stories and reports counts; clear a no-match query to restore them. Journal, Living, Travel, People and About reveal content.
+
+Share one renderer between static covers, the detail experience and /style-scenes/editorial/ (English /en/style-scenes/editorial/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

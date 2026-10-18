@@ -45,17 +45,24 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中实现 Pixel Art UI 像素风视觉风格。
+用当前风格完成 BITMAP 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-先检查现有图标与字体资源，像素素材按整数倍缩放管理。
-要求：
-- 硬像素边缘，border-radius 0，描边用纯色像素块
-- 调色板收敛到 6 色以内，渐变一律抖动网点
-- 点阵字或等宽体，字号取整数倍
-- 按钮按下位移吃掉硬阴影；image-rendering: pixelated 用于位图
-- 深色模式换调色板暗档；文字对比度达标
-- 不新增任何依赖
-完成后运行项目现有检查，并列出修改的文件。
+保留 BITMAP 深底、Courier New 等宽大写、直角黑边、硬偏移卡影和原 screen 面板；不强制把现有屏幕渐变、网页字体或全部中性色改成六色抖动。六色限制作用于实际 8×8 画板调色盘，画板为 repeat(8,minmax(0,1fr)) 正常网格、黑色 4px 外边与可见格子焦点；不对文字和页面整体 transform 缩放，也不新增投币支付。
+
+复用当前 preview.tokens：背景 #1A1C2C；前景 #F4F4F4；强调 #EF7D57 / #1A1C2C；卡面 #29366F；边框 #000000；圆角 0px；字体 Courier New, ui-monospace, monospace；卡影 4px 4px 0。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+完整页面操作：
+INSERT COIN 启动 8×8 六色像素画板；方向键移动绘制焦点、空格绘制，也可点击格子；可清空重画，开始、图鉴、商店均有内容，不涉及真实投币。
+
+静态封面、详情演示与 /style-scenes/pixel-art/（英文 /en/style-scenes/pixel-art/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -64,7 +71,21 @@
 
 **Design:** 像素风设计规范：调色板锁 6 色内（如 #1A1C2C #5D275D #B13E53 #EF7D57 #FFCD75 #A7F070）； 全部圆角 0；描边 2px 纯黑像素块；按钮用 2px 硬边 + 按下时 2px 位移吃掉描边； 标题点阵字体 16px 整数倍；渐变一律抖动网点；深色模式用同一调色板的暗档。
 
-**Implementation:** 用 CSS 实现像素按钮：.px-btn { border-radius: 0; border: 2px solid #1A1C2C; box-shadow: 4px 4px 0 #1A1C2C; image-rendering: pixelated; } 抖动渐变：background: repeating-conic-gradient(#EF7D57 0% 25%, #FFCD75 0% 50%) 0 0/4px 4px; 缩放容器 transform: scale(2) 并 transform-origin: top left。
+**Implementation:** 用当前风格完成 BITMAP 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
+
+保留 BITMAP 深底、Courier New 等宽大写、直角黑边、硬偏移卡影和原 screen 面板；不强制把现有屏幕渐变、网页字体或全部中性色改成六色抖动。六色限制作用于实际 8×8 画板调色盘，画板为 repeat(8,minmax(0,1fr)) 正常网格、黑色 4px 外边与可见格子焦点；不对文字和页面整体 transform 缩放，也不新增投币支付。
+
+复用当前 preview.tokens：背景 #1A1C2C；前景 #F4F4F4；强调 #EF7D57 / #1A1C2C；卡面 #29366F；边框 #000000；圆角 0px；字体 Courier New, ui-monospace, monospace；卡影 4px 4px 0。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+INSERT COIN 启动 8×8 六色像素画板；方向键移动绘制焦点、空格绘制，也可点击格子；可清空重画，开始、图鉴、商店均有内容，不涉及真实投币。
+
+静态封面、详情演示与 /style-scenes/pixel-art/（英文 /en/style-scenes/pixel-art/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

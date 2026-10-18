@@ -45,17 +45,24 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中用极光渐变（Aurora Gradient）实现一个氛围感首屏区块。
+用当前风格完成 Borealis 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-先检查现有 Design Token 与主题变量，光斑颜色做成主题可配置变量。
-要求：
-- 2～4 个 radial-gradient 模糊光斑，色相跨 2～3 段且部分重叠
-- 前景极简：纯色文字或半透明面板保证对比度
-- 光斑动画只做慢速 transform 漂移，时长乘 var(--demo-speed, 1)，
-  并支持 prefers-reduced-motion 静止
-- 支持深浅两套极光配色
-- 不新增任何依赖
-完成后运行项目现有检查，并列出修改的文件。
+保留 Borealis 的绿/紫/粉三重径向光场与 #0D0B1E 暗夜底，右侧仍是 CSS 山景剪影、半透明卡与浅紫操作，不额外强制 60px blur 或 24s 自动漂移。光场台使用 --light-hue 与 --light-intensity 实时改色和强度，默认 Emerald / 65%；保存结果显示配方而非改变原首屏构图。
+
+复用当前 preview.tokens：背景 radial-gradient(60% 80% at 20% 10%, rgba(52,211,153,.35), transparent), radial-gradient(55% 70% at 80% 25%, rgba(129,140,248,.4), transparent), radial-gradient(60% 60% at 50% 95%, rgba(236,72,153,.3), transparent), #0D0B1E；前景 #F4F3FF；强调 #A5B4FC / #1E1B4B；卡面 rgba(255,255,255,.08)；边框 rgba(165,180,252,.3)；圆角 14px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+完整页面操作：
+点亮进入光场调配，选择光谱、调整强度实时预览并保存配方，可继续修改保存；光、色、场、v2.0 各有对应内容。
+
+静态封面、详情演示与 /style-scenes/aurora/（英文 /en/style-scenes/aurora/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -64,7 +71,21 @@
 
 **Design:** 极光渐变设计规范：浅色模式底 #F6F7FB，深色模式底 #0B0E1A；光斑 2～4 个 radial-gradient 色块（#5EEAD4 #818CF8 #C084FC 等），blur 60px 级别， 彼此重叠约 20%；前景文字纯色（深底用白 浅底用近黑），按钮可用同款 渐变填充；光斑动画只做 20s 以上的慢速位移缩放，尊重 prefers-reduced-motion。
 
-**Implementation:** 用 CSS 实现极光背景：.aurora { position: relative; overflow: hidden; background: #0B0E1A; } .aurora::before { content: ''; position: absolute; inset: -20%; background: radial-gradient(40% 40% at 30% 30%, #5EEAD4aa, transparent 70%), radial-gradient(45% 45% at 70% 40%, #818CF8aa, transparent 70%), radial-gradient(40% 40% at 50% 80%, #C084FCaa, transparent 70%); filter: blur(60px); animation: aurora-drift 24s ease-in-out infinite alternate; } 动画只做 transform，时长乘 var(--demo-speed, 1)。
+**Implementation:** 用当前风格完成 Borealis 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
+
+保留 Borealis 的绿/紫/粉三重径向光场与 #0D0B1E 暗夜底，右侧仍是 CSS 山景剪影、半透明卡与浅紫操作，不额外强制 60px blur 或 24s 自动漂移。光场台使用 --light-hue 与 --light-intensity 实时改色和强度，默认 Emerald / 65%；保存结果显示配方而非改变原首屏构图。
+
+复用当前 preview.tokens：背景 radial-gradient(60% 80% at 20% 10%, rgba(52,211,153,.35), transparent), radial-gradient(55% 70% at 80% 25%, rgba(129,140,248,.4), transparent), radial-gradient(60% 60% at 50% 95%, rgba(236,72,153,.3), transparent), #0D0B1E；前景 #F4F3FF；强调 #A5B4FC / #1E1B4B；卡面 rgba(255,255,255,.08)；边框 rgba(165,180,252,.3)；圆角 14px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+点亮进入光场调配，选择光谱、调整强度实时预览并保存配方，可继续修改保存；光、色、场、v2.0 各有对应内容。
+
+静态封面、详情演示与 /style-scenes/aurora/（英文 /en/style-scenes/aurora/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

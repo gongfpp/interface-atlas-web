@@ -45,17 +45,24 @@ Pixel feel hinges on integer scaling: design assets at 1x and present via transf
 ## Agent task prompt
 
 ```text
-Implement Pixel Art UI visual style in the current project.
+Build a complete BITMAP page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Inspect existing icon and font assets first; manage pixel assets at integer scale factors.
-Requirements:
-- Hard pixel edges, border-radius 0, solid pixel-block outlines
-- Palette collapsed to 6 colors or fewer; gradients always dithered
-- Bitmap or monospace type at integer sizes
-- Buttons swallow their hard shadow on press; image-rendering: pixelated for bitmaps
-- Dark mode on the palette's dark tier; text contrast compliant
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Keep BITMAP’s dark ground, uppercase Courier New monospace, square black rims, hard card shadows and original screen panel; do not convert existing screen gradients, web text or every neutral into six-color dithering. The six-color limit belongs to the actual 8×8 paint palette. Use the normal repeat(8,minmax(0,1fr)) board, 4px black outer rim and visible cell focus, without transforming page/text scale or introducing real coin payment.
+
+Reuse current preview.tokens: background #1A1C2C; foreground #F4F4F4; accent #EF7D57 / #1A1C2C; card #29366F; border #000000; radius 0px; font Courier New, ui-monospace, monospace; card shadow 4px 4px 0.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+Full-page operations:
+INSERT COIN starts an 8×8 six-color pixel board. Move drawing focus with arrows and paint with Space or click cells; clear and redraw. Start, Atlas and Shop reveal content without real coin payments.
+
+Share one renderer between static covers, the detail experience and /style-scenes/pixel-art/ (English /en/style-scenes/pixel-art/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +71,21 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Pixel Art spec: palette locked to 6 colors (e.g. #1A1C2C #5D275D #B13E53 #EF7D57 #FFCD75 #A7F070); zero radii; 2px pure-black pixel outlines; buttons with 2px hard edges that swallow their outline on press via a 2px shift; bitmap headings at integer 16px multiples; all gradients dithered; dark mode uses the dark tier of the same palette."
 
-**Implementation:** "Implement a pixel button in CSS: .px-btn { border-radius: 0; border: 2px solid #1A1C2C; box-shadow: 4px 4px 0 #1A1C2C; image-rendering: pixelated; } Dither: background: repeating-conic-gradient(#EF7D57 0% 25%, #FFCD75 0% 50%) 0 0/4px 4px; scale the stage with transform: scale(2) and transform-origin: top left."
+**Implementation:** Build a complete BITMAP page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
+
+Keep BITMAP’s dark ground, uppercase Courier New monospace, square black rims, hard card shadows and original screen panel; do not convert existing screen gradients, web text or every neutral into six-color dithering. The six-color limit belongs to the actual 8×8 paint palette. Use the normal repeat(8,minmax(0,1fr)) board, 4px black outer rim and visible cell focus, without transforming page/text scale or introducing real coin payment.
+
+Reuse current preview.tokens: background #1A1C2C; foreground #F4F4F4; accent #EF7D57 / #1A1C2C; card #29366F; border #000000; radius 0px; font Courier New, ui-monospace, monospace; card shadow 4px 4px 0.
+
+Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+
+INSERT COIN starts an 8×8 six-color pixel board. Move drawing focus with arrows and paint with Space or click cells; clear and redraw. Start, Atlas and Shop reveal content without real coin payments.
+
+Share one renderer between static covers, the detail experience and /style-scenes/pixel-art/ (English /en/style-scenes/pixel-art/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 

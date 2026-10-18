@@ -45,17 +45,24 @@
 ## 交给 Agent 的任务 Prompt
 
 ```text
-在当前项目中用孟菲斯风格（Memphis Design）实现一组撞色卡片与按钮区块。
+用当前风格完成 Milano '88 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-先检查现有 Design Token 与色彩变量，孟菲斯色板与底纹做独立作用域。
-要求：
-- 黑白几何底纹（波点/条纹）+ 高饱和撞色块 + 黑描边 + 偏移实心阴影
-- 涂鸦点缀元素（波浪 锯齿 形状）控制在 3～5 个
-- 文字对比度达标，装饰不承载关键信息
-- 支持深色模式（墨蓝底，撞色保持饱和）
-- 若有 hover 动效，尊重 prefers-reduced-motion
-- 不新增任何依赖
-完成后运行项目现有检查，并列出修改的文件。
+保留 Milano ’88 奶油底、粉色 CTA、粉/黄/青绿三卡与圆/三角/方形主视觉；卡片使用原 2px 圆角及 4px 4px 硬投影，不另铺满黑白波点壁纸或强制全体 10px 圆角。邀请卡按现有 2px 黑边、7px 7px 硬投影和 2deg 倾斜呈现，名称/人数/配色更新这一张卡。
+
+复用当前 preview.tokens：背景 #FFF4E3；前景 #232323；强调 #FF5C8A / #fff；卡面 #FFFFFF；边框 #232323；圆角 2px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 4px 4px 0 #232323。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+完整页面操作：
+开派对后填写名称、人数、配色生成邀请卡，可修改重新生成；家居、图案、派对、意大利制造各有内容，不发送真实邀请。
+
+静态封面、详情演示与 /style-scenes/memphis/（英文 /en/style-scenes/memphis/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
+
+不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。
 ```
 
 ### 其余层级 Prompt
@@ -64,7 +71,21 @@
 
 **Design:** 孟菲斯设计规范：底面用黑白波点或条纹几何纹样；主体色块用柠檬黄 #FFD53D 珊瑚红 #FF6B6B 湖蓝 #4D96FF 紫罗兰 #B388FF，全部 3px 黑描边加 5px 偏移 实心阴影；点缀波浪线 锯齿与三角 圆 小方等涂鸦元素 3～5 个；文字粗壮 无衬线可略倾斜；深色模式底改墨蓝 #14143C，撞色保持饱和。
 
-**Implementation:** 用 CSS 实现孟菲斯底纹：.memphis-dots { background-image: radial-gradient(#000 2.5px, transparent 2.5px); background-size: 18px 18px; } 撞色卡片 .memphis-card { border: 3px solid #000; box-shadow: 6px 6px 0 #000; border-radius: 10px; } 波浪线用内联 SVG path，锯齿用 clip-path polygon。
+**Implementation:** 用当前风格完成 Milano '88 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
+
+保留 Milano ’88 奶油底、粉色 CTA、粉/黄/青绿三卡与圆/三角/方形主视觉；卡片使用原 2px 圆角及 4px 4px 硬投影，不另铺满黑白波点壁纸或强制全体 10px 圆角。邀请卡按现有 2px 黑边、7px 7px 硬投影和 2deg 倾斜呈现，名称/人数/配色更新这一张卡。
+
+复用当前 preview.tokens：背景 #FFF4E3；前景 #232323；强调 #FF5C8A / #fff；卡面 #FFFFFF；边框 #232323；圆角 2px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 4px 4px 0 #232323。
+
+dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+
+开派对后填写名称、人数、配色生成邀请卡，可修改重新生成；家居、图案、派对、意大利制造各有内容，不发送真实邀请。
+
+静态封面、详情演示与 /style-scenes/memphis/（英文 /en/style-scenes/memphis/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。
+
+操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。
+
+提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。
 
 ## 相关概念
 

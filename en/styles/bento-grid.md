@@ -45,17 +45,20 @@ Grid first, content second: typically 4 columns (2 on mobile) with grid-auto-row
 ## Agent task prompt
 
 ```text
-Implement a bento-grid overview section in the current project.
+Build a complete ◉ Tasko page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
 
-Inspect the existing grid, breakpoints and card components first; reuse current spacing and radius variables.
-Requirements:
-- One unified grid; tiles composed by span with tight aligned gutters
-- One topic per tile; hierarchy expressed by area
-- Uniform radii and padding so the set reads as a single box
-- Mobile collapses to 2 columns or one column without breaking tiles
-- Dark mode support
-- No new dependencies
-Run existing project checks when done and list the modified files.
+Preserve Tasko’s .tasko-body columns at 32% / 14.5% / 14.5% / 35%, rows at 13.6cqw / 11.8cqw and 1.15cqw gaps. The intro spans both rows; the calendar spans the middle columns; green stats and a mountain tile occupy the right, with separate task/note entries below. Keep the distinct pale blue/lilac/green fills and 1.65cqw radii, not equal-width columns, fixed 96px rows or uniformly purple cards. Use the existing height adjustment for six-week months; below 600px major tiles span the width while tasks and notes remain paired.
+
+Full-page operations:
+Get started opens the local workspace. Change calendar month and date, add/complete tasks and edit/save notes. Login explains demo identity without claiming real signup or cloud sync.
+
+Share one renderer between static covers, the detail experience and /style-scenes/bento-grid/ (English /en/style-scenes/bento-grid/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
+
+Add no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results.
 ```
 
 ### Other prompt layers
@@ -64,7 +67,17 @@ Run existing project checks when done and list the modified files.
 
 **Design:** "Bento spec: a 4-column grid (2 on mobile) with fixed grid-auto-rows; hero cells 2×2, secondary 2×1 or 1×1; 12px gap, uniform 16px radii and 20px padding; one topic per tile; hierarchy via area, not borders; tile fills in solid, light grey or dark card tones, heroes may carry imagery or gradients; 5–9 tiles total."
 
-**Implementation:** "Implement a bento grid in CSS: .bento { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 96px; gap: 12px; } hero: .bento-hero { grid-column: span 2; grid-row: span 2; } wide: .bento-wide { grid-column: span 2; } all tiles get border-radius: 16px and padding: 20px; collapse to 2 columns under @media."
+**Implementation:** Build a complete ◉ Tasko page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.
+
+Preserve Tasko’s .tasko-body columns at 32% / 14.5% / 14.5% / 35%, rows at 13.6cqw / 11.8cqw and 1.15cqw gaps. The intro spans both rows; the calendar spans the middle columns; green stats and a mountain tile occupy the right, with separate task/note entries below. Keep the distinct pale blue/lilac/green fills and 1.65cqw radii, not equal-width columns, fixed 96px rows or uniformly purple cards. Use the existing height adjustment for six-week months; below 600px major tiles span the width while tasks and notes remain paired.
+
+Get started opens the local workspace. Change calendar month and date, add/complete tasks and edit/save notes. Login explains demo identity without claiming real signup or cloud sync.
+
+Share one renderer between static covers, the detail experience and /style-scenes/bento-grid/ (English /en/style-scenes/bento-grid/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.
+
+Interaction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.
+
+Provide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.
 
 ## Related
 
