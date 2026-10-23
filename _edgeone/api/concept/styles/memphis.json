@@ -1,0 +1,325 @@
+{
+  "id": "memphis",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "孟菲斯风格",
+    "en": "Memphis Design"
+  },
+  "aliases": [
+    "孟菲斯风格",
+    "孟菲斯设计",
+    "八十年代波普风",
+    "波点波浪线装饰风",
+    "彩色几何涂鸦风",
+    "水磨石撞色风",
+    "Memphis Milano",
+    "Postmodern Pop"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "反功能主义的后现代视觉语言：波浪线 圆点 锯齿 斑点等天真涂鸦元素，与高饱和 撞色、黑色粗描边一起铺满画面，故意打破网格与秩序。它拥抱廉价与热闹，用 \"丑得快乐\"对抗优雅的现代主义。",
+    "en": "The postmodern anti-functionalist language: squiggles, dots, zigzags and confetti spots in saturated clashing colors with bold black outlines, deliberately breaking grids and order. It embraces the cheap and the festive — happily ugly against modernist good taste."
+  },
+  "use_when": [
+    {
+      "zh": "潮流 玩具 派对 音乐节等需要欢乐能量的场景",
+      "en": "Streetwear, toys, parties and festivals that need joyful energy"
+    },
+    {
+      "zh": "儿童与创意教育产品，热闹无攻击性",
+      "en": "Children and creative education products — festive, non-threatening"
+    },
+    {
+      "zh": "短期营销活动，需要一眼难忘的视觉记忆点",
+      "en": "Short campaigns that must be unforgettable at a glance"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "需要长时间专注使用的工具与阅读产品",
+      "en": "Tools and reading products used for long focused sessions"
+    },
+    {
+      "zh": "品牌调性高级 克制 或面向严肃决策者",
+      "en": "Premium, restrained brands or serious decision-makers"
+    },
+    {
+      "zh": "信息密集界面，装饰密度会淹没功能",
+      "en": "Dense interfaces where decoration drowns function"
+    }
+  ],
+  "tags": [
+    "memphis",
+    "postmodern",
+    "pop",
+    "playful",
+    "pattern"
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": {
+        "zh": "经典孟菲斯",
+        "en": "Classic Memphis"
+      },
+      "note": {
+        "zh": "Ettore Sottsass 式黑白底 大色块 波浪",
+        "en": "Ettore Sottsass — black-and-white ground, big blobs, squiggles"
+      }
+    },
+    {
+      "id": "terrazzo",
+      "name": {
+        "zh": "水磨石",
+        "en": "Terrazzo"
+      },
+      "note": {
+        "zh": "碎片斑点铺满底面，密度取胜",
+        "en": "Confetti fragments across the surface — density as texture"
+      }
+    },
+    {
+      "id": "neo-memphis",
+      "name": {
+        "zh": "新孟菲斯",
+        "en": "Neo-Memphis"
+      },
+      "note": {
+        "zh": "网页化改良，留白增多 描边变细",
+        "en": "Web-adapted — more whitespace, thinner outlines"
+      }
+    }
+  ],
+  "applicable_components": [
+    "button",
+    "card",
+    "badge",
+    "alert"
+  ],
+  "related": [
+    {
+      "id": "bauhaus",
+      "relation": "similar_to"
+    },
+    {
+      "id": "neobrutalism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "y2k",
+      "relation": "similar_to"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "memphis",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "开派对后填写名称、人数、配色生成邀请卡，可修改重新生成；家居、图案、派对、意大利制造各有内容，不发送真实邀请。",
+      "en": "Start the party, enter a name, guest count and colors and generate an invitation; edit and regenerate it. Homeware, Patterns, Party and Made in Italy reveal content; no invitations are sent."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 Milano '88 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use Milano '88’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 Milano '88 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the Milano '88 task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Memphis Milano",
+      "url": "https://memphis-milano.com/"
+    },
+    {
+      "name": "Wikipedia — Memphis Group",
+      "url": "https://en.wikipedia.org/wiki/Memphis_Group"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "background-image: radial-gradient",
+      "border: 3px solid #000",
+      "box-shadow: 5px 5px 0",
+      "border-radius: 50%",
+      "clip-path"
+    ],
+    "notes": {
+      "zh": "经典配方：黑白几何底纹（波点用 radial-gradient 平铺，条纹用 repeating- linear-gradient）垫底；主体元素用高饱和撞色（柠檬黄 珊瑚红 湖蓝 紫罗兰） + 2～3px 黑描边 + 偏移实心阴影；波浪线与锯齿用 SVG 或 clip-path，数量 控制在 3～5 个防止失控。深色模式把黑底反转成墨蓝，保持撞色饱和度。",
+      "en": "The classic recipe: a black-and-white geometric ground (dots via tiled radial-gradient, stripes via repeating-linear-gradient); elements in saturated clashes (lemon, coral, lake blue, violet) with 2–3px black outlines and offset solid shadows; squiggles and zigzags as SVG or clip-path, capped at three to five. Dark mode swaps black for ink blue and keeps the saturation."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用孟菲斯风格（Memphis Design）设计界面：波浪线 圆点 锯齿涂鸦元素与高饱和 撞色，黑色描边与偏移阴影，热闹反秩序的后现代气质。",
+      "en": "\"Design an interface in Memphis Design style: squiggles, dots and zigzags in saturated clashing colors with bold black outlines and offset shadows — festive, anti-order, postmodern.\""
+    },
+    "design": {
+      "zh": "孟菲斯设计规范：底面用黑白波点或条纹几何纹样；主体色块用柠檬黄 #FFD53D 珊瑚红 #FF6B6B 湖蓝 #4D96FF 紫罗兰 #B388FF，全部 3px 黑描边加 5px 偏移 实心阴影；点缀波浪线 锯齿与三角 圆 小方等涂鸦元素 3～5 个；文字粗壮 无衬线可略倾斜；深色模式底改墨蓝 #14143C，撞色保持饱和。",
+      "en": "\"Memphis spec: a black-and-white dot or stripe geometric ground; blocks in lemon #FFD53D, coral #FF6B6B, lake blue #4D96FF, violet #B388FF with 3px black borders and 5px offset solid shadows; three to five squiggles, zigzags and confetti shapes; chunky sans type, slightly tilted OK. Dark mode on ink blue #14143C with saturation kept.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 Milano '88 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 Milano ’88 奶油底、粉色 CTA、粉/黄/青绿三卡与圆/三角/方形主视觉；卡片使用原 2px 圆角及 4px 4px 硬投影，不另铺满黑白波点壁纸或强制全体 10px 圆角。邀请卡按现有 2px 黑边、7px 7px 硬投影和 2deg 倾斜呈现，名称/人数/配色更新这一张卡。\n\n复用当前 preview.tokens：背景 #FFF4E3；前景 #232323；强调 #FF5C8A / #fff；卡面 #FFFFFF；边框 #232323；圆角 2px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 4px 4px 0 #232323。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n开派对后填写名称、人数、配色生成邀请卡，可修改重新生成；家居、图案、派对、意大利制造各有内容，不发送真实邀请。\n\n静态封面、详情演示与 /style-scenes/memphis/（英文 /en/style-scenes/memphis/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete Milano '88 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep Milano ’88’s cream ground, pink CTA, pink/yellow/teal cards and circle/triangle/rectangle hero. Retain the cards’ 2px radius and 4px 4px hard shadow, without adding full-screen monochrome dots or forcing 10px radii. The invitation uses its existing 2px black rim, 7px 7px hard shadow and 2deg tilt; name, guest count and palette update that card.\n\nReuse current preview.tokens: background #FFF4E3; foreground #232323; accent #FF5C8A / #fff; card #FFFFFF; border #232323; radius 2px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow 4px 4px 0 #232323.\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nStart the party, enter a name, guest count and colors and generate an invitation; edit and regenerate it. Homeware, Patterns, Party and Made in Italy reveal content; no invitations are sent.\n\nShare one renderer between static covers, the detail experience and /style-scenes/memphis/ (English /en/style-scenes/memphis/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 Milano '88 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 Milano ’88 奶油底、粉色 CTA、粉/黄/青绿三卡与圆/三角/方形主视觉；卡片使用原 2px 圆角及 4px 4px 硬投影，不另铺满黑白波点壁纸或强制全体 10px 圆角。邀请卡按现有 2px 黑边、7px 7px 硬投影和 2deg 倾斜呈现，名称/人数/配色更新这一张卡。\n\n复用当前 preview.tokens：背景 #FFF4E3；前景 #232323；强调 #FF5C8A / #fff；卡面 #FFFFFF；边框 #232323；圆角 2px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 4px 4px 0 #232323。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n完整页面操作：\n开派对后填写名称、人数、配色生成邀请卡，可修改重新生成；家居、图案、派对、意大利制造各有内容，不发送真实邀请。\n\n静态封面、详情演示与 /style-scenes/memphis/（英文 /en/style-scenes/memphis/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete Milano '88 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep Milano ’88’s cream ground, pink CTA, pink/yellow/teal cards and circle/triangle/rectangle hero. Retain the cards’ 2px radius and 4px 4px hard shadow, without adding full-screen monochrome dots or forcing 10px radii. The invitation uses its existing 2px black rim, 7px 7px hard shadow and 2deg tilt; name, guest count and palette update that card.\n\nReuse current preview.tokens: background #FFF4E3; foreground #232323; accent #FF5C8A / #fff; card #FFFFFF; border #232323; radius 2px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow 4px 4px 0 #232323.\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nFull-page operations:\nStart the party, enter a name, guest count and colors and generate an invitation; edit and regenerate it. Homeware, Patterns, Party and Made in Italy reveal content; no invitations are sent.\n\nShare one renderer between static covers, the detail experience and /style-scenes/memphis/ (English /en/style-scenes/memphis/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "无衬线粗标题，随性排版",
+      "en": "Bold sans with playful type"
+    },
+    "color": {
+      "zh": "奶油底 × 粉 #FF5C8A 黄 #FFD23F 青 #3EC6A8",
+      "en": "Cream base; pink #FF5C8A, yellow #FFD23F, teal #3EC6A8"
+    },
+    "border": {
+      "zh": "2px 黑边",
+      "en": "2px black outlines"
+    },
+    "shadow": {
+      "zh": "4px 4px 0 位移硬投影",
+      "en": "4px 4px 0 offset hard shadows"
+    },
+    "spacing": {
+      "zh": "故意歪斜、错位排布",
+      "en": "Deliberately tilted, misaligned"
+    },
+    "motion": {
+      "zh": "150ms 的轻微弹跳位移，短 ease-out，尊重 prefers-reduced-motion",
+      "en": "150ms light bouncy offsets with a short ease-out; honour prefers-reduced-motion"
+    },
+    "states": {
+      "zh": "hover 错位并加深硬投影；focus 用 2px 黑色可见外框；active 位移贴合投影；disabled 去色不位移；error 用粉红强调",
+      "en": "Hover offsets and deepens the hard shadow; focus shows a visible 2px black frame; active shifts flush to the shadow; disabled desaturates without shifting; error uses a pink accent"
+    }
+  },
+  "preview": {
+    "order": 15,
+    "keywords": {
+      "en": "PLAY & REPEAT",
+      "zh": "撞色 · 波点 · 顽皮"
+    },
+    "url": "https://milano-88.it",
+    "scene": "generic",
+    "brand": "Milano '88",
+    "nav": [
+      {
+        "zh": "家居",
+        "en": "Homeware"
+      },
+      {
+        "zh": "图案",
+        "en": "Patterns"
+      },
+      {
+        "zh": "派对",
+        "en": "Party"
+      }
+    ],
+    "navExt": [
+      {
+        "zh": "意大利制造",
+        "en": "Made in Italy"
+      }
+    ],
+    "heroTitle": {
+      "zh": "PLAY &",
+      "en": "PLAY &"
+    },
+    "heroTitle2": {
+      "zh": "REPEAT!",
+      "en": "REPEAT!"
+    },
+    "heroSub": {
+      "zh": "八十年代的顽皮几何。",
+      "en": "Playful geometry from the eighties."
+    },
+    "cta": {
+      "zh": "开派对",
+      "en": "Start the party"
+    },
+    "heroCaption": {
+      "zh": "波点 · 折线 · 甜品色",
+      "en": "Polka dots · Zigzags · Candy colors"
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "撞色格纹",
+          "en": "Clashing checks"
+        },
+        "s": {
+          "zh": "粉蓝黄绿",
+          "en": "Pink, blue, yellow and green"
+        }
+      },
+      {
+        "t": {
+          "zh": "几何贴纸",
+          "en": "Geometric stickers"
+        },
+        "s": {
+          "zh": "圆点与折线",
+          "en": "Dots and zigzags"
+        }
+      },
+      {
+        "t": {
+          "zh": "歪斜排版",
+          "en": "Offbeat typography"
+        },
+        "s": {
+          "zh": "故意不整齐",
+          "en": "Deliberately uneven"
+        }
+      }
+    ],
+    "panel": "shapes",
+    "tokens": {
+      "bg": "#FFF4E3",
+      "fg": "#232323",
+      "sub": "#8A7A66",
+      "accent": "#FF5C8A",
+      "accentFg": "#fff",
+      "card": "#FFFFFF",
+      "cardBorder": "#232323",
+      "radius": "2px",
+      "shadow": "4px 4px 0 #232323",
+      "font": "'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif",
+      "heroSize": "24px",
+      "triCards": [
+        "#FF5C8A",
+        "#FFD23F",
+        "#3EC6A8"
+      ]
+    }
+  }
+}

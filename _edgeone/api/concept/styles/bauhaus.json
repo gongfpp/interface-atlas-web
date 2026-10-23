@@ -1,0 +1,325 @@
+{
+  "id": "bauhaus",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "包豪斯",
+    "en": "Bauhaus"
+  },
+  "aliases": [
+    "包豪斯",
+    "包豪斯风格",
+    "几何构成主义",
+    "红黄蓝几何风",
+    "原色几何设计",
+    "圆三角方构成",
+    "Bauhaus Design",
+    "Geometric Abstraction"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "用基础几何与三原色做构成游戏的视觉语言：圆 三角 方三种形状，红 黄 蓝 三原色加黑，不对称但平衡的构图，装饰服从功能。每一块色面与线条都参与 结构，海报像一场几何关系的研究。",
+    "en": "A visual language of playing composition with geometry: circle, triangle and square in primary red, yellow and blue plus black, asymmetric yet balanced. Decoration obeys function — every plane and line carries structure, and a poster reads as a study in geometric relations."
+  },
+  "use_when": [
+    {
+      "zh": "品牌 海报 活动页，需要强烈的图形识别与艺术气质",
+      "en": "Brands, posters and campaign pages that want bold graphic identity"
+    },
+    {
+      "zh": "教育 创意工具类产品，传达\"创造与构成\"的气质",
+      "en": "Education and creative tools — composing and making"
+    },
+    {
+      "zh": "大面积视觉主视觉区，元素少而冲击力要求高",
+      "en": "Hero visuals with few elements and high impact needs"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "信息密集的界面，几何装饰会干扰数据可读性",
+      "en": "Data-dense UIs where geometric play hurts readability"
+    },
+    {
+      "zh": "需要长时间阅读的产品场景",
+      "en": "Long reading sessions — the visual noise accumulates"
+    },
+    {
+      "zh": "品牌色板已被锁定，无法让位于三原色",
+      "en": "Locked brand palettes that cannot yield to primaries"
+    }
+  ],
+  "tags": [
+    "bauhaus",
+    "geometry",
+    "primary-colors",
+    "composition",
+    "modernism"
+  ],
+  "variants": [
+    {
+      "id": "weimar",
+      "name": {
+        "zh": "魏玛时期",
+        "en": "Weimar"
+      },
+      "note": {
+        "zh": "表现主义余温，Itten 色彩理论影响",
+        "en": "Expressionist warmth under Itten's color theory"
+      }
+    },
+    {
+      "id": "dessau",
+      "name": {
+        "zh": "德绍时期",
+        "en": "Dessau"
+      },
+      "note": {
+        "zh": "最经典阶段——理性几何与红黄蓝",
+        "en": "The classic phase — rational geometry and primaries"
+      }
+    },
+    {
+      "id": "contemporary",
+      "name": {
+        "zh": "当代包豪斯",
+        "en": "Contemporary Bauhaus"
+      },
+      "note": {
+        "zh": "网页化的构成主义，更大胆的留白与动效",
+        "en": "Web-era constructivism with bolder whitespace and motion"
+      }
+    }
+  ],
+  "applicable_components": [
+    "button",
+    "card",
+    "badge",
+    "input"
+  ],
+  "related": [
+    {
+      "id": "swiss-style",
+      "relation": "similar_to"
+    },
+    {
+      "id": "memphis",
+      "relation": "similar_to"
+    },
+    {
+      "id": "flat-design",
+      "relation": "similar_to"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "bauhaus",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "进入工坊后选择红圆、蓝方或黄角并放置到画布，最多 12 个图形，可清空重做；形式、色彩、工坊导航各有对应内容。",
+      "en": "Enter the workshop, choose a red circle, blue square or yellow triangle and place up to 12 shapes on the canvas, then clear and restart. Form, Color and Workshop have matching content."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 BAUHAUS 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use BAUHAUS’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 BAUHAUS 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the BAUHAUS task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Bauhaus Dessau Foundation",
+      "url": "https://www.bauhaus-dessau.de/en/"
+    },
+    {
+      "name": "Wikipedia — Bauhaus",
+      "url": "https://en.wikipedia.org/wiki/Bauhaus"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "background: #D93025",
+      "clip-path",
+      "border-radius: 50%",
+      "grid",
+      "mix-blend-mode"
+    ],
+    "notes": {
+      "zh": "用三原色建立固定角色：红为主视觉面，黄做暖点缀，蓝做冷点缀，黑承担 文字与结构线。构图用非对称平衡：一大几何形 + 一两条结构线 + 一个小 实体，元素之间保持接触或穿插而非悬空。形状可用 border-radius 50% 与 clip-path 三角形实现，避免图片素材。留白同样是构图材料。",
+      "en": "Give the primaries fixed roles: red as the hero plane, yellow the warm accent, blue the cool one, black for type and structural lines. Balance asymmetrically — one large form plus one or two structural lines and a small solid; shapes should touch or overlap, never float. Use border-radius: 50% and clip-path triangles instead of image assets. Whitespace is a compositional material too."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用包豪斯风格（Bauhaus）设计界面：圆 三角 方几何构成，红 黄 蓝 三原色加黑， 不对称但平衡的构图，装饰服从功能。",
+      "en": "\"Design an interface in Bauhaus style: compositions of circle, triangle and square in primary red, yellow and blue with black, asymmetrically balanced, form follows function.\""
+    },
+    "design": {
+      "zh": "包豪斯设计规范：底色米白 #F4EFE6 或黑；主视觉用大几何形（红圆 黄三角 蓝方至少出现两种）并与文字穿插接触；文字黑色无衬线 大写或粗几何体； 禁用渐变 投影 与纹理；构图不对称但重心平衡；深色模式底色近黑，三原色 提亮一档保持冲击。",
+      "en": "\"Bauhaus spec: cream #F4EFE6 or black ground; hero geometry (at least two of red circle, yellow triangle, blue square) interlocking with type; black geometric sans, uppercase or heavy; no gradients, shadows or textures; asymmetric yet balanced. Dark mode on near-black with primaries lifted one step.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 BAUHAUS 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 BAUHAUS 米色首屏、红色主操作及红/蓝/黄三卡；右侧圆/三角/方形面板与原有轻投影继续使用，标题仍为原大写无衬线，不额外强制图文负 margin 穿插。构图工坊使用 #eee5d7 画布、2px 黑边以及 #e23b2e 圆/#21409a 方/#f2b705 三角，形状由 CSS 生成。\n\n复用当前 preview.tokens：背景 #F4EFE6；前景 #141414；强调 #E23B2E / #fff；卡面 #FFFFFF；边框 #141414；圆角 0px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n进入工坊后选择红圆、蓝方或黄角并放置到画布，最多 12 个图形，可清空重做；形式、色彩、工坊导航各有对应内容。\n\n静态封面、详情演示与 /style-scenes/bauhaus/（英文 /en/style-scenes/bauhaus/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete BAUHAUS page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep BAUHAUS’ cream hero, red primary action and red/blue/yellow cards. Retain the original circle/triangle/rectangle panel with its local shadows and uppercase sans display, without imposing new negative-margin overlaps. The workshop uses a #eee5d7 canvas, 2px black rim and CSS shapes in #e23b2e, #21409a and #f2b705.\n\nReuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #fff; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nEnter the workshop, choose a red circle, blue square or yellow triangle and place up to 12 shapes on the canvas, then clear and restart. Form, Color and Workshop have matching content.\n\nShare one renderer between static covers, the detail experience and /style-scenes/bauhaus/ (English /en/style-scenes/bauhaus/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 BAUHAUS 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 BAUHAUS 米色首屏、红色主操作及红/蓝/黄三卡；右侧圆/三角/方形面板与原有轻投影继续使用，标题仍为原大写无衬线，不额外强制图文负 margin 穿插。构图工坊使用 #eee5d7 画布、2px 黑边以及 #e23b2e 圆/#21409a 方/#f2b705 三角，形状由 CSS 生成。\n\n复用当前 preview.tokens：背景 #F4EFE6；前景 #141414；强调 #E23B2E / #fff；卡面 #FFFFFF；边框 #141414；圆角 0px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n完整页面操作：\n进入工坊后选择红圆、蓝方或黄角并放置到画布，最多 12 个图形，可清空重做；形式、色彩、工坊导航各有对应内容。\n\n静态封面、详情演示与 /style-scenes/bauhaus/（英文 /en/style-scenes/bauhaus/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete BAUHAUS page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep BAUHAUS’ cream hero, red primary action and red/blue/yellow cards. Retain the original circle/triangle/rectangle panel with its local shadows and uppercase sans display, without imposing new negative-margin overlaps. The workshop uses a #eee5d7 canvas, 2px black rim and CSS shapes in #e23b2e, #21409a and #f2b705.\n\nReuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #fff; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nFull-page operations:\nEnter the workshop, choose a red circle, blue square or yellow triangle and place up to 12 shapes on the canvas, then clear and restart. Form, Color and Workshop have matching content.\n\nShare one renderer between static covers, the detail experience and /style-scenes/bauhaus/ (English /en/style-scenes/bauhaus/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "包豪斯几何无衬线，大写",
+      "en": "Bauhaus geometric sans, uppercase"
+    },
+    "color": {
+      "zh": "米底 × 红 #E23B2E 蓝 #21409A 黄 #F2B705",
+      "en": "Cream base; red #E23B2E, blue #21409A, yellow #F2B705"
+    },
+    "border": {
+      "zh": "0 圆角，细黑边框",
+      "en": "Zero radius with thin black rules"
+    },
+    "shadow": {
+      "zh": "无阴影",
+      "en": "No shadows"
+    },
+    "spacing": {
+      "zh": "几何构图留白",
+      "en": "Compositional whitespace around geometry"
+    },
+    "motion": {
+      "zh": "100ms 内完成的原色切换，无缓动位移",
+      "en": "Primary-colour swaps within 100ms, no eased movement"
+    },
+    "states": {
+      "zh": "hover 切换到另一原色；focus 用 2px 黑色可见外框；active 反色块；disabled 降为灰阶；error 用红 #E23B2E",
+      "en": "Hover swaps to another primary; focus shows a visible 2px black frame; active inverts the block; disabled drops to greyscale; error uses red #E23B2E"
+    }
+  },
+  "preview": {
+    "order": 12,
+    "keywords": {
+      "en": "FORM & FUNCTION",
+      "zh": "几何 · 三原色 · 秩序"
+    },
+    "url": "https://staatliches.bau",
+    "scene": "generic",
+    "brand": "BAUHAUS",
+    "nav": [
+      {
+        "zh": "形式",
+        "en": "Form"
+      },
+      {
+        "zh": "色彩",
+        "en": "Color"
+      },
+      {
+        "zh": "工坊",
+        "en": "Workshop"
+      }
+    ],
+    "navExt": [
+      {
+        "zh": "1923",
+        "en": "1923"
+      }
+    ],
+    "heroTitle": {
+      "zh": "FORM &",
+      "en": "FORM &"
+    },
+    "heroTitle2": {
+      "zh": "FUNCTION",
+      "en": "FUNCTION"
+    },
+    "heroSub": {
+      "zh": "几何与三原色的秩序。",
+      "en": "Geometry and primary colors in harmony."
+    },
+    "cta": {
+      "zh": "进入工坊",
+      "en": "Enter the workshop"
+    },
+    "heroCaption": {
+      "zh": "圆 · 三角 · 方块",
+      "en": "Circle · Triangle · Square"
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "红之圆",
+          "en": "Red circle"
+        },
+        "s": {
+          "zh": "统一的起点",
+          "en": "A shared starting point"
+        }
+      },
+      {
+        "t": {
+          "zh": "蓝之方",
+          "en": "Blue square"
+        },
+        "s": {
+          "zh": "功能的稳定",
+          "en": "A foundation for function"
+        }
+      },
+      {
+        "t": {
+          "zh": "黄之角",
+          "en": "Yellow triangle"
+        },
+        "s": {
+          "zh": "能量的指向",
+          "en": "A direction for energy"
+        }
+      }
+    ],
+    "panel": "shapes",
+    "tokens": {
+      "bg": "#F4EFE6",
+      "fg": "#141414",
+      "sub": "#77716A",
+      "accent": "#E23B2E",
+      "accentFg": "#fff",
+      "card": "#FFFFFF",
+      "cardBorder": "#141414",
+      "radius": "0px",
+      "font": "'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif",
+      "upper": true,
+      "heroSize": "24px",
+      "triCards": [
+        "#E23B2E",
+        "#21409A",
+        "#F2B705"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+import{t as e}from"./gallery-copy.D-a0Sd4D.js";e();

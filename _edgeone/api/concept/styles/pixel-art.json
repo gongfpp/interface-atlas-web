@@ -1,0 +1,322 @@
+{
+  "id": "pixel-art",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "像素风",
+    "en": "Pixel Art UI"
+  },
+  "aliases": [
+    "像素风",
+    "像素游戏界面",
+    "8位机风格",
+    "马赛克复古风",
+    "点阵字界面",
+    "pixel art UI",
+    "8-bit UI",
+    "pixel retro"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "用硬像素边缘、有限色板与点阵字形表示「游戏机记忆」的界面视觉语言。锯齿即正确， 缩放必须整数倍，抖动网点做过渡。刻意站在抗锯齿的对立面。",
+    "en": "Hard pixel edges, a limited palette and bitmap faces as a console-nostalgia interface look. Aliasing is correct, scaling must be integer, dithering does the gradients. Deliberately against anti-aliasing."
+  },
+  "use_when": [
+    {
+      "zh": "游戏、独立游戏发行、复古主题产品，风格即世界观",
+      "en": "Games, indie releases and retro-themed products where style is worldbuilding"
+    },
+    {
+      "zh": "想用点阵与有限色制造怀旧亲和，或做游戏化进度反馈",
+      "en": "Nostalgic warmth via bitmap and limited color, or gamified progress"
+    },
+    {
+      "zh": "徽章、成就、状态点等小尺寸图标需要强识别",
+      "en": "Badges, achievements and status dots that must read at small size"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "长文阅读与高密度表格，点阵字放大后可读性崩坏",
+      "en": "Long reading and dense tables — bitmap type degrades when scaled"
+    },
+    {
+      "zh": "需要连续渐变、照片展示、平滑动效的场景",
+      "en": "Continuous gradients, photo galleries and smooth motion"
+    },
+    {
+      "zh": "正式政企金融界面，像素语汇会削弱可信度",
+      "en": "Formal enterprise and finance UIs where pixels undercut trust"
+    }
+  ],
+  "tags": [
+    "pixel-art",
+    "8-bit",
+    "bitmap",
+    "dithering",
+    "retro"
+  ],
+  "variants": [
+    {
+      "id": "eight-bit",
+      "name": {
+        "zh": "8位复古",
+        "en": "8-bit retro"
+      },
+      "note": {
+        "zh": "NES 式硬边与 3～6 色调色板，黑描边像素块",
+        "en": "NES-style hard edges, 3–6 color palette, black-outlined blocks"
+      }
+    },
+    {
+      "id": "modern-pixel",
+      "name": {
+        "zh": "现代像素",
+        "en": "Modern pixel"
+      },
+      "note": {
+        "zh": "高分辨率像素网格，色板更宽，圆角用像素阶梯近似",
+        "en": "Finer pixel grid, wider palette, radii as stepped corners"
+      }
+    },
+    {
+      "id": "isometric",
+      "name": {
+        "zh": "等距像素",
+        "en": "Isometric pixel"
+      },
+      "note": {
+        "zh": "2:1 等距投影小场景，像 SimCity 小地图",
+        "en": "2:1 isometric vignettes like a SimCity minimap"
+      }
+    }
+  ],
+  "applicable_components": [
+    "button",
+    "badge",
+    "progress-bar",
+    "avatar"
+  ],
+  "applicable_pages": [
+    "landing-page"
+  ],
+  "related": [
+    {
+      "id": "y2k",
+      "relation": "similar_to"
+    },
+    {
+      "id": "retro-futurism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "cyberpunk",
+      "relation": "used_with"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    },
+    {
+      "id": "badge",
+      "relation": "affects"
+    },
+    {
+      "id": "progress-bar",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "pixel-art",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "INSERT COIN 启动 8×8 六色像素画板；方向键移动绘制焦点、空格绘制，也可点击格子；可清空重画，开始、图鉴、商店均有内容，不涉及真实投币。",
+      "en": "INSERT COIN starts an 8×8 six-color pixel board. Move drawing focus with arrows and paint with Space or click cells; clear and redraw. Start, Atlas and Shop reveal content without real coin payments."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 BITMAP 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use BITMAP’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 BITMAP 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the BITMAP task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Wikipedia — Pixel art",
+      "url": "https://en.wikipedia.org/wiki/Pixel_art"
+    },
+    {
+      "name": "MDN — image-rendering",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "image-rendering: pixelated",
+      "border-radius: 0",
+      "font-family: monospace",
+      "box-shadow: 多层硬阶梯模拟圆角",
+      "background: repeating-conic-gradient() 抖动网点"
+    ],
+    "notes": {
+      "zh": "像素感的铁律是整数倍缩放：素材按 1x 设计，展示用 transform: scale(整数) 或 image-rendering: pixelated。 圆角用 box-shadow 多层硬阶梯近似，或直接用直角。过渡渐变用抖动：repeating-conic-gradient 交替两色。 字体用点阵字体（如 Press Start 2P）或等宽体加 letter-spacing 模仿。深色模式换调色板但保持同一网格。",
+      "en": "Pixel feel hinges on integer scaling: design assets at 1x and present via transform: scale(integer) or image-rendering: pixelated. Approximate radii with multi-layer hard box-shadow steps — or stay square. Fake gradients with dithering: repeating-conic-gradient alternating two colors. Type is a bitmap face (e.g. Press Start 2P) or monospace with letter-spacing. Dark mode swaps the palette but keeps the same grid."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用像素风（Pixel Art UI）设计界面：硬像素边缘、有限色板、点阵字形、抖动网点过渡，游戏机怀旧感。",
+      "en": "Design an interface in Pixel Art UI style: hard pixel edges, limited palette, bitmap type and dithered transitions — console nostalgia."
+    },
+    "design": {
+      "zh": "像素风设计规范：调色板锁 6 色内（如 #1A1C2C #5D275D #B13E53 #EF7D57 #FFCD75 #A7F070）； 全部圆角 0；描边 2px 纯黑像素块；按钮用 2px 硬边 + 按下时 2px 位移吃掉描边； 标题点阵字体 16px 整数倍；渐变一律抖动网点；深色模式用同一调色板的暗档。",
+      "en": "\"Pixel Art spec: palette locked to 6 colors (e.g. #1A1C2C #5D275D #B13E53 #EF7D57 #FFCD75 #A7F070); zero radii; 2px pure-black pixel outlines; buttons with 2px hard edges that swallow their outline on press via a 2px shift; bitmap headings at integer 16px multiples; all gradients dithered; dark mode uses the dark tier of the same palette.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 BITMAP 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 BITMAP 深底、Courier New 等宽大写、直角黑边、硬偏移卡影和原 screen 面板；不强制把现有屏幕渐变、网页字体或全部中性色改成六色抖动。六色限制作用于实际 8×8 画板调色盘，画板为 repeat(8,minmax(0,1fr)) 正常网格、黑色 4px 外边与可见格子焦点；不对文字和页面整体 transform 缩放，也不新增投币支付。\n\n复用当前 preview.tokens：背景 #1A1C2C；前景 #F4F4F4；强调 #EF7D57 / #1A1C2C；卡面 #29366F；边框 #000000；圆角 0px；字体 Courier New, ui-monospace, monospace；卡影 4px 4px 0。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\nINSERT COIN 启动 8×8 六色像素画板；方向键移动绘制焦点、空格绘制，也可点击格子；可清空重画，开始、图鉴、商店均有内容，不涉及真实投币。\n\n静态封面、详情演示与 /style-scenes/pixel-art/（英文 /en/style-scenes/pixel-art/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete BITMAP page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep BITMAP’s dark ground, uppercase Courier New monospace, square black rims, hard card shadows and original screen panel; do not convert existing screen gradients, web text or every neutral into six-color dithering. The six-color limit belongs to the actual 8×8 paint palette. Use the normal repeat(8,minmax(0,1fr)) board, 4px black outer rim and visible cell focus, without transforming page/text scale or introducing real coin payment.\n\nReuse current preview.tokens: background #1A1C2C; foreground #F4F4F4; accent #EF7D57 / #1A1C2C; card #29366F; border #000000; radius 0px; font Courier New, ui-monospace, monospace; card shadow 4px 4px 0.\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nINSERT COIN starts an 8×8 six-color pixel board. Move drawing focus with arrows and paint with Space or click cells; clear and redraw. Start, Atlas and Shop reveal content without real coin payments.\n\nShare one renderer between static covers, the detail experience and /style-scenes/pixel-art/ (English /en/style-scenes/pixel-art/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 BITMAP 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 BITMAP 深底、Courier New 等宽大写、直角黑边、硬偏移卡影和原 screen 面板；不强制把现有屏幕渐变、网页字体或全部中性色改成六色抖动。六色限制作用于实际 8×8 画板调色盘，画板为 repeat(8,minmax(0,1fr)) 正常网格、黑色 4px 外边与可见格子焦点；不对文字和页面整体 transform 缩放，也不新增投币支付。\n\n复用当前 preview.tokens：背景 #1A1C2C；前景 #F4F4F4；强调 #EF7D57 / #1A1C2C；卡面 #29366F；边框 #000000；圆角 0px；字体 Courier New, ui-monospace, monospace；卡影 4px 4px 0。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n完整页面操作：\nINSERT COIN 启动 8×8 六色像素画板；方向键移动绘制焦点、空格绘制，也可点击格子；可清空重画，开始、图鉴、商店均有内容，不涉及真实投币。\n\n静态封面、详情演示与 /style-scenes/pixel-art/（英文 /en/style-scenes/pixel-art/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete BITMAP page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep BITMAP’s dark ground, uppercase Courier New monospace, square black rims, hard card shadows and original screen panel; do not convert existing screen gradients, web text or every neutral into six-color dithering. The six-color limit belongs to the actual 8×8 paint palette. Use the normal repeat(8,minmax(0,1fr)) board, 4px black outer rim and visible cell focus, without transforming page/text scale or introducing real coin payment.\n\nReuse current preview.tokens: background #1A1C2C; foreground #F4F4F4; accent #EF7D57 / #1A1C2C; card #29366F; border #000000; radius 0px; font Courier New, ui-monospace, monospace; card shadow 4px 4px 0.\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nFull-page operations:\nINSERT COIN starts an 8×8 six-color pixel board. Move drawing focus with arrows and paint with Space or click cells; clear and redraw. Start, Atlas and Shop reveal content without real coin payments.\n\nShare one renderer between static covers, the detail experience and /style-scenes/pixel-art/ (English /en/style-scenes/pixel-art/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "点阵字体或等宽体，字号整数倍",
+      "en": "Bitmap or monospace face at integer sizes"
+    },
+    "color": {
+      "zh": "6 色以内的有限调色板，高对比硬切",
+      "en": "A palette of six colors or fewer, hard high-contrast cuts"
+    },
+    "border": {
+      "zh": "2px 纯色像素描边，圆角 0",
+      "en": "2px solid pixel outlines, radius 0"
+    },
+    "shadow": {
+      "zh": "硬偏移像素块投影，无模糊",
+      "en": "Hard offset pixel-block shadows, no blur"
+    },
+    "spacing": {
+      "zh": "8px 网格对齐，元素贴像素格",
+      "en": "8px grid alignment, elements snapped to the pixel lattice"
+    },
+    "motion": {
+      "zh": "无补间，步进式的瞬时切换",
+      "en": "No tweening, stepped and instant"
+    },
+    "states": {
+      "zh": "hover 换用高亮像素色；focus 用 2px 像素可见描边；active 位移一个像素块；disabled 降为两档灰；error 用红像素块",
+      "en": "Hover switches to a highlight pixel colour; focus shows a visible 2px pixel outline; active shifts by one pixel block; disabled drops to two greys; error uses a red pixel block"
+    }
+  },
+  "preview": {
+    "order": 24,
+    "keywords": {
+      "zh": "硬边 · 点阵 · 有限色",
+      "en": "HARD PIXELS"
+    },
+    "url": "bitmap.pub",
+    "scene": "generic",
+    "brand": "BITMAP",
+    "nav": [
+      {
+        "zh": "开始",
+        "en": "Start"
+      },
+      {
+        "zh": "图鉴",
+        "en": "Atlas"
+      },
+      {
+        "zh": "商店",
+        "en": "Shop"
+      }
+    ],
+    "heroTitle": {
+      "zh": "PRESS",
+      "en": "PRESS"
+    },
+    "heroTitle2": {
+      "zh": "START",
+      "en": "START"
+    },
+    "heroSub": {
+      "zh": "整数倍缩放，锯齿即正确。",
+      "en": "Scale in whole numbers. Sharp pixels are the point."
+    },
+    "cta": {
+      "zh": "INSERT COIN",
+      "en": "INSERT COIN"
+    },
+    "heroCaption": {
+      "zh": "NO ANTI-ALIASING ALLOWED.",
+      "en": "NO ANTI-ALIASING ALLOWED."
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "硬像素",
+          "en": "Sharp pixels"
+        },
+        "s": {
+          "zh": "不做抗锯齿",
+          "en": "No anti-aliasing"
+        }
+      },
+      {
+        "t": {
+          "zh": "有限色板",
+          "en": "Limited palette"
+        },
+        "s": {
+          "zh": "六色封顶",
+          "en": "Up to six colors"
+        }
+      },
+      {
+        "t": {
+          "zh": "抖动网点",
+          "en": "Dither patterns"
+        },
+        "s": {
+          "zh": "两色交替",
+          "en": "Alternating two colors"
+        }
+      }
+    ],
+    "panel": "screen",
+    "tokens": {
+      "bg": "#1A1C2C",
+      "fg": "#F4F4F4",
+      "sub": "#A7A0C0",
+      "accent": "#EF7D57",
+      "accentFg": "#1A1C2C",
+      "card": "#29366F",
+      "cardBorder": "#000000",
+      "radius": "0px",
+      "shadow": "4px 4px 0",
+      "font": "Courier New, ui-monospace, monospace",
+      "upper": true,
+      "heroSize": "22px"
+    }
+  }
+}

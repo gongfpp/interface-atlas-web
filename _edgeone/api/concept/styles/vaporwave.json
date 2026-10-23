@@ -1,0 +1,322 @@
+{
+  "id": "vaporwave",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "蒸汽波",
+    "en": "Vaporwave"
+  },
+  "aliases": [
+    "蒸汽波",
+    "蒸汽波风格",
+    "粉紫蓝复古未来",
+    "霓虹网格地平线",
+    "80年代商场美学",
+    "vaporwave",
+    "synthwave UI",
+    "retro mall aesthetic"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "用霓虹粉紫青、透视网格地平线、镀铬 3D 字与棕榈树剪影表示「消费主义怀旧」的视觉语言。 拼贴 80-90 年代商场、早期 CGI 与故障信号，甜腻、迷幻、又带着空洞的乐观。",
+    "en": "Neon pink-cyan-purple, a perspective grid horizon, retro 3D chrome type and palm silhouettes as consumer-nostalgia look. It collages 80s-90s mall culture, early CGI and signal glitch — sweet, hazy, hollowly optimistic."
+  },
+  "use_when": [
+    {
+      "zh": "音乐、夜店、潮牌、复古主题活动，风格即情绪",
+      "en": "Music, club, streetwear and retro events where style is the mood"
+    },
+    {
+      "zh": "需要强烈亚文化信号与迷幻氛围的营销页",
+      "en": "Campaign pages that must signal subculture and haze"
+    },
+    {
+      "zh": "播放器、票券、虚拟商品等娱乐向界面",
+      "en": "Players, tickets and virtual goods in entertainment contexts"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "金融、医疗、政务等需要冷静可信的界面",
+      "en": "Finance, healthcare and civic UIs that must stay calm and trustworthy"
+    },
+    {
+      "zh": "长文阅读与表单录入，霓虹与闪烁持续消耗注意力",
+      "en": "Long reading and form entry — neon and flicker drain attention"
+    },
+    {
+      "zh": "无障碍要求高的场景，粉紫青对比度与闪烁都有风险",
+      "en": "Accessibility-critical contexts — pink-purple contrast and flicker are risky"
+    }
+  ],
+  "tags": [
+    "vaporwave",
+    "neon",
+    "retro",
+    "chrome",
+    "glitch"
+  ],
+  "variants": [
+    {
+      "id": "mall-soft",
+      "name": {
+        "zh": "商场软调",
+        "en": "Mall soft"
+      },
+      "note": {
+        "zh": "粉彩大理石、希腊柱与 Windows 95 窗口，甜而空",
+        "en": "Pastel marble, Greek columns and Win95 chrome — sweet and hollow"
+      }
+    },
+    {
+      "id": "neon-glitch",
+      "name": {
+        "zh": "霓虹故障",
+        "en": "Neon glitch"
+      },
+      "note": {
+        "zh": "粉青霓虹 + RGB 错位与扫描线，信号不稳",
+        "en": "Pink-cyan neon with RGB offset and scanlines, signal unstable"
+      }
+    },
+    {
+      "id": "chrome",
+      "name": {
+        "zh": "全息镀铬",
+        "en": "Holographic chrome"
+      },
+      "note": {
+        "zh": "液态金属 3D 字与 CD 幻彩反光",
+        "en": "Liquid-metal 3D type with CD-rainbow sheen"
+      }
+    }
+  ],
+  "applicable_components": [
+    "navbar",
+    "card",
+    "button",
+    "badge"
+  ],
+  "applicable_pages": [
+    "landing-page"
+  ],
+  "related": [
+    {
+      "id": "y2k",
+      "relation": "similar_to"
+    },
+    {
+      "id": "cyberpunk",
+      "relation": "similar_to"
+    },
+    {
+      "id": "retro-futurism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "memphis",
+      "relation": "similar_to"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "vaporwave",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "步入中庭进入楼层导览，选楼层查看音像、美食等场所，护照打卡且重复不计数；音像、美食广场、关于可返回对应导览，无真实消费。",
+      "en": "Enter the atrium opens the floor guide. Choose floors for media and food venues; stamp a passport without counting duplicates. Media, Food court and About return to the matching guide; there are no real purchases."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 MALL★95 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use MALL★95’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 MALL★95 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the MALL★95 task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Wikipedia — Vaporwave",
+      "url": "https://en.wikipedia.org/wiki/Vaporwave"
+    },
+    {
+      "name": "Wikipedia — Synthwave",
+      "url": "https://en.wikipedia.org/wiki/Synthwave"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "linear-gradient 粉紫青",
+      "perspective + rotateX 网格地平线",
+      "background-clip: text 镀铬字",
+      "text-shadow 多层霓虹",
+      "repeating-linear-gradient 扫描线"
+    ],
+    "notes": {
+      "zh": "地平线网格是招牌：一个 perspective 容器里放 rotateX(70deg) 的 repeating-linear-gradient 网格 平面，底部渐隐。镀铬字用多段灰阶或粉青渐变 + background-clip: text + 深色描边。 霓虹用 text-shadow 多层同色扩散，色相锁粉 #FF71CE 青 #01CDFE 紫 #B967FF。棕榈树与希腊柱当剪影贴 1～2 处。故障动画短促低频，尊重 prefers-reduced-motion。",
+      "en": "The grid horizon is the signature: a perspective container holding a rotateX(70deg) repeating-linear-gradient plane, faded at the bottom. Chrome type is a multi-stop grey or pink-cyan gradient via background-clip: text with a dark outline. Neon is multi-layer same-hue text-shadow; lock the hue set to pink #FF71CE, cyan #01CDFE, violet #B967FF. Palm and column silhouettes as one or two stickers. Glitch stays brief and rare, respecting prefers-reduced-motion."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用蒸汽波风格（Vaporwave）设计界面：霓虹粉紫青、透视网格地平线、镀铬 3D 字、棕榈树剪影与轻故障。",
+      "en": "Design an interface in Vaporwave style: neon pink-cyan-purple, a perspective grid horizon, retro 3D chrome type, palm silhouettes and light glitch."
+    },
+    "design": {
+      "zh": "蒸汽波设计规范：底色深紫粉渐变（#2B0F54 → #FF71CE 边缘）；网格地平线青 #01CDFE； 标题镀铬字（银灰多段或粉青渐变 background-clip: text）；按钮粉青描边胶囊 + 霓虹外发光； 棕榈树/罗马柱剪影点缀 1～2 处；扫描线 opacity ≤ 0.06； 深色模式本来就是主模式，浅色版只用于「商场软调」变体。",
+      "en": "\"Vaporwave spec: deep purple-pink gradient ground (#2B0F54 → #FF71CE at the edges); cyan #01CDFE grid horizon; chrome headings (multi-stop silver or pink-cyan via background-clip: text); pill buttons with pink-cyan strokes and neon glow; one or two palm/column silhouettes; scanline overlay at opacity ≤ 0.06; dark is the native mode — a light ground only appears in the mall-soft variant.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 MALL★95 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 MALL★95 原粉紫渐变、青色操作/描边、山景剪影面板及胶囊功能卡；不强制新增透视地平线、镀铬 background-clip 字、棕榈树/罗马柱或故障动画。楼层地图才使用现有横纵重复渐变网格、青色字光晕与三层色相变化；护照列表按正常文档流显示。\n\n复用当前 preview.tokens：背景 linear-gradient(180deg,#2B0F54 0%,#5B1E8C 45%,#FF71CE 100%)；前景 #FFE9FF；强调 #01CDFE / #0A0030；卡面 rgba(255,113,206,.12)；边框 rgba(1,205,254,.55)；圆角 999px；字体 Arial Black, Futura, Helvetica Neue, PingFang SC, sans-serif；卡影 0 0 16px rgba(1,205,254,.45)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n步入中庭进入楼层导览，选楼层查看音像、美食等场所，护照打卡且重复不计数；音像、美食广场、关于可返回对应导览，无真实消费。\n\n静态封面、详情演示与 /style-scenes/vaporwave/（英文 /en/style-scenes/vaporwave/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete MALL★95 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep MALL★95’s original pink/violet gradient, cyan actions/rims, mountain-silhouette panel and pill feature cards; do not add a mandatory perspective horizon, clipped chrome type, palm/column stickers or glitches. The floor map uses its existing orthogonal repeating-gradient grid, cyan text glow and three-floor hue shifts; passport entries remain in normal document flow.\n\nReuse current preview.tokens: background linear-gradient(180deg,#2B0F54 0%,#5B1E8C 45%,#FF71CE 100%); foreground #FFE9FF; accent #01CDFE / #0A0030; card rgba(255,113,206,.12); border rgba(1,205,254,.55); radius 999px; font Arial Black, Futura, Helvetica Neue, PingFang SC, sans-serif; card shadow 0 0 16px rgba(1,205,254,.45).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nEnter the atrium opens the floor guide. Choose floors for media and food venues; stamp a passport without counting duplicates. Media, Food court and About return to the matching guide; there are no real purchases.\n\nShare one renderer between static covers, the detail experience and /style-scenes/vaporwave/ (English /en/style-scenes/vaporwave/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 MALL★95 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 MALL★95 原粉紫渐变、青色操作/描边、山景剪影面板及胶囊功能卡；不强制新增透视地平线、镀铬 background-clip 字、棕榈树/罗马柱或故障动画。楼层地图才使用现有横纵重复渐变网格、青色字光晕与三层色相变化；护照列表按正常文档流显示。\n\n复用当前 preview.tokens：背景 linear-gradient(180deg,#2B0F54 0%,#5B1E8C 45%,#FF71CE 100%)；前景 #FFE9FF；强调 #01CDFE / #0A0030；卡面 rgba(255,113,206,.12)；边框 rgba(1,205,254,.55)；圆角 999px；字体 Arial Black, Futura, Helvetica Neue, PingFang SC, sans-serif；卡影 0 0 16px rgba(1,205,254,.45)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n完整页面操作：\n步入中庭进入楼层导览，选楼层查看音像、美食等场所，护照打卡且重复不计数；音像、美食广场、关于可返回对应导览，无真实消费。\n\n静态封面、详情演示与 /style-scenes/vaporwave/（英文 /en/style-scenes/vaporwave/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete MALL★95 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep MALL★95’s original pink/violet gradient, cyan actions/rims, mountain-silhouette panel and pill feature cards; do not add a mandatory perspective horizon, clipped chrome type, palm/column stickers or glitches. The floor map uses its existing orthogonal repeating-gradient grid, cyan text glow and three-floor hue shifts; passport entries remain in normal document flow.\n\nReuse current preview.tokens: background linear-gradient(180deg,#2B0F54 0%,#5B1E8C 45%,#FF71CE 100%); foreground #FFE9FF; accent #01CDFE / #0A0030; card rgba(255,113,206,.12); border rgba(1,205,254,.55); radius 999px; font Arial Black, Futura, Helvetica Neue, PingFang SC, sans-serif; card shadow 0 0 16px rgba(1,205,254,.45).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nFull-page operations:\nEnter the atrium opens the floor guide. Choose floors for media and food venues; stamp a passport without counting duplicates. Media, Food court and About return to the matching guide; there are no real purchases.\n\nShare one renderer between static covers, the detail experience and /style-scenes/vaporwave/ (English /en/style-scenes/vaporwave/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "镀铬渐变展示字 + 宽字距无衬线",
+      "en": "Chrome-gradient display type plus wide-tracked sans"
+    },
+    "color": {
+      "zh": "粉 #FF71CE × 青 #01CDFE × 紫 #B967FF",
+      "en": "Pink #FF71CE, cyan #01CDFE, violet #B967FF"
+    },
+    "border": {
+      "zh": "1px 霓虹描边，胶囊与直角混用",
+      "en": "1px neon rims, pills and hard corners mixed"
+    },
+    "shadow": {
+      "zh": "多层同色霓虹光晕",
+      "en": "Multi-layer same-hue neon glows"
+    },
+    "spacing": {
+      "zh": "地平线居中对称，元素悬浮网格上",
+      "en": "Centered symmetric horizon, elements floating over the grid"
+    },
+    "motion": {
+      "zh": "300–400ms 的霓虹渐亮与地平线滑动，尊重 prefers-reduced-motion",
+      "en": "300–400ms neon warm-up and horizon glide; honour prefers-reduced-motion"
+    },
+    "states": {
+      "zh": "hover 增强多层霓虹光晕；focus 用青色可见亮环；active 压低饱和；disabled 去光降透明；error 用粉红霓虹",
+      "en": "Hover strengthens the layered neon glow; focus shows a visible cyan ring; active lowers saturation; disabled loses glow and opacity; error uses pink neon"
+    }
+  },
+  "preview": {
+    "order": 25,
+    "keywords": {
+      "zh": "霓虹 · 网格 · 镀铬",
+      "en": "NEON NOSTALGIA"
+    },
+    "url": "mall.forever",
+    "scene": "generic",
+    "brand": "MALL★95",
+    "nav": [
+      {
+        "zh": "音像",
+        "en": "Media"
+      },
+      {
+        "zh": "美食广场",
+        "en": "Food court"
+      },
+      {
+        "zh": "关于",
+        "en": "About"
+      }
+    ],
+    "heroTitle": {
+      "zh": "WELCOME TO",
+      "en": "WELCOME TO"
+    },
+    "heroTitle2": {
+      "zh": "THE MALL",
+      "en": "THE MALL"
+    },
+    "heroSub": {
+      "zh": "消费主义的夏日永不落幕。",
+      "en": "An endless summer in a consumer paradise."
+    },
+    "cta": {
+      "zh": "步入中庭",
+      "en": "Enter the atrium"
+    },
+    "heroCaption": {
+      "zh": "GRID FOREVER. SUNSET NEVER ENDS.",
+      "en": "GRID FOREVER. SUNSET NEVER ENDS."
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "网格地平线",
+          "en": "Grid horizon"
+        },
+        "s": {
+          "zh": "透视无限远",
+          "en": "Perspective to infinity"
+        }
+      },
+      {
+        "t": {
+          "zh": "镀铬大字",
+          "en": "Chrome headlines"
+        },
+        "s": {
+          "zh": "液态金属",
+          "en": "Liquid metal"
+        }
+      },
+      {
+        "t": {
+          "zh": "霓虹粉青",
+          "en": "Neon pink and cyan"
+        },
+        "s": {
+          "zh": "招牌色",
+          "en": "Signature colors"
+        }
+      }
+    ],
+    "panel": "mountain",
+    "tokens": {
+      "bg": "linear-gradient(180deg,#2B0F54 0%,#5B1E8C 45%,#FF71CE 100%)",
+      "fg": "#FFE9FF",
+      "sub": "#C9A0E8",
+      "accent": "#01CDFE",
+      "accentFg": "#0A0030",
+      "card": "rgba(255,113,206,.12)",
+      "cardBorder": "rgba(1,205,254,.55)",
+      "radius": "999px",
+      "shadow": "0 0 16px rgba(1,205,254,.45)",
+      "font": "Arial Black, Futura, Helvetica Neue, PingFang SC, sans-serif",
+      "upper": true,
+      "heroSize": "26px"
+    }
+  }
+}

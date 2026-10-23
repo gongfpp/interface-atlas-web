@@ -1,0 +1,330 @@
+{
+  "id": "brutalism",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "粗野主义",
+    "en": "Brutalism"
+  },
+  "aliases": [
+    "粗野主义",
+    "野兽派网页",
+    "那种很糙的黑白网页",
+    "超大字不修边幅",
+    "原始网页风",
+    "brutalism",
+    "web brutalism",
+    "brutalist web design"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "用裸露的结构、超大字号和原始对比色强调「反精致」的网页视觉语言。黑白硬切、可见网格、 直角硬边，保留默认 HTML 的诚实感；信息直接砸向读者，拒绝圆角、渐变与装饰性打磨。",
+    "en": "Raw structure, oversized type and blunt contrast as an anti-polish web look. Monochrome cuts, visible grids and hard square edges keep the honesty of default HTML. Information hits the reader straight on; radii, gradients and decorative refinement are refused."
+  },
+  "use_when": [
+    {
+      "zh": "设计师作品集、独立出版、艺术机构官网，态度本身就是内容",
+      "en": "Designer portfolios, indie publishing and art institutions where attitude is the content"
+    },
+    {
+      "zh": "想在同质化的精致界面里用「不修边幅」制造强烈记忆点",
+      "en": "Standing out among polished sites through deliberate unpolish"
+    },
+    {
+      "zh": "低密度宣言页、活动页，超大字当海报使",
+      "en": "Low-density manifesto or campaign pages where type is the poster"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "金融、医疗、政务等需要稳重可信的操作型产品",
+      "en": "Finance, healthcare and civic tools that must feel trustworthy"
+    },
+    {
+      "zh": "长表单与高密度数据后台，硬切对比会加剧阅读疲劳",
+      "en": "Long forms and dense data backends — blunt contrast fatigues reading"
+    },
+    {
+      "zh": "需要传达精细、高端、呵护感的品牌叙事",
+      "en": "Brands that must feel refined, premium or caring"
+    }
+  ],
+  "tags": [
+    "brutalism",
+    "anti-design",
+    "typography",
+    "monochrome",
+    "raw"
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": {
+        "zh": "经典粗野",
+        "en": "Classic brutalism"
+      },
+      "note": {
+        "zh": "黑白灰硬切加单一刺眼强调色，保留默认浏览器气质",
+        "en": "Monochrome cuts with one harsh accent, default-browser honesty kept"
+      }
+    },
+    {
+      "id": "soft-brutalism",
+      "name": {
+        "zh": "软粗野",
+        "en": "Soft brutalism"
+      },
+      "note": {
+        "zh": "保留原始对比与超大字，但放宽圆角与留白",
+        "en": "Raw contrast and oversized type kept, radii and whitespace loosened"
+      }
+    },
+    {
+      "id": "typographic",
+      "name": {
+        "zh": "排印粗野",
+        "en": "Typographic brutalism"
+      },
+      "note": {
+        "zh": "字号、字重、行距承担全部表现力，几乎不用图形",
+        "en": "Size, weight and leading carry everything — almost no graphics"
+      }
+    }
+  ],
+  "applicable_components": [
+    "button",
+    "card",
+    "navbar"
+  ],
+  "applicable_pages": [
+    "landing-page",
+    "documentation"
+  ],
+  "related": [
+    {
+      "id": "neobrutalism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "minimalism",
+      "relation": "alternative_to"
+    },
+    {
+      "id": "swiss-style",
+      "relation": "similar_to"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    },
+    {
+      "id": "navbar",
+      "relation": "affects"
+    }
+  ],
+  "confusable": [
+    {
+      "id": "neobrutalism",
+      "note": {
+        "zh": "粗野主义是原始未修饰的网页，黑白为主；新粗野主义是糖果贴纸加粗黑边与硬阴影，色彩喧闹。",
+        "en": "Brutalism is raw, unstyled web in monochrome; neobrutalism is candy stickers with thick borders and hard shadows."
+      }
+    }
+  ],
+  "demo": {
+    "component": "brutalism",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "查看作品进入项目目录，打开项目内容并返回；WORK / ABOUT / NEWS / CONTACT 均有对应内容；联系表单校验后显示本地整理结果，不发送邮件。",
+      "en": "View our work opens the project index; inspect a project and return. WORK / ABOUT / NEWS / CONTACT reveal matching content; the contact form validates and shows a local summary without sending email."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 STUDIO VOID 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use STUDIO VOID’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 STUDIO VOID 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the STUDIO VOID task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Wikipedia — Brutalist architecture",
+      "url": "https://en.wikipedia.org/wiki/Brutalist_architecture"
+    },
+    {
+      "name": "NN/g — Brutalism and Antidesign",
+      "url": "https://www.nngroup.com/articles/brutalism-antidesign"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "font-size: clamp(2.5rem, 8vw, 6rem)",
+      "border-radius: 0",
+      "border: 2px solid currentColor",
+      "background-image: repeating-linear-gradient()",
+      "font-family: system-ui, monospace"
+    ],
+    "notes": {
+      "zh": "命门是「不修边幅」：圆角一律 0，阴影不用或只用硬边框替代，字体走系统栈或等宽体。 背景网格用 repeating-linear-gradient 画出来即可，不必真开 CSS Grid。强调色只留一个 （常见刺眼橙红 #FF3B00），其余全黑白。深色模式反转明度关系但保持同样的硬切。 不要为了「像」粗野而降低文字对比度或打乱阅读顺序。",
+      "en": "The point is unpolish: radii stay 0, shadows are replaced by hard borders, type is system or monospace. A repeating-linear-gradient fakes the visible grid — no need for real CSS Grid. Keep exactly one harsh accent (classically #FF3B00); everything else is black and white. Dark mode inverts the value relationship but keeps the same blunt cuts. Never lower text contrast or scramble reading order just to look brutalist."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用粗野主义风格（Brutalism）设计界面：黑白硬切、超大字号、可见网格、直角硬边，单一刺眼强调色，反精致。",
+      "en": "Design an interface in Brutalism style: monochrome cuts, oversized type, visible grid, hard square edges and one harsh accent — deliberately anti-polish."
+    },
+    "design": {
+      "zh": "粗野主义设计规范：底色纸白 #F5F5F0 或近黑；正文纯黑 #0A0A0A；强调色只用一个刺眼橙红 #FF3B00； 全部圆角 0；标题字号 clamp(2.5rem, 8vw, 6rem)，超粗无衬线或等宽；网格线 1px 实线可见； 按钮用 2px 实线框或纯色块反白，hover 反色即可不做位移；深色模式用近黑底配纸白字，强调色不变。",
+      "en": "\"Brutalism spec: paper white #F5F5F0 or near-black ground; pure black #0A0A0A body; exactly one harsh accent #FF3B00; zero radii everywhere; headings at clamp(2.5rem, 8vw, 6rem) in ultra-bold sans or mono; 1px visible grid rules; buttons as 2px outline or solid inverted blocks, hover just inverts colors; dark mode flips to near-black with paper-white type, accent unchanged.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 STUDIO VOID 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。\n\n延续 STUDIO VOID 的 40% / 28% / 29% 三栏（1.5% 间隙）：Atlas Heavy（Anton）压缩大字、工作室说明、黑白混凝土照片；主标题使用原 8.9cqw/.95，导航保留 2px 黑色底线。默认画面是近白与黑的直接对比、直角黑 CTA，而不是橙红背景网格模板。作品案例使用现有黑底白字与粗显示字；600px 以下三栏改单列，照片与白字叠层保持。variants 可用现有 #c52f1b 标题色，dark 不反色照片。\n\n查看作品进入项目目录，打开项目内容并返回；WORK / ABOUT / NEWS / CONTACT 均有对应内容；联系表单校验后显示本地整理结果，不发送邮件。\n\n静态封面、详情演示与 /style-scenes/brutalism/（英文 /en/style-scenes/brutalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete STUDIO VOID page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.\n\nContinue STUDIO VOID’s 40% / 28% / 29% columns with 1.5% gaps: Atlas Heavy (Anton) condensed display, studio copy and monochrome concrete photograph. Keep 8.9cqw/.95 display type and the navigation’s 2px black bottom rule. The default is direct near-white/black contrast with a square black CTA, not an orange-red background-grid template. Cases retain their black/white panels and heavy display; stack below 600px while preserving the photograph and overlaid white lettering. Variants may use the existing #c52f1b display accent; dark mode does not invert photographs.\n\nView our work opens the project index; inspect a project and return. WORK / ABOUT / NEWS / CONTACT reveal matching content; the contact form validates and shows a local summary without sending email.\n\nShare one renderer between static covers, the detail experience and /style-scenes/brutalism/ (English /en/style-scenes/brutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 STUDIO VOID 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。\n\n延续 STUDIO VOID 的 40% / 28% / 29% 三栏（1.5% 间隙）：Atlas Heavy（Anton）压缩大字、工作室说明、黑白混凝土照片；主标题使用原 8.9cqw/.95，导航保留 2px 黑色底线。默认画面是近白与黑的直接对比、直角黑 CTA，而不是橙红背景网格模板。作品案例使用现有黑底白字与粗显示字；600px 以下三栏改单列，照片与白字叠层保持。variants 可用现有 #c52f1b 标题色，dark 不反色照片。\n\n完整页面操作：\n查看作品进入项目目录，打开项目内容并返回；WORK / ABOUT / NEWS / CONTACT 均有对应内容；联系表单校验后显示本地整理结果，不发送邮件。\n\n静态封面、详情演示与 /style-scenes/brutalism/（英文 /en/style-scenes/brutalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete STUDIO VOID page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.\n\nContinue STUDIO VOID’s 40% / 28% / 29% columns with 1.5% gaps: Atlas Heavy (Anton) condensed display, studio copy and monochrome concrete photograph. Keep 8.9cqw/.95 display type and the navigation’s 2px black bottom rule. The default is direct near-white/black contrast with a square black CTA, not an orange-red background-grid template. Cases retain their black/white panels and heavy display; stack below 600px while preserving the photograph and overlaid white lettering. Variants may use the existing #c52f1b display accent; dark mode does not invert photographs.\n\nFull-page operations:\nView our work opens the project index; inspect a project and return. WORK / ABOUT / NEWS / CONTACT reveal matching content; the contact form validates and shows a local summary without sending email.\n\nShare one renderer between static covers, the detail experience and /style-scenes/brutalism/ (English /en/style-scenes/brutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "超粗无衬线或等宽体，字号断崖式对比",
+      "en": "Ultra-bold sans or mono with cliff-edge size contrast"
+    },
+    "color": {
+      "zh": "纸白 × 纯黑 × 单一刺眼橙红 #FF3B00",
+      "en": "Paper white, pure black and one harsh orange-red #FF3B00"
+    },
+    "border": {
+      "zh": "2px 实线直角硬边，圆角一律 0",
+      "en": "2px solid square edges, radius always 0"
+    },
+    "shadow": {
+      "zh": "不用投影，需要层级时用反色块或粗描边",
+      "en": "No shadows; inverted blocks or thick strokes instead"
+    },
+    "spacing": {
+      "zh": "紧贴网格线的硬切排布，留白大开大合",
+      "en": "Hard cuts on the grid, whitespace in big blunt blocks"
+    },
+    "motion": {
+      "zh": "近似瞬时，无过渡",
+      "en": "Near-instant, no transition"
+    },
+    "states": {
+      "zh": "hover 直接反色；focus 用 2px 黑色实线粗框；active 换成刺眼橙红 #FF3B00；disabled 降为 50% 灰；error 用 #FF3B00 实色块",
+      "en": "Hover inverts immediately; focus shows a 2px solid black frame; active switches to harsh orange-red #FF3B00; disabled drops to 50% grey; error uses a solid #FF3B00 block"
+    }
+  },
+  "preview": {
+    "order": 8,
+    "keywords": {
+      "zh": "硬切 · 超大字 · 反精致",
+      "en": "RAW STRUCTURE"
+    },
+    "url": "raw.studio",
+    "scene": "generic",
+    "brand": "STUDIO VOID",
+    "nav": [
+      {
+        "zh": "作品",
+        "en": "Work"
+      },
+      {
+        "zh": "方法",
+        "en": "Approach"
+      },
+      {
+        "zh": "关于",
+        "en": "About"
+      }
+    ],
+    "heroTitle": {
+      "zh": "不修边幅",
+      "en": "Unpolished"
+    },
+    "heroTitle2": {
+      "zh": "也是一种设计",
+      "en": "by design"
+    },
+    "heroSub": {
+      "zh": "裸露结构，拒绝打磨。",
+      "en": "Exposed structure. Deliberately unpolished."
+    },
+    "cta": {
+      "zh": "看看作品 →",
+      "en": "View work →"
+    },
+    "heroCaption": {
+      "zh": "NO RADIUS. NO GRADIENT. NO MERCY.",
+      "en": "NO RADIUS. NO GRADIENT. NO MERCY."
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "极端对比",
+          "en": "Extreme contrast"
+        },
+        "s": {
+          "zh": "黑白硬切",
+          "en": "Hard cuts in black and white"
+        }
+      },
+      {
+        "t": {
+          "zh": "裸露结构",
+          "en": "Exposed structure"
+        },
+        "s": {
+          "zh": "网格可见",
+          "en": "A visible grid"
+        }
+      },
+      {
+        "t": {
+          "zh": "超大字号",
+          "en": "Oversized type"
+        },
+        "s": {
+          "zh": "标题即海报",
+          "en": "Headlines as posters"
+        }
+      }
+    ],
+    "panel": "shapes",
+    "tokens": {
+      "bg": "#F5F5F0",
+      "fg": "#0A0A0A",
+      "sub": "#333333",
+      "accent": "#FF3B00",
+      "accentFg": "#FFFFFF",
+      "card": "#FFFFFF",
+      "cardBorder": "#0A0A0A",
+      "radius": "0px",
+      "font": "Helvetica Neue, Arial, Helvetica, sans-serif",
+      "upper": true,
+      "heroSize": "28px"
+    }
+  }
+}

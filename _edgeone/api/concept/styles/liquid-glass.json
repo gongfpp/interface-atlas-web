@@ -1,0 +1,327 @@
+{
+  "id": "liquid-glass",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "液态玻璃",
+    "en": "Liquid Glass"
+  },
+  "aliases": [
+    "液态玻璃",
+    "苹果新玻璃",
+    "厚玻璃折射",
+    "玻璃透镜效果",
+    "Liquid Glass",
+    "refractive glass UI"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "用厚折射玻璃层、镜面高光与液体形变表示「功能浮层」的视觉语言。玻璃像一块厚透镜， 折射底下的内容并反射环境光，边缘带 lensing 变形；强调材质的体积与流动性。",
+    "en": "Thick refractive glass layers, specular highlights and liquid morphing as a functional overlay look. The glass is a thick lens — it bends content beneath and reflects the room, with edge lensing distortion. Volume and fluidity of the material are the point."
+  },
+  "use_when": [
+    {
+      "zh": "需要与系统级导航 控制条 浮层保持同一材质语言",
+      "en": "Navigation, toolbars and overlays that must share the system material language"
+    },
+    {
+      "zh": "底下是彩色照片或丰富内容，折射透出层次才有意义",
+      "en": "Over colorful photos or rich content worth refracting"
+    },
+    {
+      "zh": "想要「厚玻璃片」的体积感，而不是一层薄雾",
+      "en": "When you want the volume of a thick glass slab, not a thin veil"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "长文本密集区，折射与高光会持续干扰阅读",
+      "en": "Long-form reading where refraction and highlights keep interrupting"
+    },
+    {
+      "zh": "低端设备与性能敏感场景，实时折射开销大",
+      "en": "Performance-sensitive or older devices — live refraction is expensive"
+    },
+    {
+      "zh": "只需要轻量磨砂分层，那用玻璃拟态更省",
+      "en": "Light frosted layering only — glassmorphism is cheaper and clearer"
+    }
+  ],
+  "tags": [
+    "glass",
+    "refraction",
+    "material",
+    "depth",
+    "apple"
+  ],
+  "variants": [
+    {
+      "id": "sheet",
+      "name": {
+        "zh": "片状透镜",
+        "en": "Sheet lens"
+      },
+      "note": {
+        "zh": "大面积厚玻璃板，边缘 lensing 明显",
+        "en": "Large thick slabs with obvious edge lensing"
+      }
+    },
+    {
+      "id": "capsule",
+      "name": {
+        "zh": "胶囊按钮",
+        "en": "Button capsule"
+      },
+      "note": {
+        "zh": "小尺寸胶囊控制件，镜面高光集中",
+        "en": "Small capsule controls with concentrated speculars"
+      }
+    },
+    {
+      "id": "full-panel",
+      "name": {
+        "zh": "全幅面板",
+        "en": "Full panel"
+      },
+      "note": {
+        "zh": "侧栏 系统条级别大块玻璃，吸收环境色",
+        "en": "Sidebar- or toolbar-scale glass that absorbs ambient color"
+      }
+    }
+  ],
+  "applicable_components": [
+    "navbar",
+    "modal",
+    "drawer",
+    "popover",
+    "button"
+  ],
+  "related": [
+    {
+      "id": "glassmorphism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "skeuomorphism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "aurora",
+      "relation": "used_with"
+    },
+    {
+      "id": "navbar",
+      "relation": "affects"
+    },
+    {
+      "id": "modal",
+      "relation": "affects"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    }
+  ],
+  "confusable": [
+    {
+      "id": "glassmorphism",
+      "note": {
+        "zh": "玻璃拟态是薄磨砂模糊（backdrop blur 一片雾）；液态玻璃是厚折射透镜，边缘变形并带镜面高光。",
+        "en": "Glassmorphism is thin frosted blur (a veil of blur); liquid-glass is a thick refractive lens with edge distortion and speculars."
+      }
+    }
+  ],
+  "demo": {
+    "component": "liquid-glass",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "体验折射进入材质试样，调整材质、厚度、角度实时查看变化并保存配方；光学、材质、价格各有内容，明确高光折射只是网页近似，并非真实光学模拟。",
+      "en": "Explore refraction opens material sampling. Adjust material, thickness and angle, preview live and save a recipe. Optics, Materials and Pricing reveal content; refraction/speculars are web approximations, not physical optical simulation."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 Lumen 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use Lumen’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 Lumen 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the Lumen task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Apple — Liquid Glass technology overview",
+      "url": "https://developer.apple.com/documentation/technologyoverviews/liquid-glass"
+    },
+    {
+      "name": "WWDC25 — Meet Liquid Glass",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/219"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "backdrop-filter: blur() saturate()",
+      "box-shadow: inset 高光 + 外投影",
+      "border: 1px solid rgba(255,255,255,0.5)",
+      "background: rgba(255,255,255,0.12)",
+      "border-radius: 999px"
+    ],
+    "notes": {
+      "zh": "厚度感来自三层：低透明填充 + backdrop-filter blur(20px) saturate(180%) + 顶部 1px 镜面高光内阴影 与底部暗边内阴影。边缘 lensing 近似用较厚的半透明白描边 + 外圈极浅放大后的底色。 真折射需要 SVG filter 或 canvas，Web 里通常用高光与饱和度补偿暗示。玻璃必须浮在彩色内容上。 深色模式用深色填充，高光保持。",
+      "en": "Thickness comes from three layers: low-opacity fill + backdrop-filter blur(20px) saturate(180%) + an inset top specular and a darker inset bottom edge. Edge lensing is approximated with a thicker translucent white rim plus a faint tint of the magnified backdrop. True refraction needs SVG filters or canvas; on the web, speculars and saturation sell it. Glass must float over colorful content. Dark mode darkens the fill and keeps the speculars."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用液态玻璃风格（Liquid Glass）设计界面：厚折射玻璃浮层、镜面高光、边缘 lensing 变形，浮在彩色内容之上。",
+      "en": "Design an interface in Liquid Glass style: thick refractive glass overlays with specular highlights and edge lensing, floating above colorful content."
+    },
+    "design": {
+      "zh": "液态玻璃设计规范：底层放彩色照片或渐变；玻璃填充 rgba(255,255,255,0.12) 深色模式 rgba(20,20,30,0.35)； backdrop-filter blur(20px) saturate(180%)；顶部 inset 0 1px 0 rgba(255,255,255,0.7) 镜面高光， 底部 inset 0 -1px 0 rgba(0,0,0,0.15)；1px 半透明白描边；圆角 20px 或胶囊 999px； 控制件浮在独立功能层，内容区保持通透。",
+      "en": "\"Liquid Glass spec: colorful photo or gradient beneath; glass filled rgba(255,255,255,0.12) or rgba(20,20,30,0.35) in dark; backdrop-filter blur(20px) saturate(180%); inset 0 1px 0 rgba(255,255,255,0.7) top specular and inset 0 -1px 0 rgba(0,0,0,0.15) bottom edge; 1px translucent white rim; radii 20px or 999px pills; controls float on their own functional layer while content stays clear.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 Lumen 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台使用 36px 圆角试样、网格/条纹/圆环光学背景与双层高光边缘。Clear 按厚度的 0.22 倍轻微模糊，Frost 按厚度加 12px 柔化，Prism 按厚度的 0.5 倍模糊并增强彩色反射；厚度同步改变浮起距离和阴影，环境光角度同时改变底色与镜面光带，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。\n\n复用当前 preview.tokens：背景 linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%)；前景 #FFFFFF；强调 rgba(255,255,255,.92) / #1A1030；卡面 rgba(255,255,255,.14)；边框 rgba(255,255,255,.5)；圆角 22px；字体 SF Pro Display, Helvetica Neue, PingFang SC, sans-serif；卡影 inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n体验折射进入材质试样，调整材质、厚度、角度实时查看变化并保存配方；光学、材质、价格各有内容，明确高光折射只是网页近似，并非真实光学模拟。\n\n静态封面、详情演示与 /style-scenes/liquid-glass/（英文 /en/style-scenes/liquid-glass/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete Lumen page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep Lumen’s peach/violet/blue gradient, CSS mountain scene, 22px glass cards, blur(20px) saturate(180%) and upper highlight/lower edge. The workbench uses a 36px specimen, a grid/stripe/ring optical backdrop and double highlight rims. Clear blurs at 0.22 times depth, Frost at depth plus 12px, and Prism at 0.5 times depth with colored reflections. Depth also changes elevation/shadow; ambient angle changes the background and specular band, without new SVG displacement refraction or floating navigation. Depth/highlights/refraction remain the current readable CSS approximation.\n\nReuse current preview.tokens: background linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%); foreground #FFFFFF; accent rgba(255,255,255,.92) / #1A1030; card rgba(255,255,255,.14); border rgba(255,255,255,.5); radius 22px; font SF Pro Display, Helvetica Neue, PingFang SC, sans-serif; card shadow inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nExplore refraction opens material sampling. Adjust material, thickness and angle, preview live and save a recipe. Optics, Materials and Pricing reveal content; refraction/speculars are web approximations, not physical optical simulation.\n\nShare one renderer between static covers, the detail experience and /style-scenes/liquid-glass/ (English /en/style-scenes/liquid-glass/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 Lumen 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台使用 36px 圆角试样、网格/条纹/圆环光学背景与双层高光边缘。Clear 按厚度的 0.22 倍轻微模糊，Frost 按厚度加 12px 柔化，Prism 按厚度的 0.5 倍模糊并增强彩色反射；厚度同步改变浮起距离和阴影，环境光角度同时改变底色与镜面光带，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。\n\n复用当前 preview.tokens：背景 linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%)；前景 #FFFFFF；强调 rgba(255,255,255,.92) / #1A1030；卡面 rgba(255,255,255,.14)；边框 rgba(255,255,255,.5)；圆角 22px；字体 SF Pro Display, Helvetica Neue, PingFang SC, sans-serif；卡影 inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n完整页面操作：\n体验折射进入材质试样，调整材质、厚度、角度实时查看变化并保存配方；光学、材质、价格各有内容，明确高光折射只是网页近似，并非真实光学模拟。\n\n静态封面、详情演示与 /style-scenes/liquid-glass/（英文 /en/style-scenes/liquid-glass/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete Lumen page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep Lumen’s peach/violet/blue gradient, CSS mountain scene, 22px glass cards, blur(20px) saturate(180%) and upper highlight/lower edge. The workbench uses a 36px specimen, a grid/stripe/ring optical backdrop and double highlight rims. Clear blurs at 0.22 times depth, Frost at depth plus 12px, and Prism at 0.5 times depth with colored reflections. Depth also changes elevation/shadow; ambient angle changes the background and specular band, without new SVG displacement refraction or floating navigation. Depth/highlights/refraction remain the current readable CSS approximation.\n\nReuse current preview.tokens: background linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%); foreground #FFFFFF; accent rgba(255,255,255,.92) / #1A1030; card rgba(255,255,255,.14); border rgba(255,255,255,.5); radius 22px; font SF Pro Display, Helvetica Neue, PingFang SC, sans-serif; card shadow inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nFull-page operations:\nExplore refraction opens material sampling. Adjust material, thickness and angle, preview live and save a recipe. Optics, Materials and Pricing reveal content; refraction/speculars are web approximations, not physical optical simulation.\n\nShare one renderer between static covers, the detail experience and /style-scenes/liquid-glass/ (English /en/style-scenes/liquid-glass/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "系统无衬线，玻璃上的字重略轻",
+      "en": "System sans, slightly lighter weight on glass"
+    },
+    "color": {
+      "zh": "由底层内容决定玻璃色相，高光近白",
+      "en": "Hue inherited from the content beneath, speculars near-white"
+    },
+    "border": {
+      "zh": "1px 半透明白描边，暗示折射边缘",
+      "en": "1px translucent white rims suggesting refraction edges"
+    },
+    "shadow": {
+      "zh": "顶部镜面内高光 + 大范围柔和外投影",
+      "en": "Top inset specular plus a wide soft outer shadow"
+    },
+    "spacing": {
+      "zh": "20px+ 圆角或胶囊，控制件独立浮层",
+      "en": "20px+ radii or pills, controls on a separate floating layer"
+    },
+    "motion": {
+      "zh": "250–400ms ease-out 的折射位移与高光滑动，尊重 prefers-reduced-motion",
+      "en": "250–400ms ease-out refraction shifts and specular slide; honour prefers-reduced-motion"
+    },
+    "states": {
+      "zh": "hover 高光沿边缘滑动并轻微放大；focus 用白色可见亮环；active 压低折射；disabled 降透明去高光；error 用红调折射且仅淡入颜色",
+      "en": "Hover slides the specular along the rim and scales slightly; focus shows a visible white ring; active lowers refraction; disabled loses opacity and speculars; error tints refraction red, fading colour only"
+    }
+  },
+  "preview": {
+    "order": 23,
+    "keywords": {
+      "zh": "厚玻璃 · 折射 · 高光",
+      "en": "THICK REFRACTIVE GLASS"
+    },
+    "url": "lumen.glass",
+    "scene": "aurora",
+    "brand": "Lumen",
+    "nav": [
+      {
+        "zh": "光学",
+        "en": "Optics"
+      },
+      {
+        "zh": "材质",
+        "en": "Materials"
+      },
+      {
+        "zh": "价格",
+        "en": "Pricing"
+      }
+    ],
+    "heroTitle": {
+      "zh": "让界面",
+      "en": "Let the interface"
+    },
+    "heroTitle2": {
+      "zh": "变成一块厚玻璃",
+      "en": "become thick glass"
+    },
+    "heroSub": {
+      "zh": "折射内容，反射环境，边缘会流动。",
+      "en": "Refract content, reflect the surroundings and let edges flow."
+    },
+    "cta": {
+      "zh": "体验折射 →",
+      "en": "Explore refraction →"
+    },
+    "heroCaption": {
+      "zh": "REFRACT. REFLECT. MORPH.",
+      "en": "REFRACT. REFLECT. MORPH."
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "厚折射",
+          "en": "Deep refraction"
+        },
+        "s": {
+          "zh": "像透镜",
+          "en": "Lens-like depth"
+        }
+      },
+      {
+        "t": {
+          "zh": "镜面高光",
+          "en": "Specular highlights"
+        },
+        "s": {
+          "zh": "顶边一线光",
+          "en": "A bright rim of light"
+        }
+      },
+      {
+        "t": {
+          "zh": "边缘流动",
+          "en": "Flowing edges"
+        },
+        "s": {
+          "zh": "lensing 变形",
+          "en": "Lensing distortion"
+        }
+      }
+    ],
+    "panel": "mountain",
+    "tokens": {
+      "bg": "linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%)",
+      "fg": "#FFFFFF",
+      "sub": "rgba(255,255,255,.78)",
+      "accent": "rgba(255,255,255,.92)",
+      "accentFg": "#1A1030",
+      "card": "rgba(255,255,255,.14)",
+      "cardBorder": "rgba(255,255,255,.5)",
+      "radius": "22px",
+      "blur": "blur(20px) saturate(180%)",
+      "shadow": "inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18)",
+      "font": "SF Pro Display, Helvetica Neue, PingFang SC, sans-serif",
+      "heroSize": "24px"
+    }
+  }
+}

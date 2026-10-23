@@ -1,0 +1,321 @@
+{
+  "id": "cyberpunk",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "赛博朋克",
+    "en": "Cyberpunk"
+  },
+  "aliases": [
+    "赛博朋克",
+    "赛博风格",
+    "霓虹故障风",
+    "黑底荧光紫青",
+    "数字废土风",
+    "黑客终端风",
+    "Cyberpunk UI",
+    "Neon Glitch"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "\"High tech, low life\" 的视觉语言：近黑的深底上，霓虹青与品红发光描边切割 界面，等宽字体与终端符号贯穿，扫描线 故障位移 毛刺纹理营造信息系统过载 的压抑未来感。光是从黑暗里切出来的，界面像一台被劫持的显示器。",
+    "en": "\"High tech, low life\" as a visual language: neon cyan and magenta edges cut through a near-black ground, monospace type and terminal glyphs run throughout, and scanlines plus glitch offsets suggest overloaded systems. Light is sliced out of darkness — the screen feels hijacked."
+  },
+  "use_when": [
+    {
+      "zh": "游戏 科幻项目 黑客主题社区，风格即世界观",
+      "en": "Games, sci-fi projects and hacker communities where style is worldbuilding"
+    },
+    {
+      "zh": "音乐 夜店 电竞品牌，需要强烈的亚文化信号",
+      "en": "Music, club and esports brands signaling subculture"
+    },
+    {
+      "zh": "深色为主的产品，可低成本叠加霓虹点缀",
+      "en": "Already-dark products that can layer neon accents cheaply"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "无障碍要求高的正文阅读，荧光色对比闪烁伤眼",
+      "en": "Accessibility-critical reading — neon flicker and contrast hurt"
+    },
+    {
+      "zh": "企业级正式场景，亚文化气质会削弱信任",
+      "en": "Enterprise contexts where subculture erodes trust"
+    },
+    {
+      "zh": "浅色底为主的现有体系，硬切赛博朋克成本高",
+      "en": "Existing light-theme systems — a hard pivot is costly"
+    }
+  ],
+  "tags": [
+    "cyberpunk",
+    "neon",
+    "glitch",
+    "terminal",
+    "dystopia"
+  ],
+  "variants": [
+    {
+      "id": "neon-city",
+      "name": {
+        "zh": "霓虹都市",
+        "en": "Neon City"
+      },
+      "note": {
+        "zh": "青品红双色霓虹，攻壳机动队式夜景",
+        "en": "Cyan-magenta duo like a Ghost in the Shell nightscape"
+      }
+    },
+    {
+      "id": "terminal",
+      "name": {
+        "zh": "终端黑客",
+        "en": "Terminal Hacker"
+      },
+      "note": {
+        "zh": "单色荧光绿或琥珀，CRT 磷光屏",
+        "en": "Monochrome phosphor green or amber on CRT"
+      }
+    },
+    {
+      "id": "glitch",
+      "name": {
+        "zh": "故障艺术",
+        "en": "Glitch Art"
+      },
+      "note": {
+        "zh": "RGB 错位位移与撕裂条纹为主角",
+        "en": "RGB channel offsets and datamosh strips take over"
+      }
+    }
+  ],
+  "applicable_components": [
+    "input",
+    "button",
+    "card",
+    "command-palette"
+  ],
+  "related": [
+    {
+      "id": "y2k",
+      "relation": "similar_to"
+    },
+    {
+      "id": "retro-futurism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "neobrutalism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "input",
+      "relation": "affects"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "cyberpunk",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "接入网络按所选街区离线接入并可断开；勾选/取消装备后 HUD 同步显示街区、连接和装备状态。街区、装备、黑市、SYS 状态各有本地内容，不真实联网或交易。",
+      "en": "Connect to the network establishes an offline district connection and can disconnect. Toggle gear to update the district, connection and loadout HUD. Districts, Gear, Black market and SYS status reveal local content without real networking or trades."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 NEON://CITY 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use NEON://CITY’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 NEON://CITY 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the NEON://CITY task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Wikipedia — Cyberpunk derivatives",
+      "url": "https://en.wikipedia.org/wiki/Cyberpunk_derivatives"
+    },
+    {
+      "name": "MDN — CSS animations",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "box-shadow: 0 0 8px #0ff",
+      "text-shadow",
+      "clip-path",
+      "@keyframes glitch",
+      "repeating-linear-gradient"
+    ],
+    "notes": {
+      "zh": "深底用 #0a0a12～#12101f；霓虹色必须同时给发光（box-shadow/text-shadow 0 0 8px 同色）与实体描边，只有光晕会糊。面板用 clip-path 切角（单角或 对角切 8～12px）代替圆角。扫描线用 repeating-linear-gradient 叠加层， opacity 控制在 0.06 以下。故障动画是文本双层 RGB 错位，播放频率低、 时长短，并尊重 prefers-reduced-motion。",
+      "en": "Ground runs #0a0a12–#12101f. Neon needs both glow (box-shadow/text-shadow 0 0 8px in the same hue) and a solid border — glow alone smears. Replace radii with clip-path corner cuts (8–12px, one or opposite corners). Scanlines are a repeating-linear-gradient overlay kept under 0.06 opacity. Glitch is two-layer RGB offset text — short bursts, rare, respecting prefers-reduced-motion."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用赛博朋克风格（Cyberpunk）设计界面：近黑深底、霓虹青与品红发光描边、 切角面板、等宽终端字体，辅以扫描线与故障效果。",
+      "en": "\"Design an interface in Cyberpunk style: near-black ground, glowing neon cyan and magenta edges, corner-cut panels, monospace terminal type, scanlines and glitch accents.\""
+    },
+    "design": {
+      "zh": "赛博朋克设计规范：底色 #0d0b14；主霓虹青 #00E5FF、辅品红 #FF2E88，发光 半径 8px 内；面板用 clip-path 切角代替圆角，1px 霓虹描边 + 同色微光； 文字用等宽字体（JetBrains Mono/系统 mono），标题可双层 RGB 错位；扫描线 叠层 opacity 0.05；交互元素 hover 时描边加亮；深浅模式仅做深色（浅色 底违背风格本体）。",
+      "en": "\"Cyberpunk spec: ground #0d0b14; neon cyan #00E5FF primary, magenta #FF2E88 secondary, glow radius under 8px; corner-cut panels via clip-path with 1px neon borders and faint glow; monospace type (JetBrains Mono/system mono); headings with two-layer RGB offset; scanline overlay at 0.05 opacity; hover brightens borders. Dark only — a light ground contradicts the style.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 NEON://CITY 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 NEON://CITY 的深夜蓝黑底、青色描边/微光、等宽大写字、右侧柱形图与三张终端卡。面板沿用现有 4px 小圆角，不额外裁切 12px 角或叠扫描线/故障动画。工作台保持离线终端与青色信号柱，状态由真实 HUD 文本和装备复选框表达。\n\n复用当前 preview.tokens：背景 #0B0F1A；前景 #EAF6FF；强调 #00E5FF / #050810；卡面 rgba(0,229,255,.06)；边框 rgba(0,229,255,.35)；圆角 4px；字体 'SF Mono', Menlo, monospace；卡影 0 0 14px rgba(0,229,255,.25)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n接入网络按所选街区离线接入并可断开；勾选/取消装备后 HUD 同步显示街区、连接和装备状态。街区、装备、黑市、SYS 状态各有本地内容，不真实联网或交易。\n\n静态封面、详情演示与 /style-scenes/cyberpunk/（英文 /en/style-scenes/cyberpunk/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete NEON://CITY page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep NEON://CITY’s navy-black ground, cyan rims/glow, uppercase monospace, right-side bar chart and terminal cards. Panels retain their existing 4px radius rather than new 12px cuts, scanlines or glitch overlays. Continue with the offline terminal and cyan signal bars, expressing state through real HUD text and gear checkboxes.\n\nReuse current preview.tokens: background #0B0F1A; foreground #EAF6FF; accent #00E5FF / #050810; card rgba(0,229,255,.06); border rgba(0,229,255,.35); radius 4px; font 'SF Mono', Menlo, monospace; card shadow 0 0 14px rgba(0,229,255,.25).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nConnect to the network establishes an offline district connection and can disconnect. Toggle gear to update the district, connection and loadout HUD. Districts, Gear, Black market and SYS status reveal local content without real networking or trades.\n\nShare one renderer between static covers, the detail experience and /style-scenes/cyberpunk/ (English /en/style-scenes/cyberpunk/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 NEON://CITY 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 NEON://CITY 的深夜蓝黑底、青色描边/微光、等宽大写字、右侧柱形图与三张终端卡。面板沿用现有 4px 小圆角，不额外裁切 12px 角或叠扫描线/故障动画。工作台保持离线终端与青色信号柱，状态由真实 HUD 文本和装备复选框表达。\n\n复用当前 preview.tokens：背景 #0B0F1A；前景 #EAF6FF；强调 #00E5FF / #050810；卡面 rgba(0,229,255,.06)；边框 rgba(0,229,255,.35)；圆角 4px；字体 'SF Mono', Menlo, monospace；卡影 0 0 14px rgba(0,229,255,.25)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n完整页面操作：\n接入网络按所选街区离线接入并可断开；勾选/取消装备后 HUD 同步显示街区、连接和装备状态。街区、装备、黑市、SYS 状态各有本地内容，不真实联网或交易。\n\n静态封面、详情演示与 /style-scenes/cyberpunk/（英文 /en/style-scenes/cyberpunk/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete NEON://CITY page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep NEON://CITY’s navy-black ground, cyan rims/glow, uppercase monospace, right-side bar chart and terminal cards. Panels retain their existing 4px radius rather than new 12px cuts, scanlines or glitch overlays. Continue with the offline terminal and cyan signal bars, expressing state through real HUD text and gear checkboxes.\n\nReuse current preview.tokens: background #0B0F1A; foreground #EAF6FF; accent #00E5FF / #050810; card rgba(0,229,255,.06); border rgba(0,229,255,.35); radius 4px; font 'SF Mono', Menlo, monospace; card shadow 0 0 14px rgba(0,229,255,.25).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nFull-page operations:\nConnect to the network establishes an offline district connection and can disconnect. Toggle gear to update the district, connection and loadout HUD. Districts, Gear, Black market and SYS status reveal local content without real networking or trades.\n\nShare one renderer between static covers, the detail experience and /style-scenes/cyberpunk/ (English /en/style-scenes/cyberpunk/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "等宽字体 + 霓虹发光标题",
+      "en": "Monospace type with neon glow titles"
+    },
+    "color": {
+      "zh": "深夜蓝黑 #0B0F1A × 青色 #00E5FF",
+      "en": "Night navy #0B0F1A with cyan #00E5FF"
+    },
+    "border": {
+      "zh": "1px 霓虹青色边框，小圆角",
+      "en": "1px neon cyan borders, tiny radius"
+    },
+    "shadow": {
+      "zh": "青色霓虹光晕 box-shadow",
+      "en": "Cyan neon glow shadows"
+    },
+    "spacing": {
+      "zh": "终端式紧凑排布",
+      "en": "Terminal-dense layout"
+    },
+    "motion": {
+      "zh": "120ms 的霓虹瞬时点亮过渡，尊重 prefers-reduced-motion",
+      "en": "120ms neon ignition transitions; honour prefers-reduced-motion"
+    },
+    "states": {
+      "zh": "hover 增亮青色霓虹；focus 用 2px 青色可见描边；active 反向闪烁一次；disabled 降为暗灰去光；error 用洋红霓虹",
+      "en": "Hover brightens the cyan neon; focus shows a visible 2px cyan outline; active flickers inverted once; disabled fades to dim grey without glow; error uses magenta neon"
+    }
+  },
+  "preview": {
+    "order": 14,
+    "keywords": {
+      "en": "NEON NIGHTS",
+      "zh": "霓虹 · 夜色 · 终端"
+    },
+    "url": "https://neon.city:2077",
+    "scene": "generic",
+    "brand": "NEON://CITY",
+    "nav": [
+      {
+        "zh": "街区",
+        "en": "Districts"
+      },
+      {
+        "zh": "装备",
+        "en": "Gear"
+      },
+      {
+        "zh": "黑市",
+        "en": "Black market"
+      }
+    ],
+    "navExt": [
+      {
+        "zh": "[SYS:OK]",
+        "en": "[SYS:OK]"
+      }
+    ],
+    "heroTitle": {
+      "zh": "WAKE UP,",
+      "en": "WAKE UP,"
+    },
+    "heroTitle2": {
+      "zh": "SAMURAI",
+      "en": "SAMURAI"
+    },
+    "heroSub": {
+      "zh": "霓虹永不熄灭。",
+      "en": "The neon never sleeps."
+    },
+    "cta": {
+      "zh": "接入网络",
+      "en": "Connect to the network"
+    },
+    "heroCaption": {
+      "zh": "高对比 · 霓虹边框 · 全息投影",
+      "en": "High contrast · Neon borders · Holograms"
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "义体改造",
+          "en": "Cybernetic upgrades"
+        },
+        "s": {
+          "zh": "+15% 神经速率",
+          "en": "+15% neural speed"
+        }
+      },
+      {
+        "t": {
+          "zh": "黑客接口",
+          "en": "Hacking interface"
+        },
+        "s": {
+          "zh": "破防只要 3 秒",
+          "en": "A breach in just 3 seconds"
+        }
+      },
+      {
+        "t": {
+          "zh": "黑市信用",
+          "en": "Black-market credits"
+        },
+        "s": {
+          "zh": "匿名交易",
+          "en": "Anonymous trading"
+        }
+      }
+    ],
+    "panel": "chart",
+    "tokens": {
+      "bg": "#0B0F1A",
+      "fg": "#EAF6FF",
+      "sub": "#5B7A94",
+      "accent": "#00E5FF",
+      "accentFg": "#050810",
+      "card": "rgba(0,229,255,.06)",
+      "cardBorder": "rgba(0,229,255,.35)",
+      "radius": "4px",
+      "shadow": "0 0 14px rgba(0,229,255,.25)",
+      "font": "'SF Mono', Menlo, monospace",
+      "upper": true,
+      "heroSize": "22px"
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "id": "neobrutalism",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "新粗野主义",
+    "en": "Neobrutalism"
+  },
+  "aliases": [
+    "新粗野主义",
+    "粗野风",
+    "大黑边风格",
+    "硬阴影风格",
+    "新残酷主义",
+    "Neo-brutalism",
+    "Brutalist Web Design"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "用粗黑描边、高饱和撞色与生硬的偏移实心阴影构成的高对比视觉语言：元素像彩色 贴纸一样直接砸在页面上，配合夸张的圆角与醒目标签。它刻意拒绝精致与圆滑， 以\"丑得理直气壮\"的态度换取强烈的记忆点与年轻个性。",
+    "en": "A loud visual language of thick black outlines, saturated clashing colors and hard offset shadows: elements sit on the page like bold stickers, paired with chunky radii and punchy badges. It deliberately rejects polish and subtlety, trading refinement for instant recognition and a rebellious, playful voice."
+  },
+  "use_when": [
+    {
+      "zh": "面向年轻群体的品牌 活动 开发者工具官网",
+      "en": "Youth-oriented brands, campaigns and developer-tool landing pages"
+    },
+    {
+      "zh": "想在千篇一律的精致界面里制造强烈记忆点",
+      "en": "Standing out with strong personality among polished sites"
+    },
+    {
+      "zh": "营销页 作品集 创意社区等低密度高表现力场景",
+      "en": "Marketing pages, portfolios and creative communities"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "金融 医疗 企业级产品等需要稳重可信的场景",
+      "en": "Finance, healthcare or enterprise products that must feel trustworthy"
+    },
+    {
+      "zh": "长时间使用的生产力工具，高对比装饰易造成视觉疲劳",
+      "en": "Long-session productivity tools — loud decoration fatigues"
+    },
+    {
+      "zh": "内容密集 数据密集的界面，粗边与大色块挤占信息空间",
+      "en": "Dense content or data UIs where borders and color eat information space"
+    }
+  ],
+  "tags": [
+    "bold",
+    "high-contrast",
+    "border",
+    "shadow",
+    "playful"
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": {
+        "zh": "经典硬阴影",
+        "en": "Classic Hard Shadow"
+      },
+      "note": {
+        "zh": "奶油底色 + 黑边 + 偏移实心阴影",
+        "en": "Cream background, black borders, offset solid shadows"
+      }
+    },
+    {
+      "id": "candy",
+      "name": {
+        "zh": "糖果色",
+        "en": "Candy"
+      },
+      "note": {
+        "zh": "粉 紫 黄等高饱和糖果色块互相碰撞",
+        "en": "Saturated pink, purple and yellow blocks colliding"
+      }
+    },
+    {
+      "id": "grunge",
+      "name": {
+        "zh": "粗粝噪点",
+        "en": "Grunge"
+      },
+      "note": {
+        "zh": "加入噪点纹理 倾斜元素与手绘涂鸦",
+        "en": "Adds noise, tilted elements and doodles"
+      }
+    }
+  ],
+  "applicable_components": [
+    "button",
+    "input",
+    "card",
+    "badge"
+  ],
+  "applicable_pages": [
+    "landing-page"
+  ],
+  "related": [
+    {
+      "id": "bauhaus",
+      "relation": "similar_to"
+    },
+    {
+      "id": "memphis",
+      "relation": "similar_to"
+    },
+    {
+      "id": "y2k",
+      "relation": "similar_to"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "neobrutalism",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "一起创造与开始项目打开简报，填写后整理可继续修改的本地需求；Design / Develop / Create 清单可独立勾选/取消；项目、服务、关于到达作品、服务、团队内容。",
+      "en": "Let’s make it and Start a project open a brief with an editable local summary. Toggle Design / Develop / Create independently; Work, Services and About reach portfolio, services and team content."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 PlayLab 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use PlayLab’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 PlayLab 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the PlayLab task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Gumroad — Neobrutalism 代表案例",
+      "url": "https://gumroad.com/"
+    },
+    {
+      "name": "Wikipedia — Brutalist Architecture（风格词源）",
+      "url": "https://en.wikipedia.org/wiki/Brutalist_architecture"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "border: 2-4px solid #000",
+      "box-shadow: 4px 4px 0 #000",
+      "border-radius: 8-16px",
+      "background: saturate()",
+      "transition"
+    ],
+    "notes": {
+      "zh": "三件套是风格命门：粗黑边（2～4px）、偏移实心阴影（如 4px 4px 0 #000，绝不用 模糊）、明快圆角。配色选高饱和糖果色并大胆撞色。交互反馈很出效果：hover 时 元素位移，active 时把位移吃掉、阴影归零，像真的被按进纸面。噪点可用 SVG feTurbulence 或重复渐变模拟。",
+      "en": "The style hinges on three traits: thick black borders (2–4px), hard offset shadows (e.g. 4px 4px 0 #000 — never blurred) and cheerful radii. Use saturated candy colors and clash them boldly. Interactions shine: shift the element on hover, then zero the shadow on active as if pressed into paper. Add noise with SVG feTurbulence or repeating gradients."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用新粗野主义风格（Neobrutalism）设计界面：粗黑描边、高饱和撞色、偏移实心硬阴影，元素像贴纸一样直接有力。",
+      "en": "\"Design an interface in Neobrutalism style: thick black borders, saturated clashing colors and hard offset shadows — elements punchy as stickers.\""
+    },
+    "design": {
+      "zh": "新粗野主义设计规范：底色奶油黄（#FDF2D8）；所有元素 2～3px 纯黑描边； 阴影只用实心偏移（4px 4px 0 #000），禁止模糊投影；圆角 10px 左右；主色 高饱和（红 #FF5D5D、黄 #FFC900、蓝 #4D9FFF 任选撞色）；标题粗黑体可全大写； 按钮按下时位移吃掉阴影。深色模式用近黑底色但保持彩色元素亮度。",
+      "en": "\"Neobrutalism design spec: cream background (#FDF2D8); every element gets a 2–3px pure black border; shadows are solid offsets only (4px 4px 0 #000), never blurred; ~10px radii; saturated primary colors (#FF5D5D / #FFC900 / #4D9FFF) that clash boldly; heavy uppercase headings; buttons swallow their shadow when pressed. Dark mode keeps a near-black base with the bright colors intact.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 PlayLab 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。\n\n保留 PlayLab 的 47% / 53% 文案与叠窗构图：#ffff13 标题高亮、#f4a1d1 方角 CTA、黄色导航 CTA、#4e96f9 蓝块与 #3bbc8b 绿块。沿用 2px 黑边、无模糊硬投影、倾斜创意窗、笑脸和可勾选清单，不改成 10px 圆角或橙色 BRUTAL* 模板。延续区用现有粉/蓝/绿案例按钮与粗分隔，三个案例加入圆轮、星球和餐盘的 CSS 网点海报，详情复用对应海报；控件采用 100ms 阶梯式按压，弹窗和简报结果采用 180ms 印章式入场；600px 以下文案和 360px 高叠窗分别入流，保持清单可操作。\n\n一起创造与开始项目打开简报，填写后整理可继续修改的本地需求；Design / Develop / Create 清单可独立勾选/取消；项目、服务、关于到达作品、服务、团队内容。\n\n静态封面、详情演示与 /style-scenes/neobrutalism/（英文 /en/style-scenes/neobrutalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete PlayLab page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.\n\nPreserve PlayLab’s 47% / 53% copy/stacked-window composition, #ffff13 title highlights, square #f4a1d1 CTA, yellow navigation CTA, #4e96f9 blue and #3bbc8b green blocks. Retain 2px black rims, unblurred hard shadows, tilted idea windows, smile and actionable checklist rather than a 10px-rounded orange BRUTAL* template. The continuation keeps pink/blue/green case buttons and heavy rules, adding CSS halftone wheel, planet and plate posters reused by their detail sheets. Controls use 100ms stepped presses and dialogs/results use a 180ms stamp entrance; below 600px flow the copy and 360px-high window artwork separately with usable checklist controls.\n\nLet’s make it and Start a project open a brief with an editable local summary. Toggle Design / Develop / Create independently; Work, Services and About reach portfolio, services and team content.\n\nShare one renderer between static covers, the detail experience and /style-scenes/neobrutalism/ (English /en/style-scenes/neobrutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 PlayLab 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。\n\n保留 PlayLab 的 47% / 53% 文案与叠窗构图：#ffff13 标题高亮、#f4a1d1 方角 CTA、黄色导航 CTA、#4e96f9 蓝块与 #3bbc8b 绿块。沿用 2px 黑边、无模糊硬投影、倾斜创意窗、笑脸和可勾选清单，不改成 10px 圆角或橙色 BRUTAL* 模板。延续区用现有粉/蓝/绿案例按钮与粗分隔，三个案例加入圆轮、星球和餐盘的 CSS 网点海报，详情复用对应海报；控件采用 100ms 阶梯式按压，弹窗和简报结果采用 180ms 印章式入场；600px 以下文案和 360px 高叠窗分别入流，保持清单可操作。\n\n完整页面操作：\n一起创造与开始项目打开简报，填写后整理可继续修改的本地需求；Design / Develop / Create 清单可独立勾选/取消；项目、服务、关于到达作品、服务、团队内容。\n\n静态封面、详情演示与 /style-scenes/neobrutalism/（英文 /en/style-scenes/neobrutalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete PlayLab page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.\n\nPreserve PlayLab’s 47% / 53% copy/stacked-window composition, #ffff13 title highlights, square #f4a1d1 CTA, yellow navigation CTA, #4e96f9 blue and #3bbc8b green blocks. Retain 2px black rims, unblurred hard shadows, tilted idea windows, smile and actionable checklist rather than a 10px-rounded orange BRUTAL* template. The continuation keeps pink/blue/green case buttons and heavy rules, adding CSS halftone wheel, planet and plate posters reused by their detail sheets. Controls use 100ms stepped presses and dialogs/results use a 180ms stamp entrance; below 600px flow the copy and 360px-high window artwork separately with usable checklist controls.\n\nFull-page operations:\nLet’s make it and Start a project open a brief with an editable local summary. Toggle Design / Develop / Create independently; Work, Services and About reach portfolio, services and team content.\n\nShare one renderer between static covers, the detail experience and /style-scenes/neobrutalism/ (English /en/style-scenes/neobrutalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "超粗无衬线，全大写",
+      "en": "Ultra-bold sans, all caps"
+    },
+    "color": {
+      "zh": "奶油底 × 纯黑 × 橙 #FF6B00",
+      "en": "Cream base, pure black, orange #FF6B00"
+    },
+    "border": {
+      "zh": "3px 黑色实线粗边",
+      "en": "3px solid black borders"
+    },
+    "shadow": {
+      "zh": "5px 5px 0 硬投影（不模糊）",
+      "en": "5px 5px 0 hard offset shadows"
+    },
+    "spacing": {
+      "zh": "0 圆角，紧凑堆叠",
+      "en": "Zero radius, tight stacking"
+    },
+    "motion": {
+      "zh": "约 100ms 的硬位移按压，无缓动",
+      "en": "Roughly 100ms hard positional press, no easing"
+    },
+    "states": {
+      "zh": "hover 位移到硬投影位置；focus 用 3px 黑色可见外框；active 继续下压并收起投影；disabled 灰化且不位移；error 用橙红粗边",
+      "en": "Hover shifts into the hard shadow; focus shows a visible 3px black frame; active presses down and removes the shadow; disabled greys out without shifting; error uses a harsh orange-red border"
+    }
+  },
+  "preview": {
+    "order": 9,
+    "keywords": {
+      "en": "RAW & LOUD",
+      "zh": "粗边 · 高对比 · 直给"
+    },
+    "url": "https://brutal.wtf",
+    "scene": "generic",
+    "brand": "PlayLab",
+    "nav": [
+      {
+        "zh": "WORK",
+        "en": "WORK"
+      },
+      {
+        "zh": "ABOUT",
+        "en": "ABOUT"
+      },
+      {
+        "zh": "SHOP",
+        "en": "SHOP"
+      }
+    ],
+    "navExt": [
+      {
+        "zh": "CART (2)",
+        "en": "CART (2)"
+      }
+    ],
+    "heroTitle": {
+      "zh": "MAKE IT",
+      "en": "MAKE IT"
+    },
+    "heroTitle2": {
+      "zh": "LOUD.",
+      "en": "LOUD."
+    },
+    "heroSub": {
+      "zh": "粗野直给的设计，绝不拐弯。",
+      "en": "Bold, direct design that gets to the point."
+    },
+    "cta": {
+      "zh": "GO →",
+      "en": "GO →"
+    },
+    "heroCaption": {
+      "zh": "NO GRADIENTS. NO MERCY.",
+      "en": "NO GRADIENTS. NO MERCY."
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "HUGE TYPE",
+          "en": "HUGE TYPE"
+        },
+        "s": {
+          "zh": "字要大，话要狠",
+          "en": "Big type, bold words"
+        }
+      },
+      {
+        "t": {
+          "zh": "THICK BORDER",
+          "en": "THICK BORDER"
+        },
+        "s": {
+          "zh": "3px 起步的黑边",
+          "en": "Black borders from 3px"
+        }
+      },
+      {
+        "t": {
+          "zh": "HARD SHADOW",
+          "en": "HARD SHADOW"
+        },
+        "s": {
+          "zh": "位移阴影不模糊",
+          "en": "Offset shadows with no blur"
+        }
+      }
+    ],
+    "panel": "shapes",
+    "tokens": {
+      "bg": "#FDF3E3",
+      "fg": "#111111",
+      "sub": "#6B6B6B",
+      "accent": "#FF6B00",
+      "accentFg": "#111",
+      "card": "#FFFFFF",
+      "cardBorder": "#111111",
+      "radius": "0px",
+      "shadow": "5px 5px 0 #111",
+      "font": "'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif",
+      "upper": true,
+      "heroSize": "26px"
+    }
+  }
+}

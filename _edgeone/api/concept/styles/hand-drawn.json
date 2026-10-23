@@ -1,0 +1,322 @@
+{
+  "id": "hand-drawn",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "手绘涂鸦",
+    "en": "Hand-drawn UI"
+  },
+  "aliases": [
+    "手绘风",
+    "涂鸦风格",
+    "手绘描边",
+    "歪歪扭扭的线",
+    "纸感手写界面",
+    "hand-drawn UI",
+    "doodle UI",
+    "sketchy UI"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "用抖动线条、歪斜描边、纸张纹理和马克笔高亮表示「人手画的」的界面视觉语言。 圆故意画不圆，边框带手感抖动，图标像随手勾的。以人的温度对抗机器级完美。",
+    "en": "Wobbly strokes, skewed borders, paper texture and marker highlights as a human-made interface look. Circles stay imperfect, outlines tremble, icons read as quick sketches. Human warmth against machine-perfect UI."
+  },
+  "use_when": [
+    {
+      "zh": "独立创作者、手作品牌、教育类产品，需要亲和与在场感",
+      "en": "Independent creators, craft brands and education products needing warmth"
+    },
+    {
+      "zh": "空状态、引导气泡、彩蛋等轻量场景，涂鸦当调味",
+      "en": "Empty states, coach marks and easter eggs where doodles season the dish"
+    },
+    {
+      "zh": "想打破 AI 生成界面的过度光滑与同质",
+      "en": "Breaking the over-smooth sameness of AI-generated UI"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "金融、法务、医疗等需要精确与权威的界面",
+      "en": "Finance, legal and medical UIs that must read precise and authoritative"
+    },
+    {
+      "zh": "高密度数据表格与仪表盘，抖动线条干扰数字对齐",
+      "en": "Dense tables and dashboards — wobbly lines wreck numeric alignment"
+    },
+    {
+      "zh": "长文阅读区，纸纹与高亮叠多了伤阅读",
+      "en": "Long reading areas where texture and highlights pile up and hurt"
+    }
+  ],
+  "tags": [
+    "hand-drawn",
+    "doodle",
+    "paper",
+    "sketchy",
+    "warm"
+  ],
+  "variants": [
+    {
+      "id": "marker",
+      "name": {
+        "zh": "马克笔草图",
+        "en": "Marker sketch"
+      },
+      "note": {
+        "zh": "粗头马克笔线，高亮笔刷色块压在字下",
+        "en": "Thick marker strokes with highlighter swipes under the type"
+      }
+    },
+    {
+      "id": "notebook",
+      "name": {
+        "zh": "笔记本涂鸦",
+        "en": "Notebook doodle"
+      },
+      "note": {
+        "zh": "横线纸底 + 圆珠笔细线 + 边角小图标",
+        "en": "Ruled paper, ballpoint thin lines, corner doodles"
+      }
+    },
+    {
+      "id": "sticker",
+      "name": {
+        "zh": "贴纸乱贴",
+        "en": "Sticker chaos"
+      },
+      "note": {
+        "zh": "手绘贴纸元素随机倾斜叠放，像活页本封面",
+        "en": "Tilted doodle stickers stacked like a binder cover"
+      }
+    }
+  ],
+  "applicable_components": [
+    "button",
+    "card",
+    "tooltip",
+    "alert"
+  ],
+  "applicable_pages": [
+    "landing-page"
+  ],
+  "related": [
+    {
+      "id": "organic",
+      "relation": "similar_to"
+    },
+    {
+      "id": "neobrutalism",
+      "relation": "similar_to"
+    },
+    {
+      "id": "minimalism",
+      "relation": "alternative_to"
+    },
+    {
+      "id": "empty-state",
+      "relation": "used_with"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "hand-drawn",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "随手记一笔打开编辑，保存笔记到列表，按关键词过滤并可删除；日记、素材、关于、搜索均有对应内容，显示空白校验、无匹配、删除结果。",
+      "en": "Make a quick note opens editing. Save notes to the list, filter by keyword and delete entries. Journal, Materials, About and Search reveal content with blank-input validation, no-match and deletion results."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 scribble& 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use scribble&’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 scribble& 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the scribble& task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Wikipedia — Doodle",
+      "url": "https://en.wikipedia.org/wiki/Doodle"
+    },
+    {
+      "name": "Wikipedia — Sketch (drawing)",
+      "url": "https://en.wikipedia.org/wiki/Sketch_(drawing)"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px",
+      "border: 2px solid #2B2B2B",
+      "background: linear-gradient() #FFE566 高亮",
+      "transform: rotate(-1deg)",
+      "box-shadow: 2px 2px 0 rgba(0,0,0,0.08)"
+    ],
+    "notes": {
+      "zh": "抖动边框用非对称 border-radius 四角不同值即可，不必上 SVG filter；要更抖可用 SVG feTurbulence 位移， 但要包进 @media (prefers-reduced-motion: no-preference) 或默认静止。马克笔高亮是一条半透明黄色 background 线性渐变压在文字下 60% 高度。纸纹用低透明度噪点或 repeating-linear-gradient 横线，透明度低于 0.12。 每页倾斜元素 2～4 个即可，多了像没做完。",
+      "en": "Fake wobbly borders with asymmetric border-radius values — no SVG filter required. For more tremor use SVG feTurbulence displacement, but keep it static under prefers-reduced-motion. Marker highlight is a translucent yellow linear-gradient band behind the lower 60% of the text. Paper texture is low-opacity noise or repeating horizontal rules under 0.12 opacity. Tilt two to four elements per page; more reads unfinished."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用手绘涂鸦风格（Hand-drawn UI）设计界面：抖动描边、歪斜圆角、纸张纹理、马克笔高亮，图标像随手勾的。",
+      "en": "Design an interface in Hand-drawn UI style: wobbly outlines, skewed radii, paper texture and marker highlights, with icons that read as quick sketches."
+    },
+    "design": {
+      "zh": "手绘涂鸦设计规范：底色纸白 #FAF6EE，墨色 #2B2B2B，高亮黄 #FFE566，点缀珊瑚 #FF8A65； 所有容器非对称圆角（四角不同值）模拟手画；按钮 2px 抖动描边 + 轻微 rotate(-1deg)； 高亮条压在关键词下；图标用手绘路径或粗描边简笔； 深色模式用牛皮纸深棕底，墨色反成米白，高亮保持。",
+      "en": "\"Hand-drawn spec: paper #FAF6EE, ink #2B2B2B, highlight yellow #FFE566, coral accent #FF8A65; every container gets asymmetric radii (four different corner values); buttons with 2px wobbly strokes and a slight rotate(-1deg); highlighter bars under key words; icons as sketchy paths or thick simple strokes; dark mode on deep kraft brown with cream ink, highlight kept.\""
+    },
+    "implementation": {
+      "zh": "用当前风格完成 scribble& 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 scribble& 原 paper 分支的 2/5 文案、2/5 CSS 生活景观、1/5 侧栏；字体沿用 Comic Sans MS/Chalkboard SE/Marker Felt 回退与轻斜体，容器保留 14px 6px 18px 8px 非对称圆角和轻纸影。橘色 CTA 与纸白底不替换成全页黄色马克笔装饰。日记卡只使用已有 32px 横线背景，命中范围仍规则，不新增抖动滤镜或旋转交互区。\n\n复用当前 preview.tokens：背景 #FAF6EE；前景 #2B2B2B；强调 #FF8A65 / #2B2B2B；卡面 #FFFDF7；边框 #2B2B2B；圆角 14px 6px 18px 8px；字体 Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif；卡影 2px 3px 0 rgba(43,43,43,0.08)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n随手记一笔打开编辑，保存笔记到列表，按关键词过滤并可删除；日记、素材、关于、搜索均有对应内容，显示空白校验、无匹配、删除结果。\n\n静态封面、详情演示与 /style-scenes/hand-drawn/（英文 /en/style-scenes/hand-drawn/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete scribble& page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep scribble&’s paper branch at 2/5 copy, 2/5 CSS life scene and 1/5 sidebar, with Comic Sans MS/Chalkboard SE/Marker Felt fallbacks and italic styling. Retain 14px 6px 18px 8px asymmetric radii and the light paper shadow. Do not replace coral actions and paper ground with full-page yellow marker decoration. The notebook card uses its existing 32px ruling; targets stay regular without new turbulence filters or rotated interaction areas.\n\nReuse current preview.tokens: background #FAF6EE; foreground #2B2B2B; accent #FF8A65 / #2B2B2B; card #FFFDF7; border #2B2B2B; radius 14px 6px 18px 8px; font Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif; card shadow 2px 3px 0 rgba(43,43,43,0.08).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nMake a quick note opens editing. Save notes to the list, filter by keyword and delete entries. Journal, Materials, About and Search reveal content with blank-input validation, no-match and deletion results.\n\nShare one renderer between static covers, the detail experience and /style-scenes/hand-drawn/ (English /en/style-scenes/hand-drawn/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 scribble& 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。\n\n保留 scribble& 原 paper 分支的 2/5 文案、2/5 CSS 生活景观、1/5 侧栏；字体沿用 Comic Sans MS/Chalkboard SE/Marker Felt 回退与轻斜体，容器保留 14px 6px 18px 8px 非对称圆角和轻纸影。橘色 CTA 与纸白底不替换成全页黄色马克笔装饰。日记卡只使用已有 32px 横线背景，命中范围仍规则，不新增抖动滤镜或旋转交互区。\n\n复用当前 preview.tokens：背景 #FAF6EE；前景 #2B2B2B；强调 #FF8A65 / #2B2B2B；卡面 #FFFDF7；边框 #2B2B2B；圆角 14px 6px 18px 8px；字体 Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif；卡影 2px 3px 0 rgba(43,43,43,0.08)。\n\ndark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。\n\n完整页面操作：\n随手记一笔打开编辑，保存笔记到列表，按关键词过滤并可删除；日记、素材、关于、搜索均有对应内容，显示空白校验、无匹配、删除结果。\n\n静态封面、详情演示与 /style-scenes/hand-drawn/（英文 /en/style-scenes/hand-drawn/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete scribble& page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.\n\nKeep scribble&’s paper branch at 2/5 copy, 2/5 CSS life scene and 1/5 sidebar, with Comic Sans MS/Chalkboard SE/Marker Felt fallbacks and italic styling. Retain 14px 6px 18px 8px asymmetric radii and the light paper shadow. Do not replace coral actions and paper ground with full-page yellow marker decoration. The notebook card uses its existing 32px ruling; targets stay regular without new turbulence filters or rotated interaction areas.\n\nReuse current preview.tokens: background #FAF6EE; foreground #2B2B2B; accent #FF8A65 / #2B2B2B; card #FFFDF7; border #2B2B2B; radius 14px 6px 18px 8px; font Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif; card shadow 2px 3px 0 rgba(43,43,43,0.08).\n\nUse generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.\n\nFull-page operations:\nMake a quick note opens editing. Save notes to the list, filter by keyword and delete entries. Journal, Materials, About and Search reveal content with blank-input validation, no-match and deletion results.\n\nShare one renderer between static covers, the detail experience and /style-scenes/hand-drawn/ (English /en/style-scenes/hand-drawn/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "手写感无衬线或圆体，标题略歪",
+      "en": "Hand-feel sans or rounded face, headings slightly tilted"
+    },
+    "color": {
+      "zh": "纸白 #FAF6EE × 墨色 #2B2B2B × 高亮黄 #FFE566",
+      "en": "Paper #FAF6EE, ink #2B2B2B, highlight yellow #FFE566"
+    },
+    "border": {
+      "zh": "2px 抖动描边，非对称圆角",
+      "en": "2px wobbly strokes with asymmetric radii"
+    },
+    "shadow": {
+      "zh": "极浅纸质投影，几乎贴地",
+      "en": "Barely-there paper shadows, hugging the surface"
+    },
+    "spacing": {
+      "zh": "随手贴的错位与轻微倾斜",
+      "en": "Casual misalignment and slight tilts"
+    },
+    "motion": {
+      "zh": "150–250ms 的轻微抖动式位移，带一点回弹，尊重 prefers-reduced-motion",
+      "en": "150–250ms slight wobbly offsets with a hint of bounce; honour prefers-reduced-motion"
+    },
+    "states": {
+      "zh": "hover 歪斜并加深抖动描边；focus 用 2px 手绘感可见外框；active 压平抖动；disabled 去色保留描边；error 用红笔涂改感",
+      "en": "Hover tilts and deepens the wobbly stroke; focus shows a visible 2px hand-drawn frame; active flattens the wobble; disabled desaturates but keeps the stroke; error looks like a red pen correction"
+    }
+  },
+  "preview": {
+    "order": 22,
+    "keywords": {
+      "zh": "手感 · 纸纹 · 温度",
+      "en": "WARM & WOBBLY"
+    },
+    "url": "notebook.day",
+    "scene": "paper",
+    "brand": "scribble&",
+    "nav": [
+      {
+        "zh": "日记",
+        "en": "Journal"
+      },
+      {
+        "zh": "素材",
+        "en": "Materials"
+      },
+      {
+        "zh": "关于",
+        "en": "About"
+      }
+    ],
+    "heroTitle": {
+      "zh": "画歪一点",
+      "en": "A little crooked"
+    },
+    "heroTitle2": {
+      "zh": "没关系",
+      "en": "is fine"
+    },
+    "heroSub": {
+      "zh": "人手的温度，比完美的像素更可信。",
+      "en": "A human touch feels more trustworthy than perfect pixels."
+    },
+    "cta": {
+      "zh": "随手记一笔",
+      "en": "Make a quick note"
+    },
+    "heroCaption": {
+      "zh": "PERFECT CIRCLES ARE A LIE.",
+      "en": "PERFECT CIRCLES ARE A LIE."
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "抖动描边",
+          "en": "Wobbly outlines"
+        },
+        "s": {
+          "zh": "圆画不圆",
+          "en": "Circles with character"
+        }
+      },
+      {
+        "t": {
+          "zh": "纸张纹理",
+          "en": "Paper texture"
+        },
+        "s": {
+          "zh": "横线本底",
+          "en": "Ruled notebook pages"
+        }
+      },
+      {
+        "t": {
+          "zh": "马克笔高亮",
+          "en": "Marker highlights"
+        },
+        "s": {
+          "zh": "划重点",
+          "en": "Mark what matters"
+        }
+      }
+    ],
+    "panel": "photo",
+    "tokens": {
+      "bg": "#FAF6EE",
+      "fg": "#2B2B2B",
+      "sub": "#6B6357",
+      "accent": "#FF8A65",
+      "accentFg": "#2B2B2B",
+      "card": "#FFFDF7",
+      "cardBorder": "#2B2B2B",
+      "radius": "14px 6px 18px 8px",
+      "shadow": "2px 3px 0 rgba(43,43,43,0.08)",
+      "font": "Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif",
+      "italic": true,
+      "heroSize": "24px"
+    }
+  }
+}

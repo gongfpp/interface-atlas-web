@@ -1,0 +1,328 @@
+{
+  "id": "minimalism",
+  "type": "styles",
+  "status": "published",
+  "name": {
+    "zh": "极简主义",
+    "en": "Minimalism"
+  },
+  "aliases": [
+    "极简风",
+    "简约风格",
+    "性冷淡风",
+    "大量留白那种设计",
+    "性冷淡设计",
+    "Minimal",
+    "Minimalist Design",
+    "Less is more"
+  ],
+  "category": [
+    "Style",
+    "Visual Language"
+  ],
+  "description": {
+    "zh": "以\"少即是多\"为准则的视觉语言：用大量留白、克制的黑白灰配色与有限字体层级 来凸显内容本身，删除一切装饰性元素，层级完全依靠空间、字重与疏密建立。 安静、克制、内容至上是它的气质。",
+    "en": "A visual language built on \"less is more\": generous whitespace, a restrained monochrome palette and very few type scales let the content speak. All decoration is stripped away; hierarchy is created purely by space, weight and rhythm. Quiet, restrained, content-first."
+  },
+  "use_when": [
+    {
+      "zh": "内容为王的产品——阅读、写作、摄影、作品集",
+      "en": "Content-first products — reading, writing, photography, portfolios"
+    },
+    {
+      "zh": "想传达专业、克制、高端的品牌气质",
+      "en": "Conveying a professional, restrained, premium brand voice"
+    },
+    {
+      "zh": "元素少而结构清晰的页面（官网首屏、详情页）",
+      "en": "Pages with few elements and clear structure (hero, detail pages)"
+    }
+  ],
+  "avoid_when": [
+    {
+      "zh": "信息密度高的后台与数据界面，过度留白牺牲效率",
+      "en": "Dense dashboards — excessive whitespace wastes efficiency"
+    },
+    {
+      "zh": "需要情绪浓度与热闹感的营销、娱乐、节庆场景",
+      "en": "Marketing or festive contexts that need energy and warmth"
+    },
+    {
+      "zh": "可用元素很少时容易显得\"空而廉价\"，需极强排版功底兜底",
+      "en": "Without strong typographic skill it reads as empty rather than elegant"
+    }
+  ],
+  "tags": [
+    "minimal",
+    "whitespace",
+    "typography",
+    "clean",
+    "content-first"
+  ],
+  "variants": [
+    {
+      "id": "mono-minimal",
+      "name": {
+        "zh": "黑白极简",
+        "en": "Monochrome Minimal"
+      },
+      "note": {
+        "zh": "纯黑 白 灰三色，最锋利的版本",
+        "en": "Pure black, white and grey — the sharpest version"
+      }
+    },
+    {
+      "id": "flat-minimal",
+      "name": {
+        "zh": "扁平极简",
+        "en": "Flat Minimal"
+      },
+      "note": {
+        "zh": "无阴影无渐变，靠留白与字重分层",
+        "en": "No shadows or gradients; hierarchy via whitespace and weight"
+      }
+    },
+    {
+      "id": "warm-minimal",
+      "name": {
+        "zh": "暖调极简",
+        "en": "Warm Minimal"
+      },
+      "note": {
+        "zh": "米白与暖灰底色，日式 北欧的生活感",
+        "en": "Cream and warm-grey tones, Japanese or Nordic feel"
+      }
+    }
+  ],
+  "applicable_components": [
+    "button",
+    "input",
+    "card",
+    "navbar"
+  ],
+  "applicable_pages": [
+    "landing-page",
+    "profile"
+  ],
+  "related": [
+    {
+      "id": "flat-design",
+      "relation": "similar_to"
+    },
+    {
+      "id": "swiss-style",
+      "relation": "similar_to"
+    },
+    {
+      "id": "editorial",
+      "relation": "similar_to"
+    },
+    {
+      "id": "button",
+      "relation": "affects"
+    },
+    {
+      "id": "card",
+      "relation": "affects"
+    }
+  ],
+  "demo": {
+    "component": "minimalism",
+    "modes": [
+      "default",
+      "dark",
+      "variants"
+    ]
+  },
+  "playground": {
+    "task": {
+      "zh": "立即体验进入专注设备系列，立即购买查看设备规格和款式；切换三条生活灵感，选择设备并查看本地购物结果，不创建订单。",
+      "en": "Explore Lumo opens the focus-device collection; Shop now shows device specifications and finishes. Cycle three daily rituals, select a device and inspect the local shopping result without placing an order."
+    },
+    "checks": [
+      {
+        "zh": "逐一操作 LUMO 原导航和主 CTA，检查对应内容与返回路径，不只是点击提示。",
+        "en": "Use LUMO’s original navigation and primary CTAs; inspect content and return paths, not just click notices."
+      },
+      {
+        "zh": "完成上述 LUMO 操作后修改输入或撤销，检查结果与状态同步。",
+        "en": "Complete the LUMO task, then change inputs or undo and inspect the matching result/state."
+      },
+      {
+        "zh": "用键盘和 390px / 320px 检查重排、焦点、校验；区分工具栏重载和内部清空，核对刷新后状态复位。",
+        "en": "Check reflow, focus and validation with keyboard and 390px / 320px viewports; distinguish toolbar reload from in-page clearing and inspect reset-on-reload boundaries."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Apple HIG — Visual Design",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/visual-design"
+    },
+    {
+      "name": "Dieter Rams — 10 Principles of Good Design",
+      "url": "https://www.vitsoe.com/us/about/good-design"
+    }
+  ],
+  "implementation": {
+    "css": [
+      "whitespace",
+      "font-weight",
+      "letter-spacing",
+      "border: 1px solid",
+      "grid"
+    ],
+    "notes": {
+      "zh": "核心是排版与留白：建立 3 档以内的字号层级与克制的行高；配色收敛到黑 白 灰 外加至多一个强调色；边框只用 1px 发丝线或干脆用留白分隔；按钮以实心黑或 描边两种形态为主，禁用投影与渐变。先删到不能再删，再谈精致。",
+      "en": "Typography and whitespace carry the design: at most three type sizes with restrained line-height; a palette of black, white, grey plus at most one accent; separate with 1px hairlines or pure space instead of boxes; buttons are solid black or outlined, no shadows or gradients. Remove everything first, then refine what remains."
+    }
+  },
+  "prompts": {
+    "basic": {
+      "zh": "用极简主义风格（Minimalism）设计界面：大量留白、黑白灰配色、无装饰，层级靠字号字重与空间建立。",
+      "en": "\"Design an interface in Minimalism style: generous whitespace, a monochrome palette, zero decoration, hierarchy built from type scale and space alone.\""
+    },
+    "design": {
+      "zh": "极简主义风格设计规范：底色纯白，文字近黑（#111）；字号层级 3 档以内，标题 用大字号加收紧字距；配色只有黑 白 灰 + 一个强调色；分隔用 1px 发丝线或留白， 禁止投影 渐变 纹理；按钮为实心黑或 1px 描边两种；整体留白至少是内容高度的 一半。支持深色模式（近黑底 反白字）。",
+      "en": "Minimalism design spec: pure white surface, near-black text (#111); at most three type sizes with tight heading tracking; palette limited to black, white, grey plus one accent; separate with 1px hairlines or whitespace — no shadows, gradients or textures; buttons are solid black or 1px outlined; whitespace at least half the content height. Dark mode: near-black surface, inverted text."
+    },
+    "implementation": {
+      "zh": "用当前风格完成 LUMO 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。\n\n按 ReferenceStyleScene 与 reference-scenes.css 延续 LUMO：#fdfdfc 页底，主视觉保留白到浅灰的横向渐变、白色设备/石材照片及其桌面遮罩裁切。Georgia 衬线主标题使用现有 6.45cqw / .94 行高与紧字距，正文为灰阶无衬线；黑色胶囊 CTA 保留细微内高光。窄屏将照片改为文案下方的正常内容流，不删照片、不把所有区域强改为无渐变直角卡片。\n\n立即体验进入专注设备系列，立即购买查看设备规格和款式；切换三条生活灵感，选择设备并查看本地购物结果，不创建订单。\n\n静态封面、详情演示与 /style-scenes/minimalism/（英文 /en/style-scenes/minimalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。",
+      "en": "Build a complete LUMO page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.\n\nContinue LUMO from ReferenceStyleScene and reference-scenes.css: #fdfdfc ground, the existing white-to-grey horizontal hero gradient, and the device/stone photograph with its desktop mask and crop. Keep the Georgia display at 6.45cqw/.94 with tight tracking, grey sans body and black pill CTAs with a faint inset highlight. On narrow screens move the photograph below the copy in normal flow; do not remove it or flatten every surface into gradient-free square cards.\n\nExplore Lumo opens the focus-device collection; Shop now shows device specifications and finishes. Cycle three daily rituals, select a device and inspect the local shopping result without placing an order.\n\nShare one renderer between static covers, the detail experience and /style-scenes/minimalism/ (English /en/style-scenes/minimalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion."
+    },
+    "agent": {
+      "zh": "用当前风格完成 LUMO 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。preview.brand 与共享 REFERENCE_BRANDS 保持一致；首屏结构、实际导航与素材以 ReferenceStyleScene 为准。\n\n按 ReferenceStyleScene 与 reference-scenes.css 延续 LUMO：#fdfdfc 页底，主视觉保留白到浅灰的横向渐变、白色设备/石材照片及其桌面遮罩裁切。Georgia 衬线主标题使用现有 6.45cqw / .94 行高与紧字距，正文为灰阶无衬线；黑色胶囊 CTA 保留细微内高光。窄屏将照片改为文案下方的正常内容流，不删照片、不把所有区域强改为无渐变直角卡片。\n\n完整页面操作：\n立即体验进入专注设备系列，立即购买查看设备规格和款式；切换三条生活灵感，选择设备并查看本地购物结果，不创建订单。\n\n静态封面、详情演示与 /style-scenes/minimalism/（英文 /en/style-scenes/minimalism/）共用 renderer；静态封面不嵌套真实按钮，详情在独立文档中启用同款页面的语义控件与品牌内容延续。原导航和 CTA 必须到达对应内容或工作流，不用占位链接、仅变颜色或一句 toast 代替结果。\n\n操作状态仅存在当前页面内存；刷新、工具栏重载/重置与模式切换均恢复初始状态，不使用 localStorage 或 sessionStorage。页内清空/重置用于撤销本次操作，不暗示跨页或持久保存。\n\n提供返回、取消或清空/重置路径，说明仅当前页内存的状态边界；不伪装真实支付、邮件、登录、AI 或云同步。桌面、390px、320px 按内容换行重排，保留可读字号和触控目标，不整体缩小桌面页。控件有可访问名称、键盘操作、可见焦点；弹层支持关闭和焦点返回，表单校验与结果可被辅助技术读到；尊重 prefers-reduced-motion。\n\n不新增依赖。检查中英文、原导航与 CTA、具体结果、返回/重置和窄屏重排；报告实际运行的检查与待验项，不将实现要求写成已通过结论。",
+      "en": "Build a complete LUMO page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. Keep preview.brand aligned with shared REFERENCE_BRANDS; ReferenceStyleScene defines the hero structure, actual navigation and assets.\n\nContinue LUMO from ReferenceStyleScene and reference-scenes.css: #fdfdfc ground, the existing white-to-grey horizontal hero gradient, and the device/stone photograph with its desktop mask and crop. Keep the Georgia display at 6.45cqw/.94 with tight tracking, grey sans body and black pill CTAs with a faint inset highlight. On narrow screens move the photograph below the copy in normal flow; do not remove it or flatten every surface into gradient-free square cards.\n\nFull-page operations:\nExplore Lumo opens the focus-device collection; Shop now shows device specifications and finishes. Cycle three daily rituals, select a device and inspect the local shopping result without placing an order.\n\nShare one renderer between static covers, the detail experience and /style-scenes/minimalism/ (English /en/style-scenes/minimalism/). Static covers contain no nested live buttons; the detail experience enables the same page’s semantic controls and brand continuation in an independent document. Original navigation and CTAs reach actual content or workflows, not placeholder links, color-only changes or one-line toasts.\n\nInteraction state lives only in this page’s memory. Reload, toolbar reset and mode changes restore initial state; do not use localStorage or sessionStorage. In-page clear/reset undoes this visit’s operations without implying cross-page or persistent saves.\n\nProvide return, cancel or clear/reset paths and disclose the page-memory state boundary; never fake real payments, email, login, AI or cloud sync. Reflow desktop, 390px and 320px layouts with readable text and usable targets rather than shrinking the desktop page. Give controls accessible names, keyboard access and visible focus; overlays close and return focus, validation/results are announced; respect prefers-reduced-motion.\n\nAdd no dependencies. Check both languages, original navigation/CTAs, concrete results, return/reset and narrow reflow; report checks actually run and pending items, never requirements as passed results."
+    }
+  },
+  "style_spec": {
+    "typography": {
+      "zh": "衬线大标题 + 无衬线灰阶正文",
+      "en": "Serif display with grey sans body"
+    },
+    "color": {
+      "zh": "米白 #FAFAF8 × 近黑 #161513，单一强调色",
+      "en": "Off-white #FAFAF8 × near-black #161513, one accent"
+    },
+    "border": {
+      "zh": "无边框，或 1px #EDEDE9 细分隔线",
+      "en": "Frameless; 1px #EDEDE9 hairlines at most"
+    },
+    "shadow": {
+      "zh": "几乎无阴影，层次靠灰度",
+      "en": "No shadows — depth via greyscale"
+    },
+    "spacing": {
+      "zh": "极大留白，宽松的 8pt 网格",
+      "en": "Generous whitespace on a relaxed 8pt grid"
+    },
+    "motion": {
+      "zh": "150ms 内只做颜色与透明度过渡，无位移",
+      "en": "Colours and opacity only, under 150ms, no movement"
+    },
+    "states": {
+      "zh": "hover 只变颜色；focus 用黑色发丝可见外框；active 轻微加深；disabled 降到 40% 不透明；error 用单一红",
+      "en": "Hover changes colour only; focus shows a black hairline ring; active darkens slightly; disabled drops to 40% opacity; error uses a single red"
+    }
+  },
+  "preview": {
+    "order": 1,
+    "keywords": {
+      "en": "LESS. BUT BETTER.",
+      "zh": "留白 · 克制 · 内容优先"
+    },
+    "url": "https://lumo.space",
+    "scene": "lumo",
+    "brand": "LUMO",
+    "nav": [
+      {
+        "zh": "产品",
+        "en": "Product"
+      },
+      {
+        "zh": "关于",
+        "en": "About"
+      },
+      {
+        "zh": "灵感",
+        "en": "Inspiration"
+      },
+      {
+        "zh": "支持",
+        "en": "Support"
+      }
+    ],
+    "navExt": [
+      {
+        "zh": "更多干扰 更纯粹生活",
+        "en": "Fewer distractions. A simpler life."
+      }
+    ],
+    "heroTitle": {
+      "zh": "A calmer",
+      "en": "A calmer"
+    },
+    "heroTitle2": {
+      "zh": "digital life",
+      "en": "digital life"
+    },
+    "heroSub": {
+      "zh": "简洁的工具，成就更专注的你。",
+      "en": "Simple tools for a more focused you."
+    },
+    "cta": {
+      "zh": "立即体验 →",
+      "en": "Try it now →"
+    },
+    "heroCaption": {
+      "zh": "让专注成为一种日常",
+      "en": "Make focus an everyday habit"
+    },
+    "features": [
+      {
+        "t": {
+          "zh": "专注模式",
+          "en": "Focus mode"
+        },
+        "s": {
+          "zh": "屏蔽一切打扰",
+          "en": "Keep distractions away"
+        }
+      },
+      {
+        "t": {
+          "zh": "极简界面",
+          "en": "Minimal interface"
+        },
+        "s": {
+          "zh": "只留下必要",
+          "en": "Keep only what matters"
+        }
+      },
+      {
+        "t": {
+          "zh": "自然提醒",
+          "en": "Gentle reminders"
+        },
+        "s": {
+          "zh": "轻声不吵闹",
+          "en": "Quiet, unobtrusive nudges"
+        }
+      }
+    ],
+    "panel": "device",
+    "tokens": {
+      "bg": "#FBFBF9",
+      "fg": "#161513",
+      "sub": "#9B9B95",
+      "accent": "#161513",
+      "accentFg": "#fff",
+      "card": "#FFFFFF",
+      "cardBorder": "#EDEDE9",
+      "radius": "14px",
+      "shadow": "0 1px 2px rgba(0,0,0,.04)",
+      "font": "Georgia, 'Songti SC', 'Noto Serif CJK SC', serif",
+      "heroSize": "26px"
+    }
+  }
+}
