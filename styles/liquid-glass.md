@@ -47,7 +47,7 @@
 ```text
 用当前风格完成 Lumen 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台按现有 28px 圆角试样、blur(var(--glass-depth)) saturate(150%)、Clear/Frost/Prism 表面和环境光角度变化，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。
+保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台使用 36px 圆角试样、网格/条纹/圆环光学背景与双层高光边缘。Clear 按厚度的 0.22 倍轻微模糊，Frost 按厚度加 12px 柔化，Prism 按厚度的 0.5 倍模糊并增强彩色反射；厚度同步改变浮起距离和阴影，环境光角度同时改变底色与镜面光带，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。
 
 复用当前 preview.tokens：背景 linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%)；前景 #FFFFFF；强调 rgba(255,255,255,.92) / #1A1030；卡面 rgba(255,255,255,.14)；边框 rgba(255,255,255,.5)；圆角 22px；字体 SF Pro Display, Helvetica Neue, PingFang SC, sans-serif；卡影 inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18)。
 
@@ -73,7 +73,7 @@ dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不�
 
 **Implementation:** 用当前风格完成 Lumen 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台按现有 28px 圆角试样、blur(var(--glass-depth)) saturate(150%)、Clear/Frost/Prism 表面和环境光角度变化，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。
+保留 Lumen 桃/紫/蓝渐变、CSS 山景、22px 玻璃卡、blur(20px) saturate(180%) 与顶部高光/底部暗边。材质台使用 36px 圆角试样、网格/条纹/圆环光学背景与双层高光边缘。Clear 按厚度的 0.22 倍轻微模糊，Frost 按厚度加 12px 柔化，Prism 按厚度的 0.5 倍模糊并增强彩色反射；厚度同步改变浮起距离和阴影，环境光角度同时改变底色与镜面光带，不新增 SVG 位移折射或悬浮导航。厚度、高光与折射为当前 CSS 近似，文字仍可读。
 
 复用当前 preview.tokens：背景 linear-gradient(145deg,#FF9A8B 0%,#A18CD1 45%,#6DD5FA 100%)；前景 #FFFFFF；强调 rgba(255,255,255,.92) / #1A1030；卡面 rgba(255,255,255,.14)；边框 rgba(255,255,255,.5)；圆角 22px；字体 SF Pro Display, Helvetica Neue, PingFang SC, sans-serif；卡影 inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.15), 0 8px 24px rgba(0,0,0,.18)。
 
