@@ -38,20 +38,20 @@
 
 ## Implementation
 
-**CSS:** `box-shadow: 0 0 8px #0ff` `text-shadow` `clip-path` `@keyframes glitch` `repeating-linear-gradient`
+**CSS:** `box-shadow: 0 0 8px #0ff` `text-shadow` `clip-path` `@keyframes signal-connect` `repeating-linear-gradient`
 
-Ground runs #0a0a12–#12101f. Neon needs both glow (box-shadow/text-shadow 0 0 8px in the same hue) and a solid border — glow alone smears. Replace radii with clip-path corner cuts (8–12px, one or opposite corners). Scanlines are a repeating-linear-gradient overlay kept under 0.06 opacity. Glitch is two-layer RGB offset text — short bursts, rare, respecting prefers-reduced-motion.
+NEON://CITY uses midnight blue-black, solid cyan rules and high-contrast monospace type. An original three-district signal map replaces the chart; the decorative map is not an interactive control. Reduce ambient glow and card fills. The terminal exposes real connection text, gear checkboxes and a single stepped signal animation, without perpetual flashing.
 
 ## Agent task prompt
 
 ```text
 Build a complete NEON://CITY page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Keep NEON://CITY’s navy-black ground, cyan rims/glow, uppercase monospace, right-side bar chart and terminal cards. Panels retain their existing 4px radius rather than new 12px cuts, scanlines or glitch overlays. Continue with the offline terminal and cyan signal bars, expressing state through real HUD text and gear checkboxes.
+NEON://CITY uses midnight blue-black, solid cyan rules and high-contrast monospace type. An original three-district signal map replaces the chart; the decorative map is not an interactive control. Reduce ambient glow and card fills. The terminal exposes real connection text, gear checkboxes and a single stepped signal animation, without perpetual flashing.
 
 Reuse current preview.tokens: background #0B0F1A; foreground #EAF6FF; accent #00E5FF / #050810; card rgba(0,229,255,.06); border rgba(0,229,255,.35); radius 4px; font 'SF Mono', Menlo, monospace; card shadow 0 0 14px rgba(0,229,255,.25).
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Retain the existing workspace dark and variant modes. style-signatures.css owns this brand’s hero, continuation and microinteractions; covers and full pages share one renderer.
 
 Full-page operations:
 Connect to the network establishes an offline district connection and can disconnect. Toggle gear to update the district, connection and loadout HUD. Districts, Gear, Black market and SYS status reveal local content without real networking or trades.

@@ -37,18 +37,18 @@ A decorative visual language built from geometry, symmetry, radiating lines and 
 
 **CSS:** `border` `letter-spacing` `SVG path` `grid`
 
-Draw radiating and stepped ornament with SVG, independent of semantic content. Use gold as an accent while keeping body contrast strong. Preserve title and form width on narrow screens by reducing surrounding ornament.
+THE AURELIA pairs midnight blue-black, warm gold and deep green. Its right-hand SVG uses nested architectural arches, a diamond A monogram and a perspective floor, separate from semantic text. The evening result echoes the arched double frame. Use lighter serif headlines, tracked labels, 280ms entry and saved-plan border feedback, with full rectangular form targets.
 
 ## Agent task prompt
 
 ```text
 Build a complete THE AURELIA page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Keep THE AURELIA’s midnight blue-black, warm-gold display, deep-green cards, square gold rims and right-side geometry; do not add radiating/stepped SVG ornament that rewrites the composition. The evening result card retains centered text, a 1px inset gold outline and tracked short labels; forms keep full rectangular input targets.
+THE AURELIA pairs midnight blue-black, warm gold and deep green. Its right-hand SVG uses nested architectural arches, a diamond A monogram and a perspective floor, separate from semantic text. The evening result echoes the arched double frame. Use lighter serif headlines, tracked labels, 280ms entry and saved-plan border feedback, with full rectangular form targets.
 
 Reuse current preview.tokens: background #151c24; foreground #e8ce92; accent #d7b571 / #151c24; card #25312e; border #a88b51; radius 0px; font Georgia, serif; card shadow none.
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Retain the existing workspace dark and variant modes. style-signatures.css owns this brand’s hero, continuation and microinteractions; covers and full pages share one renderer.
 
 Full-page operations:
 Explore opens dinner interest. Enter a name, date and party size, save the matching result and return to edit. Collection and About show evening experiences and brand information; local interest is not a table reservation.

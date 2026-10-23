@@ -37,18 +37,18 @@ A visual language of natural shapes, warm materials and muted earth tones. Soft 
 
 **CSS:** `border-radius` `linear-gradient()` `grid`
 
-Unify cream and deep green with tokens. Use curves in display areas while keeping predictable button targets. CSS shapes can evoke plants and ceramics; mark decoration aria-hidden. Prioritize text contrast over a muted aesthetic.
+mori / 森 retains cream, deep green and moss with light serif headlines and sans-serif body text. The arched hero and three individual product still lifes are project-generated assets, with distinguishable linen, clay and wood, descriptive alt text and AI provenance. Use open image-led plates, hairline separators, stable rectangular targets, 320ms list entry and restrained image scale, respecting reduced motion.
 
 ## Agent task prompt
 
 ```text
 Build a complete mori / 森 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Keep mori / 森’s cream/deep-green/moss hierarchy, Georgia serif, 24px radii and existing CSS life-scene panel rather than replacing it with plant photography or sans body type. Products retain CSS linen/ceramic/wood-tray objects on arched grounds, with woodgrain only on the tray. Selection and totals remain readable content with predictable control targets.
+mori / 森 retains cream, deep green and moss with light serif headlines and sans-serif body text. The arched hero and three individual product still lifes are project-generated assets, with distinguishable linen, clay and wood, descriptive alt text and AI provenance. Use open image-led plates, hairline separators, stable rectangular targets, 320ms list entry and restrained image scale, respecting reduced motion.
 
 Reuse current preview.tokens: background #f1efe5; foreground #29392b; accent #526445 / #fff; card #e3e5d6; border #b7bd9f; radius 24px; font Georgia, serif; card shadow none.
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Retain the existing workspace dark and variant modes. style-signatures.css owns this brand’s hero, continuation and microinteractions; covers and full pages share one renderer.
 
 Full-page operations:
 Explore opens the natural-object collection. Inspect three products, add/remove selections and update the total. Collection and About reach objects and brand philosophy without submitting orders.

@@ -38,20 +38,20 @@
 
 ## 实现要点
 
-**CSS:** `box-shadow: 0 0 8px #0ff` `text-shadow` `clip-path` `@keyframes glitch` `repeating-linear-gradient`
+**CSS:** `box-shadow: 0 0 8px #0ff` `text-shadow` `clip-path` `@keyframes signal-connect` `repeating-linear-gradient`
 
-深底用 #0a0a12～#12101f；霓虹色必须同时给发光（box-shadow/text-shadow 0 0 8px 同色）与实体描边，只有光晕会糊。面板用 clip-path 切角（单角或 对角切 8～12px）代替圆角。扫描线用 repeating-linear-gradient 叠加层， opacity 控制在 0.06 以下。故障动画是文本双层 RGB 错位，播放频率低、 时长短，并尊重 prefers-reduced-motion。
+NEON://CITY 使用深夜蓝黑、青色实体细线与高对比等宽字。右侧是标有三个街区的原创城市信号图，装饰地图不充当可点击控件；弱化泛光和卡片底色，保留清楚的层级。工作台以真实连接文字、装备复选框和一次性阶梯信号柱反馈状态，不持续闪烁。
 
 ## 交给 Agent 的任务 Prompt
 
 ```text
 用当前风格完成 NEON://CITY 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-保留 NEON://CITY 的深夜蓝黑底、青色描边/微光、等宽大写字、右侧柱形图与三张终端卡。面板沿用现有 4px 小圆角，不额外裁切 12px 角或叠扫描线/故障动画。工作台保持离线终端与青色信号柱，状态由真实 HUD 文本和装备复选框表达。
+NEON://CITY 使用深夜蓝黑、青色实体细线与高对比等宽字。右侧是标有三个街区的原创城市信号图，装饰地图不充当可点击控件；弱化泛光和卡片底色，保留清楚的层级。工作台以真实连接文字、装备复选框和一次性阶梯信号柱反馈状态，不持续闪烁。
 
 复用当前 preview.tokens：背景 #0B0F1A；前景 #EAF6FF；强调 #00E5FF / #050810；卡面 rgba(0,229,255,.06)；边框 rgba(0,229,255,.35)；圆角 4px；字体 'SF Mono', Menlo, monospace；卡影 0 0 14px rgba(0,229,255,.25)。
 
-dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+dark 与 variants 延续已有工作区模式；style-signatures.css 负责本品牌主视觉、续页和微交互，封面与整页共用同一 renderer。
 
 完整页面操作：
 接入网络按所选街区离线接入并可断开；勾选/取消装备后 HUD 同步显示街区、连接和装备状态。街区、装备、黑市、SYS 状态各有本地内容，不真实联网或交易。
