@@ -47,11 +47,11 @@
 ```text
 用当前风格完成 SYNTH-84 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-当前页面是 SYNTH-84 合成器电台：保留 #140A33→#3D1170→#7A1F63 深紫渐变、#FF71CE 粉色强调、等宽大写 DRIVE INTO / THE SUNSET、右侧柱形图及三张半透明卡。播放器沿用 FM 84.0、本地三曲和粉到橙的均衡器，不引入原子火箭、1968、奶油塑料机身或 CRT 琥珀配色，也不新增透视地平线。只有实际播放时均衡器按现有 .8s 动画，暂停和 reduced-motion 均停止。
+当前页面是 SYNTH-84 合成器电台：保留深紫渐变、粉色强调、等宽大写 DRIVE INTO / THE SUNSET 与原功能。主视觉由原创 SVG 条纹落日、山线、透视公路与 SIDE A 磁带构成，替换无业务含义的柱形图。播放器使用深色仪器面板与凹入刻度窗，FM 84.0、本地三曲、音量和播放逻辑不变；均衡器暂停时低亮，只有实际播放才按 .8s 动画，reduced-motion 停止。
 
 复用当前 preview.tokens：背景 linear-gradient(180deg,#140A33 0%,#3D1170 62%,#7A1F63 100%)；前景 #FFE8F6；强调 #FF71CE / #2A0A2E；卡面 rgba(255,113,206,.12)；边框 rgba(255,113,206,.45)；圆角 6px；字体 'SF Mono', Menlo, monospace；卡影 none。
 
-dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+dark 与 variants 复用已有工作区 token；主视觉与页面共用 StyleSignatureArt 和 style-signatures.css，保留各自纸张、几何或电台材质。窄屏按内容重排。
 
 完整页面操作：
 播放电台由用户手势启动 WebAudio 合成单音；可播放/暂停、选择三曲、调节音量。电台、巡演、磁带、REC 有对应内容，明确本地合成并非真实广播或录音上传。
@@ -73,11 +73,11 @@ dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不�
 
 **Implementation:** 用当前风格完成 SYNTH-84 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-当前页面是 SYNTH-84 合成器电台：保留 #140A33→#3D1170→#7A1F63 深紫渐变、#FF71CE 粉色强调、等宽大写 DRIVE INTO / THE SUNSET、右侧柱形图及三张半透明卡。播放器沿用 FM 84.0、本地三曲和粉到橙的均衡器，不引入原子火箭、1968、奶油塑料机身或 CRT 琥珀配色，也不新增透视地平线。只有实际播放时均衡器按现有 .8s 动画，暂停和 reduced-motion 均停止。
+当前页面是 SYNTH-84 合成器电台：保留深紫渐变、粉色强调、等宽大写 DRIVE INTO / THE SUNSET 与原功能。主视觉由原创 SVG 条纹落日、山线、透视公路与 SIDE A 磁带构成，替换无业务含义的柱形图。播放器使用深色仪器面板与凹入刻度窗，FM 84.0、本地三曲、音量和播放逻辑不变；均衡器暂停时低亮，只有实际播放才按 .8s 动画，reduced-motion 停止。
 
 复用当前 preview.tokens：背景 linear-gradient(180deg,#140A33 0%,#3D1170 62%,#7A1F63 100%)；前景 #FFE8F6；强调 #FF71CE / #2A0A2E；卡面 rgba(255,113,206,.12)；边框 rgba(255,113,206,.45)；圆角 6px；字体 'SF Mono', Menlo, monospace；卡影 none。
 
-dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+dark 与 variants 复用已有工作区 token；主视觉与页面共用 StyleSignatureArt 和 style-signatures.css，保留各自纸张、几何或电台材质。窄屏按内容重排。
 
 播放电台由用户手势启动 WebAudio 合成单音；可播放/暂停、选择三曲、调节音量。电台、巡演、磁带、REC 有对应内容，明确本地合成并非真实广播或录音上传。
 

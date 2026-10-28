@@ -47,11 +47,11 @@ Fake wobbly borders with asymmetric border-radius values — no SVG filter requi
 ```text
 Build a complete scribble& page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Keep scribble&’s paper branch at 2/5 copy, 2/5 CSS life scene and 1/5 sidebar, with Comic Sans MS/Chalkboard SE/Marker Felt fallbacks and italic styling. Retain 14px 6px 18px 8px asymmetric radii and the light paper shadow. Do not replace coral actions and paper ground with full-page yellow marker decoration. The notebook card uses its existing 32px ruling; targets stay regular without new turbulence filters or rotated interaction areas.
+Keep scribble&’s paper ground, original copy and handwritten font fallbacks; use deep ochre #A24A26 for the text CTA so it remains legible on paper. Replace the generic CSS landscape with an original SVG of a hand-drawn flower, ruled note, tape and pencil. Use 1.1 / 1.5 / .65 desktop columns, then stack in reading order on phones with three vertical material notes. Extend the 32px notebook ruling with a double-line spine and tape while keeping form hit areas regular.
 
 Reuse current preview.tokens: background #FAF6EE; foreground #2B2B2B; accent #FF8A65 / #2B2B2B; card #FFFDF7; border #2B2B2B; radius 14px 6px 18px 8px; font Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif; card shadow 2px 3px 0 rgba(43,43,43,0.08).
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Reuse existing workspace tokens for dark and variants. Share StyleSignatureArt and style-signatures.css between cover and page, preserving the paper, geometric or radio materials. Reflow content on narrow screens.
 
 Full-page operations:
 Make a quick note opens editing. Save notes to the list, filter by keyword and delete entries. Journal, Materials, About and Search reveal content with blank-input validation, no-match and deletion results.
@@ -73,11 +73,11 @@ Add no dependencies. Check both languages, original navigation/CTAs, concrete re
 
 **Implementation:** Build a complete scribble& page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Keep scribble&’s paper branch at 2/5 copy, 2/5 CSS life scene and 1/5 sidebar, with Comic Sans MS/Chalkboard SE/Marker Felt fallbacks and italic styling. Retain 14px 6px 18px 8px asymmetric radii and the light paper shadow. Do not replace coral actions and paper ground with full-page yellow marker decoration. The notebook card uses its existing 32px ruling; targets stay regular without new turbulence filters or rotated interaction areas.
+Keep scribble&’s paper ground, original copy and handwritten font fallbacks; use deep ochre #A24A26 for the text CTA so it remains legible on paper. Replace the generic CSS landscape with an original SVG of a hand-drawn flower, ruled note, tape and pencil. Use 1.1 / 1.5 / .65 desktop columns, then stack in reading order on phones with three vertical material notes. Extend the 32px notebook ruling with a double-line spine and tape while keeping form hit areas regular.
 
 Reuse current preview.tokens: background #FAF6EE; foreground #2B2B2B; accent #FF8A65 / #2B2B2B; card #FFFDF7; border #2B2B2B; radius 14px 6px 18px 8px; font Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif; card shadow 2px 3px 0 rgba(43,43,43,0.08).
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Reuse existing workspace tokens for dark and variants. Share StyleSignatureArt and style-signatures.css between cover and page, preserving the paper, geometric or radio materials. Reflow content on narrow screens.
 
 Make a quick note opens editing. Save notes to the list, filter by keyword and delete entries. Journal, Materials, About and Search reveal content with blank-input validation, no-match and deletion results.
 

@@ -47,11 +47,11 @@
 ```text
 用当前风格完成 BAUHAUS 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-保留 BAUHAUS 米色首屏、红色主操作及红/蓝/黄三卡；右侧圆/三角/方形面板与原有轻投影继续使用，标题仍为原大写无衬线，不额外强制图文负 margin 穿插。构图工坊使用 #eee5d7 画布、2px 黑边以及 #e23b2e 圆/#21409a 方/#f2b705 三角，形状由 CSS 生成。
+保留 BAUHAUS 米色首屏、红色主操作及红/蓝/黄三卡。主视觉使用 StyleSignatureArt 中原创 SVG：大红圆、蓝色矩形、黄色三角、黑色轴线与细测量框互相接触，取消漂浮小图形和阴影；标题收紧字距。工坊以四等分网格、空画布十字、明确选中描边与 0 / 12 计数延续构成秩序。
 
-复用当前 preview.tokens：背景 #F4EFE6；前景 #141414；强调 #E23B2E / #fff；卡面 #FFFFFF；边框 #141414；圆角 0px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。
+复用当前 preview.tokens：背景 #F4EFE6；前景 #141414；强调 #E23B2E / #000；卡面 #FFFFFF；边框 #141414；圆角 0px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。
 
-dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+dark 与 variants 复用已有工作区 token；主视觉与页面共用 StyleSignatureArt 和 style-signatures.css，保留各自纸张、几何或电台材质。窄屏按内容重排。
 
 完整页面操作：
 进入工坊后选择红圆、蓝方或黄角并放置到画布，最多 12 个图形，可清空重做；形式、色彩、工坊导航各有对应内容。
@@ -73,11 +73,11 @@ dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不�
 
 **Implementation:** 用当前风格完成 BAUHAUS 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-保留 BAUHAUS 米色首屏、红色主操作及红/蓝/黄三卡；右侧圆/三角/方形面板与原有轻投影继续使用，标题仍为原大写无衬线，不额外强制图文负 margin 穿插。构图工坊使用 #eee5d7 画布、2px 黑边以及 #e23b2e 圆/#21409a 方/#f2b705 三角，形状由 CSS 生成。
+保留 BAUHAUS 米色首屏、红色主操作及红/蓝/黄三卡。主视觉使用 StyleSignatureArt 中原创 SVG：大红圆、蓝色矩形、黄色三角、黑色轴线与细测量框互相接触，取消漂浮小图形和阴影；标题收紧字距。工坊以四等分网格、空画布十字、明确选中描边与 0 / 12 计数延续构成秩序。
 
-复用当前 preview.tokens：背景 #F4EFE6；前景 #141414；强调 #E23B2E / #fff；卡面 #FFFFFF；边框 #141414；圆角 0px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。
+复用当前 preview.tokens：背景 #F4EFE6；前景 #141414；强调 #E23B2E / #000；卡面 #FFFFFF；边框 #141414；圆角 0px；字体 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif；卡影 none。
 
-dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+dark 与 variants 复用已有工作区 token；主视觉与页面共用 StyleSignatureArt 和 style-signatures.css，保留各自纸张、几何或电台材质。窄屏按内容重排。
 
 进入工坊后选择红圆、蓝方或黄角并放置到画布，最多 12 个图形，可清空重做；形式、色彩、工坊导航各有对应内容。
 

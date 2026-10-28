@@ -47,11 +47,11 @@ Lock the palette to warm tones: cream #F2E4C2, apricot #E8965A, terracotta #8A4B
 ```text
 Build a complete SYNTH-84 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-The current page is the SYNTH-84 synth radio: retain the #140A33→#3D1170→#7A1F63 purple gradient, #FF71CE pink accent, uppercase monospace DRIVE INTO / THE SUNSET, right-side bar chart and translucent cards. Continue with FM 84.0, three local tracks and the pink-to-orange equalizer, not atomic rockets, 1968, cream plastic casings, CRT amber or a new perspective horizon. Only actual playback runs the existing .8s equalizer animation; pause and reduced motion stop it.
+Keep SYNTH-84’s deep purple gradient, pink accent, uppercase monospace DRIVE INTO / THE SUNSET and existing functions. Replace the unrelated bar chart with an original SVG of a striped sunset, mountain silhouette, perspective road and SIDE A cassette. Give the player a dark instrument face and inset scale window. Preserve FM 84.0, three local tracks, volume and playback; dim the equalizer while paused and run its .8s animation only during actual playback, stopping for reduced motion.
 
 Reuse current preview.tokens: background linear-gradient(180deg,#140A33 0%,#3D1170 62%,#7A1F63 100%); foreground #FFE8F6; accent #FF71CE / #2A0A2E; card rgba(255,113,206,.12); border rgba(255,113,206,.45); radius 6px; font 'SF Mono', Menlo, monospace; card shadow none.
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Reuse existing workspace tokens for dark and variants. Share StyleSignatureArt and style-signatures.css between cover and page, preserving the paper, geometric or radio materials. Reflow content on narrow screens.
 
 Full-page operations:
 Play the radio starts a WebAudio synthesized tone after a user gesture. Play/pause, choose among three tracks and adjust volume. Radio, Tour, Tapes and REC reveal content; disclose local synthesis, not live broadcasting or recording uploads.
@@ -73,11 +73,11 @@ Add no dependencies. Check both languages, original navigation/CTAs, concrete re
 
 **Implementation:** Build a complete SYNTH-84 page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-The current page is the SYNTH-84 synth radio: retain the #140A33→#3D1170→#7A1F63 purple gradient, #FF71CE pink accent, uppercase monospace DRIVE INTO / THE SUNSET, right-side bar chart and translucent cards. Continue with FM 84.0, three local tracks and the pink-to-orange equalizer, not atomic rockets, 1968, cream plastic casings, CRT amber or a new perspective horizon. Only actual playback runs the existing .8s equalizer animation; pause and reduced motion stop it.
+Keep SYNTH-84’s deep purple gradient, pink accent, uppercase monospace DRIVE INTO / THE SUNSET and existing functions. Replace the unrelated bar chart with an original SVG of a striped sunset, mountain silhouette, perspective road and SIDE A cassette. Give the player a dark instrument face and inset scale window. Preserve FM 84.0, three local tracks, volume and playback; dim the equalizer while paused and run its .8s animation only during actual playback, stopping for reduced motion.
 
 Reuse current preview.tokens: background linear-gradient(180deg,#140A33 0%,#3D1170 62%,#7A1F63 100%); foreground #FFE8F6; accent #FF71CE / #2A0A2E; card rgba(255,113,206,.12); border rgba(255,113,206,.45); radius 6px; font 'SF Mono', Menlo, monospace; card shadow none.
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Reuse existing workspace tokens for dark and variants. Share StyleSignatureArt and style-signatures.css between cover and page, preserving the paper, geometric or radio materials. Reflow content on narrow screens.
 
 Play the radio starts a WebAudio synthesized tone after a user gesture. Play/pause, choose among three tracks and adjust volume. Radio, Tour, Tapes and REC reveal content; disclose local synthesis, not live broadcasting or recording uploads.
 

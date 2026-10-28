@@ -47,11 +47,11 @@ Give the primaries fixed roles: red as the hero plane, yellow the warm accent, b
 ```text
 Build a complete BAUHAUS page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Keep BAUHAUS’ cream hero, red primary action and red/blue/yellow cards. Retain the original circle/triangle/rectangle panel with its local shadows and uppercase sans display, without imposing new negative-margin overlaps. The workshop uses a #eee5d7 canvas, 2px black rim and CSS shapes in #e23b2e, #21409a and #f2b705.
+Keep BAUHAUS’s cream hero, red primary action and red/blue/yellow cards. Use the original StyleSignatureArt SVG: a large red circle, blue rectangle, yellow triangle, black axis and fine measurement frame touch and overlap without floating icons or shadows. Tighten the uppercase headline. Continue the workshop with a quarter-grid canvas, an empty-state cross, a clear selected outline and the 0 / 12 counter.
 
-Reuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #fff; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
+Reuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #000; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Reuse existing workspace tokens for dark and variants. Share StyleSignatureArt and style-signatures.css between cover and page, preserving the paper, geometric or radio materials. Reflow content on narrow screens.
 
 Full-page operations:
 Enter the workshop, choose a red circle, blue square or yellow triangle and place up to 12 shapes on the canvas, then clear and restart. Form, Color and Workshop have matching content.
@@ -73,11 +73,11 @@ Add no dependencies. Check both languages, original navigation/CTAs, concrete re
 
 **Implementation:** Build a complete BAUHAUS page in this style, extending the original hero into content, concrete operations and return paths rather than isolated controls or a partial demo. Preserve brand, hero copy, assets, composition, tokens and all variants. The current YAML preview is authoritative for the brand, original navigation and CTAs; never substitute a generic marketing template.
 
-Keep BAUHAUS’ cream hero, red primary action and red/blue/yellow cards. Retain the original circle/triangle/rectangle panel with its local shadows and uppercase sans display, without imposing new negative-margin overlaps. The workshop uses a #eee5d7 canvas, 2px black rim and CSS shapes in #e23b2e, #21409a and #f2b705.
+Keep BAUHAUS’s cream hero, red primary action and red/blue/yellow cards. Use the original StyleSignatureArt SVG: a large red circle, blue rectangle, yellow triangle, black axis and fine measurement frame touch and overlap without floating icons or shadows. Tighten the uppercase headline. Continue the workshop with a quarter-grid canvas, an empty-state cross, a clear selected outline and the 0 / 12 counter.
 
-Reuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #fff; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
+Reuse current preview.tokens: background #F4EFE6; foreground #141414; accent #E23B2E / #000; card #FFFFFF; border #141414; radius 0px; font 'Helvetica Neue', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; card shadow none.
 
-Use generic-style-pages.css’s existing workspace dark/variants selectors rather than redrawing the hero from generic historical variants; retain each rendered visual panel’s local highlights, gradients and shadows.
+Reuse existing workspace tokens for dark and variants. Share StyleSignatureArt and style-signatures.css between cover and page, preserving the paper, geometric or radio materials. Reflow content on narrow screens.
 
 Enter the workshop, choose a red circle, blue square or yellow triangle and place up to 12 shapes on the canvas, then clear and restart. Form, Color and Workshop have matching content.
 

@@ -47,11 +47,11 @@
 ```text
 用当前风格完成 scribble& 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-保留 scribble& 原 paper 分支的 2/5 文案、2/5 CSS 生活景观、1/5 侧栏；字体沿用 Comic Sans MS/Chalkboard SE/Marker Felt 回退与轻斜体，容器保留 14px 6px 18px 8px 非对称圆角和轻纸影。橘色 CTA 与纸白底不替换成全页黄色马克笔装饰。日记卡只使用已有 32px 横线背景，命中范围仍规则，不新增抖动滤镜或旋转交互区。
+保留 scribble& 的纸白底、原文案与手写字体回退；首屏文字 CTA 使用深赭色 #A24A26，确保纸白底上的对比度。用原创 SVG 手绘花枝、横线便签、纸胶带和铅笔替换通用 CSS 风景；桌面以 1.1 / 1.5 / .65 三栏扩大插画，手机依内容顺序叠放，三条素材说明纵向排列。日记本沿用 32px 横线，加入双线书脊与胶带，编辑控件保持规则命中区。
 
 复用当前 preview.tokens：背景 #FAF6EE；前景 #2B2B2B；强调 #FF8A65 / #2B2B2B；卡面 #FFFDF7；边框 #2B2B2B；圆角 14px 6px 18px 8px；字体 Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif；卡影 2px 3px 0 rgba(43,43,43,0.08)。
 
-dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+dark 与 variants 复用已有工作区 token；主视觉与页面共用 StyleSignatureArt 和 style-signatures.css，保留各自纸张、几何或电台材质。窄屏按内容重排。
 
 完整页面操作：
 随手记一笔打开编辑，保存笔记到列表，按关键词过滤并可删除；日记、素材、关于、搜索均有对应内容，显示空白校验、无匹配、删除结果。
@@ -73,11 +73,11 @@ dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不�
 
 **Implementation:** 用当前风格完成 scribble& 同品牌完整页面，从原首屏延续到内容、具体操作结果和返回路径，而非孤立控件或局部 demo。保留品牌、首屏文案、素材、构图、tokens 与全部 variants。以当前 YAML preview 为品牌、原导航与 CTA 的事实来源，不替换成通用营销模板。
 
-保留 scribble& 原 paper 分支的 2/5 文案、2/5 CSS 生活景观、1/5 侧栏；字体沿用 Comic Sans MS/Chalkboard SE/Marker Felt 回退与轻斜体，容器保留 14px 6px 18px 8px 非对称圆角和轻纸影。橘色 CTA 与纸白底不替换成全页黄色马克笔装饰。日记卡只使用已有 32px 横线背景，命中范围仍规则，不新增抖动滤镜或旋转交互区。
+保留 scribble& 的纸白底、原文案与手写字体回退；首屏文字 CTA 使用深赭色 #A24A26，确保纸白底上的对比度。用原创 SVG 手绘花枝、横线便签、纸胶带和铅笔替换通用 CSS 风景；桌面以 1.1 / 1.5 / .65 三栏扩大插画，手机依内容顺序叠放，三条素材说明纵向排列。日记本沿用 32px 横线，加入双线书脊与胶带，编辑控件保持规则命中区。
 
 复用当前 preview.tokens：背景 #FAF6EE；前景 #2B2B2B；强调 #FF8A65 / #2B2B2B；卡面 #FFFDF7；边框 #2B2B2B；圆角 14px 6px 18px 8px；字体 Comic Sans MS, Chalkboard SE, Marker Felt, PingFang SC, sans-serif；卡影 2px 3px 0 rgba(43,43,43,0.08)。
 
-dark 与 variants 复用 generic-style-pages.css 已有工作区选择器，不据通用历史变体重画首屏；保留 renderer 内各视觉面板的局部高光、渐变和投影。
+dark 与 variants 复用已有工作区 token；主视觉与页面共用 StyleSignatureArt 和 style-signatures.css，保留各自纸张、几何或电台材质。窄屏按内容重排。
 
 随手记一笔打开编辑，保存笔记到列表，按关键词过滤并可删除；日记、素材、关于、搜索均有对应内容，显示空白校验、无匹配、删除结果。
 
