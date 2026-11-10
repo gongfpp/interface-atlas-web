@@ -1,0 +1,1 @@
+import{o as e}from"./i18n.nDPGSBsm.js";import{s as t}from"./track.BoS8A7f5.js";document.getElementById(`random-btn`)?.addEventListener(`click`,function(){let n=this,r=JSON.parse(n.dataset.entries||`[]`);if(!r.length)return;let i=r[Math.floor(Math.random()*r.length)],a=`${n.dataset.locale===`zh`?``:`/en`}/${i.type}/${i.id}`;t(a,`random-explore`),window.location.href=e(a)});
