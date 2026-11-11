@@ -1,0 +1,1 @@
+import{t as e}from"./gallery-copy.DCA3E_5T.js";e();
